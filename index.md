@@ -6,14 +6,4 @@ I hold an M.Sc. in Machine Learning from [Université Paris Descartes](http://ww
 
 As a multidisciplinary explorer, my research experiences and academic background lies at the junction of Machine Learning and Natural Language Processing. I am also interested in applied mathematics, neural networks design, and less-resourced languages processing.
 
-
-### News about me
-
-```
-- **03/10/2017**: Officially a graduate student from Paris Descartes University.
-- **06/09/2017**: I defended my master’s thesis. Here is my presentation.
-- **03/04/2017**: Joined RCLN group at LIPN as a research intern.
-- **30/08/2016**: Just finished my master thesis. I’m planning to defend in the coming days.
-- **17/06/2016**: Internship finished at LIMSI-CNRS.
-- **25/06/2016**: I’ve presented a presentation about Kurdish language processing in Kurdish Institute of Paris.
-```
+In addition to this web site, you can find information about me at the various social networks outlets such as [Google Scholar](https://scholar.google.fr/citations?user=adu3L94AAAAJ&hl=en), [Twitter](https://twitter.com/sina_ahm), [ORCID](http://orcid.org/0000-0001-7904-6551). My email address is `sina.ahmadi@insight-centre.org`.
