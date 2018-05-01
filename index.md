@@ -7,34 +7,14 @@ I hold an M.Sc. in Machine Learning from [Université Paris Descartes](http://ww
 As a multidisciplinary explorer, my research experiences and academic background lies at the junction of Machine Learning and Natural Language Processing. I am also interested in applied mathematics, neural networks design, and less-resourced languages processing.
 
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### News about me
 
 ```markdown
 Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/sinaahmadi/sinaahmadi.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+- **03/10/2017**: Officially a graduate student from Paris Descartes University.
+- **06/09/2017**: I defended my master’s thesis. Here is my presentation.
+- **03/04/2017**: Joined RCLN group at LIPN as a research intern.
+- **30/08/2016**: Just finished my master thesis. I’m planning to defend in the coming days.
+- **17/06/2016**: Internship finished at LIMSI-CNRS.
+- **25/06/2016**: I’ve presented a presentation about Kurdish language processing in Kurdish Institute of Paris.
