@@ -9,12 +9,11 @@ As a multidisciplinary explorer, my research experiences and academic background
 
 ### News about me
 
-```markdown
-Syntax highlighted code block
-
+```
 - **03/10/2017**: Officially a graduate student from Paris Descartes University.
 - **06/09/2017**: I defended my master’s thesis. Here is my presentation.
 - **03/04/2017**: Joined RCLN group at LIPN as a research intern.
 - **30/08/2016**: Just finished my master thesis. I’m planning to defend in the coming days.
 - **17/06/2016**: Internship finished at LIMSI-CNRS.
 - **25/06/2016**: I’ve presented a presentation about Kurdish language processing in Kurdish Institute of Paris.
+```
