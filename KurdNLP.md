@@ -1,8 +1,15 @@
 ---
-layout: page
+layout: default
 title: KurdNLP
 permalink: /KurdNLP/
 ---
+
+## Welcome to another page
+
+_yay_
+
+[back](./)
+
 
 ## KurdNLP
 
