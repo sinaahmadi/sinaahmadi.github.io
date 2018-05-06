@@ -1,6 +1,5 @@
 ---
-YAML front matter
-layout: page
+layout: default
 title: KurdNLP
 permalink: /KurdNLP/
 ---
