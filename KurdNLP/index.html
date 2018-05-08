@@ -1,74 +1,133 @@
 <!DOCTYPE html>
-<html  lang="en">
+<html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Page layout 5</title>
-	<style>
-		body {
-			font: 80% arial, helvetica, sans-serif;
-			margin: 0;
-		}
-		
-		h1, h2 {
-			margin: 0;
-		}
-		
-		#header {
-			background: #ccc;
-		}
-		
-		#navigation {
-			position: absolute;
-			left: 0;
-			top: 70px;
-			width: 150px;
-		}
-		
-		#content {
-			margin-left: 150px;
-		}
-	</style>
+	<title>KurdNLP library</title>
+	 <link rel="stylesheet" type="text/css" href="mystyle.css">
 </head>
 <body>
 	<div id="header">
-		<h1>Charles Darwin</h1>
+		<h1>KurdNLP library — an open-source library for Kurdish language processing</h1>
 	</div>
 
 	<div id="navigation">
+		
+		<img src="imgs/logo_KurdNLP.jpg" alt="KurdNLP logo"> 
+
 		<ul>
-			<li><a href="">Biology</a></li>
-			<li><a href="">Evolution</a></li>
-			<li><a href="">Natural Selection</a></li>
-			<li><a href="">Genetics</a></li>
-		</ul>
-		<ul>
-			<li><a href="">Erasmus Darwin</a></li>
-			<li><a href="">Lamarck</a></li>
-			<li><a href="">Charles Darwin</a></li>
-			<li><a href="">Wallace</a></li>
-			<li><a href="">Dawkins</a></li>
+			<li><a href="https://sinaahmadi.github.io/KurdNLP/">About</a></li>
+			<li><a href="guidelines.html">Guidelines</a></li>
+			<li><a href="">Publications</a></li>
+			<li><a href="https://github.com/sinaahmadi">Downloads</a></li>
+			<li><a href = "mailto:ahmadi.sina@outlook.com?subject = KurdNLP&body = Message">Contact</a></li>
 		</ul>
 	</div>
 
 	<div id="content">
-		<h2>On the Origin of The Origin</h2>
-		<p>Darwin's father was dead set on his son becoming a cleric but even though the young rapscallion began to study theology he found worms much more interesting.</p>
-		<p>When a lonely man with a moustache asked Darwin to ride with him on his boat named after a dog, Darwin agreed and set off around the world fiddling with wildlife.</p>
-		<p>Some say it was a load of birds from a bunch of islands hundreds of miles off the Ecuadorean coast that inspired his now widely accepted explanation of the mechanism of evolution. "Why does that bird on that island have a beak like that while that finch on that island has a beak like that? AHA! I've got it! Natural Selection!" he thought. It wasn't actually quite like that, but, y'know, it's a fine, popular romantic myth.</p>
 
-		<h2>The Origin</h2>
-		<p>Upon return from his jaunt, Charles chronicled his escapades (as <em>The Voyage of the Beagle</em>) and got a bit carried away with barnacles, although his theory of evolution was always ticking away in the back of his mind.</p>
-		<p>Some 20 or so year after he returned to England, a Welsh naturalist by the name of Wallace popped up with a similar idea to Darwin's grand theory. Darwin got a move on.</p>
-		<p>In 1858 a paper jointly attributed to Darwin and Wallace was presented to the Linnean Society of London that sent rumbles across the establishment and really ticked off a fair few people. The next year saw the publication of Darwin's 500-page "abstract" - <em>On The Origin of Species by Means of Natural Selection or the Preservation of Favoured Races In The Struggle For Life</em> (or <abbr>OTOOSBMONSOTPOFRITSFL</abbr> for short).</p>
-		<p>Darwin, already a prominent arc in scientific circles, was propelled into megastardom.</p>
 
-		<h2>After The Origin</h2>
-		<p>Chuck D revised The Origin five times, toning down each one a bit more than the one before it, partly to appease his religious wife. Who also happened to be his cousin. But some years later he'd had enough of trying to disguise the logical conclusion that humans are descended from the same common ancestor as all other animals and his third classic, <em>The Descent of Man</em>, was published and <em>really</em> pissed off the religious establishment.</p>
-	</div>
+<p style="text-align:justify">Kurdish is an Indo-European language spoken by 20 million speakers, inhabitants of Kurdish regions of Turkey, Iran, Iraq and, Syria. Despite the considerable number of speakers who also use Kurdish on their electronic devices in their everyday lives, Kurdish is rarely technically supported online — from a simple spell checker plug-in to Kurdish interfaces— due to the lack of language processing tools. </p>
 
-	<!-- Link back to HTML Dog: -->
-	<p><a href="http://www.htmldog.com/examples/"><img src="http://www.htmldog.com/badge1.gif" alt="HTML Dog"></a></p>
+<h2>KurdNLP project</h2>
+
+<p style="text-align:justify">We are aiming at creating a library for Kurdish language processing. We believe that today is the best time ever to fulfil such a project, particularly thanks to a plethora of Kurdish online resources, the vast accessibility of Kurdish speakers to the Internet which makes annotations related tasks feasible, and the recent techniques of machine learning in NLP which help us to overcome some of the challenges in processing low-resourced languages.</p>
+
+<h2>Previous works</h2>
+
+<p style="text-align:justify">The following table presents the major existing open-source resources and processing tools for Kurdish. This table only provides those resources and processing tools which are supported by an scientific research.</p>
+
+
+
+
+
+
+
+<table style="width: 454px; height: 213px; margin: 0px auto;" border="2" cellpadding="1">
+<tbody>
+<tr style="height: 27px;">
+<th style="width: 183.867px; height: 27px;">Existing resources&nbsp;</th>
+<th style="width: 217.133px; height: 27px;">Existing processing tools</th>
+</tr>
+<tr style="height: 77.2333px;">
+<td style="width: 183.867px; height: 77.2333px;">&nbsp;Pewan: The Kurdish Text Corpus / Test Collection <a href="https://klpp.github.io/" target="_blank">(KLPP group)</a></td>
+<td style="width: 217.133px; height: 77.2333px;">&nbsp;KurdITGroup keyboards&mdash;Arabic and Latin layouts <a href="https://kurditgroup.org/download" target="_blank">(KurdITGroup community)</a></td>
+</tr>
+<tr style="height: 26px;">
+<td style="width: 183.867px; height: 26px;">&nbsp;KurdNet, the Kurdish WordNet <a href="https://klpp.github.io/" target="_blank">(KLPP group)</a></td>
+<td style="width: 217.133px; height: 26px;">&nbsp;Jedar: a new rule-based stemmer which uses a list of Kurdish suffixes <a href="https://klpp.github.io/" target="_blank">(KLPP group)</a></td>
+</tr>
+<tr style="height: 26px;">
+<td style="width: 183.867px; height: 26px;">&nbsp;SoraLex, a morphological lexicon for Sorani Kurdish <a href="https://gforge.inria.fr/frs/?group_id=482" target="_blank">(Alexina project)</a></td>
+<td style="width: 217.133px; height: 26px;">&nbsp;Wergor transliterator <a href="https://github.com/sinaahmadi/wergor" target="_blank">(Sina Ahmadi)</a></td>
+</tr>
+<tr style="height: 26px;">
+<td style="width: 183.867px; height: 26px;">&nbsp;KurLex, a morphological lexicon for Kurmanji Kurdish <a href="https://gforge.inria.fr/frs/?group_id=482" target="_blank">(Alexina project)</a></td>
+<td style="width: 217.133px; height: 26px;">&nbsp;</td>
+</tr>
+<tr style="height: 27px;">
+<td style="width: 183.867px; height: 27px;">&nbsp;Kurmanji dependency treebank <a href="https://github.com/UniversalDependencies/UD_Kurmanji-MG" target="_blank">(Gökırmak, 2017)</a></td>
+<td style="width: 217.133px; height: 27px;">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+
+<h2>Project goals</h2>
+
+<p style="text-align:justify">In this phase of the project, we are focusing on the following tasks: </p>
+
+<table style="width: 454px; height: 172px; margin: 0px auto;" border="2" cellpadding="1">
+<tbody>
+<tr>
+<th style="width: 160.917px;">&nbsp;Resources</th>
+<th style="width: 291.083px;">&nbsp;Processing tools</th>
+</tr>
+<tr>
+<td rowspan = "4"  style="width: 160.917px;">&nbsp;POS tagging corpus</td> 
+<td style="width: 291.083px;">Text normaliser including sentence splitter, tokeniser, stemmer and lemmatiser&nbsp;</td>
+</tr>
+<tr>
+<td style="width: 291.083px;">&nbsp;Morphological analyser</td>
+</tr>
+<tr>
+<td style="width: 291.083px;">&nbsp;Syntactical analyser</td>
+</tr>
+<tr>
+<td style="width: 291.083px;">&nbsp;Chunker</td>
+</tr>
+</tbody>
+</table>
+<!-- DivTable.com -->
+<p>&nbsp;</p>
+
+
+
+<p style="text-align:justify">Kurdish is generally written in two orthographies: one based on the Latin orthography which is used by the Kurmanji speakers, mostly in Kurdistan of Turkey, and the other is based on the Arabic orthography which is used in the other regions of Kurdistan. This diversity in writing, not only adds to the gap between the dialects but also becomes a challenge in text processing. KurdNLP will provide tools for transliterating different orthographies and disambiguating challenging cases. </p>
+
+<p style="text-align:justify">The POS tagging corpus is one of the most important parts of the project. We are currently looking for annotators to manually annotate our corpus which is based on the Pewan corpus. Once the corpus tagged, we will be able to provide morphological and syntactical analysers. </p>
+
+<h2>Project outcome</h2>
+
+<p style="text-align:justify">The outcome of the project will be presented as an open-source library in Python. In addition to this library, a dedicated website will provide the tools online. We will try to present our works as research papers as well.</p>
+
+<h2>Want to help?</h2>
+
+<p style="text-align:justify">Although machine learning based methods will help us to create parts of the project without human assistance, there is still a significant need for gold standard annotations. Please contact us and let us know if you can help out. Contact me at <a href = "mailto:ahmadi.sina@outlook.com?subject = KurdNLP&body = Message">ahmadi.sina@outlook.com</a>.
+</p>
+
+</div>
+
+<!-- Link back to HTML Dog: -->
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<hr>
+	<p style="text-align:center;">KurdNLP 2018</p>
 </body>
 </html>
 
-</html>
+
+
+
+
+
