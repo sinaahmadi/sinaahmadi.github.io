@@ -1,0 +1,1341 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<playlist xmlns="http://xspf.org/ns/0/" xmlns:vlc="http://www.videolan.org/vlc/playlist/ns/0/" version="1">
+	<title>Liste de lecture</title>
+	<trackList>
+		<track>
+			<location>http://lasonotheque.org/UPLOAD/mp3/0313.mp3</location>
+			<title>* * * * * Radios Française * * * * *</title>
+			<duration>3866</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>0</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://lasonotheque.org/UPLOAD/mp3/0313.mp3</location>
+			<title>----- Radios Nationales -----</title>
+			<duration>3866</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>1</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://chai5she.cdn.dvmr.fr/bfmbusiness</location>
+			<title>BFM Business</title>
+			<album>BFM Business</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>2</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://cdn.nrjaudio.fm/audio1/fr/30201/mp3_128.mp3?origine=fluxradios</location>
+			<title>Cherie FM</title>
+			<album>Cherie FM</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>3</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://e1-live-mp3-128.scdn.arkena.com/europe1.mp3</location>
+			<title>Europe 1</title>
+			<album>Europe 1</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>4</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://direct.fipradio.fr/live/fip-midfi.mp3</location>
+			<title>Fip</title>
+			<album>Fip</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>5</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://streaming.radio.funradio.fr/fun-1-44-128</location>
+			<title>Fun Radio France</title>
+			<album>Fun Radio France</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>6</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://direct.francebleu.fr/live/fb1071-midfi.mp3</location>
+			<title>France Bleu 107.1</title>
+			<album>France Bleu 107.1</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>7</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://direct.franceculture.fr/live/franceculture-midfi.mp3</location>
+			<title>France Culture</title>
+			<album>France Culture</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>8</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://direct.franceinfo.fr/live/franceinfo-midfi.mp3</location>
+			<title>France Info</title>
+			<album>France Info</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>9</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://direct.franceinter.fr/live/franceinter-midfi.mp3</location>
+			<title>France Inter</title>
+			<album>France Inter</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>10</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://direct.francemusique.fr/live/francemusique-midfi.mp3</location>
+			<title>France Musique</title>
+			<album>France Musique</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>11</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3</location>
+			<title>Jazz Radio</title>
+			<album>Jazz Radio</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>12</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://start-latina.ice.infomaniak.ch/start-latina-high.mp3</location>
+			<title>Latina</title>
+			<album>Latina</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>13</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://mfm.ice.infomaniak.ch/mfm-128.mp3</location>
+			<title>M Radio</title>
+			<album>M Radio</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>14</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://direct.mouv.fr/live/mouv-midfi.mp3</location>
+			<title>Mouv</title>
+			<album>Mouv</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>15</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://cdn.nrjaudio.fm/audio1/fr/30601/mp3_128.mp3?origine=fluxradios</location>
+			<title>Nostalgie France</title>
+			<album>Nostalgie France</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>16</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://novazz.ice.infomaniak.ch/novazz-128.mp3</location>
+			<title>Nova</title>
+			<album>Nova</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>17</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://cdn.nrjaudio.fm/audio1/fr/30001/mp3_128.mp3?origine=fluxradios</location>
+			<title>NRJ France</title>
+			<album>NRJ France</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>18</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://cdn.nrjaudio.fm/audio1/fr/40101/aac_576.mp3?origine=fluxradios</location>
+			<title>NRJ France Ultra HD</title>
+			<album>NRJ France Ultra HD</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>19</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://ouifm.ice.infomaniak.ch/ouifm-high.mp3</location>
+			<title>Oüi FM</title>
+			<album>Oui FM</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>20</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://str0.creacast.com/pharefm</location>
+			<title>Phare FM</title>
+			<album>Phare FM</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>21</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://radioclassique.ice.infomaniak.ch/radioclassique-high.mp3</location>
+			<title>Radio Classique</title>
+			<album>Radio Classique</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>22</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://radiofg.impek.com/fg</location>
+			<title>Radio FG</title>
+			<album>Radio FG</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>23</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://rcf.streamakaci.com/rcf.mp3</location>
+			<title>RCF</title>
+			<album>RCF</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>24</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://live02.rfi.fr/rfimonde-96k.mp3</location>
+			<title>RFI Monde</title>
+			<album>RFI Monde</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>25</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://rfm-live-mp3-128.scdn.arkena.com/rfm.mp3</location>
+			<title>RFM</title>
+			<album>RFM</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>26</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://cdn.nrjaudio.fm/audio1/fr/30401/mp3_128.mp3?origine=fluxradios</location>
+			<title>Rire &amp; Chansons</title>
+			<album>Rire et Chasons</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>27</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://chai5she.cdn.dvmr.fr/rmcinfo</location>
+			<title>RMC</title>
+			<album>RMC</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>28</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://streaming.radio.rtl.fr/rtl-1-44-128</location>
+			<title>RTL</title>
+			<album>RTL</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>29</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://icecast.rtl.fr:80/rtl2-1-44-128</location>
+			<title>RTL2</title>
+			<album>RTL2</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>30</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://icecast.skyrock.net/s/natio_mp3_128k</location>
+			<title>Skyrock</title>
+			<album>Skyrock</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>31</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://start-sud.ice.infomaniak.ch/start-sud-high.mp3</location>
+			<title>Sud Radio</title>
+			<album>Sud Radio</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>32</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://tsfjazz.ice.infomaniak.ch/tsfjazz-high.mp3</location>
+			<title>TSF Jazz</title>
+			<album>TSF Jazz</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>33</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://vr-live-mp3-128.scdn.arkena.com/virginradio.mp3</location>
+			<title>Virgin Radio</title>
+			<album>Virgin Radio</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>34</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://lasonotheque.org/UPLOAD/mp3/0313.mp3</location>
+			<title>----- Radios Régionales / Locales : ABC -----</title>
+			<duration>3866</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>100</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://start-adofm.ice.infomaniak.ch/start-adofm-high.mp3</location>
+			<title>Ado FM</title>
+			<album>Ado FM</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>101</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://african1paris.ice.infomaniak.ch/african1paris-128.mp3</location>
+			<title>Africa N°1</title>
+			<album>Africa N°1</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>102</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://alouette.ice.infomaniak.ch/alouette-high.mp3</location>
+			<title>Alouette</title>
+			<album>Alouette</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>103</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://alpes1grenoble.ice.infomaniak.ch/alpes1grenoble-high.mp3</location>
+			<title>Alpes 1 Grand Grenoble</title>
+			<album>Alpes 1 Grand Grenoble</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>104</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://alpes1gap.ice.infomaniak.ch/alpes1gap-high.mp3</location>
+			<title>Alpes 1 Alpes du Sud</title>
+			<album>Alpes 1 alpes du Sud</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>105</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://altafrequenza.streamakaci.com/altafrequenza.mp3</location>
+			<title>Alta Frequenza</title>
+			<album>Alta Frequenza</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>106</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://broadcast.infomaniak.ch/beurfm-high.mp3</location>
+			<title>Beur FM</title>
+			<album>Beur FM</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>107</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://start-blackbox.ice.infomaniak.ch/start-blackbox-high.mp3</location>
+			<title>Blackbox</title>
+			<album>Blackbox</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>108</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://champagnefmaisne.ice.infomaniak.ch/champagnefm-64-aisne.mp3</location>
+			<title>Champagne FM Aisne</title>
+			<album>Champagne FM Aisne</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>109</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://champagnefm.ice.infomaniak.ch/champagnefm-128-ardennes.mp3</location>
+			<title>Champagne FM Ardennes</title>
+			<album>Champagne FM Ardennes</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>110</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://champagnefm.ice.infomaniak.ch/champagnefm-128-aube.mp3</location>
+			<title>Champagne FM Aube</title>
+			<album>Champagne FM Aube</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>111</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://champagnefm.ice.infomaniak.ch/champagnefm-128-marne.mp3</location>
+			<title>Champagne FM Marne</title>
+			<album>Champagne FM Marne</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>112</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://stream1.chantefrance.com/Chante_France</location>
+			<title>Chante France</title>
+			<album>Chante France</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>113</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://radio-contact.ice.infomaniak.ch/radio-contact-high</location>
+			<title>Contact FM</title>
+			<album>Contact FM</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>114</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://lasonotheque.org/UPLOAD/mp3/0313.mp3</location>
+			<title>----- Radios Régionales / Locales : DEF -----</title>
+			<duration>3866</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>200</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://radiodreyeckland.ice.infomaniak.ch/radiodreyeckland-128.mp3</location>
+			<title>Dreyeckland</title>
+			<album>Dreyeckland</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>201</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://stream1.evasionfm.com/Paris</location>
+			<title>Evasion Paris</title>
+			<album>Evasion Paris</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>202</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://stream1.evasionfm.com/Essonne</location>
+			<title>Evasion Essonne</title>
+			<album>Evasion Essonne</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>203</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://stream1.evasionfm.com/Nord77</location>
+			<title>Evasion Nord 77</title>
+			<album>Evasion Nord 77</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>204</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://stream1.evasionfm.com/Oise</location>
+			<title>Evasion Oise</title>
+			<album>Evasion Oise</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>205</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://stream1.evasionfm.com/Somme</location>
+			<title>Evasion Somme</title>
+			<album>Evasion Somme</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>206</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://stream1.evasionfm.com/Sud77</location>
+			<title>Evasion Sud 77</title>
+			<album>Evasion Sud 77</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>207</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://stream1.evasionfm.com/Yvelines</location>
+			<title>Evasion Yvelines</title>
+			<album>Evasion Yvelines</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>208</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://fcradio.ice.infomaniak.ch/fcradio-128.mp3</location>
+			<title>FC Radio L&#39;Essentiel</title>
+			<album>FC Radio L Essentiel</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>209</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://fm43.ice.infomaniak.ch/fm43-128.mp3</location>
+			<title>FM 43</title>
+			<album>FM 43</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>210</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://start-forum.ice.infomaniak.ch/start-forum-high.mp3</location>
+			<title>Forum</title>
+			<album>Forum</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>211</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://freqplus.ice.infomaniak.ch/freqplus-high.mp3</location>
+			<title>Frequence Plus</title>
+			<album>Frequence Plus</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>212</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://lasonotheque.org/UPLOAD/mp3/0313.mp3</location>
+			<title>----- Radios Régionales / Locales : GHI -----</title>
+			<duration>3866</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>300</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://generationfm.ice.infomaniak.ch/generationfm-high.mp3</location>
+			<title>Generations</title>
+			<album>Generations</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>301</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://broadcast.infomaniak.ch/hitwest-high.mp3</location>
+			<title>Hit West</title>
+			<album>Hit West</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>302</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://lasonotheque.org/UPLOAD/mp3/0313.mp3</location>
+			<title>----- Radios Régionales / Locales : JKL -----</title>
+			<duration>3866</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>400</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://live.jordannefm.com:8000/JFMCantalMD.mp3</location>
+			<title>Jordanne FM</title>
+			<album>Jordanne FM</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>401</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://laradioplus.ice.infomaniak.ch/laradioplus-high.mp3</location>
+			<title>La Radio Plus - Alpes du nord / Suisse</title>
+			<album>La Radio Plus - Alpes du nord / Suisse</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>402</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://lalaradio.ice.infomaniak.ch/lalaradio-high.mp3</location>
+			<title>La Radio Plus - Alpes du sud</title>
+			<album>La Radio Plus - Alpes du sud</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>403</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://lasonotheque.org/UPLOAD/mp3/0313.mp3</location>
+			<title>----- Radios Régionales / Locales : MNO -----</title>
+			<duration>3866</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>500</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://str0.creacast.com/magnum</location>
+			<title>Magnum La Radio</title>
+			<album>Magnum La Radio</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>501</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://monafm.bcast.infomaniak.ch/monafm-high.mp3</location>
+			<title>Mona FM</title>
+			<album>Mona FM</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>503</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://montagnefm.ice.infomaniak.ch/montagnefm-96.mp3</location>
+			<title>Montagne FM</title>
+			<album>Montagne FM</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>504</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://nradio.ice.infomaniak.ch/nradio-128.mp3</location>
+			<title>N&#39;Radio</title>
+			<album>N Radio</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>505</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://ods.ice.infomaniak.ch/ods-high.mp3</location>
+			<title>ODS Radio</title>
+			<album>ODS Radio</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>506</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://ouestfm.ice.infomaniak.ch/ouestfm-high.mp3</location>
+			<title>Ouest FM</title>
+			<album>Ouest FM</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>507</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://lasonotheque.org/UPLOAD/mp3/0313.mp3</location>
+			<title>----- Radios Régionales / Locales : PQRS -----</title>
+			<duration>3866</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>600</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://antenne.pyreneesfm.com/;stream/1</location>
+			<title>Pyrenees FM</title>
+			<album>Pyrenees FM</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>601</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://direct.radiocourtoisie.fr</location>
+			<title>Radio Courtoisie</title>
+			<album>Radio Courtoisie</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>603</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://radiocristal.ice.infomaniak.ch/radiocristal-high.mp3</location>
+			<title>Radio Cristal</title>
+			<album>Radio Cristal</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>604</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://radioespace.ice.infomaniak.ch/radioespace-high.mp3</location>
+			<title>Radio Espace</title>
+			<album>Radio Espace</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>605</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://stream.radio-esperance.net/esperance.mp3</location>
+			<title>Radio Esperance</title>
+			<album>Radio Esperance</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>606</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://radioisagrenoble.ice.infomaniak.ch/radioisagrenoble-128.mp3</location>
+			<title>Radio Isa Grenoble</title>
+			<album>Radio Isa Grenoble</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>607</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://radioisa.ice.infomaniak.ch/radioisa-128.mp3</location>
+			<title>Radio Isa Nord Isère</title>
+			<album>Radio Isa Nord Isere</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>608</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://str0.creacast.com/metropolys</location>
+			<title>Radio Métropolys</title>
+			<album>Radio Metropolys</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>609</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://radiono1.ice.infomaniak.ch/radiono1-128.mp3</location>
+			<title>Radio Numéro 1</title>
+			<album>Radio Numero 1</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>610</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://radioscoop-bourg.ice.infomaniak.ch:80/radioscoop-bourg-128</location>
+			<title>Radio Scoop Bourg-en-Bresse</title>
+			<album>Radio Scoop Bourg-en-Bresse</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>617</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://radioscoop-clermont.ice.infomaniak.ch:80/radioscoop-clermont-128</location>
+			<title>Radio Scoop Clermont-Ferrand</title>
+			<album>Radio Scoop Clermont-Ferrand</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>618</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://radioscoop-lyon.ice.infomaniak.ch:80/radioscoop-lyon-128</location>
+			<title>Radio Scoop Lyon</title>
+			<album>Radio Scoop Lyon</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>619</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://radioscoop-stetienne.ice.infomaniak.ch:80/radioscoop-stetienne-128</location>
+			<title>Radio Scoop Saint-Etienne</title>
+			<album>Radio Scoop Saint-Etienne</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>620</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://radiostar.ice.infomaniak.ch/radiostar-128.mp3</location>
+			<title>Radio Star (Franche-Comté)</title>
+			<album>Radio Star (Franche-Comte)</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>621</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>https://listen.radioking.com/radio/9728/stream/20210</location>
+			<title>Radio Star (PACA)</title>
+			<album>Radio Star (PACA)</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>622</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://radiosun.ice.infomaniak.ch/radiosun-high.mp3</location>
+			<title>Radio Sun</title>
+			<album>Radio Sun</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>623</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://stream.rtsfm.com/rts-national.mp3</location>
+			<title>RTS</title>
+			<album>RTS</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>624</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://rva.ice.infomaniak.ch/rva-high.mp3</location>
+			<title>RVA</title>
+			<album>RVA</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>625</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://sensationsessonne.ice.infomaniak.ch/sensationsessonne-128.mp3</location>
+			<title>Sensations Essonne</title>
+			<album>Sensations Essonne</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>626</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://sensationsnormandie.ice.infomaniak.ch/sensations-normandie.mp3</location>
+			<title>Sensations Normandie (Bernay)</title>
+			<album>Sensations Normandie (Bernay)</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>627</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://sensations.ice.infomaniak.ch/sensations.mp3</location>
+			<title>Sensations Yvelines</title>
+			<album>Sensations Yvelines</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>628</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://62.210.214.169:8000/alc</location>
+			<title>Sweet FM Alençon</title>
+			<album>Sweet FM Alencon</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>629</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://62.210.214.169:8000/cgr</location>
+			<title>Sweet FM Craon</title>
+			<album>Sweet FM Craon</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>630</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://62.210.214.169:8000/aig</location>
+			<title>Sweet FM L&#39;aigle</title>
+			<album>Sweet FM L Aigle</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>631</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://62.210.214.169:8000/lms</location>
+			<title>Sweet FM Le Mans</title>
+			<album>Sweet FM Le Mans</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>632</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://62.210.214.169:8000/mms</location>
+			<title>Sweet FM Mamers</title>
+			<album>Sweet FM Mamers</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>633</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://62.210.214.169:8000/perche</location>
+			<title>Sweet FM Saint-Calais</title>
+			<album>Sweet FM Saint-Calais</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>634</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://radio6-boulognesurmer.ice.infomaniak.ch/radio6-boulognesurmer-128.mp3</location>
+			<title>Radio 6 Boulogne-sur-Mer</title>
+			<album>Radio 6 Boulogne-sur-Mer</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>635</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://radio6-calais.ice.infomaniak.ch/radio6-calais-128.mp3</location>
+			<title>Radio 6 Calais</title>
+			<album>Radio 6 Calais</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>636</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://radio6-dunkerque.ice.infomaniak.ch/radio6-dunkerque-128.mp3</location>
+			<title>Radio 6 Dunkerque</title>
+			<album>Radio 6 Dunkerque</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>637</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://radio6-montreuilsurmer.ice.infomaniak.ch/radio6-montreuilsurmer-128.mp3</location>
+			<title>Radio 6 Montreuil-sur-Mer</title>
+			<album>Radio 6 Montreuil-sur-Mer</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>638</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+
+		<track>
+			<location>http://lasonotheque.org/UPLOAD/mp3/0313.mp3</location>
+			<title>----- Radios Régionales / Locales : TUV -----</title>
+			<duration>3866</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>700</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://streaming.tendanceouest.com/tomanche.mp3</location>
+			<title>Tendance Ouest Manche</title>
+			<album>Tendance Ouest Manche</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>701</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://streaming.tendanceouest.com/toorne.mp3</location>
+			<title>Tendance Ouest Orne</title>
+			<album>Tendance Ouest Orne</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>702</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://str0.creacast.com/topmusic2</location>
+			<title>Top Music Colmar</title>
+			<album>Top Music Colmar</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>703</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://str0.creacast.com/topmusic3</location>
+			<title>Top Music Haguenau</title>
+			<album>Top Music Haguenau</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>704</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://str0.creacast.com/topmusic4</location>
+			<title>Top Music Sarrebourg</title>
+			<album>Top Music Sarrebourg</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>705</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://str0.creacast.com/topmusic5</location>
+			<title>Top Music Saverne</title>
+			<album>Top Music Saverne</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>706</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://str0.creacast.com/topmusic6</location>
+			<title>Top Music Selestat</title>
+			<album>Top Music Selestat</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>707</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://str0.creacast.com/topmusic1</location>
+			<title>Top Music Strasbourg</title>
+			<album>Top Music Strasbourg</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>708</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://vibration.ice.infomaniak.ch/vibration-high.mp3</location>
+			<title>Vibration</title>
+			<album>Vibration</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>709</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://virageradio.ice.infomaniak.ch/virageradio-high.mp3</location>
+			<title>Virage Radio</title>
+			<album>Virage Radio</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>710</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://start-voltage.ice.infomaniak.ch/start-voltage-high.mp3</location>
+			<title>Voltage</title>
+			<album>Voltage</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>711</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://lasonotheque.org/UPLOAD/mp3/0313.mp3</location>
+			<title>----- Radios Régionales / Locales : WXYZ -----</title>
+			<duration>3866</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>800</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://start-witfm.ice.infomaniak.ch/start-witfm-high.mp3</location>
+			<title>Wit FM</title>
+			<album>Wit FM</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>801</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://lasonotheque.org/UPLOAD/mp3/0313.mp3</location>
+			<title>----- Radios Régionales / Locales : 0123 -----</title>
+			<duration>3866</duration>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>900</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://100radio-albi.ice.infomaniak.ch/100radio-albi-128.mp3</location>
+			<title>100% Albi</title>
+			<album>100% Albi</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>901</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://100radio-auch.ice.infomaniak.ch/100radio-auch-128.mp3</location>
+			<title>100% Auch</title>
+			<album>100% Auch</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>902</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://100radio-carcassonne.ice.infomaniak.ch/100radio-carcassonne-128.mp3</location>
+			<title>100% Carcassone</title>
+			<album>100% Carcassone</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>903</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://100radio-castres.ice.infomaniak.ch/100radio-castres-128.mp3</location>
+			<title>100% Castres</title>
+			<album>100% Castres</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>904</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://100radio-foix.ice.infomaniak.ch/100radio-foix-128.mp3</location>
+			<title>100% Foix</title>
+			<album>100% Foix</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>905</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://100radio-montauban.ice.infomaniak.ch/100radio-montauban-128.mp3</location>
+			<title>100% Montauban</title>
+			<album>100% Montauban</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>906</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://100radio-pau.ice.infomaniak.ch/100radio-pau-128.mp3</location>
+			<title>100% Pau</title>
+			<album>100% Pau</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>907</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://100radio-stgaudens.ice.infomaniak.ch/100radio-stgaudens-128.mp3</location>
+			<title>100% Saint-Gaudens</title>
+			<album>100% Saint-Gaudens</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>908</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://100radio-tarbes.ice.infomaniak.ch/100radio-tarbes-128.mp3</location>
+			<title>100% Tarbes</title>
+			<album>100% Tarbes</album>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>909</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+	</trackList>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+			<vlc:item tid="0"/>
+			<vlc:item tid="1"/>
+			<vlc:item tid="2"/>
+			<vlc:item tid="3"/>
+			<vlc:item tid="4"/>
+			<vlc:item tid="5"/>
+			<vlc:item tid="6"/>
+			<vlc:item tid="7"/>
+			<vlc:item tid="8"/>
+			<vlc:item tid="9"/>
+			<vlc:item tid="10"/>
+			<vlc:item tid="11"/>
+			<vlc:item tid="12"/>
+			<vlc:item tid="13"/>
+			<vlc:item tid="14"/>
+			<vlc:item tid="15"/>
+			<vlc:item tid="16"/>
+			<vlc:item tid="17"/>
+			<vlc:item tid="18"/>
+			<vlc:item tid="19"/>
+			<vlc:item tid="20"/>
+			<vlc:item tid="21"/>
+			<vlc:item tid="22"/>
+			<vlc:item tid="23"/>
+			<vlc:item tid="24"/>
+			<vlc:item tid="25"/>
+			<vlc:item tid="26"/>
+			<vlc:item tid="27"/>
+			<vlc:item tid="28"/>
+			<vlc:item tid="29"/>
+			<vlc:item tid="30"/>
+			<vlc:item tid="31"/>
+			<vlc:item tid="32"/>
+			<vlc:item tid="33"/>
+			<vlc:item tid="34"/>
+
+			<vlc:item tid="100"/>
+			<vlc:item tid="101"/>
+			<vlc:item tid="102"/>
+			<vlc:item tid="103"/>
+			<vlc:item tid="104"/>
+			<vlc:item tid="105"/>
+			<vlc:item tid="106"/>
+			<vlc:item tid="107"/>
+			<vlc:item tid="108"/>
+			<vlc:item tid="109"/>
+			<vlc:item tid="110"/>
+			<vlc:item tid="111"/>
+			<vlc:item tid="112"/>
+			<vlc:item tid="113"/>
+			<vlc:item tid="114"/>
+
+			<vlc:item tid="200"/>
+			<vlc:item tid="201"/>
+			<vlc:item tid="202"/>
+			<vlc:item tid="203"/>
+			<vlc:item tid="204"/>
+			<vlc:item tid="205"/>
+			<vlc:item tid="206"/>
+			<vlc:item tid="207"/>
+			<vlc:item tid="208"/>
+			<vlc:item tid="209"/>
+			<vlc:item tid="210"/>
+			<vlc:item tid="211"/>
+			<vlc:item tid="212"/>
+
+			<vlc:item tid="300"/>
+			<vlc:item tid="301"/>
+			<vlc:item tid="302"/>
+
+			<vlc:item tid="400"/>
+			<vlc:item tid="401"/>
+			<vlc:item tid="402"/>
+			<vlc:item tid="403"/>
+
+			<vlc:item tid="500"/>
+			<vlc:item tid="501"/>
+			<vlc:item tid="503"/>
+			<vlc:item tid="504"/>
+			<vlc:item tid="505"/>
+			<vlc:item tid="506"/>
+			<vlc:item tid="507"/>
+
+			<vlc:item tid="600"/>
+			<vlc:item tid="601"/>
+			<vlc:item tid="603"/>
+			<vlc:item tid="604"/>
+			<vlc:item tid="605"/>
+			<vlc:item tid="606"/>
+			<vlc:item tid="607"/>
+			<vlc:item tid="608"/>
+			<vlc:item tid="609"/>
+			<vlc:item tid="610"/>
+			<vlc:item tid="617"/>
+			<vlc:item tid="618"/>
+			<vlc:item tid="619"/>
+			<vlc:item tid="620"/>
+			<vlc:item tid="621"/>
+			<vlc:item tid="622"/>
+			<vlc:item tid="623"/>
+			<vlc:item tid="624"/>
+			<vlc:item tid="625"/>
+			<vlc:item tid="626"/>
+			<vlc:item tid="627"/>
+			<vlc:item tid="628"/>
+			<vlc:item tid="629"/>
+			<vlc:item tid="630"/>
+			<vlc:item tid="631"/>
+			<vlc:item tid="632"/>
+			<vlc:item tid="633"/>
+			<vlc:item tid="634"/>
+			<vlc:item tid="635"/>
+			<vlc:item tid="636"/>
+			<vlc:item tid="637"/>
+			<vlc:item tid="638"/>
+
+			<vlc:item tid="700"/>
+			<vlc:item tid="701"/>
+			<vlc:item tid="702"/>
+			<vlc:item tid="703"/>
+			<vlc:item tid="704"/>
+			<vlc:item tid="705"/>
+			<vlc:item tid="706"/>
+			<vlc:item tid="707"/>
+			<vlc:item tid="708"/>
+			<vlc:item tid="709"/>
+			<vlc:item tid="710"/>
+			<vlc:item tid="711"/>
+
+			<vlc:item tid="800"/>
+			<vlc:item tid="801"/>
+
+			<vlc:item tid="900"/>
+			<vlc:item tid="901"/>
+			<vlc:item tid="902"/>
+			<vlc:item tid="903"/>
+			<vlc:item tid="904"/>
+			<vlc:item tid="905"/>
+			<vlc:item tid="906"/>
+			<vlc:item tid="907"/>
+			<vlc:item tid="908"/>
+			<vlc:item tid="909"/>
+	</extension>
+</playlist>
