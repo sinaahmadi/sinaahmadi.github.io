@@ -1,2 +1,2 @@
-# KurdishNLPToolkit
-Kurdish NLP Toolkit — An open-source library for Kurdish language processing
+# Kurdish-BLARK
+Kurdish-BLARK — An open-source library for Kurdish language processing
