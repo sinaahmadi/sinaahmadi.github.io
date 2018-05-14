@@ -1,5 +1,5 @@
  body {
-	font: 80% arial, helvetica, sans-serif;
+	font: 85% arial, helvetica, sans-serif;
 	margin: 0;
 }
 
@@ -9,16 +9,23 @@ h1, h2 {
 
 #header {
 	background: #ccc;
+	height: 80px;  
+	line-height: 80px;
+  	text-align: center;
+  	vertical-align: middle;
 }
 
 #navigation {
 	position: absolute;
 	left: 0;
-	top: 70px;
+	top: 100px;
 	width: 150px;
 }
+
 
 #content {
 	margin-left: 200px;
 	margin-right: 200px;
+	margin-top: 50px;
+	margin-bottom: 150px;
 }

@@ -2,75 +2,34 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>KurdNLP library</title>
+	<title>Home | Kurdish-BLARK</title>
 	 <link rel="stylesheet" type="text/css" href="mystyle.css">
 </head>
 <body>
 	<div id="header">
-		<h1>KurdNLP library — an open-source library for Kurdish language processing</h1>
+		<h1>Kurdish Basic Language Resource Kit — BLARK</h1>
 	</div>
 
 	<div id="navigation">
-		
-		<img src="imgs/Logo_KurdNLP.jpg" alt="KurdNLP logo"> 
-
+		<a href="index.html">
+			<img src="imgs/Logo_KurdNLP.jpg" alt="KurdNLP logo"> 
+		</a>
 		<ul>
-			<li><a href="https://sinaahmadi.github.io/KurdNLP/">About</a></li>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="members.html">Members</a></li>
 			<li><a href="guidelines.html">Guidelines</a></li>
-			<li><a href="">Publications</a></li>
-			<li><a href="https://github.com/sinaahmadi">Downloads</a></li>
+			<li><a href="publications.html">Publications</a></li>
+			<li><a href="https://github.com/hosseinhassani/Kurdish-BLARK" target="_blank">Downloads</a></li>
 			<li><a href = "mailto:ahmadi.sina@outlook.com?subject = KurdNLP&body = Message">Contact</a></li>
 		</ul>
 	</div>
 
 	<div id="content">
 
-
-<p style="text-align:justify">Kurdish is an Indo-European language spoken by 20 million speakers, inhabitants of Kurdish regions of Turkey, Iran, Iraq and, Syria. Despite the considerable number of speakers who also use Kurdish on their electronic devices in their everyday lives, Kurdish is rarely technically supported online — from a simple spell checker plug-in to Kurdish interfaces— due to the lack of language processing tools. </p>
-
-<h2>KurdNLP project</h2>
-
-<p style="text-align:justify">We are aiming at creating a library for Kurdish language processing. We believe that today is the best time ever to fulfil such a project, particularly thanks to a plethora of Kurdish online resources, the vast accessibility of Kurdish speakers to the Internet which makes annotation related tasks feasible, and the recent techniques of machine learning in NLP which help to overcome some of the challenges in low-resourced languages processing.</p>
-
-<h2>Previous works</h2>
-
-<p style="text-align:justify">The following table presents the major existing open-source resources and processing tools for Kurdish. This table only provides those resources and processing tools which are supported by a scientific research.</p>
+<p style="text-align:justify">We are aiming at creating a basic language processing toolkit for Kurdish. We believe that today is the best time ever to fulfil such a project, particularly thanks to a plethora of Kurdish online resources, the vast accessibility of Kurdish speakers to the Internet--which makes annotation related tasks feasible, and the recent progresses thanks to machine learning in NLP-- which help to overcome some of the challenges in low-resourced languages processing.</p>
 
 
-
-
-
-
-
-<table style="width: 454px; height: 213px; margin: 0px auto;" border="2" cellpadding="1">
-<tbody>
-<tr style="height: 27px;">
-<th style="width: 183.867px; height: 27px;">Existing resources&nbsp;</th>
-<th style="width: 217.133px; height: 27px;">Existing processing tools</th>
-</tr>
-<tr style="height: 77.2333px;">
-<td style="width: 183.867px; height: 77.2333px;">&nbsp;Pewan: The Kurdish Text Corpus / Test Collection <a href="https://klpp.github.io/" target="_blank">(KLPP group)</a></td>
-<td style="width: 217.133px; height: 77.2333px;">&nbsp;KurdITGroup keyboards&mdash;Arabic and Latin layouts <a href="https://kurditgroup.org/download" target="_blank">(KurdITGroup community)</a></td>
-</tr>
-<tr style="height: 26px;">
-<td style="width: 183.867px; height: 26px;">&nbsp;KurdNet, the Kurdish WordNet <a href="https://klpp.github.io/" target="_blank">(KLPP group)</a></td>
-<td style="width: 217.133px; height: 26px;">&nbsp;Jedar: a new rule-based stemmer which uses a list of Kurdish suffixes <a href="https://klpp.github.io/" target="_blank">(KLPP group)</a></td>
-</tr>
-<tr style="height: 26px;">
-<td style="width: 183.867px; height: 26px;">&nbsp;SoraLex, a morphological lexicon for Sorani Kurdish <a href="https://gforge.inria.fr/frs/?group_id=482" target="_blank">(Alexina project)</a></td>
-<td style="width: 217.133px; height: 26px;">&nbsp;Wergor transliterator <a href="https://github.com/sinaahmadi/wergor" target="_blank">(Sina Ahmadi)</a></td>
-</tr>
-<tr style="height: 26px;">
-<td style="width: 183.867px; height: 26px;">&nbsp;KurLex, a morphological lexicon for Kurmanji Kurdish <a href="https://gforge.inria.fr/frs/?group_id=482" target="_blank">(Alexina project)</a></td>
-<td style="width: 217.133px; height: 26px;">&nbsp;</td>
-</tr>
-<tr style="height: 27px;">
-<td style="width: 183.867px; height: 27px;">&nbsp;Kurmanji dependency treebank <a href="https://github.com/UniversalDependencies/UD_Kurmanji-MG" target="_blank">(Gökırmak, 2017)</a></td>
-<td style="width: 217.133px; height: 27px;">&nbsp;</td>
-</tr>
-</tbody>
-</table>
-<p>&nbsp;</p>
 
 <h2>Project goals</h2>
 
@@ -100,15 +59,27 @@
 <!-- DivTable.com -->
 <p>&nbsp;</p>
 
+<h3>Transliteration</h3>
+
+<p style="text-align:justify">Kurdish is generally written in two orthographies: one based on the Latin orthography which is used by the Kurmanji speakers, mostly in Kurdistan of Turkey, and the other is based on the Arabic orthography which is used in the other regions of Kurdistan. This diversity in writing, not only adds to the gap between the dialects but also becomes a challenge in text processing. Kurdish-BLARK will provide tools for transliterating different orthographies and disambiguating challenging cases. </p>
+
+<h3>PoS Tagging corpus</h3>
+
+<p style="text-align:justify">The POS tagging corpus is one of the most important parts of the project. <b>We are currently looking for annotators to manually annotate our corpus</b> which is based on the <a href="https://klpp.github.io/" target="_blank">Pewan</a> corpus. Once the corpus tagged, we will be able to provide morphological and syntactical analysers. </p>
+
+<p style="text-align:justify">The following diagram shows our approach in building the PoS tagging corpus with the expected tools:</p>
+
+<div class="mxgraph" style="max-width:100%;border:1px solid transparent; left: 100px;" data-mxgraph="{&quot;highlight&quot;:&quot;#0000ff&quot;,&quot;nav&quot;:true,&quot;resize&quot;:true,&quot;toolbar&quot;:&quot;zoom layers lightbox&quot;,&quot;edit&quot;:&quot;_blank&quot;,&quot;xml&quot;:&quot;&lt;mxfile userAgent=\&quot;Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:59.0) Gecko/20100101 Firefox/59.0\&quot; version=\&quot;8.6.3\&quot; editor=\&quot;www.draw.io\&quot; type=\&quot;browser\&quot;&gt;&lt;diagram id=\&quot;c1943e32-a3c6-f236-9b02-1dd3d1725e7c\&quot; name=\&quot;Page-1\&quot;&gt;7VpbV9s4EP41eaTHl9hOHgmw7cPSchba3X3iKLZiu8iWV1ZI0l+/o4sdX0ROKE4oJTwEa3Sf+fTNaOyRe5GtPzJUJNc0wmTkWNF65F6OHGfqWfArBBsl8OypEsQsjZTI3gpu0x9YC3W/eJlGuGw15JQSnhZtYUjzHIe8JUOM0VW72YKS9qwFinFPcBsi0pf+nUY8UdKJZW3ln3AaJ3rmcbXfOQofYkaXuZ5u5LgL+aeqM1QNpduXCYroqiFyr0buBaOUq6dsfYGJ0GylNdXvjydq62UznPO9OkxUj0dElrhask+g72zO4CkWT/tJ5Hb4ptIgx2shT3hGQGDDI8Nl+gPNZQMLygVNcy7t5M1G3iVI0JLTUmFBdEAkjXN4JnghhnrEjKdgonMt5rQAaVmgMM3jO1G4PBvXS2nqQKtFDIDXDZHWyUdMM8zZBppUtZWhNXzdsS6vtmCoTJg0caBlSMMvrkfe2gAetBnMJvH8ni5xBODURcp4QmOaI3K1lc4k5HCkNdtQ+nfM+UafL6FeEG1H+JNKrTV1HYLSMDNoO0ujSE71pHpLumShXrGrjztHLMb1IVEysZudRmCYIJ4+to/iS1RarcaAci4B2dS2/99SnL6ZNvU5VEo4wOotuf3a4oaqOWURZmchJQQVJVZt6lI9dgtJlbAaqtEohH0UKIoA4K2m41YrNWl7rGaD9pnlcwqs3BX2jjYsDpSujb8dTePjydHnleAOxbFYNmAgEQpewSKFngENuilYbd7tDjIxcV/YX19fEv3cinsDifmit7MIITTZVMgVuvem6JIz+oAvKKECTjnNxYFfpIR0RBTYYUGk4xK1PQIagE2eQ9ZOi6x9p0/W9njSZ2s78J7NLV9LzL7Mv4uYw7EImmOiuu6Cu4hSOEpzVV9ynJV62wSFOIHYBLN2vJKjTNvoG2KpMqLTILSx1dCIJrtBDLu/4VZJyvEtOF8x5wqCwDYsEmiH8x4wBjD3tO2a/anB2v4wvhmKDXvvtH916ApWn7cEr+CsWmdQRplQjz6F1ucvXz83Dmmjy0thYZ9goWEReEeFRT+Km/wGUdzYMURx09eK4qrVnKK440Vx15QVwEQ0FiASQwHeNmVanmK4Uww3ZAxXX7B3xXBTA33/TAzXJ+vpkGQNWmCbf4T8g1cV/9XNXovI3T6Re/arEbl7IvIDE/kNvYX29aVkF0GdqPpE1c+hat/ag6qDQ1G1b/f0eoS4ehelD03VniHmdoamat31RqTgG5mUwG+Zdup2LkdqUbpXx2j1Mp6TNkFyp3GMo27OZFlKGcwsJPKZ4HUa0vyll2TvjV6Spdpm0rlUM48c15J/wxxt23Y/eC0ETByvf7grWfNwBwfNrpwXBdmo9BnKBRQ4Lnkz3ZYZ7ynCBVhCsXW7jl+EWIAVyxdn4/w3iqghAvcqdq68wWTPvIt/UMBco3yJCBELDRMcPjSxg/KcctSCz2FgEbxfWPhWm0f8wMAjJlgclkeeyNLiBwRexZCphUpxl/BmMmXrXYqCM5O/3UBSjuHNIry4L8h9Dgq9j8CRiT6HyPRO3i+23HEbW4Hh5bw9MWDLO0yq13eGDEl/xeyB6WW+O3RI+swXbmIUGRpm6ZnQRYbkDiXl1xGl4vVh2Hz6Rk/c4cNG1+8Eja7hQI6PHgPsJnuZZkJlhvLUyP2GRIGqz+el+Kde4lnnlzej6o2e9e3qr9lB6N57x+97vWnQuZQEJnwFB7uU9NPF1R62+ctuAHnHMJ6j/KHnGcoEFeJRWSyiS/U9nN3TnEnfDQMfN+XjON17ocnnmu6Fg3wRFwzqYNcpV/7V8XSx8q8N3+v8Ms7XNzhf/0jOF4rbb1FVlmf7ua979T8=&lt;/diagram&gt;&lt;/mxfile&gt;&quot;}"></div>
+<script type="text/javascript" src="https://www.draw.io/js/viewer.min.js"></script>
 
 
-<p style="text-align:justify">Kurdish is generally written in two orthographies: one based on the Latin orthography which is used by the Kurmanji speakers, mostly in Kurdistan of Turkey, and the other is based on the Arabic orthography which is used in the other regions of Kurdistan. This diversity in writing, not only adds to the gap between the dialects but also becomes a challenge in text processing. KurdNLP will provide tools for transliterating different orthographies and disambiguating challenging cases. </p>
+<h3>Speech to Text (STT) for Sorani Kurdish</h3>
 
-<p style="text-align:justify">The POS tagging corpus is one of the most important parts of the project. <b>We are currently looking for annotators to manually annotate our corpus</b> which is based on the Pewan corpus. Once the corpus tagged, we will be able to provide morphological and syntactical analysers. </p>
+<p style="text-align:justify">###</p>
 
 <h2>Project outcome</h2>
 
-<p style="text-align:justify">The outcome of the project will be presented as an open-source library in Python. In addition to this library, a dedicated website will provide the tools online. We will try to present our works as research papers as well.</p>
+<p style="text-align:justify">The outcome of the project will be presented as an open-source library in Python. In addition to this library, a dedicated website will provide the tools online. Our priority is to contribute to not only the scientific aspect of the research project by publishing the results, but also to the engineering aspect for public usage.</p>
 
 <h2>Want to help?</h2>
 
