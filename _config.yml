@@ -1,5 +1,71 @@
-theme: jekyll-theme-minimal
-title: Sina Ahmadi's Personal Page
-logo: /docs/P_20180307_160121_BF.jpg
-show_downloads: false
+# Outputting
+permalink: /:categories/:year/:month/:day/:title.html
+
+# Conversion
+markdown:         kramdown
+highlighter:      rouge
+excerpt_separator: <!--more-->
+
+# Config for your profile.
+title:            Sina Ahmadi's Personal Page # Site title
+name:             Sina Ahmadi              # Your name
+avatar:           /docs/P_20180307_160121_BF.png   # Path to an avatar image
+
+# The theme uses the baseurl throughout, which is useful for running the entire
+# site under a subdir, like for this GitHub Pages deployment as a project site.
+#baseurl: "/Users/sina/My_GitHub/sinaahmadi.github.io/"
+
+# Google Analytics
 google_analytics: UA-83988047-1
+
+# Add a directory to hold misc pages, just to keep the root directory clean.
+include: ["_pages", "_portfolio"]
+
+# Turn the projects into a collection.
+collections:
+  projects:
+    output: true
+    title: Projects
+    permalink: /:collection/:name.html
+  portfolio:
+    output: true
+    title: portfolio
+    permalink: /:collection/:name.html
+
+defaults:
+# Turn the profile sidebar on for all pages by default, except for the
+# collections, where it is off and replaced by useful things on the sidebar.
+# To override this one a page, use
+#    show_profile: false
+# to hide the profile.
+  -
+    scope:
+      path: ""
+    values:
+      show_profile: true
+  -
+    scope:
+      path: "_posts"
+    values:
+      show_profile: false
+      layout: defaults/post
+  -
+    scope:
+      path: "_portfolio"
+    values:
+      show_profile: false
+      layout: defaults/portfolio
+  -
+    scope:
+      path: "_projects"
+    values:
+      show_profile: false
+      layout: defaults/project
+  -
+    scope:
+      path: "list"
+    values:
+      show_profile: false
+      layout: defaults/list
+
+
