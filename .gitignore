@@ -7,6 +7,7 @@
 .DS_Store
 .AppleDouble
 .LSOverride
+.bundle
 
 # Icon must end with two \r
 Icon
@@ -22,7 +23,6 @@ Icon
 .Trashes
 .VolumeIcon.icns
 .com.apple.timemachine.donotpresent
-README.md
 
 # Directories potentially created on remote AFP share
 .AppleDB
@@ -31,5 +31,7 @@ Network Trash Folder
 Temporary Items
 .apdisk
 my_other
+path
+vendor
 
 # End of https://www.gitignore.io/api/macos

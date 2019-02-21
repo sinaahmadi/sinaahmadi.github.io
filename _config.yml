@@ -60,7 +60,7 @@ defaults:
       path: "_projects"
     values:
       show_profile: false
-      layout: defaults/project
+      layout: defaults/projects
   -
     scope:
       path: "list"
