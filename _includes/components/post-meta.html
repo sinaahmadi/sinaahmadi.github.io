@@ -3,7 +3,7 @@
         <div class="card-body">
             <div class="card-title">
                 <h5>On This Page</h5>
-                <h6>{{ page.date | date_to_string }}</h6>
+                <h6>{{ page.date | date: "%b %-d, %Y" }}</h6>
             </div>
               <ul class="nav flex-column nav-pills header-list">
             </ul>
