@@ -19,7 +19,7 @@
             </div>
         </div>
         <div class="card-text mb-0">
-            {{ post.excerpt }}
+            {{ post.excerpt | strip_html | truncatewords:75 }}
         </div>
         <a href="{{ post.url | absolute_url }}">More...</a>
     </div>

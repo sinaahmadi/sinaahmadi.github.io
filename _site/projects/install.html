@@ -49,6 +49,13 @@
                 </a>
             </li>
         
+            <li class="nav-item">
+                <a href='/list/posts.html'
+                   class="nav-link">
+                    Posts
+                </a>
+            </li>
+        
         </ul>
     </div>
 </nav>
@@ -99,13 +106,9 @@
 
 
 
-
-
         </div>
         <div class="col-md-12 col-lg-8 col-xl-8 pb-4 content">
-            <h1 class="border border-top-0 border-right-0 border-left-0 mb-3 pb-2">
-    Install and Use Friday Theme
-</h1>
+            <h1 class="border border-top-0 border-right-0 border-left-0 mb-3 pb-2">Install and Use Friday Theme</h1>
 
 <div class="d-md-block d-lg-none">
     <div class="sticky-top space-before">
@@ -113,8 +116,9 @@
         <div class="card-body">
             <div class="card-title">
                 <h5>On This Page</h5>
+                <h6>18 Mar 2019</h6>
             </div>
-            <ul class="nav flex-column nav-pills header-list">
+              <ul class="nav flex-column nav-pills header-list">
             </ul>
             <div class="d-flex align-items-center mt-2">
                 <span class="icon grey mr-1">
@@ -127,13 +131,11 @@
 </svg>
 
                 </span>
-                <a href="/list/projects.html">Back to all projects</a>
+                <a href="/list/posts.html">Back to all posts</a>
             </div>
         </div>
     </div>
 </div>
-
-
 
 </div>
 
@@ -224,22 +226,6 @@
 
 
 
-<script type="text/javascript">
-    $(document).ready(function() {
-        var tpl = 
-            "<li class='nav-item'>\
-                <a class='nav-link bg-white mb-1' href='#header[idx]'>[name]</a>\
-            </li>"
-        $("h2").each(function(idx, h2) {
-            $(h2).attr("id", "header" + idx)
-            var name = $(h2).text().trim()
-            var dom_string = tpl.replace("[name]", name).replace("[idx]", idx)
-            var header = $(dom_string)
-            $(".header-list").append(header)
-        })
-    })
-</script>
-
         </div>
         <div class="col-md-12 d-lg-none bottom">
             
@@ -273,6 +259,8 @@
     }
 }())
 </script>
+
+
 
 </body>
 

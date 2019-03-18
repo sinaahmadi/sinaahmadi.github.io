@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>
+        
+            Why Kurdish language processing matters? &middot; Sina Ahmadi's Personal Page
+        
+    </title>
+
+    <script src="/theme/js/jquery-3.2.1.min.js"></script>
+    <script src="/theme/js/popper.min.js"></script>
+    <script src="/theme/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="/theme/css/bootstrap.css">
+    <link rel="stylesheet" href="/theme/css/site.css">
+    <link rel="stylesheet" href="/theme/css/syntax.css">
+
+</head>
+
+
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top justify-content-between">
+    <a class="navbar-brand font-weight-bold" href="/index.html">Sina Ahmadi</a>
+    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarContent" >
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarContent">
+        <ul class="navbar-nav ml-auto">
+        
+            <li class="nav-item">
+                <a href='/index.html'
+                   class="nav-link">
+                    Home
+                </a>
+            </li>
+        
+            <li class="nav-item">
+                <a href='/about.html'
+                   class="nav-link">
+                    About
+                </a>
+            </li>
+        
+            <li class="nav-item">
+                <a href='/list/posts.html'
+                   class="nav-link">
+                    Posts
+                </a>
+            </li>
+        
+        </ul>
+    </div>
+</nav>
+
+
+
+
+
+<div class="container site-container" id="top">
+    <div class="row">
+        <div class="d-none d-lg-block col-lg-4 col-xl-4 side">
+            
+
+
+
+
+
+
+
+
+    <div class="sticky-top space-before">
+    <div class="card bg-light mb-3 space-before">
+        <div class="card-body">
+            <div class="card-title">
+                <h5>On This Page</h5>
+                <h6>05 Mar 2019</h6>
+            </div>
+              <ul class="nav flex-column nav-pills header-list">
+            </ul>
+            <div class="d-flex align-items-center mt-2">
+                <span class="icon grey mr-1">
+                    <?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg version="1.1" id="Arrow_left" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve">
+<path d="M2.5,10L9,3.5V7h8v6H9v3.5L2.5,10z"/>
+</svg>
+
+                </span>
+                <a href="/list/posts.html">Back to all posts</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+        </div>
+        <div class="col-md-12 col-lg-8 col-xl-8 pb-4 content">
+            <h1 class="border border-top-0 border-right-0 border-left-0 mb-3 pb-2">
+    Why Kurdish language processing matters?
+</h1>
+
+<div class="d-md-block d-lg-none">
+    <div class="sticky-top space-before">
+    <div class="card bg-light mb-3 space-before">
+        <div class="card-body">
+            <div class="card-title">
+                <h5>On This Page</h5>
+            </div>
+            <ul class="nav flex-column nav-pills header-list">
+            </ul>
+            <div class="d-flex align-items-center mt-2">
+                <span class="icon grey mr-1">
+                    <?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg version="1.1" id="Arrow_left" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve">
+<path d="M2.5,10L9,3.5V7h8v6H9v3.5L2.5,10z"/>
+</svg>
+
+                </span>
+                <a href="/list/projects.html">Back to all projects</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+
+<p>Since the first time that I touched my home computer keyboard in 2001, I used to ask myself if it would be possible to make computer understand my mother language, <a href="https://en.wikipedia.org/wiki/Kurdish_languages">Kurdish</a>. Well, what I was imagining was definitely something limited to a Kurdish interface for Windows, particularly when I was going through the installation descriptions of <a href="https://en.wikipedia.org/wiki/Return_to_Castle_Wolfenstein">Return to Castle Wolfenstein</a> and <a href="https://en.wikipedia.org/wiki/Mafia_(video_game)">Mafia: The City of Lost Heaven</a>! Let alone the spontaneous questions that <a href="https://en.wikipedia.org/wiki/Office_Assistant">Clippy</a> was asking and how much I was curious to see the same messages in Kurdish.</p>
+
+<div class="card mb-3 text-center">
+    <img class="rounded mx-auto d-block" src="http://localhost:4000/docs/images/clippy.png" style="width:30%" align="middle" alt="Kurdish Clippy!" />
+    <div class="card-body bg-light">
+        <div class="card-text">
+            Me, when I was 9. “What if Clippy could ask “çon î” (how are you) in Kurdish?
+        </div>
+    </div>
+</div>
+
+<p>In 2000s, there were a few application-based projects for introducing Kurdish to the computer world. For instance, a few Kurdish fonts were made based on the Persian and Arabic keyboards and the interface of some softwares were also translated into Kurdish. Since then, a lot of things have changed in the Information Technology (IT) world. Computers got smaller and more efficient, connections got faster than ever and subsequently, the world has become a smaller place. And still, the overall availablity of electronic resources and processing tools for Kurdish is not to a satisfying extent. Kurdish is not just a language with a history that reflects the culture of its speakers. Indeed, it is the only element that has kept Kurds as a nation.</p>
+
+<p>In this post, I would like to address the importance of language technology for Kurdish language. Nowadays, with a plethora of (unstructured) online Kurdish resources and the recent progress in natural language processing and machine learning, I think that it is more feasible than ever to provide tools and resources for finally making Kurdish understandable by machine. I will also explain why I believe that the difficulty of processing Kurdish language is no more like the 2000s and there is currently a huge potential for Kurdish processing.</p>
+
+<h2 id="what-is-natural-language-processing">What is Natural Language Processing?</h2>
+
+<p>Formally speaking, Natural Language Processing (NLP) refers to the computer processing of <em>natural language</em>: the language that we speak with. NLP is a part of the field of study which is called <em>language technology</em>. If you are using a spell checker on your cell phone or your computer, or you use Siri or Google Assistant to ask about the nearest restaurant, then you have been already using some of the most common applications of NLP. Language technology is so present in nowadays life that most of us have been using them without even knowing about!</p>
+
+<p>Language technology is a primordial part of the Web. At our current pace (in 2019), we are producing 2.5 quintillion bytes of data each day, in other words 10<sup>18</sup> bytes (<a href="https://www.forbes.com/sites/bernardmarr/2018/05/21/how-much-data-do-we-create-every-day-the-mind-blowing-stats-everyone-should-read/#66bda05960ba">source</a>), mostly unstructured data such as text, speech and so on. NLP technologies enable us to extract information from data and process the data for different applications.</p>
+
+<div class="card mb-3 text-center">
+<iframe width="700" height="500" align="middle" frameborder="0" scrolling="no" src="//plot.ly/~sinahm/4.embed?showlink=false"></iframe>
+<div class="card-body bg-light">
+    <div class="card-text">
+      NLP total revenue by segments. Recreated based on the data from
+        <a href="https://www.tractica.com/newsroom/press-releases/natural-language-processing-market-to-reach-22-3-billion-by-2025/">Tractica</a>.
+    </div>
+</div>
+</div>
+
+<p>So, if you have a small or big business and you would like to know about the public opinion regarding your services, or you are a politician and would like to know what is happening around, or you are doing something for which human communication and interaction is important, then you will definitely need language technology.</p>
+
+<h3 id="nlp-applications-a-few-examples-for-kurdish">NLP applications: a few examples for Kurdish</h3>
+
+<p>Some of the applications of NLP are:</p>
+
+<ul>
+  <li>
+    <p><strong>Transliteration</strong>: Kurdish is written in two scripts. The Latin-based script is used for writing in Kurmanji dialect, mostly spoken in Bakûr (means “north” in Kurdish and refers to the Kurdish regions in Turkey) and parts of Rojava (means “west” in Kurdish and refers to the Kurdish regions in Syria), while the Arabic-based script is used in Rojhełat (“east” in Kurdish, the Kurdish regions of Iran) and Basûr (“south” in Kurdish, the Kurdish regions of Iraq). A transliterator enables us to automatically convert one script to the other. As an example, “birayetî” (brotherhood in Kurdish) in the Latin-based script is transliterated as “برایەتی” in the Arabic-based script.</p>
+  </li>
+  <li>
+    <p><strong>Morphological analysis</strong>: Kurdish is an inflectional language. That is, a word can turn into a new word by adding a set of morphemes, such as suffixes and prefixes. For instance, “jinekan” (the women) is composed of “jin” (woman) and “ekan” (definite article added as a suffix to the noun). Detecting each morpheme is the task of morphological analyser. This is challenging, especially because of the huge number of derivational and inflectional morphemes in Kurdish. Another example, the Sorani word “dîtimin” which means “I saw them” is composed of “dîtim”, “I saw”, and “in” the object added as an accusative suffix.</p>
+  </li>
+  <li>
+    <p><strong>Parts of Speech Tagging</strong>: How do we know what is the grammatical role of each parts of this sentence : “Min gułekanim bon kird” (I smelled the flowers)? Well, that is what a part-of-speech tagger (POS tagger) does. For that case, a Kurdish PoS tagger will tell you that “min” is a pronoun, “gułekanim” is a definite noun and “bon kird” is the first singular person of the verb “bon kirdin” (to smell) in the past tense.</p>
+  </li>
+  <li>
+    <p><strong>Machine translation</strong>: This is maybe the most popular application of NLP. What if all dialects of Kurdish could be translated into other languages automatically? What is the equivalent of the Hawrami word “jerej” in Kurmanji and Sorani?[1] Machine translation takes care of the automatic translation using a parallel corpus. A corpus is a collection of text collected for a specific purpose. In a parallel corpus, the texts in two languages are aligned together. For instance, in a parallel corpus of Sorani Kurdish and English, for “<em>The distance between Sanandaj and Sulaymaniyah is 253 kilometers</em>”, the following sentence is aligned: “<em>mewday nêwan Sine û Silêmanî 253 kîlomîtr e</em>”. And now, imagine that in our corpus which contains thousands of parallel sentences, there are 100 sentences in which those words are used. That is where machine translation, based on statistical methods and more recently, neural network models, predicts that “Sine” means “Sanandaj” and “Silêmanî” means “Sulaymaniyah”, and even can translate sentences and more sophisticated texts.</p>
+  </li>
+  <li>
+    <p><strong>Speech recognition</strong> Just try “OK google” on your Android phone, or “Hey, Siri” to activate your speech recogniser. Then talk as you talk with a real person and let the machine deal with it! That is what a speech recogniser does.</p>
+  </li>
+</ul>
+
+<p>To discover more about NLP, <a href="https://web.stanford.edu/~jurafsky/slp3/ed3book.pdf">Jurafsky and Martin’s handbook in speech and language processing</a> and  <a href="https://www.cicling.org/2010/Vol46.pdf">Natural Language Processing and its Applications</a> are two useful resources.</p>
+
+<h2 id="challenges-of-kurdish-language-processing">Challenges of Kurdish language processing</h2>
+
+<p>Kurdish is a less-resourced language. A less-resourced language is a language for which there is not enough language resources to be fully processed. In the following, I mention some of the main characteristics of Kurdish language which are also the main reasons that may explain the challenges in Kurdish language processing and why they have not been efficiently addressed yet.</p>
+
+<h3 id="diversity-in-dialects">Diversity in dialects</h3>
+
+<p>Having various dialects and sub-dialects, Kurdish is known as a dialect-rich language and is sometimes referred to as a <a href="http://kurdish.humanities.manchester.ac.uk/wp-content/uploads/2017/07/PDF-Revisiting-Kurdish-dialect-geography.pdf">dialect continuum</a>. This richness is intersting when you observe that what is called something in a village is called differently in the neighbourhood. As a personal observation, in <a href="https://goo.gl/maps/hotbKuCa9Yz">Kêle Sipî</a>, a village near Sanandaj in the Eastern Kurdistan, people use the word <em>amêjeng</em> for yeast, while in <a href="https://goo.gl/maps/VKPRG5REW6q">Syaseran</a> it is called <em>amyan</em>. Such differences are not limited to the vocabulary, but also to the phonology and the phonetics. Almost all the dialects and sub-dialects of Kurdish have something distinct in terms of pronunciation.</p>
+
+<div class="card mb-3 text-center">
+<h5 style="text-align:center;">
+<iframe src="https://www.google.com/maps/embed?pb=!1m24!1m12!1m3!1d13191.505645251036!2d47.19145982556518!3d35.628163422931244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m9!3e0!4m3!3m2!1d35.6333024!2d47.2136352!4m3!3m2!1d35.6285556!2d47.1856667!5e1!3m2!1sen!2sie!4v1552680935219" width="600" height="450" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+</h5>
+<div class="card-body bg-light">
+    <div class="card-text">
+      Dialectal difference could even be observed between two neighbouring villages.
+    </div>
+</div>
+</div>
+
+<p>Having said that, the variety of the dialects adds a gap between the speakers  of the same language and to some extent, creates a kind of barrier in communication. Some believe that such diversities should be addressed by defining a <a href="https://en.wikipedia.org/wiki/Standard_language">standard language</a>. Defining a standard language for Kurdish has been a matter of debate without reaching a consensus.</p>
+
+<h3 id="diversity-in-scripts">Diversity in scripts</h3>
+<p>Due to historical and geological reasons, several scripts are used when it comes to Kurdish writing. Cyrillic, Arabo-Persian, Latin and even Armenian alphabets have been used to write Kurdish texts. In the recent years, the Kurdish Academy of Language has tried to unify those alphabets and present a unified alphabet for Kurdish called <a href="http://kurdishacademy.org/2008/05/07/the-kurdish-unified-alphabet/">Yekgirtú</a>. However, Yekgirtú does not seem to be as popular among the scholars nor the public; among all alphabets, the Arabo-Persian and the Latin alphabets are mostly used by Sorani and Kurmanji speakers, respectively. The following table shows those two alphabets in a comparative way.</p>
+
+<table align="center" class="table table-bordered table-hover table-condensed">
+<thead><tr><th title="Field #1">Kurdish phonemes (IPA)</th>
+<th title="Field #2">Latin-based</th>
+<th title="Field #3">Yekgirtú</th>
+<th title="Field #4">Arabic-based</th>
+</tr></thead>
+<tbody><tr>
+<td>[a:]</td>
+<td>A a</td>
+<td>A a</td>
+<td>ا</td>
+</tr>
+<tr>
+<td>[b]</td>
+<td>B b</td>
+<td>B b</td>
+<td>ب</td>
+</tr>
+<tr>
+<td>[t͡ʃ]</td>
+<td>Ç ç</td>
+<td>C c</td>
+<td>چ</td>
+</tr>
+<tr>
+<td>[d͡ʒ]</td>
+<td>C c</td>
+<td>J j</td>
+<td>ج</td>
+</tr>
+<tr>
+<td>[d]</td>
+<td>D d</td>
+<td>D d</td>
+<td>د</td>
+</tr>
+<tr>
+<td>[æ]</td>
+<td>E e</td>
+<td>E e</td>
+<td>ه</td>
+</tr>
+<tr>
+<td>[eː ]</td>
+<td>Ê ê</td>
+<td>É é</td>
+<td>ێ</td>
+</tr>
+<tr>
+<td>[f]</td>
+<td>F f</td>
+<td>F f</td>
+<td>ف</td>
+</tr>
+<tr>
+<td>[g]</td>
+<td>G g</td>
+<td>G g</td>
+<td>گ</td>
+</tr>
+<tr>
+<td>[h]</td>
+<td>H h</td>
+<td>H h</td>
+<td>ھ</td>
+</tr>
+<tr>
+<td>[I]</td>
+<td>I i</td>
+<td>I i</td>
+<td bgcolor="#A9A9A9"> </td>
+</tr>
+<tr>
+<td>[i:]</td>
+<td>Î î</td>
+<td>Í í</td>
+<td>ى</td>
+</tr>
+<tr>
+<td>[ʒ]</td>
+<td>J j</td>
+<td>Jh jh</td>
+<td>ژ</td>
+</tr>
+<tr>
+<td>[k]</td>
+<td>K k</td>
+<td>K k</td>
+<td>ک</td>
+</tr>
+<tr>
+<td>[l]</td>
+<td>L l</td>
+<td>L l</td>
+<td>ل</td>
+</tr>
+<tr>
+<td>[ɬ]</td>
+<td>Ł ł</td>
+<td>Ll ll</td>
+<td>ڵ</td>
+</tr>
+<tr>
+<td>[m]</td>
+<td>M m</td>
+<td>M m</td>
+<td>م</td>
+</tr>
+<tr>
+<td>[n]</td>
+<td>N n</td>
+<td>N n</td>
+<td>ن</td>
+</tr>
+<tr>
+<td>[oː ]</td>
+<td>O o</td>
+<td>O o</td>
+<td>ۆ</td>
+</tr>
+<tr>
+<td>[p]</td>
+<td>P p</td>
+<td>P p</td>
+<td>پ</td>
+</tr>
+<tr>
+<td>[q]</td>
+<td>Q q</td>
+<td>Q q</td>
+<td>ق</td>
+</tr>
+<tr>
+<td>[ɾ]</td>
+<td>R r</td>
+<td>R r</td>
+<td>ر</td>
+</tr>
+<tr>
+<td>[r]</td>
+<td>Ř ř</td>
+<td>Rr rr</td>
+<td>ڕ</td>
+</tr>
+<tr>
+<td>[s]</td>
+<td>S s</td>
+<td>S s</td>
+<td>س</td>
+</tr>
+<tr>
+<td>[ʃ]</td>
+<td>Ş ş</td>
+<td>Sh sh</td>
+<td>ش</td>
+</tr>
+<tr>
+<td>[t]</td>
+<td>T t</td>
+<td>T t</td>
+<td>ت</td>
+</tr>
+<tr>
+<td>[ʊ]</td>
+<td>U u</td>
+<td>U u</td>
+<td>و</td>
+</tr>
+<tr>
+<td>[u:]</td>
+<td>Û û</td>
+<td>Ú ú</td>
+<td>وو</td>
+</tr>
+<tr>
+<td>[v]</td>
+<td>Vv</td>
+<td>V v</td>
+<td>ڤ</td>
+</tr>
+<tr>
+<td>[w]</td>
+<td>W w</td>
+<td>W w</td>
+<td>و</td>
+</tr>
+<tr>
+<td>[x]</td>
+<td>X x</td>
+<td>X x</td>
+<td>خ</td>
+</tr>
+<tr>
+<td>[j]</td>
+<td>Y y</td>
+<td>Y y</td>
+<td>ى</td>
+</tr>
+<tr>
+<td>[z]</td>
+<td>Z z</td>
+<td>Z z</td>
+<td>ز</td>
+</tr>
+<tr>
+<td>[ħ]</td>
+<td>Ḧ ḧ</td>
+<td>H&#39;, h&#39;</td>
+<td>ح</td>
+</tr>
+<tr>
+<td>[ʕ]</td>
+<td>Ë ë</td>
+<td>‘</td>
+<td>ع</td>
+</tr>
+<tr>
+<td>[ɣ]</td>
+<td>Ẍ ẍ</td>
+<td>X&#39;, x&#39;</td>
+<td>غ</td>
+</tr>
+<tr>
+<td>[ʉ:]</td>
+<td bgcolor="#A9A9A9"> </td>
+<td>Ù ù</td>
+<td>ۊ</td>
+</tr>
+<tr>
+<td>[γ]</td>
+<td bgcolor="#A9A9A9"> </td>
+<td bgcolor="#A9A9A9"> </td>
+<td>ڎ</td>
+</tr>
+<tr>
+<td>[ʁ]</td>
+<td>Ğ ğ</td>
+<td bgcolor="#A9A9A9"> </td>
+<td bgcolor="#A9A9A9"> </td>
+</tr>
+</tbody></table>
+
+<h3 id="lack-of-standards">Lack of standards</h3>
+
+<p>As discussed earlier, the diversity in dialects and scripts turns the richness of the language into a challenge. Such challenges are usually addressed by defining certain standards which do not exist for Kurdish yet. Defining a standard Kurdish language or Kurdish alphabet and deploying those standards require governmental actions and should be supported by scholars and Kurdish public.</p>
+
+<h3 id="lack-of-resources">Lack of resources</h3>
+
+<p>Electronic resources provide textual information about language and are essential for text mining in particular, and NLP in general. Those information can be collected and used as a <a href="https://en.wikipedia.org/wiki/Text_corpus">text corpus</a>. Fortunately, there are currently websites which are active in creating content in Kurdish, notably news agencies. Unfortunately, we still need more resources, especially expert-made ones such as lexicons and parallel corpora.</p>
+
+<h3 id="lack-of-investment">Lack of investment</h3>
+
+<p>Honestly, I believe that lack of investment should have been listed as the first reason of Kurdish remaining behind in NLP.</p>
+
+<p>A project needs to be funded to make a progress, which is unfortunately not the case for Kurdish-related projects. Due to the political constraints in Kurdistan, funding a Kurdish-related project is not a priority for the businesses. Even in the Southern Kurdistan, where there has been autonomy  (kind of) since 1992, there has not been a big advancement in this field.</p>
+
+<p>Such a difficulty seems to be the case of less-resourced languages. The following paragraph from the <a href="http://ixa2.si.ehu.es/saltmil/index.php/en/news-mainmenu-287/36-news/89-lrec2010-saltmil-discussion.html">summary</a> of the discussion on Less resourced languages and Language technology of the seventh international conference on Language Resources and Evaluation (LREC) explains how getting a project funded for a less-resourced language may be challenging:</p>
+
+<div class="ml-3">
+<p class="text-muted">One of the problems that was underlined is the difficulties in convincing politicians to fund the creation of language resources (LR) for less-resourced languages (LRL). Per Langgård suggested that it would be necessary to build a scheme to assist developers to have success in that endeavour; Khalid Choukri said that even for large European languages it was also difficult to convince European Union politicians to fund R&amp;D in the field, and that we needed to give politicians a larger picture and something they can sell to the media. Along the same lines, Igor Leturia mentioned that we should convince politicians that we do not only do research but that we produce products that politicians can see. </p>
+
+</div>
+
+<h3 id="public-awareness">Public awareness</h3>
+
+<p>In addition to the aforementioned factors, I should bitterly admit that there has been a kind of ignorance among the Kurds regarding their language and its correct usage as their formal language. I hope that my generation can promote using the power of Internet and make more people aware of the importance of language technology.</p>
+
+<h2 id="what-to-do-then">What to do then?</h2>
+
+<h3 id="use-utf-8-please">Use UTF-8, <mark>Please</mark>!</h3>
+<p>Each piece of text that you are typing is useful to make a language processable. Use a Kurdish keyboard and care about the correctness of what you type, as much as you can. Happily, there are currently many keyboards available on Google Play and iTunes which support Kurdish alphabets in UTF-8. (Take a look at <a href="https://play.google.com/store/apps/details?id=com.google.android.inputmethod.latin&amp;hl=en_IE">Gboard - the Google Keyboard</a> if you are an Android user).</p>
+
+<h3 id="understand-the-value-of-data">Understand the value of data</h3>
+<p>We are making information each day by sending messages to our friends and visiting social media. <strong>Try creating content in Kurdish</strong>. <a href="https://en.wikipedia.org/wiki/Blog">Blogging</a> is a very interesting way to let others know about your ideas.</p>
+
+<h3 id="be-creative-and-think-about-nlp">Be creative and think about NLP</h3>
+<p>No matter what your expertise is, you can make a change in the current situation. If you are a Kurdish music fan, you can write the lyrics of the Kurdish songs and create a corpus for it. If you are interested in medical sciences, you can collect the terminology of your profession. If you are teaching a module related to computer science, NLP or computational linguistics, why not letting your students working on a Kurdish-related mini-project for their final project? And so on.</p>
+
+<h3 id="research-in-kurdish-language-processing">Research in Kurdish language processing</h3>
+
+<p>We need to do more research in Kurdish language processing. I strongly believe in the open data and open-source tools given the current situation of lack of investment.</p>
+
+<h2 id="footnotes">Footnotes</h2>
+<p>[1] “jerej” means “partridge“ in Hewrami Kurdish. In the Sorani Kurdish and in the Kurmanji Kurdish, “kew” and “vitik” are used respectively.</p>
+
+<hr class="col-xs-12" />
+
+<p>Last updated on 18 May 2019.</p>
+
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        var tpl =
+            "<li class='nav-item'>\
+                <a class='nav-link bg-white mb-1' href='#header[idx]'>[name]</a>\
+            </li>"
+        $("h2").each(function(idx, h2) {
+            $(h2).attr("id", "header" + idx)
+            var name = $(h2).text().trim()
+            var dom_string = tpl.replace("[name]", name).replace("[idx]", idx)
+            var header = $(dom_string)
+            $(".header-list").append(header)
+        })
+    })
+</script>
+
+        </div>
+        <div class="col-md-12 d-lg-none bottom">
+            
+
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+/*!
+ * IE10 viewport hack for Surface/desktop Windows 8 bug
+ * Copyright 2014-2017 The Bootstrap Authors
+ * Copyright 2014-2017 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+// See the Getting Started docs for more information:
+// https://getbootstrap.com/getting-started/#support-ie10-width
+
+(function () {
+    'use strict'
+
+    if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+        var msViewportStyle = document.createElement('style')
+        msViewportStyle.appendChild(
+            document.createTextNode(
+                '@-ms-viewport{width:auto!important}'
+            )
+        )
+        document.head.appendChild(msViewportStyle)
+    }
+}())
+</script>
+
+
+
+</body>
+
+</html>
