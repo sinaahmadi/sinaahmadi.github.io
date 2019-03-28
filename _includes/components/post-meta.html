@@ -7,6 +7,19 @@
             </div>
               <ul class="nav flex-column nav-pills header-list">
             </ul>
+            <hr>
+            <div class="d-flex flex-wrap align-items-center">
+                <span class="icon grey mr-2 mb-2">
+                    {%include entypo/price-tag.svg %}
+                </span>
+                {% for tag in page.tags %}
+                    <a href="{{ site.baseurl }}{% link list/posts.html %}#{{ tag | slugify }}"
+                       class="bg-white border rounded p-1 mr-2 mb-2 d-inline-block">
+                        {{ tag }}
+                    </a>
+                {% endfor %}
+            </div>
+            <hr>
             <div class="d-flex align-items-center mt-2">
                 <span class="icon grey mr-1">
                     {% include entypo/arrow-left.svg %}

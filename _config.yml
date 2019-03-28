@@ -14,6 +14,11 @@ avatar:           /docs/P_20180307_160121_BF.png   # Path to an avatar image
 # The theme uses the baseurl throughout, which is useful for running the entire
 # site under a subdir, like for this GitHub Pages deployment as a project site.
 #baseurl: "/Users/sina/My_GitHub/sinaahmadi.github.io/"
+#TL;DR: Use baseurl when you are building a site that doesn’t sit at the root of the domain.
+# baseurl: "sinaahmadi.github.io/"
+url: "https://sinaahmadi.github.io/"
+plugins:
+  - jekyll-sitemap
 
 
 # Add a directory to hold misc pages, just to keep the root directory clean.

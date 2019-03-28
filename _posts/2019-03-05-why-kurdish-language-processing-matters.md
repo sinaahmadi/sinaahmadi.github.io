@@ -351,18 +351,34 @@ In addition to the aforementioned factors, I should bitterly admit that there ha
 
 ## What to do then?
 
-### Use UTF-8, <mark>Please</mark>!
+### For you as a person
+
+#### Use UTF-8, <mark>Please</mark>!
 Each piece of text that you are typing is useful to make a language processable. Use a Kurdish keyboard and care about the correctness of what you type, as much as you can. Happily, there are currently many keyboards available on Google Play and iTunes which support Kurdish alphabets in UTF-8. (Take a look at [Gboard - the Google Keyboard](https://play.google.com/store/apps/details?id=com.google.android.inputmethod.latin&hl=en_IE) if you are an Android user).
 
-### Understand the value of data
+#### Understand the value of data
 We are making information each day by sending messages to our friends and visiting social media. **Try creating content in Kurdish**. [Blogging](https://en.wikipedia.org/wiki/Blog) is a very interesting way to let others know about your ideas.
 
-### Be creative and think about NLP
+#### Be creative and think about NLP
 No matter what your expertise is, you can make a change in the current situation. If you are a Kurdish music fan, you can write the lyrics of the Kurdish songs and create a corpus for it. If you are interested in medical sciences, you can collect the terminology of your profession. If you are teaching a module related to computer science, NLP or computational linguistics, why not letting your students working on a Kurdish-related mini-project for their final project? And so on.
 
-### Research in Kurdish language processing
+#### Research in Kurdish language processing
 
 We need to do more research in Kurdish language processing. I strongly believe in the open data and open-source tools given the current situation of lack of investment.
+
+### For you as a business or entrepreneur
+
+#### Invest
+
+Just like any other field in computer engineering, your business can make money by creating Kurdish language technology.
+
+#### Fund research projects
+
+Collaborate with academic research units and fund research projects related to Kurdish language processing. Taking a few interns per year can make a huge contribution to the field..
+
+#### Promote usage of tools for Kurdish
+
+News agencies, publication houses, authorities and all those who have a voice in the society, can promote the usage of tools which are made for Kurdish language processing.
 
 ## Footnotes
 [1] “jerej” means “partridge“ in Hewrami Kurdish. In the Sorani Kurdish and in the Kurmanji Kurdish, “kew” and “vitik” are used respectively.
@@ -370,4 +386,4 @@ We need to do more research in Kurdish language processing. I strongly believe i
 
 
 <hr class="col-xs-12">
-Last updated on 18 May 2019.
+Last updated on 26 March 2019.
