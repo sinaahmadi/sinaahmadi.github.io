@@ -50,7 +50,7 @@ The following table shows the main statistical properties of Base Concepts and i
 
 ## Get KurdNet
 
-Download KurdNet at [https://github.com/klpp/kurdnet][https://github.com/klpp/kurdnet].
+Download KurdNet at [https://github.com/klpp/kurdnet](https://github.com/klpp/kurdnet).
 
 If you use this resource, please cite our [publication](https://www.aclweb.org/anthology/W14-0101):
 
