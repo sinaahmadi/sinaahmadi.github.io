@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>
+        
+            KurdNet—the Kurdish WordNet &middot; Sina Ahmadi's Personal Page
+        
+    </title>
+
+    <script src="/theme/js/jquery-3.2.1.min.js"></script>
+    <script src="/theme/js/popper.min.js"></script>
+    <script src="/theme/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="/theme/css/bootstrap.css">
+    <link rel="stylesheet" href="/theme/css/site.css">
+    <link rel="stylesheet" href="/theme/css/syntax.css">
+
+</head>
+
+
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top justify-content-between">
+    <a class="navbar-brand font-weight-bold" href="/index.html">Sina Ahmadi</a>
+    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarContent" >
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarContent">
+        <ul class="navbar-nav ml-auto">
+        
+            <li class="nav-item">
+                <a href='/index.html'
+                   class="nav-link">
+                    Home
+                </a>
+            </li>
+        
+            <li class="nav-item">
+                <a href='/about.html'
+                   class="nav-link">
+                    About
+                </a>
+            </li>
+        
+            <li class="nav-item">
+                <a href='/list/posts.html'
+                   class="nav-link">
+                    Posts
+                </a>
+            </li>
+        
+            <li class="nav-item">
+                <a href='/list/resources.html'
+                   class="nav-link">
+                    Resources
+                </a>
+            </li>
+        
+        </ul>
+    </div>
+</nav>
+
+
+
+
+
+<div class="container site-container" id="top">
+    <div class="row">
+        <div class="d-none d-lg-block col-lg-4 col-xl-4 side">
+            
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        <div class="col-md-12 col-lg-8 col-xl-8 pb-4 content">
+            <h1 class="border border-top-0 border-right-0 border-left-0 mb-3 pb-2">KurdNet—the Kurdish WordNet</h1>
+
+<div class="d-md-block d-lg-none">
+    <div class="sticky-top space-before">
+    <div class="card bg-light mb-3 space-before">
+        <div class="card-body">
+            <div class="card-title">
+                <h5>On This Page</h5>
+            </div>
+            <ul class="nav flex-column nav-pills header-list">
+            </ul>
+            <div class="d-flex align-items-center mt-2">
+                <span class="icon grey mr-1">
+                    <?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg version="1.1" id="Arrow_left" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve">
+<path d="M2.5,10L9,3.5V7h8v6H9v3.5L2.5,10z"/>
+</svg>
+
+                </span>
+                <a href="/list/resources.html">Back to all resources</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+
+<h2 id="about">About</h2>
+
+<p>KurdNet is the the Kurdish WordNet. WordNet has been used in numerous natural language processing tasks such as word sense  disambiguation and information extraction with considerable success. Motivated by this success, many projects have been under taken to build similar lexical databases for other languages.</p>
+
+<p>At a high level, our approach is semi-automatic and centred around building a Kurdish alignment for Base Concepts, which is a core subset of major meanings in WordNet. More specifically, we use a bilingual dictionary and simple set theory  operations to translate and align synsets and use a corpus to extract usage examples.  The effectiveness of our prototype database is evaluated via measuring its impact on a Kurdish information retrieval task.</p>
+
+<div class="card mb-3 text-center">
+    <img class="rounded mx-auto d-block" src="http://localhost:4000/docs/images/WordNet_schema.png" style="width:100%" align="middle" alt="WordNet schema for KurdNet" />
+    <div class="card-body bg-light">
+        <div class="card-text">
+            Base Concepts' Entity-Relationship schema in WordNet.
+        </div>
+    </div>
+</div>
+
+<h2 id="features">Features</h2>
+
+<p>The following table shows the main statistical properties of Base Concepts and its alignment in KurdNet:</p>
+
+<table align="center" class="table table-bordered table-hover table-condensed">
+  <tr>
+    <th></th>
+    <th>Base Concepts</th>
+    <th>KurdNet (Max)</th>
+    <th>KurdNet (Min)</th>
+  </tr>
+  <tr>
+    <td>Synset No.</td>
+    <td>4689</td>
+    <td>3801</td>
+    <td>2145</td>
+  </tr>
+  <tr>
+    <td>Literal No.</td>
+    <td>11171</td>
+    <td>17990</td>
+    <td>6248</td>
+  </tr>
+  <tr>
+    <td>Usage No.</td>
+    <td>2645</td>
+    <td>89950</td>
+    <td>31240</td>
+  </tr>
+</table>
+
+<h2 id="get-kurdnet">Get KurdNet</h2>
+
+<p>Download KurdNet at [https://github.com/klpp/kurdnet][https://github.com/klpp/kurdnet].</p>
+
+<p>If you use this resource, please cite our <a href="https://www.aclweb.org/anthology/W14-0101">publication</a>:</p>
+
+<figure class="highlight"><pre><code class="language-plaintext" data-lang="plaintext">  @inproceedings{W14-0101,
+      title = "Towards Building KurdNet, the Kurdish WordNet",
+      author = "Aliabadi, Purya  and
+        Ahmadi, Sina  and
+        Salavati, Shahin  and
+        Esmaili, Kyumars Sheykh",
+      booktitle = "Proceedings of the Seventh Global Wordnet Conference",
+      year = "2014",
+      address = "Tartu, Estonia",
+      url = "https://www.aclweb.org/anthology/W14-0101",
+      pages = "1--6",
+  }</code></pre></figure>
+
+
+
+        </div>
+        <div class="col-md-12 d-lg-none bottom">
+            
+
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+/*!
+ * IE10 viewport hack for Surface/desktop Windows 8 bug
+ * Copyright 2014-2017 The Bootstrap Authors
+ * Copyright 2014-2017 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+// See the Getting Started docs for more information:
+// https://getbootstrap.com/getting-started/#support-ie10-width
+
+(function () {
+    'use strict'
+
+    if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+        var msViewportStyle = document.createElement('style')
+        msViewportStyle.appendChild(
+            document.createTextNode(
+                '@-ms-viewport{width:auto!important}'
+            )
+        )
+        document.head.appendChild(msViewportStyle)
+    }
+}())
+</script>
+
+
+
+</body>
+
+</html>

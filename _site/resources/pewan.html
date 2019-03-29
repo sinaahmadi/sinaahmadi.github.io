@@ -10,7 +10,7 @@
 
     <title>
         
-            Yet Another Project &middot; Sina Ahmadi's Personal Page
+            Pewan—a Kurdish corpus and test collection &middot; Sina Ahmadi's Personal Page
         
     </title>
 
@@ -56,6 +56,13 @@
                 </a>
             </li>
         
+            <li class="nav-item">
+                <a href='/list/resources.html'
+                   class="nav-link">
+                    Resources
+                </a>
+            </li>
+        
         </ul>
     </div>
 </nav>
@@ -74,32 +81,6 @@
 
 
 
-    <div class="sticky-top space-before">
-    <div class="card bg-light mb-3 space-before">
-        <div class="card-body">
-            <div class="card-title">
-                <h5>On This Page</h5>
-            </div>
-            <ul class="nav flex-column nav-pills header-list">
-            </ul>
-            <div class="d-flex align-items-center mt-2">
-                <span class="icon grey mr-1">
-                    <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-
-<svg version="1.1" id="Arrow_left" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve">
-<path d="M2.5,10L9,3.5V7h8v6H9v3.5L2.5,10z"/>
-</svg>
-
-                </span>
-                <a href="/list/projects.html">Back to all projects</a>
-            </div>
-        </div>
-    </div>
-</div>
-
-
 
 
 
@@ -108,7 +89,7 @@
 
         </div>
         <div class="col-md-12 col-lg-8 col-xl-8 pb-4 content">
-            <h1 class="border border-top-0 border-right-0 border-left-0 mb-3 pb-2">Yet Another Project</h1>
+            <h1 class="border border-top-0 border-right-0 border-left-0 mb-3 pb-2">Pewan—a Kurdish corpus and test collection</h1>
 
 <div class="d-md-block d-lg-none">
     <div class="sticky-top space-before">
@@ -130,7 +111,7 @@
 </svg>
 
                 </span>
-                <a href="/list/projects.html">Back to all projects</a>
+                <a href="/list/resources.html">Back to all resources</a>
             </div>
         </div>
     </div>
@@ -140,24 +121,67 @@
 
 <h2 id="about">About</h2>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p>Pewan is the first standard test collection to evaluate Sorani Information Retrieval systems. To build Pewan, we have carefully followed TREC’s standard test collection construction methodology. More specifically, we first collected a large volume of documents written in Sorani, and then used a powerful Desktop Search tool to compile a list of queries. Next, we leveraged three widely-used open-source information retrieval systems as well as our own implementation of two well-known retrieval models to create result pools for all queries. These pools were then manually assessed by our team members to generate the true list of relevant documents for each query.</p>
 
-<div class="card mb-3">
-    <img class="card-img-top" src="http://via.placeholder.com/900x250/20c997/ffffff?text=screenshot" />
+<div class="card mb-3 text-center">
+    <img class="rounded mx-auto d-block" src="http://localhost:4000/docs/images/Pewan.png" style="width:100%" align="middle" alt="Pewan Kurdish corpus" />
     <div class="card-body bg-light">
-        <div class="card-text">Screenshot of project.</div>
+        <div class="card-text">
+            Heaps’ Law for Sorani and Kurmanji Kurdish, Persian, and English (Kurdish data based on Pewan)
+        </div>
     </div>
 </div>
 
 <h2 id="features">Features</h2>
 
-<ul>
-  <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
-  <li>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</li>
-  <li>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi</li>
-  <li>Ut aliquip ex ea commodo consequat</li>
-  <li>Duis aute irure dolor in reprehenderit in voluptate.</li>
-</ul>
+<p>The Pewan text corpus contains Sorani and Kurmanji texts collected by crawling the content of news agencies. Overall, 115,340  Sorani  articles  and  25,572 Kurmanji  articles  were  collected. The articles are dated between 2003 and 2012 and their sizes range from 1KB to 154KB  (on  average  2.6KB).</p>
+
+<table align="center" class="table table-bordered table-hover table-condensed">
+  <tr>
+    <th></th>
+    <th>Sorani</th>
+    <th>Kurmanji</th>
+  </tr>
+  <tr>
+    <td>Articles No.</td>
+    <td>115340</td>
+    <td>25572</td>
+  </tr>
+  <tr>
+    <td>Words No.,(dist.)</td>
+    <td>501054</td>
+    <td>127272</td>
+  </tr>
+  <tr>
+    <td>Words No.,(all)</td>
+    <td>18110723</td>
+    <td>4120027</td>
+  </tr>
+</table>
+
+<h2 id="get-pewan">Get Pewan</h2>
+
+<p>Download Pewan at <a href="https://github.com/klpp/pewan/">https://github.com/klpp/pewan/</a>.</p>
+
+<p>If you use this resource, please cite the following publications:</p>
+
+<figure class="highlight"><pre><code class="language-plaintext" data-lang="plaintext">  @inproceedings{esmaili2013building,
+    title={Building a test collection for Sorani Kurdish},
+    author={Esmaili, Kyumars Sheykh and Eliassi, Donya and Salavati, Shahin and Aliabadi, Purya and Mohammadi, Asrin and Yosefi, Somayeh and Hakimi, Shownem},
+    booktitle={2013 ACS International Conference on Computer Systems and Applications (AICCSA)},
+    pages={1--7},
+    year={2013},
+    organization={IEEE}
+  }
+
+  @inproceedings{esmaili2013sorani,
+  title={Sorani Kurdish versus Kurmanji Kurdish: An empirical comparison},
+  author={Esmaili, Kyumars Sheykh and Salavati, Shahin},
+  booktitle={Proceedings of the 51st Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)},
+  volume={2},
+  pages={300--305},
+  year={2013}
+}</code></pre></figure>
 
 
 

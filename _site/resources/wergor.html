@@ -10,7 +10,7 @@
 
     <title>
         
-            Work Portfolio &middot; Sina Ahmadi's Personal Page
+            Wergor transliteration corpus &middot; Sina Ahmadi's Personal Page
         
     </title>
 
@@ -79,38 +79,6 @@
 
 
 
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="sticky-top space-before">
-    <div class="card bg-light">
-        <div class="card-body p-2">
-            <div class="card-title">
-                <h5>Filter by Skill</h5>
-            </div>
-            
-        </div>
-    </div>
-</div>
-
 
 
 
@@ -121,101 +89,58 @@
 
         </div>
         <div class="col-md-12 col-lg-8 col-xl-8 pb-4 content">
-            <h5 class="list-title border border-left-0 border-right-0 py-2">
-    Work Portfolio
-</h5>
+            <h1 class="border border-top-0 border-right-0 border-left-0 mb-3 pb-2">Wergor transliteration corpus</h1>
 
-<div class="d-md-block d-lg-none mb-3">
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="sticky-top space-before">
-    <div class="card bg-light">
-        <div class="card-body p-2">
+<div class="d-md-block d-lg-none">
+    <div class="sticky-top space-before">
+    <div class="card bg-light mb-3 space-before">
+        <div class="card-body">
             <div class="card-title">
-                <h5>Filter by Skill</h5>
+                <h5>On This Page</h5>
             </div>
-            
+            <ul class="nav flex-column nav-pills header-list">
+            </ul>
+            <div class="d-flex align-items-center mt-2">
+                <span class="icon grey mr-1">
+                    <?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg version="1.1" id="Arrow_left" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve">
+<path d="M2.5,10L9,3.5V7h8v6H9v3.5L2.5,10z"/>
+</svg>
+
+                </span>
+                <a href="/list/resources.html">Back to all resources</a>
+            </div>
         </div>
     </div>
 </div>
+
 </div>
 
-<div id="currently-showing">
-    <h2 class="d-flex align-items-center mb-3">
-        <span class="text-secondary mr-2">Showing everything matching:</span>
-        <span class="border rounded p-2 mr-2 bg-light text-secondary" id="active-skill"></span>
-        <a class="btn btn-primary btn-small" href="javascript:void(0)" onclick="clearSkills()">clear</a>
-    </h4>
-</div>
+<h2 id="about">About</h2>
 
+<p><a href="https://github.com/sinaahmadi/wergor">Wergor</a> is a transliteration system for Sorani Kurdish Latin-based and Arabic-based orthographies. In this first version, we have used a rule-based method. It is the result of a research project published in the ACM Transactions on Asian and Low-Resource Language Information Processing (TALLIP) and can be downloaded here: <a href="https://dl.acm.org/citation.cfm?id=3278623">https://dl.acm.org/citation.cfm?id=3278623</a>.</p>
 
+<p>Wergor comes with a transliteration corpus which includes 20k manually transliterated Sorani Kurdish words in the Arabic-based and the Latin-based orthographies.</p>
 
+<h2 id="get-wergor">Get Wergor</h2>
 
+<p>Wergor transliterator and corpus can be downloaded at <a href="https://github.com/sinaahmadi/wergor">https://github.com/sinaahmadi/wergor</a>.</p>
 
-<script type="text/javascript">
+<p>Please cite the following paper if you are using Wergor:</p>
 
-    var parseHash = function() {
-        if (document.location.hash.length > 0) {
-            var skill = document.location.hash.slice(1)
-            var name = $(".skill-" + skill).first().text()
-            showPortfolioBySkill(skill, name)
-        }
-        else {
-            clearSkills()
-        }
-    }
-
-    $(document).ready(parseHash)
-
-    $(window).on('hashchange', parseHash)
-
-    var showPortfolioBySkill = function(skill, name) {
-        $("#currently-showing").show()
-        $(".card-portfolio").hide()
-        $(".skill").removeClass("bg-warning")
-            .addClass("bg-white")
-            .removeClass("text-dark")
-        $(".card-portfolio").each(function(idx, card) {
-            var matches = $(card).find(".skill-" + skill)
-            if (matches.length > 0) $(card).show()
-        })
-        $(".skill-" + skill).removeClass("bg-white")
-            .addClass("bg-warning")
-            .addClass("text-dark")
-            .blur()
-        $("#active-skill").html(name)
-    }
-
-    var clearSkills = function() {
-        $("#currently-showing").hide()
-        $(".card-portfolio").show()
-        $(".skill").removeClass("bg-warning")
-            .addClass("bg-white")
-            .removeClass("text-dark")
-        document.location.hash = ""
-    }
-
-</script>
-
+<figure class="highlight"><pre><code class="language-plaintext" data-lang="plaintext">    @article{ahmadi2019rule,
+      title={A Rule-Based Kurdish Text Transliteration System},
+      author={Ahmadi, Sina},
+      journal={ACM Transactions on Asian and Low-Resource Language Information Processing (TALLIP)},
+      volume={18},
+      number={2},
+      pages={18},
+      year={2019},
+      publisher={ACM}
+    }</code></pre></figure>
 
 
 
