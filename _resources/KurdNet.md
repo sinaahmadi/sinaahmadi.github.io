@@ -9,7 +9,7 @@ KurdNet is the the Kurdish WordNet. WordNet has been used in numerous natural la
 At a high level, our approach is semi-automatic and centred around building a Kurdish alignment for Base Concepts, which is a core subset of major meanings in WordNet. More specifically, we use a bilingual dictionary and simple set theory  operations to translate and align synsets and use a corpus to extract usage examples.  The effectiveness of our prototype database is evaluated via measuring its impact on a Kurdish information retrieval task.
 
 <div class="card mb-3 text-center">
-    <img class="rounded mx-auto d-block" src="{{ site.url }}/docs/images/WordNet_schema.png" style="width:100%" align="middle" alt="WordNet schema for KurdNet"/>
+    <img class="rounded mx-auto d-block" src="{{ site.url }}/docs/images/WordNet_Schema.png" style="width:100%" align="middle" alt="WordNet schema for KurdNet"/>
     <div class="card-body bg-light">
         <div class="card-text">
             Base Concepts' Entity-Relationship schema in WordNet.
