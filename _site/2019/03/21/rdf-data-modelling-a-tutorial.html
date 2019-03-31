@@ -249,7 +249,7 @@
 
 <h2 id="what-is-rdf">What is RDF?</h2>
 
-<p>RDF stands for <strong>R</strong>esource <strong>D</strong>escription <strong>F</strong>ramework which is a framework for describing resources on the web. It was initially designed to represent metadata on the Web. However, nowadays RDF is the foundational data model for <a href="https://www.w3.org/standards/semanticweb/">Semantic Web</a>. In addition, RDF along with other technologies such as SPARQL, OWL, and SKOS empower <a href="https://www.w3.org/standards/semanticweb/data">Linked Data</a>. In other words, RDF is fun, easier than relational databases and efficient to use.</p>
+<p>RDF stands for <strong>R</strong>esource <strong>D</strong>escription <strong>F</strong>ramework which is a framework for describing resources on the web. It was initially designed to represent metadata on the Web. However, nowadays RDF is the foundational data model for <a href="https://www.w3.org/standards/semanticweb/" target="_blank">Semantic Web</a>. In addition, RDF along with other technologies such as SPARQL, OWL, and SKOS empower <a href="https://www.w3.org/standards/semanticweb/data" target="_blank">Linked Data</a>. In other words, RDF is fun, easier than relational databases and efficient to use.</p>
 
 <p>RDF expressions are in the form of <code class="highlighter-rouge">subject predicate object</code>, known as triples. Unlike <strong>traditional databases</strong> where data has to adhere to a fixed schema, there is no prescribed schema for RDF documents. This is the reason that RDF is called <strong>semi-structured</strong>. On the other hand, an RDF document includes schema information and can be described without additional information. Therefore, RDF data model is self-describing too. The following shows two triples about the capital of France and the population of Paris:</p>
 
@@ -264,29 +264,29 @@
     <img class="rounded mx-auto d-block" src="http://localhost:4000/docs/images/place_ontology.png" style="width:50%" align="middle" alt="A simple ontology for Place, including France, Ile-de-France and Paris" />
     <div class="card-body bg-light">
         <div class="card-text">
-            A simple ontology for Place, including France, Ile-de-France and Paris. 
+            A simple ontology for Place, including France, Ile-de-France and Paris.
         </div>
     </div>
 </div>
 
-<p>Now that we know how things are described based on ontologies, we can look on the web to find the identifiers which are attributed to each class and individual. For our example, let’s take a look at <a href="https://wiki.dbpedia.org/">DBpedia</a>. DBpedia is an amazing platform which provides linked data features for the content of <a href="https://www.wikipedia.org/">Wikipedia</a>. In other words, it is a tool to semantically query whatever exists on Wikipedia. For instance, <code class="highlighter-rouge">http://dbpedia.org/resource/France</code> and  <code class="highlighter-rouge">http://dbpedia.org/resource/Paris</code> are the identifiers for <a href="http://dbpedia.org/resource/France">France</a> and <a href="http://dbpedia.org/resource/Paris">Paris</a> respectively. You get something like the following for Paris as the capital of France:</p>
+<p>Now that we know how things are described based on ontologies, we can look on the web to find the identifiers which are attributed to each class and individual. For our example, let’s take a look at <a href="https://wiki.dbpedia.org/" target="_blank">DBpedia</a>. DBpedia is an amazing platform which provides linked data features for the content of <a href="https://www.wikipedia.org/" target="_blank">Wikipedia</a>. In other words, it is a tool to semantically query whatever exists on Wikipedia. For instance, <code class="highlighter-rouge">http://dbpedia.org/resource/France</code> and  <code class="highlighter-rouge">http://dbpedia.org/resource/Paris</code> are the identifiers for <a href="http://dbpedia.org/resource/France" target="_blank">France</a> and <a href="http://dbpedia.org/resource/Paris" target="_blank">Paris</a> respectively. You get something like the following for Paris as the capital of France:</p>
 
 <div class="card mb-3 text-center">
     <img class="rounded mx-auto d-block" src="http://localhost:4000/docs/images/paris_dbpedia.png" style="width:100%" align="middle" alt="Paris as the capital of France in DBpedia" />
     <div class="card-body bg-light">
         <div class="card-text">
-            Paris as the capital of France in DBpedia. 
+            Paris as the capital of France in DBpedia.
         </div>
     </div>
 </div>
 
 <h3 id="rdf-in-practice">RDF in practice</h3>
 
-<p>There are various ways to represent RDF data, namely <a href="https://www.w3.org/TR/2004/NOTE-owl-parsing-20040121/">RDF/XML</a>, <a href="https://www.w3.org/TR/rdfa-lite/">RDFa</a>, <a href="https://www.w3.org/TR/2018/WD-json-ld11-20181214/">JSON-LD</a>, <a href="https://www.w3.org/TR/n-triples/">N-Triples</a> and <a href="https://www.w3.org/TR/turtle/">Turtle</a>, among which we will focus on the two latter ones in this tutorial.</p>
+<p>There are various ways to represent RDF data, namely <a href="https://www.w3.org/TR/2004/NOTE-owl-parsing-20040121/" target="_blank">RDF/XML</a>, <a href="https://www.w3.org/TR/rdfa-lite/" target="_blank">RDFa</a>, <a href="https://www.w3.org/TR/2018/WD-json-ld11-20181214/" target="_blank">JSON-LD</a>, <a href="https://www.w3.org/TR/n-triples/" target="_blank">N-Triples</a> and <a href="https://www.w3.org/TR/turtle/" target="_blank">Turtle</a>, among which we will focus on the two latter ones in this tutorial.</p>
 
 <h4 id="n-triples">N-Triples</h4>
 
-<p>N-Triples is a line-based and a concrete syntax for RDF. N-Triples are a sequence of RDF terms in the form of <code class="highlighter-rouge">subject predicate object</code>, separated by white space and terminated by a ‘.’. The following shows the abovementionend example in N-Triples:</p>
+<p>N-Triples is a line-based and a concrete syntax for RDF. N-Triples are a sequence of RDF terms in the form of <code class="highlighter-rouge">subject predicate object</code>, separated by white space and terminated by a ‘.’. The following shows the aforementioned example in N-Triples:</p>
 
 <figure class="highlight"><pre><code class="language-plaintext" data-lang="plaintext">&lt;http://dbpedia.org/resource/France&gt; &lt;http://dbpedia.org/ontology/capital&gt; &lt;http://dbpedia.org/resource/Paris&gt; .
 &lt;http://dbpedia.org/resource/Paris&gt; &lt;http://dbpedia.org/ontology/populationTotal&gt; "2229621"^^xsd:integer .</code></pre></figure>
@@ -332,7 +332,7 @@ dbr:Paris dbo:populationTotal "2229621"^^xsd:integer .</code></pre></figure>
 <ul>
   <li><strong>Class hierarchy</strong>: a class can be a sub-class of a parent class. For instance, <code class="highlighter-rouge">Bird</code> can be defined as a class which is the sub-class of the class <code class="highlighter-rouge">Animal</code>.</li>
   <li><strong>Property hierarchy</strong>: a property can be a sub-property of another property. Think of a property called <code class="highlighter-rouge">Moves</code>. <code class="highlighter-rouge">MoviesByCar</code> and <code class="highlighter-rouge">MovesByTrain</code> can be  defined as the sub-properties of <code class="highlighter-rouge">Moves</code> as they are the same functionality with a specificity.</li>
-  <li><strong>Domain</strong> and <strong>Range</strong> of properties: Think of a <code class="highlighter-rouge">property</code> as a function. A function has a domain and a range. The domain is where the function (or here the property) gets as input (i.e. domain) and produced the output (i.e. range).</li>
+  <li><strong>Domain</strong> and <strong>Range</strong> of properties: Think of a <code class="highlighter-rouge">property</code> as a function. A function has a domain and a range. The domain is what the function (or here the property) gets as input, and the range is what the function (or here the property) produces an output.</li>
 </ul>
 
 <h3 id="example-student-management-system-data-model">Example: Student management system data model</h3>
@@ -345,7 +345,7 @@ dbr:Paris dbo:populationTotal "2229621"^^xsd:integer .</code></pre></figure>
 
 <div class="ml-3">
 <p class="text-muted">
-- A student management system helps to organise information about Students. 
+- A student management system helps to organise information about Students.
 - Each Student is a Person.
 - A programme is a class that the Student enrols in. Each programme is composed of various modules.
 - There are different levels of degree.
@@ -513,7 +513,7 @@ stu prop:StartedStudyingOn “Starting Date” .
 prog prop:hasProgrammeName    “Programme Name” .
 prog prop:hasProgrammeID    “Programme ID” .
 prog prop:isPartOf    uni:Faculty  .
- 
+
 prog:Module subclass prog .
 prog:Module prop:hasModuleID “Module ID” .
 prog:Module prop:hasNameID “Module Name” .
@@ -522,12 +522,12 @@ prog:Module prop:hasEnrollmentDate    “Enrollment Date” .
 prog:Module prop:takesPlaceIn    univ:Faculty  .
 
 prop:Exam prop:hasNameExam “Exam Name” .
- 
+
 univ: prop:hasUniversityName “University Name” .
 univ: prop:isLocatedIn Place .
- 
+
 uni:Faculty subclass:  univ  .
- 
+
 deg:BSc subclass  deg:  .
 deg:MSc subclass  deg:  .
 deg:PhD subclass  deg: .

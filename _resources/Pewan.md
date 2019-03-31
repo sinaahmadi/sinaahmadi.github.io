@@ -45,7 +45,7 @@ The Pewan text corpus contains Sorani and Kurmanji texts collected by crawling t
 
 ## Get Pewan
 
-Download Pewan at [https://github.com/klpp/pewan/](https://github.com/klpp/pewan/).
+Download Pewan at [https://github.com/klpp/pewan/](https://github.com/klpp/pewan/){:target="_blank"}.
 
 If you use this resource, please cite the following publications:
 

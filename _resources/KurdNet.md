@@ -6,7 +6,7 @@ title: KurdNet—the Kurdish WordNet
 
 KurdNet is the the Kurdish WordNet. WordNet has been used in numerous natural language processing tasks such as word sense  disambiguation and information extraction with considerable success. Motivated by this success, many projects have been under taken to build similar lexical databases for other languages.
 
-At a high level, our approach is semi-automatic and centred around building a Kurdish alignment for Base Concepts, which is a core subset of major meanings in WordNet. More specifically, we use a bilingual dictionary and simple set theory  operations to translate and align synsets and use a corpus to extract usage examples.  The effectiveness of our prototype database is evaluated via measuring its impact on a Kurdish information retrieval task.
+At a high level, our approach is semi-automatic and centred around building a Kurdish alignment for Base Concepts, which is a core subset of major meanings in WordNet. More specifically, we use a bilingual dictionary and simple set theory  operations to translate and align synsets and use a corpus to extract usage examples. The effectiveness of our prototype database is evaluated via measuring its impact on a Kurdish information retrieval task.
 
 <div class="card mb-3 text-center">
     <img class="rounded mx-auto d-block" src="{{ site.url }}/docs/images/wordnet_schema.png" style="width:100%" align="middle" alt="WordNet schema for KurdNet"/>
@@ -50,9 +50,9 @@ The following table shows the main statistical properties of Base Concepts and i
 
 ## Get KurdNet
 
-Download KurdNet at [https://github.com/klpp/kurdnet](https://github.com/klpp/kurdnet).
+Download KurdNet at [https://github.com/klpp/kurdnet](https://github.com/klpp/kurdnet){:target="_blank"}.
 
-If you use this resource, please cite our [publication](https://www.aclweb.org/anthology/W14-0101):
+If you use this resource, please cite our [publication](https://www.aclweb.org/anthology/W14-0101){:target="_blank"}:
 
 {% highlight plaintext %}
   @inproceedings{W14-0101,
