@@ -1,0 +1,758 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-03-31T20:47:37+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Sina Ahmadi’s Personal Page</title><subtitle>Sina Ahmadi's Personal Page</subtitle><author><name>Sina Ahmadi</name></author><entry><title type="html">Data modelling with RDF: a tutorial</title><link href="http://localhost:4000/2019/03/21/rdf-data-modelling-a-tutorial.html" rel="alternate" type="text/html" title="Data modelling with RDF: a tutorial" /><published>2019-03-21T00:00:00+00:00</published><updated>2019-03-21T00:00:00+00:00</updated><id>http://localhost:4000/2019/03/21/rdf-data-modelling-a-tutorial</id><content type="html" xml:base="http://localhost:4000/2019/03/21/rdf-data-modelling-a-tutorial.html">&lt;h2 id=&quot;what-is-rdf&quot;&gt;What is RDF?&lt;/h2&gt;
+
+&lt;p&gt;RDF stands for &lt;strong&gt;R&lt;/strong&gt;esource &lt;strong&gt;D&lt;/strong&gt;escription &lt;strong&gt;F&lt;/strong&gt;ramework which is a framework for describing resources on the web. It was initially designed to represent metadata on the Web. However, nowadays RDF is the foundational data model for &lt;a href=&quot;https://www.w3.org/standards/semanticweb/&quot;&gt;Semantic Web&lt;/a&gt;. In addition, RDF along with other technologies such as SPARQL, OWL, and SKOS empower &lt;a href=&quot;https://www.w3.org/standards/semanticweb/data&quot;&gt;Linked Data&lt;/a&gt;. In other words, RDF is fun, easier than relational databases and efficient to use.&lt;/p&gt;
+
+&lt;p&gt;RDF expressions are in the form of &lt;code class=&quot;highlighter-rouge&quot;&gt;subject predicate object&lt;/code&gt;, known as triples. Unlike &lt;strong&gt;traditional databases&lt;/strong&gt; where data has to adhere to a fixed schema, there is no prescribed schema for RDF documents. This is the reason that RDF is called &lt;strong&gt;semi-structured&lt;/strong&gt;. On the other hand, an RDF document includes schema information and can be described without additional information. Therefore, RDF data model is self-describing too. The following shows two triples about the capital of France and the population of Paris:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-plaintext&quot; data-lang=&quot;plaintext&quot;&gt;	(France, capital, Paris)
+	(Paris, population, 2141000)&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;However, technically everything has a specific identifier in RDF. The identifier may be URL (Uniform Resource Location), URI (Uniform Resource Identifier (RDF 1.0)) or IRI (Internationalised Resource Identifier (RDF 1.1)). It is also possible to use literals (&lt;code class=&quot;highlighter-rouge&quot;&gt;L&lt;/code&gt;) and, blank nodes (&lt;code class=&quot;highlighter-rouge&quot;&gt;B&lt;/code&gt;) when we don’t want to name something. There are restrictions where to use each type of identifiers. The subject can be a URI, URL, IRI or blank node, the predicate is always URL, URI or IRI and the object can be any of the previous mentioned identifiers, i.e. URI, URL, IRI, blank node or literal. So, the correct way of writing the previous example would be the one that respects the restrictions over &lt;code class=&quot;highlighter-rouge&quot;&gt;France&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;Paris&lt;/code&gt; as subjects, &lt;code class=&quot;highlighter-rouge&quot;&gt;capital&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;population&lt;/code&gt; as predicates and &lt;code class=&quot;highlighter-rouge&quot;&gt;Paris&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;2141000 &lt;/code&gt; as objects. Although URL, URI and IRI have the same functionality in RDF, we keep mentioning URI in this tutorial for being concise.&lt;/p&gt;
+
+&lt;p&gt;Now, let’s define URI identifiers for &lt;code class=&quot;highlighter-rouge&quot;&gt;France&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;Paris&lt;/code&gt;. Don’t you think there were some other people before us who may have attributed an identifier to those famous &lt;em&gt;things&lt;/em&gt;? I say &lt;code class=&quot;highlighter-rouge&quot;&gt;thing&lt;/code&gt;, because once we have not described something, we have no other name to call it but a &lt;code class=&quot;highlighter-rouge&quot;&gt;thing&lt;/code&gt;. Once we identify the nature of that &lt;code class=&quot;highlighter-rouge&quot;&gt;thing&lt;/code&gt;, then we can name it differently. This is how human language works and words are created. Philosophically, such a description is called an &lt;strong&gt;ontology&lt;/strong&gt;. Definitely, there have been some people who thought about an ontology as a &lt;em&gt;Place&lt;/em&gt; and its characteristics. In the same way, &lt;code class=&quot;highlighter-rouge&quot;&gt;Paris&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;France&lt;/code&gt; are defined based on such ontologies and have unique identifiers. The following schema shows a very simple ontology for our scenario where a &lt;code class=&quot;highlighter-rouge&quot;&gt;Place&lt;/code&gt; is defined as a class derived from &lt;code class=&quot;highlighter-rouge&quot;&gt;Thing&lt;/code&gt;, then &lt;code class=&quot;highlighter-rouge&quot;&gt;Country&lt;/code&gt; comes as a sub-class of &lt;code class=&quot;highlighter-rouge&quot;&gt;Place&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;County&lt;/code&gt; as a sub-class of &lt;code class=&quot;highlighter-rouge&quot;&gt;Country&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;City&lt;/code&gt; as a sub-class of &lt;code class=&quot;highlighter-rouge&quot;&gt;County&lt;/code&gt;. The schema also shows our individuals as &lt;code class=&quot;highlighter-rouge&quot;&gt;France&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;Ile-de-France&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;Paris&lt;/code&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;card mb-3 text-center&quot;&gt;
+    &lt;img class=&quot;rounded mx-auto d-block&quot; src=&quot;http://localhost:4000/docs/images/place_ontology.png&quot; style=&quot;width:50%&quot; align=&quot;middle&quot; alt=&quot;A simple ontology for Place, including France, Ile-de-France and Paris&quot; /&gt;
+    &lt;div class=&quot;card-body bg-light&quot;&gt;
+        &lt;div class=&quot;card-text&quot;&gt;
+            A simple ontology for Place, including France, Ile-de-France and Paris. 
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Now that we know how things are described based on ontologies, we can look on the web to find the identifiers which are attributed to each class and individual. For our example, let’s take a look at &lt;a href=&quot;https://wiki.dbpedia.org/&quot;&gt;DBpedia&lt;/a&gt;. DBpedia is an amazing platform which provides linked data features for the content of &lt;a href=&quot;https://www.wikipedia.org/&quot;&gt;Wikipedia&lt;/a&gt;. In other words, it is a tool to semantically query whatever exists on Wikipedia. For instance, &lt;code class=&quot;highlighter-rouge&quot;&gt;http://dbpedia.org/resource/France&lt;/code&gt; and  &lt;code class=&quot;highlighter-rouge&quot;&gt;http://dbpedia.org/resource/Paris&lt;/code&gt; are the identifiers for &lt;a href=&quot;http://dbpedia.org/resource/France&quot;&gt;France&lt;/a&gt; and &lt;a href=&quot;http://dbpedia.org/resource/Paris&quot;&gt;Paris&lt;/a&gt; respectively. You get something like the following for Paris as the capital of France:&lt;/p&gt;
+
+&lt;div class=&quot;card mb-3 text-center&quot;&gt;
+    &lt;img class=&quot;rounded mx-auto d-block&quot; src=&quot;http://localhost:4000/docs/images/paris_dbpedia.png&quot; style=&quot;width:100%&quot; align=&quot;middle&quot; alt=&quot;Paris as the capital of France in DBpedia&quot; /&gt;
+    &lt;div class=&quot;card-body bg-light&quot;&gt;
+        &lt;div class=&quot;card-text&quot;&gt;
+            Paris as the capital of France in DBpedia. 
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;rdf-in-practice&quot;&gt;RDF in practice&lt;/h3&gt;
+
+&lt;p&gt;There are various ways to represent RDF data, namely &lt;a href=&quot;https://www.w3.org/TR/2004/NOTE-owl-parsing-20040121/&quot;&gt;RDF/XML&lt;/a&gt;, &lt;a href=&quot;https://www.w3.org/TR/rdfa-lite/&quot;&gt;RDFa&lt;/a&gt;, &lt;a href=&quot;https://www.w3.org/TR/2018/WD-json-ld11-20181214/&quot;&gt;JSON-LD&lt;/a&gt;, &lt;a href=&quot;https://www.w3.org/TR/n-triples/&quot;&gt;N-Triples&lt;/a&gt; and &lt;a href=&quot;https://www.w3.org/TR/turtle/&quot;&gt;Turtle&lt;/a&gt;, among which we will focus on the two latter ones in this tutorial.&lt;/p&gt;
+
+&lt;h4 id=&quot;n-triples&quot;&gt;N-Triples&lt;/h4&gt;
+
+&lt;p&gt;N-Triples is a line-based and a concrete syntax for RDF. N-Triples are a sequence of RDF terms in the form of &lt;code class=&quot;highlighter-rouge&quot;&gt;subject predicate object&lt;/code&gt;, separated by white space and terminated by a ‘.’. The following shows the abovementionend example in N-Triples:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-plaintext&quot; data-lang=&quot;plaintext&quot;&gt;&amp;lt;http://dbpedia.org/resource/France&amp;gt; &amp;lt;http://dbpedia.org/ontology/capital&amp;gt; &amp;lt;http://dbpedia.org/resource/Paris&amp;gt; .
+&amp;lt;http://dbpedia.org/resource/Paris&amp;gt; &amp;lt;http://dbpedia.org/ontology/populationTotal&amp;gt; &quot;2229621&quot;^^xsd:integer .&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;As you see, we used URI for all the subjects, predicates and objects, but for the population which is a literal. In this case, we determined the type of the literal as an integer using &lt;code class=&quot;highlighter-rouge&quot;&gt;xsd:integer&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;The followings are a few other data types in XSD which are also supported in RDF:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;xsd:boolean&lt;/li&gt;
+  &lt;li&gt;xsd:byte&lt;/li&gt;
+  &lt;li&gt;xsd:date&lt;/li&gt;
+  &lt;li&gt;xsd:decimal&lt;/li&gt;
+  &lt;li&gt;xsd:double&lt;/li&gt;
+  &lt;li&gt;xsd:integer&lt;/li&gt;
+  &lt;li&gt;xsd:string&lt;/li&gt;
+  &lt;li&gt;xsd:language&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Note that the default value of literals is &lt;code class=&quot;highlighter-rouge&quot;&gt;String&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h4 id=&quot;turtle&quot;&gt;Turtle&lt;/h4&gt;
+
+&lt;p&gt;An easier way for representing RDF data is Turtle. Turtle is a more convenient version of N-Triples where we can:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;define prefixes so that we use shorter triples.&lt;/li&gt;
+  &lt;li&gt;avoid repeating subjects by using ‘;’ between two triples.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The following shows our examples in Turtle:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-plaintext&quot; data-lang=&quot;plaintext&quot;&gt;@prefix dbr: &amp;lt;http://dbpedia.org/resource/&amp;gt;
+@prefix dbo: &amp;lt;http://dbpedia.org/ontology/&amp;gt;
+
+dbr:France dbo:capital dbr:Paris .
+dbr:Paris dbo:populationTotal &quot;2229621&quot;^^xsd:integer .&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;data-modelling&quot;&gt;Data modelling&lt;/h2&gt;
+
+&lt;p&gt;Hopefully, you are now familiar with the basics of RDF and how to represent them. In this section, we would like to create a data model. All you need to know is the following 4 principals:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Class hierarchy&lt;/strong&gt;: a class can be a sub-class of a parent class. For instance, &lt;code class=&quot;highlighter-rouge&quot;&gt;Bird&lt;/code&gt; can be defined as a class which is the sub-class of the class &lt;code class=&quot;highlighter-rouge&quot;&gt;Animal&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Property hierarchy&lt;/strong&gt;: a property can be a sub-property of another property. Think of a property called &lt;code class=&quot;highlighter-rouge&quot;&gt;Moves&lt;/code&gt;. &lt;code class=&quot;highlighter-rouge&quot;&gt;MoviesByCar&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;MovesByTrain&lt;/code&gt; can be  defined as the sub-properties of &lt;code class=&quot;highlighter-rouge&quot;&gt;Moves&lt;/code&gt; as they are the same functionality with a specificity.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Domain&lt;/strong&gt; and &lt;strong&gt;Range&lt;/strong&gt; of properties: Think of a &lt;code class=&quot;highlighter-rouge&quot;&gt;property&lt;/code&gt; as a function. A function has a domain and a range. The domain is where the function (or here the property) gets as input (i.e. domain) and produced the output (i.e. range).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;example-student-management-system-data-model&quot;&gt;Example: Student management system data model&lt;/h3&gt;
+
+&lt;p&gt;Consider a scenario of designing a linked data application for a university student management system. Design a data model (ontology) to represent the information related to the students, study programs, modules and students’ grades in the exams.&lt;/p&gt;
+
+&lt;h4 id=&quot;step-1-identify-the-components-of-your-ontology&quot;&gt;Step 1: Identify the components of your ontology&lt;/h4&gt;
+
+&lt;p&gt;A strategy to identify classes, sub-classes, properties and sub-properties is to initially describe your ontology in plain English. Something like the following:&lt;/p&gt;
+
+&lt;div class=&quot;ml-3&quot;&gt;
+&lt;p class=&quot;text-muted&quot;&gt;
+- A student management system helps to organise information about Students. 
+- Each Student is a Person.
+- A programme is a class that the Student enrols in. Each programme is composed of various modules.
+- There are different levels of degree.
+- There are a hierarchy of classes belonging to Place.
+- A Student can take an Exam.
+- A University has various Faculties.
+&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Now, it is easier to detect classes and properties as the following:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Classes and sub-classes&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Person
+    &lt;ul&gt;
+      &lt;li&gt;Student&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Programme
+    &lt;ul&gt;
+      &lt;li&gt;Module&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Degree
+    &lt;ul&gt;
+      &lt;li&gt;B.Sc.&lt;/li&gt;
+      &lt;li&gt;M.Sc.&lt;/li&gt;
+      &lt;li&gt;Ph.D.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Place
+    &lt;ul&gt;
+      &lt;li&gt;Country
+        &lt;ul&gt;
+          &lt;li&gt;County
+            &lt;ul&gt;
+              &lt;li&gt;City&lt;/li&gt;
+            &lt;/ul&gt;
+          &lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;University
+    &lt;ul&gt;
+      &lt;li&gt;Faculty&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Exam&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Properties and sub-properties&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;AttendsIn&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;EnrolledIn&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;hasStudentID&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;hasModuleID&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;hasProgrammeID&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;TakesExam&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;RegisteredIn&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;hasDegree&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;hasName&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;livesIn&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;wasBornIn&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;wasBornOn&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;isLocatedIn&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;takesPlaceIn&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;hasEnrollementDate&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;startedStudyingIn&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;hasGrade&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;hasModuleID&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;hasProgrammeID&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;hasUniName&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;hasModuleName&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;hasProgrammeName&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;isPartOf&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;“hasDate” could be a sub-property of “EnrolledIn”, “Attends”, “TakesExam” and “RegisteredIn”. However, in the current data model I have not used any sub-property.&lt;/p&gt;
+
+&lt;h4 id=&quot;step-2-draw-a-graphical-representation-of-your-information-model&quot;&gt;Step 2: Draw a graphical representation of your information model.&lt;/h4&gt;
+
+&lt;div class=&quot;card mb-3 text-center&quot;&gt;
+    &lt;img class=&quot;rounded mx-auto d-block&quot; src=&quot;http://localhost:4000/docs/images/webnetwork_1.jpeg&quot; style=&quot;width:100%&quot; align=&quot;middle&quot; alt=&quot;Student management system data model schema&quot; /&gt;
+    &lt;div class=&quot;card-body bg-light&quot;&gt;
+        &lt;div class=&quot;card-text&quot;&gt;
+            Schema of a data model for student management system (&lt;i&gt;classes&lt;/i&gt; are highlighted in yellow and &lt;i&gt;properties&lt;/i&gt; in green).
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Your ontology is not exactly identical with this one? Well, this is normal as more than one way may exist to create an ontology with the same functionality. So, yours may also be a valid ontology but different from the above one.&lt;/p&gt;
+
+&lt;h4 id=&quot;step-3-model-the-above-information-into-rdf-data-model&quot;&gt;Step 3: Model the above information into RDF data model&lt;/h4&gt;
+
+&lt;p&gt;Let’s represent our ontology in RDF now. We will try N-Triples and Turtle formats. Usually to save time not to look for the identifiers of the classes on the web, “http://www.example.org” is used to define a URI. For instance, we can create &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;http://www.example.org/hasName&amp;gt;&lt;/code&gt; as the URI of &lt;code class=&quot;highlighter-rouge&quot;&gt;hasName&lt;/code&gt; property.&lt;/p&gt;
+
+&lt;h5 id=&quot;n-triples-1&quot;&gt;N-Triples&lt;/h5&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-plaintext&quot; data-lang=&quot;plaintext&quot;&gt;&amp;lt;http://xmlns.com/foaf/0.1/Person&amp;gt; &amp;lt;http://www.example.org/hasName&amp;gt;    “Person name” .
+&amp;lt;http://xmlns.com/foaf/0.1/Person&amp;gt; &amp;lt;http://www.example.org/LivesIn&amp;gt;     &amp;lt;http://www.example.org/Place&amp;gt;  .
+&amp;lt;http://xmlns.com/foaf/0.1/Person&amp;gt; &amp;lt;http://www.example.org/WasBornIn&amp;gt; &amp;lt;http://www.example.org/Place&amp;gt;  .
+
+&amp;lt;http://xmlns.com/foaf/0.1/Person/Student&amp;gt; &amp;lt;http://www.w3.org/2000/01/rdf-schema#SubClass&amp;gt; &amp;lt;http://xmlns.com/foaf/0.1/Person&amp;gt; .
+&amp;lt;http://xmlns.com/foaf/0.1/Person/Student&amp;gt; &amp;lt;http://www.example.org/EnrolledIn&amp;gt;    &amp;lt;http://www.example.org/Programme&amp;gt; .
+&amp;lt;http://xmlns.com/foaf/0.1/Person/Student&amp;gt; &amp;lt;http://www.example.org/AttendsIn&amp;gt;    &amp;lt;http://www.example.org/Module&amp;gt; .
+&amp;lt;http://xmlns.com/foaf/0.1/Person/Student&amp;gt; &amp;lt;http://www.example.org/TakesExam&amp;gt;    &amp;lt;http://www.example.org/Exam&amp;gt; .
+&amp;lt;http://xmlns.com/foaf/0.1/Person/Student&amp;gt; &amp;lt;http://www.example.org/RegisteredIn&amp;gt;    &amp;lt;http://www.example.org/University&amp;gt; .
+&amp;lt;http://xmlns.com/foaf/0.1/Person/Student&amp;gt; &amp;lt;http://www.example.org/hasDegree&amp;gt;    &amp;lt;http://www.example.org/Degree&amp;gt;  .
+&amp;lt;http://xmlns.com/foaf/0.1/Person/Student&amp;gt; &amp;lt;http://www.example.org/hasStudentID&amp;gt;  “Student ID” .
+&amp;lt;http://xmlns.com/foaf/0.1/Person/Student&amp;gt; &amp;lt;http://www.example.org/StartedStudyingOn&amp;gt; “Starting Date” .
+
+&amp;lt;http://www.example.org/Programme&amp;gt; &amp;lt;http://www.example.org/hasProgrammeName&amp;gt;    “Programme Name” .
+&amp;lt;http://www.example.org/Programme&amp;gt; &amp;lt;http://www.example.org/hasProgrammeID&amp;gt;    “Programme ID” .
+&amp;lt;http://www.example.org/Programme&amp;gt; &amp;lt;http://www.example.org/isPartOf&amp;gt;    &amp;lt;http://www.example.org/University/Faculty&amp;gt;  .
+
+&amp;lt;http://www.example.org/Programme/Module&amp;gt; &amp;lt;http://www.w3.org/2000/01/rdf-schema#SubClass&amp;gt; &amp;lt;http://www.example.org/Programme&amp;gt; .
+&amp;lt;http://www.example.org/Programme/Module&amp;gt; &amp;lt;http://www.example.org/hasModuleID&amp;gt; “Module ID” .
+&amp;lt;http://www.example.org/Programme/Module&amp;gt; &amp;lt;http://www.example.org/hasNameID&amp;gt; “Module Name” .
+&amp;lt;http://www.example.org/Programme/Module&amp;gt; &amp;lt;http://www.example.org/hasGrade&amp;gt; “Grade” .
+&amp;lt;http://www.example.org/Programme/Module&amp;gt; &amp;lt;http://www.example.org/hasEnrollmentDate&amp;gt; “Enrollment Date” .
+&amp;lt;http://www.example.org/Programme/Module&amp;gt; &amp;lt;http://www.example.org/takesPlaceIn&amp;gt;    &amp;lt;http://www.example.org/University/Faculty&amp;gt;  .
+
+&amp;lt;http://www.example.org/Exam&amp;gt; &amp;lt;http://www.example.org/hasNameExam&amp;gt; “Exam Name” .
+
+&amp;lt;http://www.example.org/University&amp;gt; &amp;lt;http://www.example.org/hasUniversityName&amp;gt; “University Name” .
+&amp;lt;http://www.example.org/University&amp;gt; &amp;lt;http://www.example.org/isLocatedIn&amp;gt; Place .
+
+&amp;lt;http://www.example.org/University/Faculty&amp;gt; &amp;lt;http://www.w3.org/2000/01/rdf-schema#SubClass&amp;gt;  &amp;lt;http://www.example.org/University&amp;gt;  .
+
+&amp;lt;http://www.example.org/Degree/BSc&amp;gt; &amp;lt;http://www.w3.org/2000/01/rdf-schema#SubClass&amp;gt;     &amp;lt;http://www.example.org/Degree&amp;gt;  .
+&amp;lt;http://www.example.org/Degree/MSc&amp;gt; &amp;lt;http://www.w3.org/2000/01/rdf-schema#SubClass&amp;gt;     &amp;lt;http://www.example.org/Degree&amp;gt;  .
+&amp;lt;http://www.example.org/Degree/PhD&amp;gt; &amp;lt;http://www.w3.org/2000/01/rdf-schema#SubClass&amp;gt;  &amp;lt;http://www.example.org/Degree&amp;gt;  .
+
+&amp;lt;http://www.example.org/Place/Country&amp;gt; &amp;lt;http://www.w3.org/2000/01/rdf-schema#SubClass&amp;gt; &amp;lt;http://www.example.org/Place&amp;gt; .
+&amp;lt;http://www.example.org/Place/County&amp;gt; &amp;lt;http://www.w3.org/2000/01/rdf-schema#SubClass&amp;gt; &amp;lt;http://www.example.org/Place&amp;gt; .
+&amp;lt;http://www.example.org/Place/City&amp;gt; &amp;lt;http://www.w3.org/2000/01/rdf-schema#SubClass&amp;gt; &amp;lt;http://www.example.org/Place&amp;gt; .&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h5 id=&quot;turtle-1&quot;&gt;Turtle&lt;/h5&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-plaintext&quot; data-lang=&quot;plaintext&quot;&gt;@prefix    foaf:     &amp;lt;http://xmlns.com/foaf/0.1/&amp;gt; .
+@prefix    prop:    &amp;lt;http://www.example.org/ .
+@prefix    stu:    &amp;lt;http://xmlns.com/foaf/0.1/Person/Student&amp;gt; .
+@prefix    subclass    &amp;lt;http://www.w3.org/2000/01/rdf-schema#SubClass&amp;gt; .
+@prefix    prog    &amp;lt;http://www.example.org/Programme&amp;gt; .
+@prefix    univ    &amp;lt;http://www.example.org/University&amp;gt; .
+@prefix    deg    &amp;lt;http://www.example.org/Degree&amp;gt; .
+@prefix    place    &amp;lt;http://www.example.org/Place&amp;gt; .
+
+foaf prop:hasName    “Person name” .
+foaf prop:LivesIn     place: .
+foaf prop:WasBornIn place: .
+
+stu subclass foaf .
+stu prop:EnrolledIn    prop:Programme .
+stu prop:AttendsIn    prop:Module .
+stu prop:TakesExam    prop:Exam .
+stu prop:RegisteredIn    univ .
+stu prop:hasDegree    deg  .
+stu prop:hasStudentID  “Student ID” .
+stu prop:StartedStudyingOn “Starting Date” .
+
+prog prop:hasProgrammeName    “Programme Name” .
+prog prop:hasProgrammeID    “Programme ID” .
+prog prop:isPartOf    uni:Faculty  .
+ 
+prog:Module subclass prog .
+prog:Module prop:hasModuleID “Module ID” .
+prog:Module prop:hasNameID “Module Name” .
+prog:Module prop:hasGrade “Grade” .
+prog:Module prop:hasEnrollmentDate    “Enrollment Date” .
+prog:Module prop:takesPlaceIn    univ:Faculty  .
+
+prop:Exam prop:hasNameExam “Exam Name” .
+ 
+univ: prop:hasUniversityName “University Name” .
+univ: prop:isLocatedIn Place .
+ 
+uni:Faculty subclass:  univ  .
+ 
+deg:BSc subclass  deg:  .
+deg:MSc subclass  deg:  .
+deg:PhD subclass  deg: .
+
+place:Country subclass place:Place .
+place:County subclass place:Place .
+place:City subclass place:Place .&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h4 id=&quot;extract-rdf-triples&quot;&gt;Extract RDF triples&lt;/h4&gt;
+
+&lt;p&gt;What we have been doing so far was defining the ontology. Our student management ontology, like a data template, can be used to describe Bob, David and all students.&lt;/p&gt;
+
+&lt;p&gt;Given the following description of a student:&lt;/p&gt;
+
+&lt;div class=&quot;ml-3&quot;&gt;
+&lt;p class=&quot;text-muted&quot;&gt;
+David is a student at NUI Galway. He is enrolled in M.Sc. Data Analytics program. David was born on February 20th, 1988 in County Mayo, Ireland. He now lives in Galway. He started his studies at NUI Galway in September 2018. He was enrolled in the following modules: L19872 (Linked Data), IT822 (Programming Languages) and MTH700 (Calculus) during first semester of the academic year 2018-19. The semester started on Monday 15th September. All exams were conducted on Friday 14th December 2018. David got A-, B+ and D grades in L19872, IT822 and MTH700.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Let’s rewrite the description based on our ontology.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-plaintext&quot; data-lang=&quot;plaintext&quot;&gt;&amp;lt;http://xmlns.com/foaf/0.1/Student/David&amp;gt;    &amp;lt;http://www.w3.org/2000/01/rdf-schema#SubClass&amp;gt;    &amp;lt;http://xmlns.com/foaf/0.1/Person/&amp;gt; .
+&amp;lt;http://xmlns.com/foaf/0.1/Student/David&amp;gt;     &amp;lt;http://www.example.org/hasName&amp;gt;    “David” .
+&amp;lt;http://xmlns.com/foaf/0.1/Student/David&amp;gt;    &amp;lt;http://www.example.org/RegisteredIn&amp;gt;    “NUIG” .
+&amp;lt;http://xmlns.com/foaf/0.1/Student/David&amp;gt;    &amp;lt;http://www.example.org/EnrolledIn&amp;gt;    “Data Analytics” .
+&amp;lt;http://xmlns.com/foaf/0.1/Student/David&amp;gt;    &amp;lt;http://www.example.org/hasDegree&amp;gt;    &amp;lt;http://www.example.org/Degree/MSc&amp;gt; .
+&amp;lt;http://xmlns.com/foaf/0.1/Student/David&amp;gt;    &amp;lt;http://www.example.org/WasBornIn&amp;gt;    &amp;lt;http://www.example.org/Place/CountyMayo&amp;gt; .
+&amp;lt;http://xmlns.com/foaf/0.1/Student/David&amp;gt;    &amp;lt;http://www.example.org/WasBornOn&amp;gt;    “20/02/1988”^^xsd:date     .
+&amp;lt;http://www.example.org/Place/CountyMayo&amp;gt; &amp;lt;http://www.w3.org/2000/01/rdf-schema#SubClass&amp;gt;    &amp;lt;http://www.example.org/Place/Ireland&amp;gt; .
+&amp;lt;http://xmlns.com/foaf/0.1/Student/David&amp;gt; &amp;lt;http://www.example.org/livesIn&amp;gt; &amp;lt;http://www.example.org/Place/Galway&amp;gt; .
+&amp;lt;http://xmlns.com/foaf/0.1/Student/David&amp;gt; &amp;lt;http://www.example.org/startedStudyingOn&amp;gt;    “September 2018”^^xsd:date .
+
+&amp;lt;http://xmlns.com/foaf/0.1/Student/David&amp;gt; &amp;lt;http://www.example.org/AttendsIn&amp;gt; &amp;lt;http://www.example.org/Programme/Module/1&amp;gt; .
+&amp;lt;http://xmlns.com/foaf/0.1/Student/David&amp;gt; &amp;lt;http://www.example.org/AttendsIn&amp;gt; &amp;lt;http://www.example.org/Programme/Module/2&amp;gt; .
+&amp;lt;http://xmlns.com/foaf/0.1/Student/David&amp;gt; &amp;lt;http://www.example.org/AttendsIn&amp;gt; &amp;lt;http://www.example.org/Programme/Module/3&amp;gt; .
+
+&amp;lt;http://www.example.org/Programme/Module/1&amp;gt; &amp;lt;http://www.example.org/hasModuleName&amp;gt; “Linked Data”     .
+&amp;lt;http://www.example.org/Programme/Module/1&amp;gt; &amp;lt;http://www.example.org/hasModuleID&amp;gt; “L19872” .
+&amp;lt;http://www.example.org/Programme/Module/1&amp;gt; &amp;lt;http://www.example.org/hasEnrolDate&amp;gt;    “Semester 1 2018/19”^^xsd:date .
+&amp;lt;http://www.example.org/Programme/Module/2&amp;gt; &amp;lt;http://www.example.org/hasModuleName&amp;gt; “Programming Languages”     .
+&amp;lt;http://www.example.org/Programme/Module/2&amp;gt; &amp;lt;http://www.example.org/hasModuleID&amp;gt; “IT822” .
+&amp;lt;http://www.example.org/Programme/Module/2&amp;gt; &amp;lt;http://www.example.org/hasEnrolDate&amp;gt;    “Semester 1 2018/19”^^xsd:date .
+&amp;lt;http://www.example.org/Programme/Module/3&amp;gt; &amp;lt;http://www.example.org/hasModuleName&amp;gt; “Calculus”     .
+&amp;lt;http://www.example.org/Programme/Module/3&amp;gt; &amp;lt;http://www.example.org/hasModuleID&amp;gt; “MTH700” .
+&amp;lt;http://www.example.org/Programme/Module/3&amp;gt; &amp;lt;http://www.example.org/hasEnrolDate&amp;gt;    “Semester 1 2018/19”^^xsd:date .
+
+&amp;lt;http://www.example.org/Programme/Module/1&amp;gt; &amp;lt;http://www.example.org/hasGrade&amp;gt;    “A-” .
+&amp;lt;http://www.example.org/Programme/Module/2&amp;gt; &amp;lt;http://www.example.org/hasGrade&amp;gt;    “B+” .
+&amp;lt;http://www.example.org/Programme/Module/3&amp;gt; &amp;lt;http://www.example.org/hasGrade&amp;gt;    “D” .
+
+&amp;lt;http://www.example.org/Programme/Semester&amp;gt; &amp;lt;http://www.example.org/hasDate&amp;gt;    “Monday Sep 15,  2018”^^xsd:date .
+&amp;lt;http://www.example.org/Programme/Exam&amp;gt;     &amp;lt;http://www.example.org/hasDate&amp;gt;    “December 14,  2018”^^xsd:date .&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;hr class=&quot;col-xs-12&quot; /&gt;
+
+&lt;p&gt;Last updated on 28 March 2019.&lt;/p&gt;</content><author><name>Sina Ahmadi</name></author><category term="RDF" /><category term="Ontology" /><category term="Data model" /><category term="Linked Data" /><category term="Tutorial" /><summary type="html">What is RDF? RDF stands for Resource Description Framework which is a framework for describing resources on the web. It was initially designed to represent metadata on the Web. However, nowadays RDF is the foundational data model for Semantic Web. In addition, RDF along with other technologies such as SPARQL, OWL, and SKOS empower Linked Data. In other words, RDF is fun, easier than relational databases and efficient to use. RDF expressions are in the form of subject predicate object, known as triples. Unlike traditional databases where data has to adhere to a fixed schema, there is no prescribed schema for RDF documents. This is the reason that RDF is called semi-structured. On the other hand, an RDF document includes schema information and can be described without additional information. Therefore, RDF data model is self-describing too. The following shows two triples about the capital of France and the population of Paris: (France, capital, Paris) (Paris, population, 2141000) However, technically everything has a specific identifier in RDF. The identifier may be URL (Uniform Resource Location), URI (Uniform Resource Identifier (RDF 1.0)) or IRI (Internationalised Resource Identifier (RDF 1.1)). It is also possible to use literals (L) and, blank nodes (B) when we don’t want to name something. There are restrictions where to use each type of identifiers. The subject can be a URI, URL, IRI or blank node, the predicate is always URL, URI or IRI and the object can be any of the previous mentioned identifiers, i.e. URI, URL, IRI, blank node or literal. So, the correct way of writing the previous example would be the one that respects the restrictions over France and Paris as subjects, capital and population as predicates and Paris and 2141000 as objects. Although URL, URI and IRI have the same functionality in RDF, we keep mentioning URI in this tutorial for being concise. Now, let’s define URI identifiers for France and Paris. Don’t you think there were some other people before us who may have attributed an identifier to those famous things? I say thing, because once we have not described something, we have no other name to call it but a thing. Once we identify the nature of that thing, then we can name it differently. This is how human language works and words are created. Philosophically, such a description is called an ontology. Definitely, there have been some people who thought about an ontology as a Place and its characteristics. In the same way, Paris and France are defined based on such ontologies and have unique identifiers. The following schema shows a very simple ontology for our scenario where a Place is defined as a class derived from Thing, then Country comes as a sub-class of Place, County as a sub-class of Country and City as a sub-class of County. The schema also shows our individuals as France, Ile-de-France and Paris. A simple ontology for Place, including France, Ile-de-France and Paris. Now that we know how things are described based on ontologies, we can look on the web to find the identifiers which are attributed to each class and individual. For our example, let’s take a look at DBpedia. DBpedia is an amazing platform which provides linked data features for the content of Wikipedia. In other words, it is a tool to semantically query whatever exists on Wikipedia. For instance, http://dbpedia.org/resource/France and http://dbpedia.org/resource/Paris are the identifiers for France and Paris respectively. You get something like the following for Paris as the capital of France: Paris as the capital of France in DBpedia. RDF in practice There are various ways to represent RDF data, namely RDF/XML, RDFa, JSON-LD, N-Triples and Turtle, among which we will focus on the two latter ones in this tutorial. N-Triples N-Triples is a line-based and a concrete syntax for RDF. N-Triples are a sequence of RDF terms in the form of subject predicate object, separated by white space and terminated by a ‘.’. The following shows the abovementionend example in N-Triples: &amp;lt;http://dbpedia.org/resource/France&amp;gt; &amp;lt;http://dbpedia.org/ontology/capital&amp;gt; &amp;lt;http://dbpedia.org/resource/Paris&amp;gt; . &amp;lt;http://dbpedia.org/resource/Paris&amp;gt; &amp;lt;http://dbpedia.org/ontology/populationTotal&amp;gt; &quot;2229621&quot;^^xsd:integer . As you see, we used URI for all the subjects, predicates and objects, but for the population which is a literal. In this case, we determined the type of the literal as an integer using xsd:integer. The followings are a few other data types in XSD which are also supported in RDF: xsd:boolean xsd:byte xsd:date xsd:decimal xsd:double xsd:integer xsd:string xsd:language Note that the default value of literals is String. Turtle An easier way for representing RDF data is Turtle. Turtle is a more convenient version of N-Triples where we can: define prefixes so that we use shorter triples. avoid repeating subjects by using ‘;’ between two triples. The following shows our examples in Turtle: @prefix dbr: &amp;lt;http://dbpedia.org/resource/&amp;gt; @prefix dbo: &amp;lt;http://dbpedia.org/ontology/&amp;gt; dbr:France dbo:capital dbr:Paris . dbr:Paris dbo:populationTotal &quot;2229621&quot;^^xsd:integer . Data modelling Hopefully, you are now familiar with the basics of RDF and how to represent them. In this section, we would like to create a data model. All you need to know is the following 4 principals: Class hierarchy: a class can be a sub-class of a parent class. For instance, Bird can be defined as a class which is the sub-class of the class Animal. Property hierarchy: a property can be a sub-property of another property. Think of a property called Moves. MoviesByCar and MovesByTrain can be defined as the sub-properties of Moves as they are the same functionality with a specificity. Domain and Range of properties: Think of a property as a function. A function has a domain and a range. The domain is where the function (or here the property) gets as input (i.e. domain) and produced the output (i.e. range). Example: Student management system data model Consider a scenario of designing a linked data application for a university student management system. Design a data model (ontology) to represent the information related to the students, study programs, modules and students’ grades in the exams. Step 1: Identify the components of your ontology A strategy to identify classes, sub-classes, properties and sub-properties is to initially describe your ontology in plain English. Something like the following: - A student management system helps to organise information about Students. - Each Student is a Person. - A programme is a class that the Student enrols in. Each programme is composed of various modules. - There are different levels of degree. - There are a hierarchy of classes belonging to Place. - A Student can take an Exam. - A University has various Faculties. Now, it is easier to detect classes and properties as the following: Classes and sub-classes Person Student Programme Module Degree B.Sc. M.Sc. Ph.D. Place Country County City University Faculty Exam Properties and sub-properties AttendsIn EnrolledIn hasStudentID hasModuleID hasProgrammeID TakesExam RegisteredIn hasDegree hasName livesIn wasBornIn wasBornOn isLocatedIn takesPlaceIn hasEnrollementDate startedStudyingIn hasGrade hasModuleID hasProgrammeID hasUniName hasModuleName hasProgrammeName isPartOf “hasDate” could be a sub-property of “EnrolledIn”, “Attends”, “TakesExam” and “RegisteredIn”. However, in the current data model I have not used any sub-property. Step 2: Draw a graphical representation of your information model. Schema of a data model for student management system (classes are highlighted in yellow and properties in green). Your ontology is not exactly identical with this one? Well, this is normal as more than one way may exist to create an ontology with the same functionality. So, yours may also be a valid ontology but different from the above one. Step 3: Model the above information into RDF data model Let’s represent our ontology in RDF now. We will try N-Triples and Turtle formats. Usually to save time not to look for the identifiers of the classes on the web, “http://www.example.org” is used to define a URI. For instance, we can create &amp;lt;http://www.example.org/hasName&amp;gt; as the URI of hasName property. N-Triples &amp;lt;http://xmlns.com/foaf/0.1/Person&amp;gt; &amp;lt;http://www.example.org/hasName&amp;gt; “Person name” . &amp;lt;http://xmlns.com/foaf/0.1/Person&amp;gt; &amp;lt;http://www.example.org/LivesIn&amp;gt; &amp;lt;http://www.example.org/Place&amp;gt; . &amp;lt;http://xmlns.com/foaf/0.1/Person&amp;gt; &amp;lt;http://www.example.org/WasBornIn&amp;gt; &amp;lt;http://www.example.org/Place&amp;gt; . &amp;lt;http://xmlns.com/foaf/0.1/Person/Student&amp;gt; &amp;lt;http://www.w3.org/2000/01/rdf-schema#SubClass&amp;gt; &amp;lt;http://xmlns.com/foaf/0.1/Person&amp;gt; . &amp;lt;http://xmlns.com/foaf/0.1/Person/Student&amp;gt; &amp;lt;http://www.example.org/EnrolledIn&amp;gt; &amp;lt;http://www.example.org/Programme&amp;gt; . &amp;lt;http://xmlns.com/foaf/0.1/Person/Student&amp;gt; &amp;lt;http://www.example.org/AttendsIn&amp;gt; &amp;lt;http://www.example.org/Module&amp;gt; . &amp;lt;http://xmlns.com/foaf/0.1/Person/Student&amp;gt; &amp;lt;http://www.example.org/TakesExam&amp;gt; &amp;lt;http://www.example.org/Exam&amp;gt; . &amp;lt;http://xmlns.com/foaf/0.1/Person/Student&amp;gt; &amp;lt;http://www.example.org/RegisteredIn&amp;gt; &amp;lt;http://www.example.org/University&amp;gt; . &amp;lt;http://xmlns.com/foaf/0.1/Person/Student&amp;gt; &amp;lt;http://www.example.org/hasDegree&amp;gt; &amp;lt;http://www.example.org/Degree&amp;gt; . &amp;lt;http://xmlns.com/foaf/0.1/Person/Student&amp;gt; &amp;lt;http://www.example.org/hasStudentID&amp;gt; “Student ID” . &amp;lt;http://xmlns.com/foaf/0.1/Person/Student&amp;gt; &amp;lt;http://www.example.org/StartedStudyingOn&amp;gt; “Starting Date” . &amp;lt;http://www.example.org/Programme&amp;gt; &amp;lt;http://www.example.org/hasProgrammeName&amp;gt; “Programme Name” . &amp;lt;http://www.example.org/Programme&amp;gt; &amp;lt;http://www.example.org/hasProgrammeID&amp;gt; “Programme ID” . &amp;lt;http://www.example.org/Programme&amp;gt; &amp;lt;http://www.example.org/isPartOf&amp;gt; &amp;lt;http://www.example.org/University/Faculty&amp;gt; . &amp;lt;http://www.example.org/Programme/Module&amp;gt; &amp;lt;http://www.w3.org/2000/01/rdf-schema#SubClass&amp;gt; &amp;lt;http://www.example.org/Programme&amp;gt; . &amp;lt;http://www.example.org/Programme/Module&amp;gt; &amp;lt;http://www.example.org/hasModuleID&amp;gt; “Module ID” . &amp;lt;http://www.example.org/Programme/Module&amp;gt; &amp;lt;http://www.example.org/hasNameID&amp;gt; “Module Name” . &amp;lt;http://www.example.org/Programme/Module&amp;gt; &amp;lt;http://www.example.org/hasGrade&amp;gt; “Grade” . &amp;lt;http://www.example.org/Programme/Module&amp;gt; &amp;lt;http://www.example.org/hasEnrollmentDate&amp;gt; “Enrollment Date” . &amp;lt;http://www.example.org/Programme/Module&amp;gt; &amp;lt;http://www.example.org/takesPlaceIn&amp;gt; &amp;lt;http://www.example.org/University/Faculty&amp;gt; . &amp;lt;http://www.example.org/Exam&amp;gt; &amp;lt;http://www.example.org/hasNameExam&amp;gt; “Exam Name” . &amp;lt;http://www.example.org/University&amp;gt; &amp;lt;http://www.example.org/hasUniversityName&amp;gt; “University Name” . &amp;lt;http://www.example.org/University&amp;gt; &amp;lt;http://www.example.org/isLocatedIn&amp;gt; Place . &amp;lt;http://www.example.org/University/Faculty&amp;gt; &amp;lt;http://www.w3.org/2000/01/rdf-schema#SubClass&amp;gt; &amp;lt;http://www.example.org/University&amp;gt; . &amp;lt;http://www.example.org/Degree/BSc&amp;gt; &amp;lt;http://www.w3.org/2000/01/rdf-schema#SubClass&amp;gt; &amp;lt;http://www.example.org/Degree&amp;gt; . &amp;lt;http://www.example.org/Degree/MSc&amp;gt; &amp;lt;http://www.w3.org/2000/01/rdf-schema#SubClass&amp;gt; &amp;lt;http://www.example.org/Degree&amp;gt; . &amp;lt;http://www.example.org/Degree/PhD&amp;gt; &amp;lt;http://www.w3.org/2000/01/rdf-schema#SubClass&amp;gt; &amp;lt;http://www.example.org/Degree&amp;gt; . &amp;lt;http://www.example.org/Place/Country&amp;gt; &amp;lt;http://www.w3.org/2000/01/rdf-schema#SubClass&amp;gt; &amp;lt;http://www.example.org/Place&amp;gt; . &amp;lt;http://www.example.org/Place/County&amp;gt; &amp;lt;http://www.w3.org/2000/01/rdf-schema#SubClass&amp;gt; &amp;lt;http://www.example.org/Place&amp;gt; . &amp;lt;http://www.example.org/Place/City&amp;gt; &amp;lt;http://www.w3.org/2000/01/rdf-schema#SubClass&amp;gt; &amp;lt;http://www.example.org/Place&amp;gt; . Turtle @prefix foaf: &amp;lt;http://xmlns.com/foaf/0.1/&amp;gt; . @prefix prop: &amp;lt;http://www.example.org/ . @prefix stu: &amp;lt;http://xmlns.com/foaf/0.1/Person/Student&amp;gt; . @prefix subclass &amp;lt;http://www.w3.org/2000/01/rdf-schema#SubClass&amp;gt; . @prefix prog &amp;lt;http://www.example.org/Programme&amp;gt; . @prefix univ &amp;lt;http://www.example.org/University&amp;gt; . @prefix deg &amp;lt;http://www.example.org/Degree&amp;gt; . @prefix place &amp;lt;http://www.example.org/Place&amp;gt; . foaf prop:hasName “Person name” . foaf prop:LivesIn place: . foaf prop:WasBornIn place: . stu subclass foaf . stu prop:EnrolledIn prop:Programme . stu prop:AttendsIn prop:Module . stu prop:TakesExam prop:Exam . stu prop:RegisteredIn univ . stu prop:hasDegree deg . stu prop:hasStudentID “Student ID” . stu prop:StartedStudyingOn “Starting Date” . prog prop:hasProgrammeName “Programme Name” . prog prop:hasProgrammeID “Programme ID” . prog prop:isPartOf uni:Faculty . prog:Module subclass prog . prog:Module prop:hasModuleID “Module ID” . prog:Module prop:hasNameID “Module Name” . prog:Module prop:hasGrade “Grade” . prog:Module prop:hasEnrollmentDate “Enrollment Date” . prog:Module prop:takesPlaceIn univ:Faculty . prop:Exam prop:hasNameExam “Exam Name” . univ: prop:hasUniversityName “University Name” . univ: prop:isLocatedIn Place . uni:Faculty subclass: univ . deg:BSc subclass deg: . deg:MSc subclass deg: . deg:PhD subclass deg: . place:Country subclass place:Place . place:County subclass place:Place . place:City subclass place:Place . Extract RDF triples What we have been doing so far was defining the ontology. Our student management ontology, like a data template, can be used to describe Bob, David and all students. Given the following description of a student: David is a student at NUI Galway. He is enrolled in M.Sc. Data Analytics program. David was born on February 20th, 1988 in County Mayo, Ireland. He now lives in Galway. He started his studies at NUI Galway in September 2018. He was enrolled in the following modules: L19872 (Linked Data), IT822 (Programming Languages) and MTH700 (Calculus) during first semester of the academic year 2018-19. The semester started on Monday 15th September. All exams were conducted on Friday 14th December 2018. David got A-, B+ and D grades in L19872, IT822 and MTH700. Let’s rewrite the description based on our ontology. &amp;lt;http://xmlns.com/foaf/0.1/Student/David&amp;gt; &amp;lt;http://www.w3.org/2000/01/rdf-schema#SubClass&amp;gt; &amp;lt;http://xmlns.com/foaf/0.1/Person/&amp;gt; . &amp;lt;http://xmlns.com/foaf/0.1/Student/David&amp;gt; &amp;lt;http://www.example.org/hasName&amp;gt; “David” . &amp;lt;http://xmlns.com/foaf/0.1/Student/David&amp;gt; &amp;lt;http://www.example.org/RegisteredIn&amp;gt; “NUIG” . &amp;lt;http://xmlns.com/foaf/0.1/Student/David&amp;gt; &amp;lt;http://www.example.org/EnrolledIn&amp;gt; “Data Analytics” . &amp;lt;http://xmlns.com/foaf/0.1/Student/David&amp;gt; &amp;lt;http://www.example.org/hasDegree&amp;gt; &amp;lt;http://www.example.org/Degree/MSc&amp;gt; . &amp;lt;http://xmlns.com/foaf/0.1/Student/David&amp;gt; &amp;lt;http://www.example.org/WasBornIn&amp;gt; &amp;lt;http://www.example.org/Place/CountyMayo&amp;gt; . &amp;lt;http://xmlns.com/foaf/0.1/Student/David&amp;gt; &amp;lt;http://www.example.org/WasBornOn&amp;gt; “20/02/1988”^^xsd:date . &amp;lt;http://www.example.org/Place/CountyMayo&amp;gt; &amp;lt;http://www.w3.org/2000/01/rdf-schema#SubClass&amp;gt; &amp;lt;http://www.example.org/Place/Ireland&amp;gt; . &amp;lt;http://xmlns.com/foaf/0.1/Student/David&amp;gt; &amp;lt;http://www.example.org/livesIn&amp;gt; &amp;lt;http://www.example.org/Place/Galway&amp;gt; . &amp;lt;http://xmlns.com/foaf/0.1/Student/David&amp;gt; &amp;lt;http://www.example.org/startedStudyingOn&amp;gt; “September 2018”^^xsd:date . &amp;lt;http://xmlns.com/foaf/0.1/Student/David&amp;gt; &amp;lt;http://www.example.org/AttendsIn&amp;gt; &amp;lt;http://www.example.org/Programme/Module/1&amp;gt; . &amp;lt;http://xmlns.com/foaf/0.1/Student/David&amp;gt; &amp;lt;http://www.example.org/AttendsIn&amp;gt; &amp;lt;http://www.example.org/Programme/Module/2&amp;gt; . &amp;lt;http://xmlns.com/foaf/0.1/Student/David&amp;gt; &amp;lt;http://www.example.org/AttendsIn&amp;gt; &amp;lt;http://www.example.org/Programme/Module/3&amp;gt; . &amp;lt;http://www.example.org/Programme/Module/1&amp;gt; &amp;lt;http://www.example.org/hasModuleName&amp;gt; “Linked Data” . &amp;lt;http://www.example.org/Programme/Module/1&amp;gt; &amp;lt;http://www.example.org/hasModuleID&amp;gt; “L19872” . &amp;lt;http://www.example.org/Programme/Module/1&amp;gt; &amp;lt;http://www.example.org/hasEnrolDate&amp;gt; “Semester 1 2018/19”^^xsd:date . &amp;lt;http://www.example.org/Programme/Module/2&amp;gt; &amp;lt;http://www.example.org/hasModuleName&amp;gt; “Programming Languages” . &amp;lt;http://www.example.org/Programme/Module/2&amp;gt; &amp;lt;http://www.example.org/hasModuleID&amp;gt; “IT822” . &amp;lt;http://www.example.org/Programme/Module/2&amp;gt; &amp;lt;http://www.example.org/hasEnrolDate&amp;gt; “Semester 1 2018/19”^^xsd:date . &amp;lt;http://www.example.org/Programme/Module/3&amp;gt; &amp;lt;http://www.example.org/hasModuleName&amp;gt; “Calculus” . &amp;lt;http://www.example.org/Programme/Module/3&amp;gt; &amp;lt;http://www.example.org/hasModuleID&amp;gt; “MTH700” . &amp;lt;http://www.example.org/Programme/Module/3&amp;gt; &amp;lt;http://www.example.org/hasEnrolDate&amp;gt; “Semester 1 2018/19”^^xsd:date . &amp;lt;http://www.example.org/Programme/Module/1&amp;gt; &amp;lt;http://www.example.org/hasGrade&amp;gt; “A-” . &amp;lt;http://www.example.org/Programme/Module/2&amp;gt; &amp;lt;http://www.example.org/hasGrade&amp;gt; “B+” . &amp;lt;http://www.example.org/Programme/Module/3&amp;gt; &amp;lt;http://www.example.org/hasGrade&amp;gt; “D” . &amp;lt;http://www.example.org/Programme/Semester&amp;gt; &amp;lt;http://www.example.org/hasDate&amp;gt; “Monday Sep 15, 2018”^^xsd:date . &amp;lt;http://www.example.org/Programme/Exam&amp;gt; &amp;lt;http://www.example.org/hasDate&amp;gt; “December 14, 2018”^^xsd:date . Last updated on 28 March 2019.</summary></entry><entry><title type="html">Foreign loanwords in Modern Greek</title><link href="http://localhost:4000/2019/03/18/foreign-loanwords-in-modern-greek.html" rel="alternate" type="text/html" title="Foreign loanwords in Modern Greek" /><published>2019-03-18T00:00:00+00:00</published><updated>2019-03-18T00:00:00+00:00</updated><id>http://localhost:4000/2019/03/18/foreign-loanwords-in-modern-greek</id><content type="html" xml:base="http://localhost:4000/2019/03/18/foreign-loanwords-in-modern-greek.html">&lt;p&gt;It is not exaggeration to say that Greek is the mother language of knowledge. No other civilisation other than Hellenism played such a primordial role in seeking for knowledge and enriching human’s understanding of the world and the nature. No doubt, there were other civilisations with wonderful achievements and contributions to humanity, but none of them seems to have preserved their works as good as Greeks did by writing. Mathematics, physics, medicine, literature, philosophy are some of the branches of knowledge that Greeks contributed to by using their language to name their findings. Imagine Plato describing for the first time his ideas about the dialectical forms of government in &lt;a href=&quot;https://en.wikipedia.org/wiki/Republic_(Plato)&quot;&gt;the Republic&lt;/a&gt;.&lt;/p&gt;
+
+&lt;div class=&quot;card mb-3 text-center&quot;&gt;
+    &lt;img class=&quot;rounded mx-auto d-block&quot; src=&quot;http://localhost:4000/docs/images/owl_greek.jpeg&quot; style=&quot;width:50%&quot; align=&quot;middle&quot; alt=&quot;Greek words in English&quot; /&gt;
+    &lt;div class=&quot;card-body bg-light&quot;&gt;
+        &lt;div class=&quot;card-text&quot;&gt;
+            Some of the Greek words in English
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;So, no surprise that there are still thousands of Greek words in European languages. According to &lt;a href=&quot;https://books.google.ie/books?id=GA0WBAAAQBAJ&amp;amp;lpg=PR5&amp;amp;ots=jWJ623QSra&amp;amp;dq=number%20of%20greek%20words%20in%20english&amp;amp;lr&amp;amp;pg=PP1#v=onepage&amp;amp;q=number%20of%20greek%20words%20in%20english&amp;amp;f=false&quot;&gt;The Greek &amp;amp; Latin Roots of English&lt;/a&gt;, around 60% of all English words have Greek or Latin roots. But what about foreign loanwords in Modern Greek?&lt;/p&gt;
+
+&lt;p&gt;Καρακάξα, νόμπιλος, κέφι, ρεζερβουάρ, παρασόλι… If you have studied Greek language, I am sure you also feel that those words do not seem to be of Greek origin. Whenever I come across such Greek words, I get curious of the number of foreign words in Modern Greek. Happily, I could find a book that addresses this topic: &lt;a href=&quot;https://www.politeianet.gr/books/9789602050859-konstantinou-i-ilias-epikairotita-lexiko-ton-xenon-lexeon-stin-elliniki-glossa-143806&quot;&gt;Λεξικό των ξένων λέξεων στην ελληνική γλώσσα&lt;/a&gt; by Ηλίας Κωνσταντίνου describes the words which are originally from foreign languages and used in the Greek language. As I could not find a similar study available online, I created the following donut chart based on the statistics of this resource to show the distribution of the whole &lt;strong&gt;4037&lt;/strong&gt; foreign loanwords in modern Greek.&lt;/p&gt;
+
+&lt;div class=&quot;card mb-3 text-center&quot;&gt;
+&lt;iframe width=&quot;700&quot; height=&quot;500&quot; align=&quot;middle&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;//plot.ly/~sinahm/14.embed?showlink=false&quot;&gt;&lt;/iframe&gt;
+&lt;div class=&quot;card-body bg-light&quot;&gt;
+    &lt;div class=&quot;card-text&quot;&gt;
+      Foreign loanwords in Modern Greek. Data from
+        &lt;a href=&quot;https://www.politeianet.gr/books/9789602050859-konstantinou-i-ilias-epikairotita-lexiko-ton-xenon-lexeon-stin-elliniki-glossa-143806&quot;&gt;Λεξικό των ξένων λέξεων στην ελληνική γλώσσα&lt;/a&gt;.
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Curious which Greek words are from foreign origin? Visit the following links:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.ellinopedia.com/ellinika/italikes-lexis-stin-elliniki-glossa&quot;&gt;Italian words in Greek&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.ellinopedia.com/ellinika/tourkikes-lexis-stin-elliniki-glossa&quot;&gt;Turkish words in Greek&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.ellinopedia.com/ellinika/gallikes-lexis-pou-xrisimopioume-stin-ellada&quot;&gt;French words in Greek&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.ellinopedia.com/germanika/germanikes-lexeis-stin-elliniki-glossa&quot;&gt;German words in Greek&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.ellinopedia.com/anglika/anglikes-lexis-stin-elliniki&quot;&gt;English words in Greek&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr class=&quot;col-xs-12&quot; /&gt;
+
+&lt;p&gt;Last updated on 20 March 2019.&lt;/p&gt;</content><author><name>Sina Ahmadi</name></author><category term="Modern Greek" /><summary type="html">It is not exaggeration to say that Greek is the mother language of knowledge. No other civilisation other than Hellenism played such a primordial role in seeking for knowledge and enriching human’s understanding of the world and the nature. No doubt, there were other civilisations with wonderful achievements and contributions to humanity, but none of them seems to have preserved their works as good as Greeks did by writing. Mathematics, physics, medicine, literature, philosophy are some of the branches of knowledge that Greeks contributed to by using their language to name their findings. Imagine Plato describing for the first time his ideas about the dialectical forms of government in the Republic. Some of the Greek words in English So, no surprise that there are still thousands of Greek words in European languages. According to The Greek &amp;amp; Latin Roots of English, around 60% of all English words have Greek or Latin roots. But what about foreign loanwords in Modern Greek? Καρακάξα, νόμπιλος, κέφι, ρεζερβουάρ, παρασόλι… If you have studied Greek language, I am sure you also feel that those words do not seem to be of Greek origin. Whenever I come across such Greek words, I get curious of the number of foreign words in Modern Greek. Happily, I could find a book that addresses this topic: Λεξικό των ξένων λέξεων στην ελληνική γλώσσα by Ηλίας Κωνσταντίνου describes the words which are originally from foreign languages and used in the Greek language. As I could not find a similar study available online, I created the following donut chart based on the statistics of this resource to show the distribution of the whole 4037 foreign loanwords in modern Greek. Foreign loanwords in Modern Greek. Data from Λεξικό των ξένων λέξεων στην ελληνική γλώσσα. Curious which Greek words are from foreign origin? Visit the following links: Italian words in Greek Turkish words in Greek French words in Greek German words in Greek English words in Greek Last updated on 20 March 2019.</summary></entry><entry><title type="html">Why Kurdish language processing matters?</title><link href="http://localhost:4000/2019/03/05/why-kurdish-language-processing-matters.html" rel="alternate" type="text/html" title="Why Kurdish language processing matters?" /><published>2019-03-05T00:00:00+00:00</published><updated>2019-03-05T00:00:00+00:00</updated><id>http://localhost:4000/2019/03/05/why-kurdish-language-processing-matters</id><content type="html" xml:base="http://localhost:4000/2019/03/05/why-kurdish-language-processing-matters.html">&lt;p&gt;Since the first time that I touched my home computer keyboard in 2001, I used to ask myself if it would be possible to make computer understand my mother language, &lt;a href=&quot;https://en.wikipedia.org/wiki/Kurdish_languages&quot;&gt;Kurdish&lt;/a&gt;. Well, what I was imagining was definitely something limited to a Kurdish interface for Windows, particularly when I was going through the installation descriptions of &lt;a href=&quot;https://en.wikipedia.org/wiki/Return_to_Castle_Wolfenstein&quot;&gt;Return to Castle Wolfenstein&lt;/a&gt; and &lt;a href=&quot;https://en.wikipedia.org/wiki/Mafia_(video_game)&quot;&gt;Mafia: The City of Lost Heaven&lt;/a&gt;! Let alone the spontaneous questions that &lt;a href=&quot;https://en.wikipedia.org/wiki/Office_Assistant&quot;&gt;Clippy&lt;/a&gt; was asking and how much I was curious to see the same messages in Kurdish.&lt;/p&gt;
+
+&lt;div class=&quot;card mb-3 text-center&quot;&gt;
+    &lt;img class=&quot;rounded mx-auto d-block&quot; src=&quot;http://localhost:4000/docs/images/clippy.png&quot; style=&quot;width:30%&quot; align=&quot;middle&quot; alt=&quot;Kurdish Clippy!&quot; /&gt;
+    &lt;div class=&quot;card-body bg-light&quot;&gt;
+        &lt;div class=&quot;card-text&quot;&gt;
+            Me, when I was 9. “What if Clippy could ask “çon î” (how are you) in Kurdish?
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;In 2000s, there were a few application-based projects for introducing Kurdish to the computer world. For instance, a few Kurdish fonts were made based on the Persian and Arabic keyboards and the interface of some softwares were also translated into Kurdish. Since then, a lot of things have changed in the Information Technology (IT) world. Computers got smaller and more efficient, connections got faster than ever and subsequently, the world has become a smaller place. And still, the overall availablity of electronic resources and processing tools for Kurdish is not to a satisfying extent. Kurdish is not just a language with a history that reflects the culture of its speakers. Indeed, it is the only element that has kept Kurds as a nation.&lt;/p&gt;
+
+&lt;p&gt;In this post, I would like to address the importance of language technology for Kurdish language. Nowadays, with a plethora of (unstructured) online Kurdish resources and the recent progress in natural language processing and machine learning, I think that it is more feasible than ever to provide tools and resources for finally making Kurdish understandable by machine. I will also explain why I believe that the difficulty of processing Kurdish language is no more like the 2000s and there is currently a huge potential for Kurdish processing.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-is-natural-language-processing&quot;&gt;What is Natural Language Processing?&lt;/h2&gt;
+
+&lt;p&gt;Formally speaking, Natural Language Processing (NLP) refers to the computer processing of &lt;em&gt;natural language&lt;/em&gt;: the language that we speak with. NLP is a part of the field of study which is called &lt;em&gt;language technology&lt;/em&gt;. If you are using a spell checker on your cell phone or your computer, or you use Siri or Google Assistant to ask about the nearest restaurant, then you have been already using some of the most common applications of NLP. Language technology is so present in nowadays life that most of us have been using them without even knowing about!&lt;/p&gt;
+
+&lt;p&gt;Language technology is a primordial part of the Web. At our current pace (in 2019), we are producing 2.5 quintillion bytes of data each day, in other words 10&lt;sup&gt;18&lt;/sup&gt; bytes (&lt;a href=&quot;https://www.forbes.com/sites/bernardmarr/2018/05/21/how-much-data-do-we-create-every-day-the-mind-blowing-stats-everyone-should-read/#66bda05960ba&quot;&gt;source&lt;/a&gt;), mostly unstructured data such as text, speech and so on. NLP technologies enable us to extract information from data and process the data for different applications.&lt;/p&gt;
+
+&lt;div class=&quot;card mb-3 text-center&quot;&gt;
+&lt;iframe width=&quot;700&quot; height=&quot;500&quot; align=&quot;middle&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;//plot.ly/~sinahm/4.embed?showlink=false&quot;&gt;&lt;/iframe&gt;
+&lt;div class=&quot;card-body bg-light&quot;&gt;
+    &lt;div class=&quot;card-text&quot;&gt;
+      NLP total revenue by segments. Recreated based on the data from
+        &lt;a href=&quot;https://www.tractica.com/newsroom/press-releases/natural-language-processing-market-to-reach-22-3-billion-by-2025/&quot;&gt;Tractica&lt;/a&gt;.
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;So, if you have a small or big business and you would like to know about the public opinion regarding your services, or you are a politician and would like to know what is happening around, or you are doing something for which human communication and interaction is important, then you will definitely need language technology.&lt;/p&gt;
+
+&lt;h3 id=&quot;nlp-applications-a-few-examples-for-kurdish&quot;&gt;NLP applications: a few examples for Kurdish&lt;/h3&gt;
+
+&lt;p&gt;Some of the applications of NLP are:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Transliteration&lt;/strong&gt;: Kurdish is written in two scripts. The Latin-based script is used for writing in Kurmanji dialect, mostly spoken in Bakûr (means “north” in Kurdish and refers to the Kurdish regions in Turkey) and parts of Rojava (means “west” in Kurdish and refers to the Kurdish regions in Syria), while the Arabic-based script is used in Rojhełat (“east” in Kurdish, the Kurdish regions of Iran) and Basûr (“south” in Kurdish, the Kurdish regions of Iraq). A transliterator enables us to automatically convert one script to the other. As an example, “birayetî” (brotherhood in Kurdish) in the Latin-based script is transliterated as “برایەتی” in the Arabic-based script.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Morphological analysis&lt;/strong&gt;: Kurdish is an inflectional language. That is, a word can turn into a new word by adding a set of morphemes, such as suffixes and prefixes. For instance, “jinekan” (the women) is composed of “jin” (woman) and “ekan” (definite article added as a suffix to the noun). Detecting each morpheme is the task of morphological analyser. This is challenging, especially because of the huge number of derivational and inflectional morphemes in Kurdish. Another example, the Sorani word “dîtimin” which means “I saw them” is composed of “dîtim”, “I saw”, and “in” the object added as an accusative suffix.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Parts of Speech Tagging&lt;/strong&gt;: How do we know what is the grammatical role of each parts of this sentence : “Min gułekanim bon kird” (I smelled the flowers)? Well, that is what a part-of-speech tagger (POS tagger) does. For that case, a Kurdish PoS tagger will tell you that “min” is a pronoun, “gułekanim” is a definite noun and “bon kird” is the first singular person of the verb “bon kirdin” (to smell) in the past tense.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Machine translation&lt;/strong&gt;: This is maybe the most popular application of NLP. What if all dialects of Kurdish could be translated into other languages automatically? What is the equivalent of the Hawrami word “jerej” in Kurmanji and Sorani?[1] Machine translation takes care of the automatic translation using a parallel corpus. A corpus is a collection of text collected for a specific purpose. In a parallel corpus, the texts in two languages are aligned together. For instance, in a parallel corpus of Sorani Kurdish and English, for “&lt;em&gt;The distance between Sanandaj and Sulaymaniyah is 253 kilometers&lt;/em&gt;”, the following sentence is aligned: “&lt;em&gt;mewday nêwan Sine û Silêmanî 253 kîlomîtr e&lt;/em&gt;”. And now, imagine that in our corpus which contains thousands of parallel sentences, there are 100 sentences in which those words are used. That is where machine translation, based on statistical methods and more recently, neural network models, predicts that “Sine” means “Sanandaj” and “Silêmanî” means “Sulaymaniyah”, and even can translate sentences and more sophisticated texts.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Speech recognition&lt;/strong&gt; Just try “OK google” on your Android phone, or “Hey, Siri” to activate your speech recogniser. Then talk as you talk with a real person and let the machine deal with it! That is what a speech recogniser does.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;To discover more about NLP, &lt;a href=&quot;https://web.stanford.edu/~jurafsky/slp3/ed3book.pdf&quot;&gt;Jurafsky and Martin’s handbook in speech and language processing&lt;/a&gt; and  &lt;a href=&quot;https://www.cicling.org/2010/Vol46.pdf&quot;&gt;Natural Language Processing and its Applications&lt;/a&gt; are two useful resources.&lt;/p&gt;
+
+&lt;h2 id=&quot;challenges-of-kurdish-language-processing&quot;&gt;Challenges of Kurdish language processing&lt;/h2&gt;
+
+&lt;p&gt;Kurdish is a less-resourced language. A less-resourced language is a language for which there is not enough language resources to be fully processed. In the following, I mention some of the main characteristics of Kurdish language which are also the main reasons that may explain the challenges in Kurdish language processing and why they have not been efficiently addressed yet.&lt;/p&gt;
+
+&lt;h3 id=&quot;diversity-in-dialects&quot;&gt;Diversity in dialects&lt;/h3&gt;
+
+&lt;p&gt;Having various dialects and sub-dialects, Kurdish is known as a dialect-rich language and is sometimes referred to as a &lt;a href=&quot;http://kurdish.humanities.manchester.ac.uk/wp-content/uploads/2017/07/PDF-Revisiting-Kurdish-dialect-geography.pdf&quot;&gt;dialect continuum&lt;/a&gt;. This richness is intersting when you observe that what is called something in a village is called differently in the neighbourhood. As a personal observation, in &lt;a href=&quot;https://goo.gl/maps/hotbKuCa9Yz&quot;&gt;Kêle Sipî&lt;/a&gt;, a village near Sanandaj in the Eastern Kurdistan, people use the word &lt;em&gt;amêjeng&lt;/em&gt; for yeast, while in &lt;a href=&quot;https://goo.gl/maps/VKPRG5REW6q&quot;&gt;Syaseran&lt;/a&gt; it is called &lt;em&gt;amyan&lt;/em&gt;. Such differences are not limited to the vocabulary, but also to the phonology and the phonetics. Almost all the dialects and sub-dialects of Kurdish have something distinct in terms of pronunciation.&lt;/p&gt;
+
+&lt;div class=&quot;card mb-3 text-center&quot;&gt;
+&lt;h5 style=&quot;text-align:center;&quot;&gt;
+&lt;iframe src=&quot;https://www.google.com/maps/embed?pb=!1m24!1m12!1m3!1d13191.505645251036!2d47.19145982556518!3d35.628163422931244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m9!3e0!4m3!3m2!1d35.6333024!2d47.2136352!4m3!3m2!1d35.6285556!2d47.1856667!5e1!3m2!1sen!2sie!4v1552680935219&quot; width=&quot;600&quot; height=&quot;450&quot; frameborder=&quot;0&quot; style=&quot;border:0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/h5&gt;
+&lt;div class=&quot;card-body bg-light&quot;&gt;
+    &lt;div class=&quot;card-text&quot;&gt;
+      Dialectal difference could even be observed between two neighbouring villages.
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Having said that, the variety of the dialects adds a gap between the speakers  of the same language and to some extent, creates a kind of barrier in communication. Some believe that such diversities should be addressed by defining a &lt;a href=&quot;https://en.wikipedia.org/wiki/Standard_language&quot;&gt;standard language&lt;/a&gt;. Defining a standard language for Kurdish has been a matter of debate without reaching a consensus.&lt;/p&gt;
+
+&lt;h3 id=&quot;diversity-in-scripts&quot;&gt;Diversity in scripts&lt;/h3&gt;
+&lt;p&gt;Due to historical and geological reasons, several scripts are used when it comes to Kurdish writing. Cyrillic, Arabo-Persian, Latin and even Armenian alphabets have been used to write Kurdish texts. In the recent years, the Kurdish Academy of Language has tried to unify those alphabets and present a unified alphabet for Kurdish called &lt;a href=&quot;http://kurdishacademy.org/2008/05/07/the-kurdish-unified-alphabet/&quot;&gt;Yekgirtú&lt;/a&gt;. However, Yekgirtú does not seem to be as popular among the scholars nor the public; among all alphabets, the Arabo-Persian and the Latin alphabets are mostly used by Sorani and Kurmanji speakers, respectively. The following table shows those two alphabets in a comparative way.&lt;/p&gt;
+
+&lt;table align=&quot;center&quot; class=&quot;table table-bordered table-hover table-condensed&quot;&gt;
+&lt;thead&gt;&lt;tr&gt;&lt;th title=&quot;Field #1&quot;&gt;Kurdish phonemes (IPA)&lt;/th&gt;
+&lt;th title=&quot;Field #2&quot;&gt;Latin-based&lt;/th&gt;
+&lt;th title=&quot;Field #3&quot;&gt;Yekgirtú&lt;/th&gt;
+&lt;th title=&quot;Field #4&quot;&gt;Arabic-based&lt;/th&gt;
+&lt;/tr&gt;&lt;/thead&gt;
+&lt;tbody&gt;&lt;tr&gt;
+&lt;td&gt;[a:]&lt;/td&gt;
+&lt;td&gt;A a&lt;/td&gt;
+&lt;td&gt;A a&lt;/td&gt;
+&lt;td&gt;ا&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;[b]&lt;/td&gt;
+&lt;td&gt;B b&lt;/td&gt;
+&lt;td&gt;B b&lt;/td&gt;
+&lt;td&gt;ب&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;[t͡ʃ]&lt;/td&gt;
+&lt;td&gt;Ç ç&lt;/td&gt;
+&lt;td&gt;C c&lt;/td&gt;
+&lt;td&gt;چ&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;[d͡ʒ]&lt;/td&gt;
+&lt;td&gt;C c&lt;/td&gt;
+&lt;td&gt;J j&lt;/td&gt;
+&lt;td&gt;ج&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;[d]&lt;/td&gt;
+&lt;td&gt;D d&lt;/td&gt;
+&lt;td&gt;D d&lt;/td&gt;
+&lt;td&gt;د&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;[æ]&lt;/td&gt;
+&lt;td&gt;E e&lt;/td&gt;
+&lt;td&gt;E e&lt;/td&gt;
+&lt;td&gt;ه&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;[eː ]&lt;/td&gt;
+&lt;td&gt;Ê ê&lt;/td&gt;
+&lt;td&gt;É é&lt;/td&gt;
+&lt;td&gt;ێ&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;[f]&lt;/td&gt;
+&lt;td&gt;F f&lt;/td&gt;
+&lt;td&gt;F f&lt;/td&gt;
+&lt;td&gt;ف&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;[g]&lt;/td&gt;
+&lt;td&gt;G g&lt;/td&gt;
+&lt;td&gt;G g&lt;/td&gt;
+&lt;td&gt;گ&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;[h]&lt;/td&gt;
+&lt;td&gt;H h&lt;/td&gt;
+&lt;td&gt;H h&lt;/td&gt;
+&lt;td&gt;ھ&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;[I]&lt;/td&gt;
+&lt;td&gt;I i&lt;/td&gt;
+&lt;td&gt;I i&lt;/td&gt;
+&lt;td bgcolor=&quot;#A9A9A9&quot;&gt; &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;[i:]&lt;/td&gt;
+&lt;td&gt;Î î&lt;/td&gt;
+&lt;td&gt;Í í&lt;/td&gt;
+&lt;td&gt;ى&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;[ʒ]&lt;/td&gt;
+&lt;td&gt;J j&lt;/td&gt;
+&lt;td&gt;Jh jh&lt;/td&gt;
+&lt;td&gt;ژ&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;[k]&lt;/td&gt;
+&lt;td&gt;K k&lt;/td&gt;
+&lt;td&gt;K k&lt;/td&gt;
+&lt;td&gt;ک&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;[l]&lt;/td&gt;
+&lt;td&gt;L l&lt;/td&gt;
+&lt;td&gt;L l&lt;/td&gt;
+&lt;td&gt;ل&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;[ɬ]&lt;/td&gt;
+&lt;td&gt;Ł ł&lt;/td&gt;
+&lt;td&gt;Ll ll&lt;/td&gt;
+&lt;td&gt;ڵ&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;[m]&lt;/td&gt;
+&lt;td&gt;M m&lt;/td&gt;
+&lt;td&gt;M m&lt;/td&gt;
+&lt;td&gt;م&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;[n]&lt;/td&gt;
+&lt;td&gt;N n&lt;/td&gt;
+&lt;td&gt;N n&lt;/td&gt;
+&lt;td&gt;ن&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;[oː ]&lt;/td&gt;
+&lt;td&gt;O o&lt;/td&gt;
+&lt;td&gt;O o&lt;/td&gt;
+&lt;td&gt;ۆ&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;[p]&lt;/td&gt;
+&lt;td&gt;P p&lt;/td&gt;
+&lt;td&gt;P p&lt;/td&gt;
+&lt;td&gt;پ&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;[q]&lt;/td&gt;
+&lt;td&gt;Q q&lt;/td&gt;
+&lt;td&gt;Q q&lt;/td&gt;
+&lt;td&gt;ق&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;[ɾ]&lt;/td&gt;
+&lt;td&gt;R r&lt;/td&gt;
+&lt;td&gt;R r&lt;/td&gt;
+&lt;td&gt;ر&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;[r]&lt;/td&gt;
+&lt;td&gt;Ř ř&lt;/td&gt;
+&lt;td&gt;Rr rr&lt;/td&gt;
+&lt;td&gt;ڕ&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;[s]&lt;/td&gt;
+&lt;td&gt;S s&lt;/td&gt;
+&lt;td&gt;S s&lt;/td&gt;
+&lt;td&gt;س&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;[ʃ]&lt;/td&gt;
+&lt;td&gt;Ş ş&lt;/td&gt;
+&lt;td&gt;Sh sh&lt;/td&gt;
+&lt;td&gt;ش&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;[t]&lt;/td&gt;
+&lt;td&gt;T t&lt;/td&gt;
+&lt;td&gt;T t&lt;/td&gt;
+&lt;td&gt;ت&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;[ʊ]&lt;/td&gt;
+&lt;td&gt;U u&lt;/td&gt;
+&lt;td&gt;U u&lt;/td&gt;
+&lt;td&gt;و&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;[u:]&lt;/td&gt;
+&lt;td&gt;Û û&lt;/td&gt;
+&lt;td&gt;Ú ú&lt;/td&gt;
+&lt;td&gt;وو&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;[v]&lt;/td&gt;
+&lt;td&gt;Vv&lt;/td&gt;
+&lt;td&gt;V v&lt;/td&gt;
+&lt;td&gt;ڤ&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;[w]&lt;/td&gt;
+&lt;td&gt;W w&lt;/td&gt;
+&lt;td&gt;W w&lt;/td&gt;
+&lt;td&gt;و&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;[x]&lt;/td&gt;
+&lt;td&gt;X x&lt;/td&gt;
+&lt;td&gt;X x&lt;/td&gt;
+&lt;td&gt;خ&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;[j]&lt;/td&gt;
+&lt;td&gt;Y y&lt;/td&gt;
+&lt;td&gt;Y y&lt;/td&gt;
+&lt;td&gt;ى&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;[z]&lt;/td&gt;
+&lt;td&gt;Z z&lt;/td&gt;
+&lt;td&gt;Z z&lt;/td&gt;
+&lt;td&gt;ز&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;[ħ]&lt;/td&gt;
+&lt;td&gt;Ḧ ḧ&lt;/td&gt;
+&lt;td&gt;H&amp;#39;, h&amp;#39;&lt;/td&gt;
+&lt;td&gt;ح&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;[ʕ]&lt;/td&gt;
+&lt;td&gt;Ë ë&lt;/td&gt;
+&lt;td&gt;‘&lt;/td&gt;
+&lt;td&gt;ع&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;[ɣ]&lt;/td&gt;
+&lt;td&gt;Ẍ ẍ&lt;/td&gt;
+&lt;td&gt;X&amp;#39;, x&amp;#39;&lt;/td&gt;
+&lt;td&gt;غ&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;[ʉ:]&lt;/td&gt;
+&lt;td bgcolor=&quot;#A9A9A9&quot;&gt; &lt;/td&gt;
+&lt;td&gt;Ù ù&lt;/td&gt;
+&lt;td&gt;ۊ&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;[γ]&lt;/td&gt;
+&lt;td bgcolor=&quot;#A9A9A9&quot;&gt; &lt;/td&gt;
+&lt;td bgcolor=&quot;#A9A9A9&quot;&gt; &lt;/td&gt;
+&lt;td&gt;ڎ&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;[ʁ]&lt;/td&gt;
+&lt;td&gt;Ğ ğ&lt;/td&gt;
+&lt;td bgcolor=&quot;#A9A9A9&quot;&gt; &lt;/td&gt;
+&lt;td bgcolor=&quot;#A9A9A9&quot;&gt; &lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;h3 id=&quot;lack-of-standards&quot;&gt;Lack of standards&lt;/h3&gt;
+
+&lt;p&gt;As discussed earlier, the diversity in dialects and scripts turns the richness of the language into a challenge. Such challenges are usually addressed by defining certain standards which do not exist for Kurdish yet. Defining a standard Kurdish language or Kurdish alphabet and deploying those standards require governmental actions and should be supported by scholars and Kurdish public.&lt;/p&gt;
+
+&lt;h3 id=&quot;lack-of-resources&quot;&gt;Lack of resources&lt;/h3&gt;
+
+&lt;p&gt;Electronic resources provide textual information about language and are essential for text mining in particular, and NLP in general. Those information can be collected and used as a &lt;a href=&quot;https://en.wikipedia.org/wiki/Text_corpus&quot;&gt;text corpus&lt;/a&gt;. Fortunately, there are currently websites which are active in creating content in Kurdish, notably news agencies. Unfortunately, we still need more resources, especially expert-made ones such as lexicons and parallel corpora.&lt;/p&gt;
+
+&lt;h3 id=&quot;lack-of-investment&quot;&gt;Lack of investment&lt;/h3&gt;
+
+&lt;p&gt;Honestly, I believe that lack of investment should have been listed as the first reason of Kurdish remaining behind in NLP.&lt;/p&gt;
+
+&lt;p&gt;A project needs to be funded to make a progress, which is unfortunately not the case for Kurdish-related projects. Due to the political constraints in Kurdistan, funding a Kurdish-related project is not a priority for the businesses. Even in the Southern Kurdistan, where there has been autonomy  (kind of) since 1992, there has not been a big advancement in this field.&lt;/p&gt;
+
+&lt;p&gt;Such a difficulty seems to be the case of less-resourced languages. The following paragraph from the &lt;a href=&quot;http://ixa2.si.ehu.es/saltmil/index.php/en/news-mainmenu-287/36-news/89-lrec2010-saltmil-discussion.html&quot;&gt;summary&lt;/a&gt; of the discussion on Less resourced languages and Language technology of the seventh international conference on Language Resources and Evaluation (LREC) explains how getting a project funded for a less-resourced language may be challenging:&lt;/p&gt;
+
+&lt;div class=&quot;ml-3&quot;&gt;
+&lt;p class=&quot;text-muted&quot;&gt;One of the problems that was underlined is the difficulties in convincing politicians to fund the creation of language resources (LR) for less-resourced languages (LRL). Per Langgård suggested that it would be necessary to build a scheme to assist developers to have success in that endeavour; Khalid Choukri said that even for large European languages it was also difficult to convince European Union politicians to fund R&amp;amp;D in the field, and that we needed to give politicians a larger picture and something they can sell to the media. Along the same lines, Igor Leturia mentioned that we should convince politicians that we do not only do research but that we produce products that politicians can see. &lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;h3 id=&quot;public-awareness&quot;&gt;Public awareness&lt;/h3&gt;
+
+&lt;p&gt;In addition to the aforementioned factors, I should bitterly admit that there has been a kind of ignorance among the Kurds regarding their language and its correct usage as their formal language. I hope that my generation can promote using the power of Internet and make more people aware of the importance of language technology.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-to-do-then&quot;&gt;What to do then?&lt;/h2&gt;
+
+&lt;h3 id=&quot;for-you-as-a-person&quot;&gt;For you as a person&lt;/h3&gt;
+
+&lt;h4 id=&quot;use-utf-8-please&quot;&gt;Use UTF-8, &lt;mark&gt;Please&lt;/mark&gt;!&lt;/h4&gt;
+&lt;p&gt;Each piece of text that you are typing is useful to make a language processable. Use a Kurdish keyboard and care about the correctness of what you type, as much as you can. Happily, there are currently many keyboards available on Google Play and iTunes which support Kurdish alphabets in UTF-8. (Take a look at &lt;a href=&quot;https://play.google.com/store/apps/details?id=com.google.android.inputmethod.latin&amp;amp;hl=en_IE&quot;&gt;Gboard - the Google Keyboard&lt;/a&gt; if you are an Android user).&lt;/p&gt;
+
+&lt;h4 id=&quot;understand-the-value-of-data&quot;&gt;Understand the value of data&lt;/h4&gt;
+&lt;p&gt;We are making information each day by sending messages to our friends and visiting social media. &lt;strong&gt;Try creating content in Kurdish&lt;/strong&gt;. &lt;a href=&quot;https://en.wikipedia.org/wiki/Blog&quot;&gt;Blogging&lt;/a&gt; is a very interesting way to let others know about your ideas.&lt;/p&gt;
+
+&lt;h4 id=&quot;be-creative-and-think-about-nlp&quot;&gt;Be creative and think about NLP&lt;/h4&gt;
+&lt;p&gt;No matter what your expertise is, you can make a change in the current situation. If you are a Kurdish music fan, you can write the lyrics of the Kurdish songs and create a corpus for it. If you are interested in medical sciences, you can collect the terminology of your profession. If you are teaching a module related to computer science, NLP or computational linguistics, why not letting your students working on a Kurdish-related mini-project for their final project? And so on.&lt;/p&gt;
+
+&lt;h4 id=&quot;research-in-kurdish-language-processing&quot;&gt;Research in Kurdish language processing&lt;/h4&gt;
+
+&lt;p&gt;We need to do more research in Kurdish language processing. I strongly believe in the open data and open-source tools given the current situation of lack of investment.&lt;/p&gt;
+
+&lt;h3 id=&quot;for-you-as-a-business-or-entrepreneur&quot;&gt;For you as a business or entrepreneur&lt;/h3&gt;
+
+&lt;h4 id=&quot;invest&quot;&gt;Invest&lt;/h4&gt;
+
+&lt;p&gt;Just like any other field in computer engineering, your business can make money by creating Kurdish language technology.&lt;/p&gt;
+
+&lt;h4 id=&quot;fund-research-projects&quot;&gt;Fund research projects&lt;/h4&gt;
+
+&lt;p&gt;Collaborate with academic research units and fund research projects related to Kurdish language processing. Taking a few interns per year can make a huge contribution to the field..&lt;/p&gt;
+
+&lt;h4 id=&quot;promote-usage-of-tools-for-kurdish&quot;&gt;Promote usage of tools for Kurdish&lt;/h4&gt;
+
+&lt;p&gt;News agencies, publication houses, authorities and all those who have a voice in the society, can promote the usage of tools which are made for Kurdish language processing.&lt;/p&gt;
+
+&lt;h2 id=&quot;footnotes&quot;&gt;Footnotes&lt;/h2&gt;
+&lt;p&gt;[1] “jerej” means “partridge“ in Hewrami Kurdish. In the Sorani Kurdish and in the Kurmanji Kurdish, “kew” and “vitik” are used respectively.&lt;/p&gt;
+
+&lt;hr class=&quot;col-xs-12&quot; /&gt;
+
+&lt;p&gt;Last updated on 26 March 2019.&lt;/p&gt;</content><author><name>Sina Ahmadi</name></author><category term="Kurdish" /><category term="NLP" /><category term="Kurdish language processing" /><category term="Less-resourced languages" /><summary type="html">Since the first time that I touched my home computer keyboard in 2001, I used to ask myself if it would be possible to make computer understand my mother language, Kurdish. Well, what I was imagining was definitely something limited to a Kurdish interface for Windows, particularly when I was going through the installation descriptions of Return to Castle Wolfenstein and Mafia: The City of Lost Heaven! Let alone the spontaneous questions that Clippy was asking and how much I was curious to see the same messages in Kurdish. Me, when I was 9. “What if Clippy could ask “çon î” (how are you) in Kurdish? In 2000s, there were a few application-based projects for introducing Kurdish to the computer world. For instance, a few Kurdish fonts were made based on the Persian and Arabic keyboards and the interface of some softwares were also translated into Kurdish. Since then, a lot of things have changed in the Information Technology (IT) world. Computers got smaller and more efficient, connections got faster than ever and subsequently, the world has become a smaller place. And still, the overall availablity of electronic resources and processing tools for Kurdish is not to a satisfying extent. Kurdish is not just a language with a history that reflects the culture of its speakers. Indeed, it is the only element that has kept Kurds as a nation. In this post, I would like to address the importance of language technology for Kurdish language. Nowadays, with a plethora of (unstructured) online Kurdish resources and the recent progress in natural language processing and machine learning, I think that it is more feasible than ever to provide tools and resources for finally making Kurdish understandable by machine. I will also explain why I believe that the difficulty of processing Kurdish language is no more like the 2000s and there is currently a huge potential for Kurdish processing. What is Natural Language Processing? Formally speaking, Natural Language Processing (NLP) refers to the computer processing of natural language: the language that we speak with. NLP is a part of the field of study which is called language technology. If you are using a spell checker on your cell phone or your computer, or you use Siri or Google Assistant to ask about the nearest restaurant, then you have been already using some of the most common applications of NLP. Language technology is so present in nowadays life that most of us have been using them without even knowing about! Language technology is a primordial part of the Web. At our current pace (in 2019), we are producing 2.5 quintillion bytes of data each day, in other words 1018 bytes (source), mostly unstructured data such as text, speech and so on. NLP technologies enable us to extract information from data and process the data for different applications. NLP total revenue by segments. Recreated based on the data from Tractica. So, if you have a small or big business and you would like to know about the public opinion regarding your services, or you are a politician and would like to know what is happening around, or you are doing something for which human communication and interaction is important, then you will definitely need language technology. NLP applications: a few examples for Kurdish Some of the applications of NLP are: Transliteration: Kurdish is written in two scripts. The Latin-based script is used for writing in Kurmanji dialect, mostly spoken in Bakûr (means “north” in Kurdish and refers to the Kurdish regions in Turkey) and parts of Rojava (means “west” in Kurdish and refers to the Kurdish regions in Syria), while the Arabic-based script is used in Rojhełat (“east” in Kurdish, the Kurdish regions of Iran) and Basûr (“south” in Kurdish, the Kurdish regions of Iraq). A transliterator enables us to automatically convert one script to the other. As an example, “birayetî” (brotherhood in Kurdish) in the Latin-based script is transliterated as “برایەتی” in the Arabic-based script. Morphological analysis: Kurdish is an inflectional language. That is, a word can turn into a new word by adding a set of morphemes, such as suffixes and prefixes. For instance, “jinekan” (the women) is composed of “jin” (woman) and “ekan” (definite article added as a suffix to the noun). Detecting each morpheme is the task of morphological analyser. This is challenging, especially because of the huge number of derivational and inflectional morphemes in Kurdish. Another example, the Sorani word “dîtimin” which means “I saw them” is composed of “dîtim”, “I saw”, and “in” the object added as an accusative suffix. Parts of Speech Tagging: How do we know what is the grammatical role of each parts of this sentence : “Min gułekanim bon kird” (I smelled the flowers)? Well, that is what a part-of-speech tagger (POS tagger) does. For that case, a Kurdish PoS tagger will tell you that “min” is a pronoun, “gułekanim” is a definite noun and “bon kird” is the first singular person of the verb “bon kirdin” (to smell) in the past tense. Machine translation: This is maybe the most popular application of NLP. What if all dialects of Kurdish could be translated into other languages automatically? What is the equivalent of the Hawrami word “jerej” in Kurmanji and Sorani?[1] Machine translation takes care of the automatic translation using a parallel corpus. A corpus is a collection of text collected for a specific purpose. In a parallel corpus, the texts in two languages are aligned together. For instance, in a parallel corpus of Sorani Kurdish and English, for “The distance between Sanandaj and Sulaymaniyah is 253 kilometers”, the following sentence is aligned: “mewday nêwan Sine û Silêmanî 253 kîlomîtr e”. And now, imagine that in our corpus which contains thousands of parallel sentences, there are 100 sentences in which those words are used. That is where machine translation, based on statistical methods and more recently, neural network models, predicts that “Sine” means “Sanandaj” and “Silêmanî” means “Sulaymaniyah”, and even can translate sentences and more sophisticated texts. Speech recognition Just try “OK google” on your Android phone, or “Hey, Siri” to activate your speech recogniser. Then talk as you talk with a real person and let the machine deal with it! That is what a speech recogniser does. To discover more about NLP, Jurafsky and Martin’s handbook in speech and language processing and Natural Language Processing and its Applications are two useful resources. Challenges of Kurdish language processing Kurdish is a less-resourced language. A less-resourced language is a language for which there is not enough language resources to be fully processed. In the following, I mention some of the main characteristics of Kurdish language which are also the main reasons that may explain the challenges in Kurdish language processing and why they have not been efficiently addressed yet. Diversity in dialects Having various dialects and sub-dialects, Kurdish is known as a dialect-rich language and is sometimes referred to as a dialect continuum. This richness is intersting when you observe that what is called something in a village is called differently in the neighbourhood. As a personal observation, in Kêle Sipî, a village near Sanandaj in the Eastern Kurdistan, people use the word amêjeng for yeast, while in Syaseran it is called amyan. Such differences are not limited to the vocabulary, but also to the phonology and the phonetics. Almost all the dialects and sub-dialects of Kurdish have something distinct in terms of pronunciation. Dialectal difference could even be observed between two neighbouring villages. Having said that, the variety of the dialects adds a gap between the speakers of the same language and to some extent, creates a kind of barrier in communication. Some believe that such diversities should be addressed by defining a standard language. Defining a standard language for Kurdish has been a matter of debate without reaching a consensus. Diversity in scripts Due to historical and geological reasons, several scripts are used when it comes to Kurdish writing. Cyrillic, Arabo-Persian, Latin and even Armenian alphabets have been used to write Kurdish texts. In the recent years, the Kurdish Academy of Language has tried to unify those alphabets and present a unified alphabet for Kurdish called Yekgirtú. However, Yekgirtú does not seem to be as popular among the scholars nor the public; among all alphabets, the Arabo-Persian and the Latin alphabets are mostly used by Sorani and Kurmanji speakers, respectively. The following table shows those two alphabets in a comparative way. Kurdish phonemes (IPA) Latin-based Yekgirtú Arabic-based [a:] A a A a ا [b] B b B b ب [t͡ʃ] Ç ç C c چ [d͡ʒ] C c J j ج [d] D d D d د [æ] E e E e ه [eː ] Ê ê É é ێ [f] F f F f ف [g] G g G g گ [h] H h H h ھ [I] I i I i [i:] Î î Í í ى [ʒ] J j Jh jh ژ [k] K k K k ک [l] L l L l ل [ɬ] Ł ł Ll ll ڵ [m] M m M m م [n] N n N n ن [oː ] O o O o ۆ [p] P p P p پ [q] Q q Q q ق [ɾ] R r R r ر [r] Ř ř Rr rr ڕ [s] S s S s س [ʃ] Ş ş Sh sh ش [t] T t T t ت [ʊ] U u U u و [u:] Û û Ú ú وو [v] Vv V v ڤ [w] W w W w و [x] X x X x خ [j] Y y Y y ى [z] Z z Z z ز [ħ] Ḧ ḧ H&amp;#39;, h&amp;#39; ح [ʕ] Ë ë ‘ ع [ɣ] Ẍ ẍ X&amp;#39;, x&amp;#39; غ [ʉ:] Ù ù ۊ [γ] ڎ [ʁ] Ğ ğ Lack of standards As discussed earlier, the diversity in dialects and scripts turns the richness of the language into a challenge. Such challenges are usually addressed by defining certain standards which do not exist for Kurdish yet. Defining a standard Kurdish language or Kurdish alphabet and deploying those standards require governmental actions and should be supported by scholars and Kurdish public. Lack of resources Electronic resources provide textual information about language and are essential for text mining in particular, and NLP in general. Those information can be collected and used as a text corpus. Fortunately, there are currently websites which are active in creating content in Kurdish, notably news agencies. Unfortunately, we still need more resources, especially expert-made ones such as lexicons and parallel corpora. Lack of investment Honestly, I believe that lack of investment should have been listed as the first reason of Kurdish remaining behind in NLP. A project needs to be funded to make a progress, which is unfortunately not the case for Kurdish-related projects. Due to the political constraints in Kurdistan, funding a Kurdish-related project is not a priority for the businesses. Even in the Southern Kurdistan, where there has been autonomy (kind of) since 1992, there has not been a big advancement in this field. Such a difficulty seems to be the case of less-resourced languages. The following paragraph from the summary of the discussion on Less resourced languages and Language technology of the seventh international conference on Language Resources and Evaluation (LREC) explains how getting a project funded for a less-resourced language may be challenging: One of the problems that was underlined is the difficulties in convincing politicians to fund the creation of language resources (LR) for less-resourced languages (LRL). Per Langgård suggested that it would be necessary to build a scheme to assist developers to have success in that endeavour; Khalid Choukri said that even for large European languages it was also difficult to convince European Union politicians to fund R&amp;amp;D in the field, and that we needed to give politicians a larger picture and something they can sell to the media. Along the same lines, Igor Leturia mentioned that we should convince politicians that we do not only do research but that we produce products that politicians can see. Public awareness In addition to the aforementioned factors, I should bitterly admit that there has been a kind of ignorance among the Kurds regarding their language and its correct usage as their formal language. I hope that my generation can promote using the power of Internet and make more people aware of the importance of language technology. What to do then? For you as a person Use UTF-8, Please! Each piece of text that you are typing is useful to make a language processable. Use a Kurdish keyboard and care about the correctness of what you type, as much as you can. Happily, there are currently many keyboards available on Google Play and iTunes which support Kurdish alphabets in UTF-8. (Take a look at Gboard - the Google Keyboard if you are an Android user). Understand the value of data We are making information each day by sending messages to our friends and visiting social media. Try creating content in Kurdish. Blogging is a very interesting way to let others know about your ideas. Be creative and think about NLP No matter what your expertise is, you can make a change in the current situation. If you are a Kurdish music fan, you can write the lyrics of the Kurdish songs and create a corpus for it. If you are interested in medical sciences, you can collect the terminology of your profession. If you are teaching a module related to computer science, NLP or computational linguistics, why not letting your students working on a Kurdish-related mini-project for their final project? And so on. Research in Kurdish language processing We need to do more research in Kurdish language processing. I strongly believe in the open data and open-source tools given the current situation of lack of investment. For you as a business or entrepreneur Invest Just like any other field in computer engineering, your business can make money by creating Kurdish language technology. Fund research projects Collaborate with academic research units and fund research projects related to Kurdish language processing. Taking a few interns per year can make a huge contribution to the field.. Promote usage of tools for Kurdish News agencies, publication houses, authorities and all those who have a voice in the society, can promote the usage of tools which are made for Kurdish language processing. Footnotes [1] “jerej” means “partridge“ in Hewrami Kurdish. In the Sorani Kurdish and in the Kurmanji Kurdish, “kew” and “vitik” are used respectively. Last updated on 26 March 2019.</summary></entry></feed>

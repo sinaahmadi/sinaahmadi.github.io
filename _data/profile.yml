@@ -15,7 +15,7 @@
   icon: entypo/graduation-cap.svg
 
 - caption: Stack Overflow
-  href: https://tex.stackexchange.com/users/81967/sina-ahmadi?tab=profile
+  href: https://stackoverflow.com/story/sinaahm
   icon: entypo/stack-overflow.svg
 
 - caption: Twitter
@@ -23,10 +23,13 @@
   icon: entypo/twitter-with-circle.svg
 
 # - caption: Google Maps
-# 
+#
 #   icon: entypo/Google_Photos_icon.svg
 
 - caption: Galway, Ireland
   href: https://goo.gl/maps/6H5SxKrfgZn
   icon: entypo/location-pin.svg
 
+- caption: RSS
+  href: feed.xml
+  icon: entypo/rss.svg

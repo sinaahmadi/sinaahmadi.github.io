@@ -10,7 +10,7 @@ excerpt_separator: <!--more-->
 title:            Sina Ahmadi's Personal Page # Site title
 name:             Sina Ahmadi              # Your name
 avatar:           /docs/P_20180307_160121_BF.png   # Path to an avatar image
-
+author:           Sina Ahmadi
 # The theme uses the baseurl throughout, which is useful for running the entire
 # site under a subdir, like for this GitHub Pages deployment as a project site.
 #baseurl: "/Users/sina/My_GitHub/sinaahmadi.github.io/"
@@ -19,7 +19,7 @@ avatar:           /docs/P_20180307_160121_BF.png   # Path to an avatar image
 url: "https://sinaahmadi.github.io/"
 plugins:
   - jekyll-sitemap
-
+  - jekyll-feed
 
 # Add a directory to hold misc pages, just to keep the root directory clean.
 include: ["_pages", "_portfolio"]
