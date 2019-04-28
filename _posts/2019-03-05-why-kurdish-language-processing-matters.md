@@ -1,5 +1,5 @@
 ---
-title: Why Kurdish language processing matters?
+title: Why does Kurdish language processing matter?
 show_profile: false
 tags:
 - Kurdish
@@ -63,7 +63,7 @@ Kurdish is a less-resourced language. A less-resourced language is a language fo
 
 ### Diversity in dialects
 
-Having various dialects and sub-dialects, Kurdish is known as a dialect-rich language and is sometimes referred to as a [dialect continuum](http://kurdish.humanities.manchester.ac.uk/wp-content/uploads/2017/07/PDF-Revisiting-Kurdish-dialect-geography.pdf){:target="_blank"}. This richness is intersting when you observe that what is called something in a village is called differently in the neighbourhood. As a personal observation, in [Kêle Sipî](https://goo.gl/maps/hotbKuCa9Yz){:target="_blank"}, a village near Sanandaj in the Eastern Kurdistan, people use the word *amêjeng* for yeast, while in [Syaseran](https://goo.gl/maps/VKPRG5REW6q){:target="_blank"} it is called *amyan*. Such differences are not limited to the vocabulary, but also to the phonology and the phonetics. Almost all the dialects and sub-dialects of Kurdish have something distinct in terms of pronunciation.
+Having various dialects and sub-dialects, Kurdish is known as a dialect-rich language and is sometimes referred to as a [dialect continuum](http://kurdish.humanities.manchester.ac.uk/wp-content/uploads/2017/07/PDF-Revisiting-Kurdish-dialect-geography.pdf){:target="_blank"}. This richness is intersting when you observe that what is called something in a village is called differently in the neighbourhood. As a personal observation, in [Kêle Çermig](https://goo.gl/maps/hotbKuCa9Yz){:target="_blank"}, a village near Sanandaj in the Eastern Kurdistan, people use the word *amêjeng* for yeast, while in [Syaseran](https://goo.gl/maps/VKPRG5REW6q){:target="_blank"} it is called *amyan*. Such differences are not limited to the vocabulary, but also to the phonology and the phonetics. Almost all the dialects and sub-dialects of Kurdish have something distinct in terms of pronunciation.
 
 <div class="card mb-3 text-center">
 <h5 style="text-align:center;">

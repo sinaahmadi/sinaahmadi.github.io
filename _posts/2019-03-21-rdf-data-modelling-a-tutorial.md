@@ -92,7 +92,7 @@ dbr:Paris dbo:populationTotal "2229621"^^xsd:integer .
 
 ## Data modelling
 
-Hopefully, you are now familiar with the basics of RDF and how to represent them. In this section, we would like to create a data model. All you need to know is the following 4 principals:
+Hopefully, you are now familiar with the basics of RDF and how to represent them. In this section, we would like to create a data model. All you need to know is the following 4 principals which form what is known as RDF Schema ([RDFS](https://www.w3.org/TR/rdf-schema/){:target="_blank"}):
 
 - **Class hierarchy**: a class can be a sub-class of a parent class. For instance, `Bird` can be defined as a class which is the sub-class of the class `Animal`.
 - **Property hierarchy**: a property can be a sub-property of another property. Think of a property called `Moves`. `MoviesByCar` and `MovesByTrain` can be  defined as the sub-properties of `Moves` as they are the same functionality with a specificity.

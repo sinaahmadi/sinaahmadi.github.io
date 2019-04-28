@@ -16,7 +16,7 @@ On my personal side, I have a voracious appetite for knowledge about languages. 
 
 In addition to this web site, you can find information about me at various social networks outlets which are linked to in the left section.
 
-#### My CV
+#### My CV (last update February 2019)
 <object data="/docs/Sina_Ahmadi_CV-Dec2018.pdf" type="application/pdf" width="100%" height="100%">
   <p>Link to Sina Ahmadi's CV. <a href="/docs/Sina_Ahmadi_CV-Dec2018.pdf"></a></p>
 </object>

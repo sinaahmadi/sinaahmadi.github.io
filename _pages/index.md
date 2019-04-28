@@ -25,6 +25,6 @@ title: Welcome to Sina Ahmadi's Personal Page
 * [06/09/2017] Defened my master's thesis in AI at Paris Descartes University [[Thesis]](https://arxiv.org/abs/1810.00660) [[Slides]](../docs/M2_AI_soutenance_diapos_2017.pdf)
 * [02/04/2017] Joined [LIPN](http://lipn.univ-paris13.fr/){:target="_blank"} for my master's internship in encoder-decoder networks for error correction
 * [17/10/2016] Defended my master's thesis in NLP at Sorbonne Nouvelle University
-* [17/09/2016] New academic year in M2-AI at [Paris Descartes University](http://www.mi.parisdescartes.fr/formations/master-informatique/specialite-intelligence-artificielle/){:target="_blank"}
+* [17/09/2016] New academic year in M2-AI at [Paris Descartes University](https://www.math-info.parisdescartes.fr/){:target="_blank"}
 
 <hr />
