@@ -21,7 +21,7 @@ What we mean by **text pre-processing** is the normalisation of text by removing
     </div>
 </div>
 
-Obviously, for one problem there may be more than one solution. However, in this tutorial, only a few techniques and programs are introduced. It will be up to you, your preference and the requirements of your tasks to decide which command fits better to your problem. Personally, I love the command-line and how each program can be used as a piece of puzzle, thanks to **pipes**, to solve sophisticated problems, particularly where processing time and performance matters.
+Obviously, for one problem there may be more than one solution. However, in this tutorial, only a few techniques and programs are introduced. It will be up to you, your preference and the requirements of your tasks to decide which command fits better to your problem. Personally, I love the command-line and how each program can be used as a piece of puzzle, thanks to **pipes**, to solve sophisticated problems, particularly where processing time and performance matter.
 
 **System setup**: The commands in this tutorial have been tested on GNU bash, version 5.0.2(1)-release (x86_64-apple-darwin18.2.0). You will normally have no problem running them on any Unix-based operating system. If you are a Windows user, the best solution is to start using a Linux-based open-source operating system like [Ubuntu](https://www.ubuntu.com/){:target="_blank"} (seriously, do it!). Otherwise, you can simply install [Cygwin](https://www.cygwin.com/){:target="_blank"} which lets you enjoy GNU in you Windows, *somehow*!
 
@@ -33,7 +33,7 @@ If you are interested in executing the commands in practice, you can download [t
 
 ### Text reading
 
-The very first step of any tasks in text (pre-)processing is text reading. We will see later in this tutorial that some commands, like `wc`, take care of the text reading without requiring us to do any further commands for reading.
+The very first step of any task in text (pre-)processing is text reading. We will see later in this tutorial that some commands, like `wc`, take care of the text reading without requiring us to do any further commands for reading.
 
 #### `cat`
 ##### Syntax: `cat [options] [filenames]`
@@ -54,14 +54,14 @@ $ cat noisy_text.txt | less
 
 To exit the viewing window press `q`.
 
-You may write your file content in a new files like:
+You may write your file content in a new file like:
 
 {% highlight bash %}
 $ cat noisy_text.txt > new_noisy_text.txt
 $ cat noisy_text.txt >> new_noisy_text.txt
 {% endhighlight %}
 
-The difference between `>` and `>>` is that the first one overwrites the files if it already exists, while the latter one keeps the content untouched and append to the file.
+The difference between `>` and `>>` is that the first one overwrites the file if it already exists while the latter one keeps the content untouched and appends to the existing file.
 
 `cat` can also turn your command-line into a basic text editor as follows:
 
@@ -90,7 +90,7 @@ Sometimes you only want to take a look at how the content of a file looks like. 
 $ head noisy_text.txt
 {% endhighlight %}
 
-There is an interesting option `-n` which lets us to specify how many lines be displayed. The default value of is 10 lines.
+There is an interesting option `-n` which lets us to specify how many lines be displayed. The default value is 10 lines.
 
 {% highlight bash %}
 $ head -n 2  noisy_text.txt
@@ -108,7 +108,7 @@ $
 $ head -n 300 noisy_text.txt | tail -n 14
 {% endhighlight %}
 
-###### Get a block of text with `awk`
+##### Get a block of text with `awk`
 
 But what if you only want a specific range of lines in your file? Well, you can use `awk` as the following:
 
@@ -143,12 +143,12 @@ $
 
 Recall that `echo` displays a text on standard output.
 
-Any characters that `iconv` does not know how to convert will be replaced with question marks. This may not be good when conversion accuracy matters. However, when dealing with large number of files, I would personally prefer having a bunch of `?`s to prevent any text reading errors!
+Any characters that `iconv` does not know how to convert will be replaced with question marks. This may not be good when conversion accuracy matters. However, when dealing with large number of files, I personally prefer having a bunch of `?`s to prevent any text reading errors!
 
-### Replace characters with `tr`
+### Replace characters using `tr`
 #### Syntax: `tr [options] [set1] [set2]`
 
-Replacing or removing specific characters is also part of text pre-processing. For instance, unnecessary spaces or newlines may not be welcomed for some tasks. tr`, abbreviation of *translate* or *transliterate*, is a very useful command which deals with such cases.
+Replacing or removing specific characters is also a part of text pre-processing. For instance, unnecessary spaces or newlines may not be welcomed for some tasks. `tr`, abbreviation of *translate* or *transliterate*, is a very useful command which deals with such cases.
 
 Suppose that you have the following text in Greek, where `;` is normally used as `?`, and you want to replace `;` with `?`:
 
@@ -195,7 +195,7 @@ AMOUNT OF PLASTIC IN OCEAN IS WORSE THAN WE THOUGHT, STUDY SAYS
 $   
 {% endhighlight %}
 
-What if we want to replace multiple occurrences of a character by another character? For instance, line 340 to 363 in the [sample text file]({{site.url}}/docs/tutorials/noisy_text.txt){:target="_blank"} contains multiple spaces that we would like to be removed and only be replaced one. This can be done with the `-s` option of `tr`:
+What if we want to replace multiple occurrences of a character by another character? For instance, line 340 to 363 in the [sample text file]({{site.url}}/docs/tutorials/noisy_text.txt){:target="_blank"} contain multiple spaces that we would like to be removed and be replaced by one. This can be done with the `-s` option of `tr`:
 
 {% highlight bash %}
 $ cat noisy_text.txt | awk 'NR >= 340  && NR <= 350'
@@ -244,11 +244,11 @@ To discover more interesting options, try `man tr`.
 
 ### Remove HTML tags (or anything between tags)
 
-The covers that we covered so far were used directly over the text with simple patterns. What if we need to deal with more sophisticated text patterns? This is where regular expressions (regex) come in!
+The commands that we introduced so far were used directly over the text with simple patterns. What if we need to deal with more sophisticated text patterns? This is where regular expressions (regex) come in!
 
-Regex allows us to access parts of a text based on the rules that we define. In some ways, a regex is analogous to a database query or a semantic query. It's a query to extract information from a text.
+Regex allow us to access parts of a text based on the rules that we define. In some ways, a regex is analogous to a database query or a semantic query. It's a query to extract information from raw text!
 
-Let's take a look at our [sample text file]({{site.url}}/docs/tutorials/noisy_text.txt){:target="_blank"} where lines 1215 to 1220 contain HTML code (which seems to be a table):
+Let's take a look at our [sample text file]({{site.url}}/docs/tutorials/noisy_text.txt){:target="_blank"} where lines 1215 to 1220 contain HTML code (look like an HTML table):
 
 {% highlight bash %}
 $ cat noisy_text.txt | awk 'NR >= 1215 && NR <= 1220'
@@ -261,9 +261,9 @@ $ cat noisy_text.txt | awk 'NR >= 1215 && NR <= 1220'
 $   
 {% endhighlight %}
 
-Let's assume that we want to remove the tags, i.e. anything between \< and \> and we only want to keep whatever enclosed between the tags. To do so, we create a **regex** which looks for anything starting with a \< and proceeds until it gets to a \>; the regex includes anything between those two characters, excpet a \>. This regex is: `/<[^>]*>/`.
+Let's assume that we want to remove the tags, i.e. anything between \< and \> and we only want to keep whatever enclosed by tags. To do so, we create a regular expression which looks for anything starting with a \< and proceeds until it gets to a \>; the regex includes anything between those two characters, except a \>. This regex is: `/<[^>]*>/`.
 
-For this problem, we use [Perl](https://www.perl.org/){:target="_blank"} which is a programming language highly used in text processing thanks to its facilities. It can also be used in the command-line just like other commands.
+For this problem, we use [Perl](https://www.perl.org/){:target="_blank"} which is a programming language frequently used in text processing thanks to its facilities. It can also be used in the command-line just like other commands.
 
 {% highlight bash %}
 $ cat noisy_text.txt | awk 'NR >= 1215 && NR <= 1220' | perl -0777 -pe 's/<[^>]*>//gs'
@@ -280,7 +280,7 @@ There are a few details that we should know.
 - `/g` is the global flag which does the matching over the whole text.
 - `/s` treats the string as a single long line (only difference is that `\n` is also included when `.` is used).
 
-The following regex is to replace newlines with more than two occurrences with only two newlines. This can also be done with the previous commands that we introduced, like `tr`.
+Another example with Perl. The following regular expression replaces newlines with more than two occurrences with only two newlines. This can also be done with the previous commands that we introduced, like `tr`.
 
 {% highlight bash %}
 $ perl -0777 -pe 's/(\n[ ]*){2,}/\n\n/gmi'
@@ -293,7 +293,7 @@ $ perl -0777 -pe 's/(\n[ ]*){2,}/\n\n/gmi'
 
 We perviously mentioned how to merge files using `cat`. What if we want to split a huge text file into smaller parts? This can be done with `split`.
 
-`split` allows as to split a file based on the number of lines with `-l` option and based on size with `-b`. Let's split our [sample text file]({{site.url}}/docs/tutorials/noisy_text.txt){:target="_blank"} into smaller files containing 500 lines each one:
+`split` allows us to split a file based on the number of lines with `-l` option and based on size with `-b`. Let's split our [sample text file]({{site.url}}/docs/tutorials/noisy_text.txt){:target="_blank"} into smaller files containing 500 lines each one:
 
 {% highlight bash %}
 $ split -l 500 noisy_text.txt
@@ -312,13 +312,13 @@ $
 
 ### Wrapping up
 
-How your text is to be pre-processed depends on how your text looks like; what are the noisy stuff and what are the issues that should be cleaned or normalised.
+How your text is to be pre-processed depends on the content of your file and your pre-processing purpose. You should know what the noisy stuff are and the issues that should be cleaned or normalised.
 
-Let's assume that to clean our [sample text file]({{site.url}}/docs/tutorials/noisy_text.txt){:target="_blank"} we need the following steps:
+Suppose that we need the following steps to clean our [sample text file]({{site.url}}/docs/tutorials/noisy_text.txt){:target="_blank"}:
  - Remove HTML tags (`perl -0777 -pe 's/<[^>]*>//gs'`)
  - Remove noisy non-alphanumeric content  (`perl -0777 -pe 's/^[\S]*[^\w\s][\S]*$//gmi'`)
  - Remove unwanted tokens, like `javascript:void(0);`, and characters (`awk '{gsub(/^.*javascript.*$/,"\n"); print }'` or `awk '{gsub(/&nbsp;/," "); print }'`)
- 
+
 Following the techniques introduced earlier in this tutorial, we clean the sample text as follows:
 
 {% highlight bash %}

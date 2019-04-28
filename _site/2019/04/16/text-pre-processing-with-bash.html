@@ -250,7 +250,7 @@
     </div>
 </div>
 
-<p>Obviously, for one problem there may be more than one solution. However, in this tutorial, only a few techniques and programs are introduced. It will be up to you, your preference and the requirements of your tasks to decide which command fits better to your problem. Personally, I love the command-line and how each program can be used as a piece of puzzle, thanks to <strong>pipes</strong>, to solve sophisticated problems, particularly where processing time and performance matters.</p>
+<p>Obviously, for one problem there may be more than one solution. However, in this tutorial, only a few techniques and programs are introduced. It will be up to you, your preference and the requirements of your tasks to decide which command fits better to your problem. Personally, I love the command-line and how each program can be used as a piece of puzzle, thanks to <strong>pipes</strong>, to solve sophisticated problems, particularly where processing time and performance matter.</p>
 
 <p><strong>System setup</strong>: The commands in this tutorial have been tested on GNU bash, version 5.0.2(1)-release (x86_64-apple-darwin18.2.0). You will normally have no problem running them on any Unix-based operating system. If you are a Windows user, the best solution is to start using a Linux-based open-source operating system like <a href="https://www.ubuntu.com/" target="_blank">Ubuntu</a> (seriously, do it!). Otherwise, you can simply install <a href="https://www.cygwin.com/" target="_blank">Cygwin</a> which lets you enjoy GNU in you Windows, <em>somehow</em>!</p>
 
@@ -262,7 +262,7 @@
 
 <h3 id="text-reading">Text reading</h3>
 
-<p>The very first step of any tasks in text (pre-)processing is text reading. We will see later in this tutorial that some commands, like <code class="highlighter-rouge">wc</code>, take care of the text reading without requiring us to do any further commands for reading.</p>
+<p>The very first step of any task in text (pre-)processing is text reading. We will see later in this tutorial that some commands, like <code class="highlighter-rouge">wc</code>, take care of the text reading without requiring us to do any further commands for reading.</p>
 
 <h4 id="cat"><code class="highlighter-rouge">cat</code></h4>
 <h5 id="syntax-cat-options-filenames">Syntax: <code class="highlighter-rouge">cat [options] [filenames]</code></h5>
@@ -279,12 +279,12 @@
 
 <p>To exit the viewing window press <code class="highlighter-rouge">q</code>.</p>
 
-<p>You may write your file content in a new files like:</p>
+<p>You may write your file content in a new file like:</p>
 
 <figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span><span class="nb">cat </span>noisy_text.txt <span class="o">&gt;</span> new_noisy_text.txt
 <span class="nv">$ </span><span class="nb">cat </span>noisy_text.txt <span class="o">&gt;&gt;</span> new_noisy_text.txt</code></pre></figure>
 
-<p>The difference between <code class="highlighter-rouge">&gt;</code> and <code class="highlighter-rouge">&gt;&gt;</code> is that the first one overwrites the files if it already exists, while the latter one keeps the content untouched and append to the file.</p>
+<p>The difference between <code class="highlighter-rouge">&gt;</code> and <code class="highlighter-rouge">&gt;&gt;</code> is that the first one overwrites the file if it already exists while the latter one keeps the content untouched and appends to the existing file.</p>
 
 <p><code class="highlighter-rouge">cat</code> can also turn your command-line into a basic text editor as follows:</p>
 
@@ -307,7 +307,7 @@ This is a quick note to remember that I should call the clinic asap.
 
 <figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span>head noisy_text.txt</code></pre></figure>
 
-<p>There is an interesting option <code class="highlighter-rouge">-n</code> which lets us to specify how many lines be displayed. The default value of is 10 lines.</p>
+<p>There is an interesting option <code class="highlighter-rouge">-n</code> which lets us to specify how many lines be displayed. The default value is 10 lines.</p>
 
 <figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span>head <span class="nt">-n</span> 2  noisy_text.txt
    0001193125-12-075999.txt : 20120224 0001193125-12-075999.hdr.sgml :
@@ -321,7 +321,7 @@ This is a quick note to remember that I should call the clinic asap.
 
 <figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span>head <span class="nt">-n</span> 300 noisy_text.txt | tail <span class="nt">-n</span> 14</code></pre></figure>
 
-<h6 id="get-a-block-of-text-with-awk">Get a block of text with <code class="highlighter-rouge">awk</code></h6>
+<h5 id="get-a-block-of-text-with-awk">Get a block of text with <code class="highlighter-rouge">awk</code></h5>
 
 <p>But what if you only want a specific range of lines in your file? Well, you can use <code class="highlighter-rouge">awk</code> as the following:</p>
 
@@ -350,12 +350,12 @@ cr?puscule
 
 <p>Recall that <code class="highlighter-rouge">echo</code> displays a text on standard output.</p>
 
-<p>Any characters that <code class="highlighter-rouge">iconv</code> does not know how to convert will be replaced with question marks. This may not be good when conversion accuracy matters. However, when dealing with large number of files, I would personally prefer having a bunch of <code class="highlighter-rouge">?</code>s to prevent any text reading errors!</p>
+<p>Any characters that <code class="highlighter-rouge">iconv</code> does not know how to convert will be replaced with question marks. This may not be good when conversion accuracy matters. However, when dealing with large number of files, I personally prefer having a bunch of <code class="highlighter-rouge">?</code>s to prevent any text reading errors!</p>
 
-<h3 id="replace-characters-with-tr">Replace characters with <code class="highlighter-rouge">tr</code></h3>
+<h3 id="replace-characters-using-tr">Replace characters using <code class="highlighter-rouge">tr</code></h3>
 <h4 id="syntax-tr-options-set1-set2">Syntax: <code class="highlighter-rouge">tr [options] [set1] [set2]</code></h4>
 
-<p>Replacing or removing specific characters is also part of text pre-processing. For instance, unnecessary spaces or newlines may not be welcomed for some tasks. tr`, abbreviation of <em>translate</em> or <em>transliterate</em>, is a very useful command which deals with such cases.</p>
+<p>Replacing or removing specific characters is also a part of text pre-processing. For instance, unnecessary spaces or newlines may not be welcomed for some tasks. <code class="highlighter-rouge">tr</code>, abbreviation of <em>translate</em> or <em>transliterate</em>, is a very useful command which deals with such cases.</p>
 
 <p>Suppose that you have the following text in Greek, where <code class="highlighter-rouge">;</code> is normally used as <code class="highlighter-rouge">?</code>, and you want to replace <code class="highlighter-rouge">;</code> with <code class="highlighter-rouge">?</code>:</p>
 
@@ -394,7 +394,7 @@ Amuunt uf bnastac an ucean as wurse than we thuught, study says
 AMOUNT OF PLASTIC IN OCEAN IS WORSE THAN WE THOUGHT, STUDY SAYS
 <span class="nv">$ </span>  </code></pre></figure>
 
-<p>What if we want to replace multiple occurrences of a character by another character? For instance, line 340 to 363 in the <a href="http://localhost:4000/docs/tutorials/noisy_text.txt" target="_blank">sample text file</a> contains multiple spaces that we would like to be removed and only be replaced one. This can be done with the <code class="highlighter-rouge">-s</code> option of <code class="highlighter-rouge">tr</code>:</p>
+<p>What if we want to replace multiple occurrences of a character by another character? For instance, line 340 to 363 in the <a href="http://localhost:4000/docs/tutorials/noisy_text.txt" target="_blank">sample text file</a> contain multiple spaces that we would like to be removed and be replaced by one. This can be done with the <code class="highlighter-rouge">-s</code> option of <code class="highlighter-rouge">tr</code>:</p>
 
 <figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span><span class="nb">cat </span>noisy_text.txt | awk <span class="s1">'NR &gt;= 340  &amp;&amp; NR &lt;= 350'</span>
 
@@ -435,11 +435,11 @@ Amunt f plastic <span class="k">in </span>cean is wrse than we thught, study say
 
 <h3 id="remove-html-tags-or-anything-between-tags">Remove HTML tags (or anything between tags)</h3>
 
-<p>The covers that we covered so far were used directly over the text with simple patterns. What if we need to deal with more sophisticated text patterns? This is where regular expressions (regex) come in!</p>
+<p>The commands that we introduced so far were used directly over the text with simple patterns. What if we need to deal with more sophisticated text patterns? This is where regular expressions (regex) come in!</p>
 
-<p>Regex allows us to access parts of a text based on the rules that we define. In some ways, a regex is analogous to a database query or a semantic query. It’s a query to extract information from a text.</p>
+<p>Regex allow us to access parts of a text based on the rules that we define. In some ways, a regex is analogous to a database query or a semantic query. It’s a query to extract information from raw text!</p>
 
-<p>Let’s take a look at our <a href="http://localhost:4000/docs/tutorials/noisy_text.txt" target="_blank">sample text file</a> where lines 1215 to 1220 contain HTML code (which seems to be a table):</p>
+<p>Let’s take a look at our <a href="http://localhost:4000/docs/tutorials/noisy_text.txt" target="_blank">sample text file</a> where lines 1215 to 1220 contain HTML code (look like an HTML table):</p>
 
 <figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span><span class="nb">cat </span>noisy_text.txt | awk <span class="s1">'NR &gt;= 1215 &amp;&amp; NR &lt;= 1220'</span>
    <span class="nv">style</span><span class="o">=</span><span class="s2">"font-family: Times New Roman;"</span> <span class="nv">class</span><span class="o">=</span><span class="s2">"_mt"</span>
@@ -450,9 +450,9 @@ Amunt f plastic <span class="k">in </span>cean is wrse than we thught, study say
    <span class="nv">style</span><span class="o">=</span><span class="s2">"font-family: Times New Roman;"</span> <span class="nv">class</span><span class="o">=</span><span class="s2">"_mt"</span>
 <span class="nv">$ </span>  </code></pre></figure>
 
-<p>Let’s assume that we want to remove the tags, i.e. anything between &lt; and &gt; and we only want to keep whatever enclosed between the tags. To do so, we create a <strong>regex</strong> which looks for anything starting with a &lt; and proceeds until it gets to a &gt;; the regex includes anything between those two characters, excpet a &gt;. This regex is: <code class="highlighter-rouge">/&lt;[^&gt;]*&gt;/</code>.</p>
+<p>Let’s assume that we want to remove the tags, i.e. anything between &lt; and &gt; and we only want to keep whatever enclosed by tags. To do so, we create a regular expression which looks for anything starting with a &lt; and proceeds until it gets to a &gt;; the regex includes anything between those two characters, except a &gt;. This regex is: <code class="highlighter-rouge">/&lt;[^&gt;]*&gt;/</code>.</p>
 
-<p>For this problem, we use <a href="https://www.perl.org/" target="_blank">Perl</a> which is a programming language highly used in text processing thanks to its facilities. It can also be used in the command-line just like other commands.</p>
+<p>For this problem, we use <a href="https://www.perl.org/" target="_blank">Perl</a> which is a programming language frequently used in text processing thanks to its facilities. It can also be used in the command-line just like other commands.</p>
 
 <figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span><span class="nb">cat </span>noisy_text.txt | awk <span class="s1">'NR &gt;= 1215 &amp;&amp; NR &lt;= 1220'</span> | perl <span class="nt">-0777</span> <span class="nt">-pe</span> <span class="s1">'s/&lt;[^&gt;]*&gt;//gs'</span>
    <span class="nv">style</span><span class="o">=</span><span class="s2">"font-family: Times New Roman;"</span> <span class="nv">class</span><span class="o">=</span><span class="s2">"_mt"</span>
@@ -469,7 +469,7 @@ Amunt f plastic <span class="k">in </span>cean is wrse than we thught, study say
   <li><code class="highlighter-rouge">/s</code> treats the string as a single long line (only difference is that <code class="highlighter-rouge">\n</code> is also included when <code class="highlighter-rouge">.</code> is used).</li>
 </ul>
 
-<p>The following regex is to replace newlines with more than two occurrences with only two newlines. This can also be done with the previous commands that we introduced, like <code class="highlighter-rouge">tr</code>.</p>
+<p>Another example with Perl. The following regular expression replaces newlines with more than two occurrences with only two newlines. This can also be done with the previous commands that we introduced, like <code class="highlighter-rouge">tr</code>.</p>
 
 <figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span>perl <span class="nt">-0777</span> <span class="nt">-pe</span> <span class="s1">'s/(\n[ ]*){2,}/\n\n/gmi'</span></code></pre></figure>
 
@@ -480,7 +480,7 @@ Amunt f plastic <span class="k">in </span>cean is wrse than we thught, study say
 
 <p>We perviously mentioned how to merge files using <code class="highlighter-rouge">cat</code>. What if we want to split a huge text file into smaller parts? This can be done with <code class="highlighter-rouge">split</code>.</p>
 
-<p><code class="highlighter-rouge">split</code> allows as to split a file based on the number of lines with <code class="highlighter-rouge">-l</code> option and based on size with <code class="highlighter-rouge">-b</code>. Let’s split our <a href="http://localhost:4000/docs/tutorials/noisy_text.txt" target="_blank">sample text file</a> into smaller files containing 500 lines each one:</p>
+<p><code class="highlighter-rouge">split</code> allows us to split a file based on the number of lines with <code class="highlighter-rouge">-l</code> option and based on size with <code class="highlighter-rouge">-b</code>. Let’s split our <a href="http://localhost:4000/docs/tutorials/noisy_text.txt" target="_blank">sample text file</a> into smaller files containing 500 lines each one:</p>
 
 <figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span>split <span class="nt">-l</span> 500 noisy_text.txt
 <span class="nv">$ </span>tree
@@ -496,9 +496,9 @@ Amunt f plastic <span class="k">in </span>cean is wrse than we thught, study say
 
 <h3 id="wrapping-up">Wrapping up</h3>
 
-<p>How your text is to be pre-processed depends on how your text looks like; what are the noisy stuff and what are the issues that should be cleaned or normalised.</p>
+<p>How your text is to be pre-processed depends on the content of your file and your pre-processing purpose. You should know what the noisy stuff are and the issues that should be cleaned or normalised.</p>
 
-<p>Let’s assume that to clean our <a href="http://localhost:4000/docs/tutorials/noisy_text.txt" target="_blank">sample text file</a> we need the following steps:</p>
+<p>Suppose that we need the following steps to clean our <a href="http://localhost:4000/docs/tutorials/noisy_text.txt" target="_blank">sample text file</a>:</p>
 <ul>
   <li>Remove HTML tags (<code class="highlighter-rouge">perl -0777 -pe 's/&lt;[^&gt;]*&gt;//gs'</code>)</li>
   <li>Remove noisy non-alphanumeric content  (<code class="highlighter-rouge">perl -0777 -pe 's/^[\S]*[^\w\s][\S]*$//gmi'</code>)</li>
