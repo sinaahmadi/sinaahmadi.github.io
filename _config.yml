@@ -35,7 +35,7 @@ collections:
   posts:
     output: true
     title: Posts
-    permalink: /:collection/:title.html
+    permalink: :collection/:title.html
   resources:
     output: true
     title: Resources
