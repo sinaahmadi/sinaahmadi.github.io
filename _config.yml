@@ -1,5 +1,6 @@
 # Outputting
-permalink: /:categories/:year/:month/:day/:title.html
+permalink: /:categories/:title.html
+#permalink: /:categories/:year/:month/:day/:title.html
 
 # Conversion
 markdown:         kramdown
@@ -16,6 +17,7 @@ author:           Sina Ahmadi
 #baseurl: "/Users/sina/My_GitHub/sinaahmadi.github.io/"
 #TL;DR: Use baseurl when you are building a site that doesn’t sit at the root of the domain.
 # baseurl: "sinaahmadi.github.io/"
+baseurl: ""
 url: "https://sinaahmadi.github.io/"
 plugins:
   - jekyll-sitemap
@@ -30,6 +32,10 @@ collections:
     output: true
     title: Projects
     permalink: /:collection/:name.html
+  posts:
+    output: true
+    title: Posts
+    permalink: /:collection/:title.html
   resources:
     output: true
     title: Resources
