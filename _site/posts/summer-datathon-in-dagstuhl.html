@@ -10,7 +10,7 @@
 
     <title>
         
-            Resource population using Wikidata and Wiktionary &middot; Sina Ahmadi's Personal Page
+            Summer datathon in Dagstuhl &middot; Sina Ahmadi's Personal Page
         
     </title>
 
@@ -88,7 +88,7 @@
         <div class="card-body">
             <div class="card-title">
                 <h5>On This Page</h5>
-                <h6>May 16, 2019</h6>
+                <h6>May 18, 2019</h6>
             </div>
               <ul class="nav flex-column nav-pills header-list">
             </ul>
@@ -119,14 +119,9 @@
                         Linked Data
                     </a>
                 
-                    <a href="/list/posts.html#sparql"
+                    <a href="/list/posts.html#datathon"
                        class="bg-white border rounded p-1 mr-2 mb-2 d-inline-block">
-                        SPARQL
-                    </a>
-                
-                    <a href="/list/posts.html#resource-population"
-                       class="bg-white border rounded p-1 mr-2 mb-2 d-inline-block">
-                        Resource population
+                        Datathon
                     </a>
                 
                     <a href="/list/posts.html#nlp"
@@ -161,7 +156,7 @@
         </div>
         <div class="col-md-12 col-lg-8 col-xl-8 pb-4 content">
             <h1 class="border border-top-0 border-right-0 border-left-0 mb-3 pb-2">
-    Resource population using Wikidata and Wiktionary
+    Summer datathon in Dagstuhl
 </h1>
 
 <div class="d-md-block d-lg-none">
@@ -170,7 +165,7 @@
         <div class="card-body">
             <div class="card-title">
                 <h5>On This Page</h5>
-                <h6>May 16, 2019</h6>
+                <h6>May 18, 2019</h6>
             </div>
               <ul class="nav flex-column nav-pills header-list">
             </ul>
@@ -201,14 +196,9 @@
                         Linked Data
                     </a>
                 
-                    <a href="/list/posts.html#sparql"
+                    <a href="/list/posts.html#datathon"
                        class="bg-white border rounded p-1 mr-2 mb-2 d-inline-block">
-                        SPARQL
-                    </a>
-                
-                    <a href="/list/posts.html#resource-population"
-                       class="bg-white border rounded p-1 mr-2 mb-2 d-inline-block">
-                        Resource population
+                        Datathon
                     </a>
                 
                     <a href="/list/posts.html#nlp"
@@ -237,60 +227,7 @@
 
 </div>
 
-<p>There are an increasing number of lexical resources available online which are machine-friendly and can be accessed by linked data techniques.</p>
-
-<p>In this repository, we provide a program which collects linguistic information for a given word, in raw text or triples, and converts the collected data to Lemon-OntoLex ontology. The current resources being used are <a href="https://www.wikidata.org/wiki/Wikidata:Main_Page" target="_blank">Wikidata</a> and <a href="https://www.wiktionary.org/" target="_blank">Wiktionary</a>. However, any resource which can be accessed via a SPARQL endpoint can be used in this program.</p>
-
-<p>The following image shows information for the Italian word “acroterio” in Wikidata.</p>
-
-<div class="card mb-3 text-center">
-    <img class="rounded mx-auto d-block" src="https://raw.githubusercontent.com/sinaahmadi/sparql4respop/master/wikidata.png" style="width:90%" align="middle" alt="artchitecture" />
-    <div class="card-body bg-light">
-        <div class="card-text">
-           "acroterio"(italian) as an example of how data are represented in Wikidata.
-        </div>
-    </div>
-</div>
-
-<h2 id="how-does-it-work">How does it work?</h2>
-
-<p>Given a list of words in text or in RDF, this program collects all the relevant information in Wikidata and Wiktionary.</p>
-
-<div class="card mb-3 text-center">
-    <img class="rounded mx-auto d-block" src="https://raw.githubusercontent.com/sinaahmadi/sparql4respop/master/architecture.png" style="width:60%" align="middle" alt="artchitecture" />
-    <div class="card-body bg-light">
-        <div class="card-text">
-            The architecture of resource enrichment
-        </div>
-    </div>
-</div>
-
-<h3 id="change-categories">Change categories</h3>
-
-<p>In order to collect data in a specific domain, you can add your desired category to the <code class="highlighter-rouge">subjects</code>. Note that this may affect the performance of the queries as it will take longer to check all the domains.</p>
-
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code> subjects = {"architecture":"Q12271", "archeology": "Q10855079", "law" : "Q7748", "legal science" : "Q382995", "social issue" : "Q1920219", "jurisprudence" : "Q4932206", "rule" : "Q1151067", "Economy" : "Q159810", "Economics" : "Q8134", "labour law" : "Q628967", "human action" : "Q451967", "legal concept" : "Q2135465"}
-</code></pre></div></div>
-
-<h3 id="include-external-ontologies">Include external ontologies</h3>
-
-<p>If you would like to link your Lemon-Ontolex data to an external ontology, you can use the <code class="highlighter-rouge">ontolex:reference</code> property. One of the example given datasets provide the URIs in a tab-separated format.</p>
-
-<h3 id="conversion-to-lemon-ontolex">Conversion to Lemon-OntoLex</h3>
-
-<p>The conversion is done using predefined templates for each part of each part of the data, such as, entry description, <a href="https://www.w3.org/2016/05/ontolex/#variation-translation-vartrans" target="_blank">vatrans</a>, linguistic information (pos, gender etc.). The following figure illustrated the Lemon-OntoLex core model.</p>
-
-<p><img src="https://www.w3.org/2016/05/ontolex/Lemon_OntoLex_Core.png" alt="Lemon-OntoLex" /></p>
-
-<h2 id="limitations">Limitations</h2>
-
-<p>Please note that the current version of the program only takes into account very specific information and is not creating a fine-grained Lemon-Ontolex representation. For instance, only “OntoLex:LexicalEntry” for representing entries are used (no <code class="highlighter-rouge">components</code>).</p>
-
-<p>Our codes are available at <a href="https://github.com/sinaahmadi/sparql4respop" target="_blank">https://github.com/sinaahmadi/sparql4respop</a></p>
-
-<hr class="col-xs-12" />
-
-<p>Last updated on 21 May 2019.</p>
+<p>Last week, I participated in the 3rd Summer Datathon on Linguistic Linked Open Data ([SD-LLOD-19])(https://datathon2019.linguistic-lod.org/) which was held in the Schloss Dagstuhl – Leibniz Center for Informatics, Wadern, Germany. As my first datathon where I was a tutor, it was such an amazing experience that I would like to write about here.</p>
 
 
 <script type="text/javascript">
