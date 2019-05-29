@@ -54,9 +54,19 @@ Having said that, such a remote and relaxed location in the countryside made the
 
 ## And wow!
 
-Yes. That was exactly how I was astonished when I visited such a mysterious and beautiful place surrounded by greenery! Everything was so well organized and prepared with meticulous care. I may say Schloss Dagstuhl is like a small city having a church, a library, several seminar rooms and guest houses, awesome foods, a music room, even a sauna and fitness room. Visiting every part of the place is even more joyful seeing all those collections, paintings and artworks everywhere. Can you believe that even the tables were attributed to the participants using an algorithm to ensure that the participants meet each other at least once?! 
+Yes. That was exactly how I was astonished when I visited such a mysterious and beautiful place surrounded by greenery! Everything was so well organized and prepared with meticulous care. I may say Schloss Dagstuhl is like a small city having a church, a library, several seminar rooms and guest houses, awesome foods, a music room, even a sauna and fitness room. Visiting every part of the place is even more joyful seeing all those collections, paintings and artworks everywhere. Can you believe that even the tables are allocated to the participants using an algorithm to ensure that the participants meet each other at least once during their stay?! 
 
-There were a couple of musical instruments in the music room, including a piano, a violin and guitars, which turned our evening meetings more pleasant listening to the live music played by the talented participants. I also had the pleasure to play Bach's Minuet in G major with [Dr. Jorge Gracia](http://jogracia.url.ph/web/) (with a beautiful dance in background by Dr. [Thierry Declerck ](https://www.dfki.de/~declerck/)). By the way, I promise there were more talented people playing other instruments more professionally and beautifully (they know whom I'm talking about!).
+<!-- 
+<div class="card-columns">
+    {% for img in page.images %}
+    <div class="card">
+        <img class="card-img-top" src="{{ img }}" />
+    </div>
+    {% endfor %}
+</div> -->
+
+
+There were a few musical instruments in the music room, a piano, guitars and a violin, which turned our evening meetings more pleasant listening to the live music played by the talented participants. I also had the pleasure to play Bach's Minuet in G major with [Dr. Jorge Gracia](http://jogracia.url.ph/web/). By the way, I promise there were more talented people playing other instruments more professionally and beautifully than me (they know whom I'm talking about!).
 
 <div class="card mb-3 text-center">
 <h5 style="text-align:center;">
@@ -68,18 +78,17 @@ There were a couple of musical instruments in the music room, including a piano,
     </div>
 </div>
 </div>
- 
+
+## Datathon on Linguistic Linked Open Data
+
+As the title suggests, the main objective of our gathering in Dagstuhl was to participate in a datathon on linguistic linked open data. With an increasing importance in data representation and data modelling, semantic web and linked data has attracted interest from the various research communities and industry. In this datathon, we addressed a wide range of topics in linked open data with a particular attention to its linguistic applications. In addition to the presentations by the speakers, a few practical tools such as [OpenRefine](http://openrefine.org/){:target="_blank"} and [Protégé](https://protege.stanford.edu/){:target="_blank"} were introduced.
+
+This datathon was organized by [Dr. Christian Chiarcos](http://acoli.informatik.uni-frankfurt.de/){:target="_blank"}, [Dr. John Philip McCrae](http://john.mccr.ae/){:target="_blank"} and [Dr. Jorge Gracia](http://jogracia.url.ph/web/){:target="_blank"}. 
+
+
 
 
 ## Finally 
 See all the tweets related to the summer datathon [here](https://twitter.com/hashtag/SDLLOD19?src=hash).
 
-<!-- 
-<div class="card-columns">
-    {% for img in page.images %}
-    <div class="card">
-        <img class="card-img-top" src="{{ img }}" />
-    </div>
-    {% endfor %}
-</div> -->
 
