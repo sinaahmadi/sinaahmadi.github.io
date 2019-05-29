@@ -88,16 +88,67 @@ There were a few musical instruments in the music room, a piano, guitars and a v
 </div>
 </div>
 
-## Datathon on Linguistic Linked Open Data
+## Linguistic Linked Open Data
 
-As the title suggests, the main objective of our gathering in Dagstuhl was to participate in a datathon on linguistic linked open data. With an increasing importance in data representation and data modelling, semantic web and linked data has attracted interest from the various research communities and industry. In this datathon, we addressed a wide range of topics in linked open data with a particular attention to its linguistic applications. In addition to the presentations by the speakers, a few practical tools such as [OpenRefine](http://openrefine.org/){:target="_blank"} and [Protégé](https://protege.stanford.edu/){:target="_blank"} were introduced. I also introduced [Naisc](https://uld.pages.insight-centre.org/naisc/){:target="_blank"}, a data linking tool developped at our [Unit for Linguistic Data](https://nuig.insight-centre.org/uld/){:target="_blank"} at [Insight Center](https://nuig.insight-centre.org/){:target="_blank"}.
-
-This datathon was organized by [Dr. Christian Chiarcos](http://acoli.informatik.uni-frankfurt.de/){:target="_blank"}, [Dr. John Philip McCrae](http://john.mccr.ae/){:target="_blank"} and [Dr. Jorge Gracia](http://jogracia.url.ph/web/){:target="_blank"}. 
+As the title suggests, the main objective of our gathering in Dagstuhl was to participate in a datathon on linguistic linked open data. With an increasing importance in data representation and data modelling, semantic web and linked data has attracted interest from the various research communities and industry. In this datathon, we addressed a wide range of topics in linked open data with a particular attention to its linguistic applications. In addition to the presentations by the speakers, a few practical tools such as [OpenRefine](http://openrefine.org/){:target="_blank"} and [Protégé](https://protege.stanford.edu/){:target="_blank"} were introduced. I also introduced [Naisc](https://uld.pages.insight-centre.org/naisc/){:target="_blank"}, a data linking tool developped at our [Unit for Linguistic Data](https://nuig.insight-centre.org/uld/){:target="_blank"} at [Insight Center](https://nuig.insight-centre.org/){:target="_blank"}. 
 
 
 
+<table align="center" class="table table-bordered table-hover table-condensed">
+<thead><tr>
+<th title="Field #2">Project name</th>
+<th title="Field #3">Tutor</th>
+</tr></thead>
+<tbody>
+  <tr>
+    <td>Redefining the Dictionary Fabric - the case from industry</td>
+    <td><a href="https://www.dfki.de/~declerck/" target="_blank">Thierry Declerck</a></td>
+  </tr>
+  <tr>
+    <td>Linked Linguistic Corpus Data</td>
+    <td><a href="http://www.acoli.informatik.uni-frankfurt.de/" target="_blank">Christian Fäth, Christian Chiarcos</a>, <a href="http://jogracia.url.ph/web/" target="_blank">Jorge Gracia</a></td>
+  </tr>
+  <tr>
+    <td>TED talks transformation to LOD (🏆 participant votes)</td>
+    <td><a href="http://andon.tchechmedjiev.eu/" target="_blank">Andon Tchechmedjiev</a></td>
+  </tr>
+  <tr>
+    <td>Modeling Cherokee lexical-morphological data</td>
+    <td><a href="http://aksw.org/BettinaKlimek.html" target="_blank">Bettina Klimek</a></td>
+  </tr>
+  <tr>
+    <td>Historical texts: linking multiple annotations: Corpora</td>
+    <td><a href="http://ionov.me/" target="_blank">Max Ionov</a></td>
+  </tr>
+  <tr>
+    <td><a href="https://sinaahmadi.github.io/posts/resource-population-using-wikidata-and-wiktionary.html" target="_blank">Ontology Conversion and Resource Population</a></td>
+    <td>Sina Ahmadi (Me)</td>
+  </tr>
+  <tr>
+    <td>Modelling Akkadian dictionary data with ontolex-lemon using lexicog</td>
+    <td><a href="http://mayor2.dia.fi.upm.es/oeg-upm/index.php/en/phdstudents/360-jbosque/index.html" target="_blank">Julia Bosque Gil</a></td>
+  </tr>
+  <tr>
+    <td>e-science corpus metadata as Linked Open Data</td>
+    <td><a href="https://www.insight-centre.org/users/alessandro-adamou" target="_blank">Alessandro Adamou</a></td>
+  </tr>
+</tbody>
+</table>
+
+
+This datathon was wonderfully organized by [Dr. Christian Chiarcos](http://acoli.informatik.uni-frankfurt.de/){:target="_blank"}, [Dr. John Philip McCrae](http://john.mccr.ae/){:target="_blank"} and [Dr. Jorge Gracia](http://jogracia.url.ph/web/){:target="_blank"}. Here is a photo of the organizers and the tutors all together:
+
+<div class="card mb-3 text-center">
+    <img class="rounded mx-auto d-block" src="{{ site.url }}/docs/pictures/Dagstuhl/organizers.jpg" style="width:100%" align="middle" alt="Organizes and tutors of the datathon"/>
+    <div class="card-body bg-light">
+        <div class="card-text">
+            Organizers and tutors of the datathon
+        </div>
+    </div>
+</div>
 
 ## Finally 
 See all the tweets related to the summer datathon [here](https://twitter.com/hashtag/SDLLOD19?src=hash).
 
-
+<hr class="col-xs-12">
+Last updated on 29 May 2019.
