@@ -5,6 +5,81 @@ tags:
 - Linked Data
 - Datathon
 - NLP
+
+
 ---
 
-Last week, I participated in the 3rd Summer Datathon on Linguistic Linked Open Data ([SD-LLOD-19])(https://datathon2019.linguistic-lod.org/) which was held in the Schloss Dagstuhl – Leibniz Center for Informatics, Wadern, Germany. As my first datathon where I was a tutor, it was such an amazing experience that I would like to write about here.
+Last week, I participated in the [3rd Summer Datathon on Linguistic Linked Open Data (SD-LLOD-19)](https://datathon2019.linguistic-lod.org/){:target="_blank"} which was held in the Schloss Dagstuhl – Leibniz Center for Informatics, Wadern, Germany. As my first datathon where I was a tutor, it was such an amazing experience that I would like to write about here.
+
+
+<div class="card mb-3 text-center">
+    <img class="rounded mx-auto d-block" src="{{ site.url }}/docs/pictures/Dagstuhl/summerdatathon.jpg" style="width:50%" align="middle" alt="3rd Summer Datathon on Linguistic Linked Open Data"/>
+    <div class="card-body bg-light">
+        <div class="card-text">
+            3rd Summer Datathon on Linguistic Linked Open Data (11 to 17 May 2019)
+        </div>
+    </div>
+</div>
+
+
+Schloss Dagstuhl (or Dagstuhl Castle) is a historical amazing place where seminars and scientific events are regularly held in informatics and computer science. It is located in the middle of a forest where the nearest big city, Trier, has a distance of 56 km ([see on the map](https://goo.gl/maps/J4uNszY3BYzf7uJC8){:target="_blank"}). According to the [Leibniz Center for Informatics](https://www.leibniz-gemeinschaft.de/en/institutes-museums/einrichtungen/lzi/){:target="_blank"} website:
+
+
+<div class="ml-3">
+<p class="text-muted">
+Since 1990, Schloss Dagstuhl, Leibniz Center for Informatics has organized informatics conferences of the highest scientific caliber. It also promotes and supports continuing and advanced academic education and the transfer of knowledge between academia and industry. The center fosters world-class informatics research by bringing internationally renowned researchers and promising young scientists from universities together with those from industrial research laboratories. Dagstuhl’s comprehensive offerings are utilized by over 3,000 scientists from all over the world each year. 
+</p>
+</div>
+
+## Arrival
+
+Arrived in Germany on May 11 from Dublin, I stayed the night in Frankfurt, a city that I liked so much. Luckily, the same evening when I arrived, there were a bunch of interesting events going on in the city on the occasion of the Museum Night 2019. 
+
+<div class="card mb-3 text-center">
+    <img class="rounded mx-auto d-block" src="{{ site.url }}/docs/pictures/frankfurtMuseumNight2019.jpg" style="width:100%" align="middle" alt="Frankfurt Museum Night 2019"/>
+    <div class="card-body bg-light">
+        <div class="card-text">
+            Frankfurt on May 11, Museum Night 2019. 
+        </div>
+    </div>
+</div>
+
+Reaching Schloss Dagstuhl can be challenging as there is not much public transport directly to the place from major cities. Therefore, taking a taxi seems to be the easiest option to get there. 
+
+I set out for [Sankt Wendel](https://goo.gl/maps/L5FET32DYs5x6szH6){:target="_blank"}, a town in north-eastern Saarland, where the participants were waited for in the train station. One of the local organizers kindly picked us up to the venue which took roughly half an hour. 
+
+Something great that I experienced from the very first moments that I met other participants in the Sankt Wendel train station was how cool they were! <b>I really enjoyed every single moment that I spent with all of them who are now my friends</b>...
+
+Having said that, such a remote and relaxed location in the countryside made the visit even more particular. No matter how far away, it is really worth it!
+
+## And wow!
+
+Yes. That was exactly how I was astonished when I visited such a mysterious and beautiful place surrounded by greenery! Everything was so well organized and prepared with meticulous care. I may say Schloss Dagstuhl is like a small city having a church, a library, several seminar rooms and guest houses, awesome foods, a music room, even a sauna and fitness room. Visiting every part of the place is even more joyful seeing all those collections, paintings and artworks everywhere. Can you believe that even the tables were attributed to the participants using an algorithm to ensure that the participants meet each other at least once?! 
+
+There were a couple of musical instruments in the music room, including a piano, a violin and guitars, which turned our evening meetings more pleasant listening to the live music played by the talented participants. I also had the pleasure to play Bach's Minuet in G major with [Dr. Jorge Gracia](http://jogracia.url.ph/web/) (with a beautiful dance in background by Dr. [Thierry Declerck ](https://www.dfki.de/~declerck/)). By the way, I promise there were more talented people playing other instruments more professionally and beautifully (they know whom I'm talking about!).
+
+<div class="card mb-3 text-center">
+<h5 style="text-align:center;">
+<iframe width="560" height="330" src="https://www.youtube.com/embed/ZWBkxNYnH9w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</h5>
+<div class="card-body bg-light">
+    <div class="card-text">
+      Bach's Minuet in G major in Schloss Dagstuhl (Thanks Patricia for shooting the video)
+    </div>
+</div>
+</div>
+ 
+
+
+## Finally 
+See all the tweets related to the summer datathon [here](https://twitter.com/hashtag/SDLLOD19?src=hash).
+
+<!-- 
+<div class="card-columns">
+    {% for img in page.images %}
+    <div class="card">
+        <img class="card-img-top" src="{{ img }}" />
+    </div>
+    {% endfor %}
+</div> -->
+
