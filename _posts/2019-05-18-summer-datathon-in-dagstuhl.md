@@ -6,7 +6,14 @@ tags:
 - Datathon
 - NLP
 
-
+images:
+  - https://raw.githubusercontent.com/sinaahmadi/sinaahmadi.github.io/master/docs/pictures/Dagstuhl/IMG_20190517_183835.jpg
+  - https://raw.githubusercontent.com/sinaahmadi/sinaahmadi.github.io/master/docs/pictures/Dagstuhl/IMG_20190517_183009.jpg
+  - https://raw.githubusercontent.com/sinaahmadi/sinaahmadi.github.io/master/docs/pictures/Dagstuhl/IMG_20190516_172931.jpg
+  - https://raw.githubusercontent.com/sinaahmadi/sinaahmadi.github.io/master/docs/pictures/Dagstuhl/IMG_20190514_230407.jpg
+  - https://raw.githubusercontent.com/sinaahmadi/sinaahmadi.github.io/master/docs/pictures/Dagstuhl/IMG_20190514_212120.jpg
+  - https://raw.githubusercontent.com/sinaahmadi/sinaahmadi.github.io/master/docs/pictures/Dagstuhl/IMG_20190514_160940.jpg
+  - https://raw.githubusercontent.com/sinaahmadi/sinaahmadi.github.io/master/docs/pictures/Dagstuhl/IMG_20190512_190522.jpg
 ---
 
 Last week, I participated in the [3rd Summer Datathon on Linguistic Linked Open Data (SD-LLOD-19)](https://datathon2019.linguistic-lod.org/){:target="_blank"} which was held in the Schloss Dagstuhl – Leibniz Center for Informatics, Wadern, Germany. As my first datathon where I was a tutor, it was such an amazing experience that I would like to write about here.
@@ -56,14 +63,14 @@ Having said that, such a remote and relaxed location in the countryside made the
 
 Yes. That was exactly how I was astonished when I visited such a mysterious and beautiful place surrounded by greenery! Everything was so well organized and prepared with meticulous care. I may say Schloss Dagstuhl is like a small city having a church, a library, several seminar rooms and guest houses, awesome foods, a music room, even a sauna and fitness room. Visiting every part of the place is even more joyful seeing all those collections, paintings and artworks everywhere. Can you believe that even the tables are allocated to the participants using an algorithm to ensure that the participants meet each other at least once during their stay?! 
 
-<!-- 
+
 <div class="card-columns">
     {% for img in page.images %}
     <div class="card">
         <img class="card-img-top" src="{{ img }}" />
     </div>
     {% endfor %}
-</div> -->
+</div>
 
 
 There were a few musical instruments in the music room, a piano, guitars and a violin, which turned our evening meetings more pleasant listening to the live music played by the talented participants. I also had the pleasure to play Bach's Minuet in G major with [Dr. Jorge Gracia](http://jogracia.url.ph/web/). By the way, I promise there were more talented people playing other instruments more professionally and beautifully than me (they know whom I'm talking about!).
@@ -81,7 +88,7 @@ There were a few musical instruments in the music room, a piano, guitars and a v
 
 ## Datathon on Linguistic Linked Open Data
 
-As the title suggests, the main objective of our gathering in Dagstuhl was to participate in a datathon on linguistic linked open data. With an increasing importance in data representation and data modelling, semantic web and linked data has attracted interest from the various research communities and industry. In this datathon, we addressed a wide range of topics in linked open data with a particular attention to its linguistic applications. In addition to the presentations by the speakers, a few practical tools such as [OpenRefine](http://openrefine.org/){:target="_blank"} and [Protégé](https://protege.stanford.edu/){:target="_blank"} were introduced.
+As the title suggests, the main objective of our gathering in Dagstuhl was to participate in a datathon on linguistic linked open data. With an increasing importance in data representation and data modelling, semantic web and linked data has attracted interest from the various research communities and industry. In this datathon, we addressed a wide range of topics in linked open data with a particular attention to its linguistic applications. In addition to the presentations by the speakers, a few practical tools such as [OpenRefine](http://openrefine.org/){:target="_blank"} and [Protégé](https://protege.stanford.edu/){:target="_blank"} were introduced. I also introduced [Naisc](https://uld.pages.insight-centre.org/naisc/){:target="_blank"}, a data linking tool developped at our [Unit for Linguistic Data](https://nuig.insight-centre.org/uld/){:target="_blank"} at [Insight Center](https://nuig.insight-centre.org/){:target="_blank"}.
 
 This datathon was organized by [Dr. Christian Chiarcos](http://acoli.informatik.uni-frankfurt.de/){:target="_blank"}, [Dr. John Philip McCrae](http://john.mccr.ae/){:target="_blank"} and [Dr. Jorge Gracia](http://jogracia.url.ph/web/){:target="_blank"}. 
 
