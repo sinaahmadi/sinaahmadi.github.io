@@ -14,6 +14,8 @@ images:
   - https://raw.githubusercontent.com/sinaahmadi/sinaahmadi.github.io/master/docs/pictures/Dagstuhl/IMG_20190514_212120.jpg
   - https://raw.githubusercontent.com/sinaahmadi/sinaahmadi.github.io/master/docs/pictures/Dagstuhl/IMG_20190514_160940.jpg
   - https://raw.githubusercontent.com/sinaahmadi/sinaahmadi.github.io/master/docs/pictures/Dagstuhl/IMG_20190512_190522.jpg
+  - https://raw.githubusercontent.com/sinaahmadi/sinaahmadi.github.io/master/docs/pictures/Dagstuhl/IMG_20190516_172948.jpg
+  - https://raw.githubusercontent.com/sinaahmadi/sinaahmadi.github.io/master/docs/pictures/Dagstuhl/IMG_20190517_000232.jpg
 ---
 
 Last week, I participated in the [3rd Summer Datathon on Linguistic Linked Open Data (SD-LLOD-19)](https://datathon2019.linguistic-lod.org/){:target="_blank"} which was held in the Schloss Dagstuhl – Leibniz Center for Informatics, Wadern, Germany. As my first datathon where I was a tutor, it was such an amazing experience that I would like to write about here.
