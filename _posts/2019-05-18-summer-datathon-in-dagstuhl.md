@@ -152,7 +152,7 @@ This datathon was wonderfully organized by [Dr. Christian Chiarcos](http://acoli
     </div>
 </div>
 
-Regarding our project, we created a tool for populating resources which were provided by the participants of our group, using Wikidata and Wiktionary, and converting the produced resources into the [OntoLex](https://www.w3.org/community/ontolex/wiki/Final_Model_Specification){:target="_blank"} ontology. A full documentation of our project can be found [here](https://sinaahmadi.github.io/posts/resource-population-using-wikidata-and-wiktionary.html"){:target="_blank"}. 
+Regarding our project, we created a tool for populating resources which were provided by the participants of our group, using Wikidata and Wiktionary, and converting the produced resources into the [OntoLex](https://www.w3.org/community/ontolex/wiki/Final_Model_Specification){:target="_blank"} ontology. A full documentation of our project can be found [here](https://sinaahmadi.github.io/posts/resource-population-using-wikidata-and-wiktionary.html){:target="_blank"}. 
 
 <div class="card mb-3 text-center">
     <img class="rounded mx-auto d-block" src="{{ site.url }}/docs/pictures/Dagstuhl/group6_datathon.jpg" style="width:100%" align="middle" alt="Frankfurt Museum Night 2019"/>
@@ -167,7 +167,7 @@ Regarding our project, we created a tool for populating resources which were pro
 
 ## Other activities
 
-In addition to our intense daily programs, we had a couple of cultural visits, namely to the famous Castle of Dagstuhl (15 minutes walk) and the historical city of Trier (45 minutes by bus). Here are a few photos of the Dagstuhl castle.
+In addition to our heavy daily programs, we had a couple of cultural visits to the famous Castle of Dagstuhl (15 minutes walk) and the historical city of Trier (45 minutes by bus). Here are a few photos of the Dagstuhl castle.
 
 <div class="card-columns">
     {% for img in page.trier %}
@@ -179,10 +179,10 @@ In addition to our intense daily programs, we had a couple of cultural visits, n
 
 ## Finally 
 
-Although I learnt a lot of new things and obtained new experiences as a tutor in such an awesome datathon, I believe that what mattered so much to me was the new friends that I made. This event let me make new friends who are also brilliant researchers. We spent a lot of good moments together, full of joy and happiness and fruitful discussions. I strongly believe that the <b>friendship</b> is the best outcome of such events. 
+Although I learnt a lot of new things and acquired new experiences as a tutor in such an awesome datathon, what mattered more than anything else to me was the new friends that I made. This event let me make new friends who are also brilliant researchers. We spent a lot of good moments together, full of joy and happiness and fruitful discussions. I strongly believe that the <b>friendship</b> is the best outcome of such events. 
 
 
-If you are interested in the datathon and would like to know about the next event, check out the [official website](https://datathon2019.linguistic-lod.org/){:target="_blank"}. All the tweets related to the datathon can be found [here](https://twitter.com/hashtag/SDLLOD19?src=hash) as well.
+If you are interested in the datathon and would like to know about the next event, check out the [official website](https://datathon2019.linguistic-lod.org/){:target="_blank"}. All the tweets related to the datathon can be found [here](https://twitter.com/hashtag/SDLLOD19?src=hash){:target="_blank"} as well.
 
 
 
