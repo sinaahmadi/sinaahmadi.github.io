@@ -181,6 +181,7 @@ In addition to our heavy daily programs, we had a couple of cultural visits to t
 
 Although I learnt a lot of new things and acquired new experiences as a tutor in such an awesome datathon, what mattered more than anything else to me was the new friends that I made. This event let me make new friends who are also brilliant researchers. We spent a lot of good moments together, full of joy and happiness and fruitful discussions. I strongly believe that the <b>friendship</b> is the best outcome of such events. 
 
+Following this event, I participated in the [Language, Data and Knowledge](http://2019.ldk-conf.org){:target="_blank"} conference in Leipzig. In additio to the main conference, I participated in the [TIAD 2019 workshop](https://tiad2019.unizar.es/){:target="_blank"} and community meetings of [OntoLex](http://2019.ldk-conf.org/ontolex-face-2-face-meeting/){:target="_blank"} and [DBpedia](https://wiki.dbpedia.org/meetings/Leipzig2019){:target="_blank"}. 
 
 If you are interested in the datathon and would like to know about the next event, check out the [official website](https://datathon2019.linguistic-lod.org/){:target="_blank"}. All the tweets related to the datathon can be found [here](https://twitter.com/hashtag/SDLLOD19?src=hash){:target="_blank"} as well.
 
