@@ -1,5 +1,6 @@
 ---
 title: Wergor transliteration corpus
+show_profile: true
 ---
 
 ## About

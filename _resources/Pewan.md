@@ -1,5 +1,6 @@
 ---
 title: Pewan—a Kurdish corpus and test collection
+show_profile: true
 ---
 
 ## About

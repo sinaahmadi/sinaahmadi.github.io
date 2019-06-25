@@ -1,5 +1,6 @@
 ---
 title: KurdNet—the Kurdish WordNet
+show_profile: true
 ---
 
 ## About
@@ -12,7 +13,7 @@ At a high level, our approach is semi-automatic and centred around building a Ku
     <img class="rounded mx-auto d-block" src="{{ site.url }}/docs/images/wordnet_schema.png" style="width:100%" align="middle" alt="WordNet schema for KurdNet"/>
     <div class="card-body bg-light">
         <div class="card-text">
-            Base Concepts' Entity-Relationship schema in WordNet.
+            Base Concepts' Entity-Relationship schema in WordNet
         </div>
     </div>
 </div>  
