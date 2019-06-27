@@ -1,15 +1,23 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-06-27T01:50:10+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Sina Ahmadi’s Personal Page</title><subtitle>Sina Ahmadi's Personal Page</subtitle><author><name>Sina Ahmadi</name></author><entry><title type="html">Research visit to Copenhagen</title><link href="http://localhost:4000/posts/research-visit-to-copenhagen.html" rel="alternate" type="text/html" title="Research visit to Copenhagen" /><published>2019-06-26T00:00:00+01:00</published><updated>2019-06-26T00:00:00+01:00</updated><id>http://localhost:4000/posts/research-visit-to-copenhagen</id><content type="html" xml:base="http://localhost:4000/posts/research-visit-to-copenhagen.html">&lt;div class=&quot;card mb-3 text-center&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-06-27T22:30:53+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Sina Ahmadi’s Personal Page</title><subtitle>Sina Ahmadi's Personal Page</subtitle><author><name>Sina Ahmadi</name></author><entry><title type="html">Danish lexicographic data linking</title><link href="http://localhost:4000/posts/research-visit-to-copenhagen.html" rel="alternate" type="text/html" title="Danish lexicographic data linking" /><published>2019-06-26T00:00:00+01:00</published><updated>2019-06-26T00:00:00+01:00</updated><id>http://localhost:4000/posts/research-visit-to-copenhagen</id><content type="html" xml:base="http://localhost:4000/posts/research-visit-to-copenhagen.html">&lt;div class=&quot;card mb-3 text-center&quot;&gt;
     &lt;img class=&quot;rounded mx-auto d-block&quot; src=&quot;http://localhost:4000/docs/pictures/Denmark2019/IMG_20190622_145646.jpg&quot; style=&quot;width:100%&quot; align=&quot;middle&quot; alt=&quot;Joseph Kosuth's Art as Idea as Idea work, Radical at Louisiana museum&quot; /&gt;
     &lt;div class=&quot;card-body bg-light&quot;&gt;
         &lt;div class=&quot;card-text&quot;&gt;
-            Joseph Kosuth's &lt;i&gt;Art as Idea as Idea&lt;/i&gt; work, Radical at &lt;a href=&quot;https://www.louisiana.dk/&quot; target=&quot;_blank&quot;&gt;Louisiana Museum of Modern Art&lt;/a&gt;
+            Joseph Kosuth's '&lt;i&gt;Titled (Art as Idea as Idea)’ [Radical]&lt;/i&gt;' work at &lt;a href=&quot;https://www.louisiana.dk/&quot; target=&quot;_blank&quot;&gt;Louisiana Museum of Modern Art&lt;/a&gt;
         &lt;/div&gt;
     &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;p&gt;&lt;strong&gt;To better view the images&lt;/strong&gt; of this post right-click and “&lt;em&gt;view images&lt;/em&gt;”.&lt;/p&gt;
+&lt;p&gt;I had the chance to visit two amazing centres in the beautiful city of Copenhagen, Denmark, during the last two weeks. This visit was a part of my Ph.D. project in lexicographic data linking within &lt;a href=&quot;https://elex.is/&quot; target=&quot;_blank&quot;&gt;ELEXIS&lt;/a&gt;. ELEXIS-the European lexicographic infrastructure, aims at paving the way for efficiently creating, maintaining and updating dictionaries. Heterogeneity of data, diversity in structure and incompatibility of standards are some of the major current obstacles in e-lexicography in Europe. To remedy these, ELEXIS provides innovative, transnational and data-driven approaches to dictionaries.&lt;/p&gt;
 
-&lt;h2 id=&quot;dsl&quot;&gt;DSL&lt;/h2&gt;
+&lt;p&gt;During the two weeks of my visit (10-23 June, 2019), I spent one week at the Society for Danish Language and Literature (DSL) and the Centre for Language Technology (CST). Both these Danish institutions are active in the field of lexicography, resource creation and maintenance and, language technology for Danish language. In this post, I describe my visit to those two institutions and the results of my experiments in sense alignment in Danish dictionaries.&lt;/p&gt;
+
+&lt;h2 id=&quot;society-for-danish-language-and-literature-dsl&quot;&gt;Society for Danish Language and Literature (DSL)&lt;/h2&gt;
+
+&lt;p&gt;The &lt;a href=&quot;https://dsl.dk/&quot; target=&quot;_blank&quot;&gt;Society for Danish Language and Literature (Det Danske Sprog- og Litteraturselskab, DSL)&lt;/a&gt; is an independent institution supported by the Danish Ministry of Culture, the Carlsberg Foundation, and a series of other foundations. DSL aims at publishing and documenting Danish language and literature, bibliographies and historical documents. DSL is located in a very beautiful place in Copenhagen harbour next to the &lt;a href=&quot;http://www.kb.dk/en/&quot; target=&quot;_blank&quot;&gt;Royal Library of Denmark&lt;/a&gt;, aka the Black Diamond (the &lt;a href=&quot;https://raw.githubusercontent.com/sinaahmadi/sinaahmadi.github.io/master/docs/pictures/Denmark2019/DSL/IMG_20190613_180841.jpg&quot; target=&quot;_blank&quot;&gt;white building&lt;/a&gt; in the following photos).&lt;/p&gt;
+
+&lt;p&gt;Language, as a living organism, evolves through time and changes from generation to generation. Recording such changes is a cumbersome task which is patiently and carefully carried out by lexicographers as &lt;em&gt;guardians of language&lt;/em&gt;. I had the honour to meet amazing people at DSL who shared their ideas about my work, taught me new things through our conversations and gave me new ideas, particularly &lt;a href=&quot;https://dsl.dk/medarbejdere/sn&quot; target=&quot;_blank&quot;&gt;Sanni Nimb&lt;/a&gt;. During my stay not only at DSL but throughout my visit to Copenhagen, she shared valuable ideas about the current challenges that lexicographers at DSL are going through. Some of the impressive Danish resources which are developed or maintained at DSL are &lt;a href=&quot;https://ordnet.dk/ddo&quot; target=&quot;_blank&quot;&gt;Den Danske Ordbog (DDO)&lt;/a&gt;, &lt;a href=&quot;https://ordnet.dk/ods&quot; target=&quot;_blank&quot;&gt;Ordbog over det danske Sprog (ODS)&lt;/a&gt;, &lt;a href=&quot;https://ordnet.dk/korpusdk_en?set_language=en&quot; target=&quot;_blank&quot;&gt;KorpusDK&lt;/a&gt;, the Danish Thesaurus “&lt;em&gt;Den Danske Begrebsordbog&lt;/em&gt;”, the Danish FrameNet Lexicon and &lt;a href=&quot;https://cst.ku.dk/english/projekter/dannet/&quot; target=&quot;_blank&quot;&gt;DanNet–the Danish WordNet&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I am very happy that I could visit such an excellent centre where Danish language and literature is documented from the earliest times to the present day. To get informed of latest news, follow DSL at &lt;a href=&quot;https://www.facebook.com/DetDanskeSprogogLitteraturselskab/&quot; target=&quot;_blank&quot;&gt;https://www.facebook.com/DetDanskeSprogogLitteraturselskab/&lt;/a&gt;.&lt;/p&gt;
 
 &lt;div class=&quot;card-columns&quot;&gt;
     
@@ -45,16 +53,11 @@
     
 &lt;/div&gt;
 
-&lt;table&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;I had the chance to visit two amazing centres in the beautiful city of Copenhagen, Denmark, during the last two weeks. This visit was a part of my Ph.D. project in lexicographic data linking within&lt;/td&gt;
-      &lt;td&gt;ELEXIS](https://elex.is/){:target=”_blank”}. ELEXIS-the European lexicographic infrastructure aims at paving the way for efficiently creating, maintaining and updating dictionaries. Heterogeneity of data, diversity in structure and incompatibility of standards are some of the major current obstacles in e-lexicography in Europe. To remedy these, ELEXIS provides innovative, transnational and data-driven approaches to dictionaries.&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
+&lt;h2 id=&quot;centre-for-language-technology-cst&quot;&gt;Centre for Language Technology (CST)&lt;/h2&gt;
 
-&lt;h2 id=&quot;cst&quot;&gt;CST&lt;/h2&gt;
+&lt;p&gt;The &lt;a href=&quot;https://cst.ku.dk/english/&quot; target=&quot;_blank&quot;&gt;Centre for Language Technology (&lt;em&gt;Center for Sprogteknologi&lt;/em&gt;, CST)&lt;/a&gt; at the Department of Nordic Studies and Linguistics, &lt;a href=&quot;https://www.ku.dk/english/&quot; target=&quot;_blank&quot;&gt;University of Copenhagen (UCPH)&lt;/a&gt;, is a research centre with a focus on natural language processing (NLP) and computational linguistics. In addition to NLP tools, CST has developed a large number of resources over the years, particularly with respect to computational lexical semantics, such as &lt;a href=&quot;https://cst.ku.dk/english/projekter/dannet/&quot; target=&quot;_blank&quot;&gt;DanNet–the Danish WordNet&lt;/a&gt; (in collaboration with DSL) and &lt;a href=&quot;https://cst.ku.dk/english/sto_ordbase/&quot; target=&quot;_blank&quot;&gt;STO–a Danish computational dictionary&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I could also have fruitful conversations and interesting feedbacks from the computational linguists, linguists and lexicographers at CST. My visit to CST was kindly made possible by &lt;a href=&quot;https://cst.ku.dk/english/ansatte/?pure=en/persons/134967&quot; target=&quot;_blank&quot;&gt;Bolette Sandford Pedersen&lt;/a&gt;.&lt;/p&gt;
 
 &lt;div class=&quot;card-columns&quot;&gt;
     
@@ -96,13 +99,140 @@
     
 &lt;/div&gt;
 
-&lt;h2 id=&quot;podilatopolis&quot;&gt;&lt;em&gt;Podilatopolis&lt;/em&gt;!&lt;/h2&gt;
+&lt;h2 id=&quot;research-purpose-dictionary-linking&quot;&gt;Research purpose: dictionary linking&lt;/h2&gt;
 
-&lt;p&gt;This is the fancy word that can describe Copenhagen: city of bikes!&lt;/p&gt;
+&lt;p&gt;A dictionary is a repository which provides linguistic information about the vocabulary of a language and the semantic relationships between the words. Although we may think about a similar thing when we say, read or draw a word, the way we describe them in the written form may be different. Let’s take a look at how the English word “&lt;em&gt;spring (noun)&lt;/em&gt;” is described in two dictionaries, Longman and Collins:&lt;/p&gt;
 
-&lt;p&gt;By the way, don’t Google the word as I coined this word myself!&lt;/p&gt;
+&lt;div class=&quot;card mb-3 text-center&quot;&gt;
+    &lt;img class=&quot;rounded mx-auto d-block&quot; src=&quot;http://localhost:4000/docs/images/spring_noun_Longman.png&quot; style=&quot;width:100%&quot; align=&quot;middle&quot; alt=&quot;Spring (noun) in Longman English dictionary&quot; /&gt;
+    &lt;div class=&quot;card-body bg-light&quot;&gt;
+        &lt;div class=&quot;card-text&quot;&gt;
+            Spring (noun) in &lt;a href=&quot;https://www.ldoceonline.com/dictionary/spring&quot; target=&quot;_blank&quot;&gt;Longman English dictionary&lt;/a&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;card mb-3 text-center&quot;&gt;
+    &lt;img class=&quot;rounded mx-auto d-block&quot; src=&quot;http://localhost:4000/docs/images/spring_noun_Collins.png&quot; style=&quot;width:100%&quot; align=&quot;middle&quot; alt=&quot;Spring (noun) in Collins English dictionary&quot; /&gt;
+    &lt;div class=&quot;card-body bg-light&quot;&gt;
+        &lt;div class=&quot;card-text&quot;&gt;
+            Spring (noun) in &lt;a href=&quot;https://www.collinsdictionary.com/dictionary/english/spring&quot; target=&quot;_blank&quot;&gt;Collins English dictionary&lt;/a&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;First of all, the &lt;strong&gt;structure&lt;/strong&gt; of the senses for the word spring (noun) is not completely identical in the two dictionaries; in the Collins dictionary, senses are provided independently (at least for this entry) while in the Longman dictionary, there is a hierarchy of senses which is supposed to provide more fine-grained information, e.g. &lt;code class=&quot;highlighter-rouge&quot;&gt;curved metal&lt;/code&gt; is sense 2 where two subsenses (&lt;code class=&quot;highlighter-rouge&quot;&gt;a&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;b&lt;/code&gt;) are provided.&lt;/p&gt;
+
+&lt;p&gt;Furthermore, the &lt;strong&gt;content&lt;/strong&gt; of those descriptions which refer to the same thing, is not similar neither, e.g. &lt;code class=&quot;highlighter-rouge&quot;&gt;something, usually a twisted piece of metal, that will return to its previous shape after it has been pressed down&lt;/code&gt;, in Longman, is semantically equivalent to &lt;code class=&quot;highlighter-rouge&quot;&gt;a spring is a spiral of wire which returns to its original shape after it is pressed or pulled.&lt;/code&gt; but textually different.&lt;/p&gt;
+
+&lt;p&gt;During my visit to Copenhagen, I focused on aligning Danish lexicographic data, particularly senses in two monolingual dictionaries &lt;a href=&quot;https://ordnet.dk/ods&quot; target=&quot;_blank&quot;&gt;Ordbog over det danske Sprog (ODS)&lt;/a&gt; and &lt;a href=&quot;https://ordnet.dk/ddo&quot; target=&quot;_blank&quot;&gt;Den Danske Ordbog (DDO)&lt;/a&gt;. We define our &lt;strong&gt;sense alignment task as linking semantically equivalent senses for the same entries across resources&lt;/strong&gt;. In the following, you can find a brief description of the two resources:&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tr&gt;
+  &lt;th&gt;
+    &lt;div class=&quot;card mb-3 text-center&quot;&gt;
+        &lt;img class=&quot;rounded mx-auto d-block&quot; src=&quot;http://localhost:4000/docs/pictures/Denmark2019/IMG_20190614_152259.jpg&quot; style=&quot;width:100%&quot; align=&quot;middle&quot; alt=&quot;Ordbog over det danske Sprog (ODS)&quot; /&gt;
+    &lt;/div&gt;
+  &lt;/th&gt;
+  &lt;th&gt;
+      &lt;div class=&quot;card mb-3 text-center&quot;&gt;
+        &lt;img class=&quot;rounded mx-auto d-block&quot; src=&quot;http://localhost:4000/docs/pictures/Denmark2019/IMG_20190626_225512.jpg&quot; style=&quot;width:100%&quot; align=&quot;middle&quot; alt=&quot;Den Danske Ordbog (DDO)&quot; /&gt;
+      &lt;/div&gt;
+  &lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+  &lt;td&gt;
+    &lt;b&gt;ODS (historical dictionary)&lt;/b&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Historical Danish dictionary&lt;/li&gt;
+      &lt;li&gt;Deals with Danish language from 1700 to 1950.&lt;/li&gt;
+      &lt;li&gt;Richly-described entries&lt;/li&gt;
+      &lt;li&gt;Noisy senses (both, in printed and XML versions)&lt;/li&gt;
+      &lt;li&gt;Senses not linked to any external resource&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/td&gt;
+  &lt;td&gt;
+  &lt;b&gt;DDO (modern dictionary)&lt;/b&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Modern Danish dictionary&lt;/li&gt;
+    &lt;li&gt;Created according to modern Danish language norms&lt;/li&gt;
+    &lt;li&gt;Senses are more descriptive&lt;/li&gt;
+    &lt;li&gt;Mostly linked to the DanNet at sense level&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;p&gt;As we saw above, the &lt;strong&gt;differences in structure and content&lt;/strong&gt; make sense alignment a challenging task. However, these are not the only challenges that we should go through for our Danish data. In our case, the two dictionaries are created in &lt;strong&gt;different periods of time&lt;/strong&gt;, one in the modern form of the language and the other in a historical one. This increases the complexity of alignment because of the following factors:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Lexical choice&lt;/strong&gt;: some words are not used for the same purposes or have completely lost their senses through time
+    &lt;ul&gt;
+      &lt;li&gt;&lt;em&gt;vandklar&lt;/em&gt; (clear) in &lt;em&gt;vandklar vædske&lt;/em&gt; (clear liquid) to describe &lt;em&gt;Alkohol&lt;/em&gt; (alcohol) in ODS does not sound natural to Modern Danish speakers. In the Modern Danish dictionary, DDO, &lt;em&gt;farveløs&lt;/em&gt; (colorless) is used instead.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Orthographic variations&lt;/strong&gt;: The Danish orthography has changed since when ODS was published from 1919 to 1956.
+    &lt;ul&gt;
+      &lt;li&gt;&lt;em&gt;kjøn&lt;/em&gt; vs. &lt;em&gt;køn&lt;/em&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;em&gt;paa&lt;/em&gt; vs. &lt;em&gt;på&lt;/em&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;an-example&quot;&gt;An example&lt;/h3&gt;
+
+&lt;p&gt;Let’s look up a Danish word in the two dictionaries and compare what we get: “&lt;em&gt;afstand&lt;/em&gt;” (&lt;a href=&quot;https://static.ordnet.dk/mp3/11000/11000756_1.mp3&quot; target=&quot;_blank&quot;&gt;pronunciation&lt;/a&gt;).&lt;/p&gt;
+
+&lt;div class=&quot;card mb-3 text-center&quot;&gt;
+    &lt;img class=&quot;rounded mx-auto d-block&quot; src=&quot;http://localhost:4000/docs/images/afstand_DDO_ODS.png&quot; style=&quot;width:100%&quot; align=&quot;middle&quot; alt=&quot;Afstand (noun) in DDO and ODS&quot; /&gt;
+    &lt;div class=&quot;card-body bg-light&quot;&gt;
+        &lt;div class=&quot;card-text&quot;&gt;
+            Afstand (noun) in &lt;a href=&quot;https://ordnet.dk/ddo/ordbog?query=afstand&quot; target=&quot;_blank&quot;&gt;DDO&lt;/a&gt; (in left) and &lt;a href=&quot;https://ordnet.dk/ods/ordbog?query=afstand&quot; target=&quot;_blank&quot;&gt;ODS&lt;/a&gt; (in right).
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The very first thing that looks different in the two dictionaries is that the noun entry in ODS is capitalized while in DDO, it is in small. This is because Danish nouns used to follow the capitalization rule which still exists in German which is no more the case for Modern Danish.&lt;/p&gt;
+
+&lt;p&gt;Unlike DDO where senses are fine-grained and well-organized with concise and clear descriptions and structure, ODS descriptions contain irrelevant information such as citations and examples which may not be directly useful for our task. On the other hand, such information are not structured in a way that we can retrieve certain parts easily.&lt;/p&gt;
+
+&lt;h2 id=&quot;experiments-results&quot;&gt;Experiments results&lt;/h2&gt;
+
+&lt;p&gt;As we did not have any gold-standard dataset in place, I could not evaluate the performance of my experiments in terms of precision, recall and F-measure. However, according to the feedbacks that I received, most matchings looked pertinent. There is still a long way to go and a lot of room to improve that I hope that the following ideas can be of help:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Creating a gold-standard dataset&lt;/li&gt;
+  &lt;li&gt;Text paraphrasing: converting ODS senses into more representative ones by
+    &lt;ul&gt;
+      &lt;li&gt;Removing noises&lt;/li&gt;
+      &lt;li&gt;Lexical and orthographic normalization&lt;/li&gt;
+      &lt;li&gt;Paraphrasing techniques&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In addition, I believe that corresponding the hierarchical sense structure in DDO where any semantically-distinct sense of the entry is provided separately, requires an extracting of all possible senses in the sense descriptions of ODS independent from the original structure. Some of the senses are no more valid and some others have changed their semantic relationship through time. Therefore, considering a larger range of semantic relationships such as hypernymy and hyponymy in addition to synonymy, antonymy and equivalence makes sense.&lt;/p&gt;
+
+&lt;div class=&quot;card mb-3 text-center&quot;&gt;
+    &lt;img class=&quot;rounded mx-auto d-block&quot; src=&quot;http://localhost:4000/docs/pictures/Denmark2019/IMG_0155.JPG&quot; style=&quot;width:100%&quot; align=&quot;middle&quot; alt=&quot;Afstand (noun) in DDO and ODS&quot; /&gt;
+    &lt;div class=&quot;card-body bg-light&quot;&gt;
+        &lt;div class=&quot;card-text&quot;&gt;
+            Presenting the outcomes of my visit to some of the wonderful lexicographers and editors at DSL. 
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;We are planning to organize a shared task in a near future and provide our data for the same task of sense alignment.&lt;/p&gt;
 
 &lt;h2 id=&quot;gallery&quot;&gt;Gallery&lt;/h2&gt;
+
+&lt;p&gt;I think Copenhagen should be called &lt;em&gt;Podilatopolis&lt;/em&gt;! (just a fancy word that I coined to mean &lt;em&gt;city of bikes&lt;/em&gt; (ποδήλατο (bike), πολις (city))). I could happily discover the city by cycling. I was also lucky enough to attended the &lt;a href=&quot;https://www.royalrun.dk/&quot;&gt;Royal Run 2019&lt;/a&gt; on June 10, the 800th birthday of the Danish flag “&lt;em&gt;Dannebrog&lt;/em&gt;” on June 15, Sankt Hans Aften on June 23, a Nordic tradition, celebrated on the night before the Midsummer’s Day and a couple of interesting seminars and performances.&lt;/p&gt;
+
+&lt;p&gt;I truly enjoyed everything in Denmark and admire so much the Danish culture and would really like to learn Danish one day. By the way, did you know Danish has over &lt;strong&gt;40 vowels&lt;/strong&gt; making it one of the unique languages in the world with so many vowels? Read more &lt;a href=&quot;http://ias.au.dk/fileadmin/internationalstaff.au.dk/UIC/Peter_Bakker_-_UIC_19-08-2015.pdf&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt; and &lt;a href=&quot;http://ias.au.dk/fileadmin/internationalstaff.au.dk/UIC/Presentations/bakker2013Danishinternationalcenter.pdf&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Finally, I would really like to thank everyone who made this experience that memorable to me. I hope that I can meet all of them again soon. &lt;strong&gt;Mange tak!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Here are some of the photos that I took during my visit (the lighthouse was taken in Malmö, Sweden, though).&lt;/p&gt;
 
 &lt;div class=&quot;card-columns&quot;&gt;
     
@@ -184,7 +314,17 @@
       &lt;/a&gt;
     &lt;/div&gt;
     
-&lt;/div&gt;</content><author><name>Sina Ahmadi</name></author><category term="Lexicography" /><category term="Data-linking" /><category term="NLP" /><category term="ELEXIS" /><summary type="html">Joseph Kosuth's Art as Idea as Idea work, Radical at Louisiana Museum of Modern Art To better view the images of this post right-click and “view images”. DSL I had the chance to visit two amazing centres in the beautiful city of Copenhagen, Denmark, during the last two weeks. This visit was a part of my Ph.D. project in lexicographic data linking within ELEXIS](https://elex.is/){:target=”_blank”}. ELEXIS-the European lexicographic infrastructure aims at paving the way for efficiently creating, maintaining and updating dictionaries. Heterogeneity of data, diversity in structure and incompatibility of standards are some of the major current obstacles in e-lexicography in Europe. To remedy these, ELEXIS provides innovative, transnational and data-driven approaches to dictionaries. CST Podilatopolis! This is the fancy word that can describe Copenhagen: city of bikes! By the way, don’t Google the word as I coined this word myself! Gallery</summary></entry><entry><title type="html">Summer datathon in Dagstuhl</title><link href="http://localhost:4000/posts/summer-datathon-in-dagstuhl.html" rel="alternate" type="text/html" title="Summer datathon in Dagstuhl" /><published>2019-05-18T00:00:00+01:00</published><updated>2019-05-18T00:00:00+01:00</updated><id>http://localhost:4000/posts/summer-datathon-in-dagstuhl</id><content type="html" xml:base="http://localhost:4000/posts/summer-datathon-in-dagstuhl.html">&lt;p&gt;Last week, I participated in the &lt;a href=&quot;https://datathon2019.linguistic-lod.org/&quot; target=&quot;_blank&quot;&gt;3rd Summer Datathon on Linguistic Linked Open Data (SD-LLOD-19)&lt;/a&gt; which was held in the &lt;a href=&quot;https://www.dagstuhl.de/&quot; target=&quot;_blank&quot;&gt;Schloss Dagstuhl – Leibniz Center for Informatics&lt;/a&gt;, Wadern, Germany. As my first datathon where I was a tutor, it was such an amazing experience that I would like to write about here.&lt;/p&gt;
+    &lt;div class=&quot;card&quot;&gt;
+      &lt;a href=&quot;https://raw.githubusercontent.com/sinaahmadi/sinaahmadi.github.io/master/docs/pictures/Denmark2019/Copenhagen/IMG_20190621_233822.jpg&quot; target=&quot;_blank&quot;&gt;
+        &lt;img class=&quot;card-img-top&quot; src=&quot;https://raw.githubusercontent.com/sinaahmadi/sinaahmadi.github.io/master/docs/pictures/Denmark2019/Copenhagen/IMG_20190621_233822.jpg&quot; /&gt;
+      &lt;/a&gt;
+    &lt;/div&gt;
+    
+&lt;/div&gt;
+
+&lt;hr class=&quot;col-xs-12&quot; /&gt;
+
+&lt;p&gt;Last updated on 27 June 2019.&lt;/p&gt;</content><author><name>Sina Ahmadi</name></author><category term="Lexicography" /><category term="Data-linking" /><category term="NLP" /><category term="ELEXIS" /><category term="Danish" /><summary type="html">Joseph Kosuth's 'Titled (Art as Idea as Idea)’ [Radical]' work at Louisiana Museum of Modern Art I had the chance to visit two amazing centres in the beautiful city of Copenhagen, Denmark, during the last two weeks. This visit was a part of my Ph.D. project in lexicographic data linking within ELEXIS. ELEXIS-the European lexicographic infrastructure, aims at paving the way for efficiently creating, maintaining and updating dictionaries. Heterogeneity of data, diversity in structure and incompatibility of standards are some of the major current obstacles in e-lexicography in Europe. To remedy these, ELEXIS provides innovative, transnational and data-driven approaches to dictionaries. During the two weeks of my visit (10-23 June, 2019), I spent one week at the Society for Danish Language and Literature (DSL) and the Centre for Language Technology (CST). Both these Danish institutions are active in the field of lexicography, resource creation and maintenance and, language technology for Danish language. In this post, I describe my visit to those two institutions and the results of my experiments in sense alignment in Danish dictionaries. Society for Danish Language and Literature (DSL) The Society for Danish Language and Literature (Det Danske Sprog- og Litteraturselskab, DSL) is an independent institution supported by the Danish Ministry of Culture, the Carlsberg Foundation, and a series of other foundations. DSL aims at publishing and documenting Danish language and literature, bibliographies and historical documents. DSL is located in a very beautiful place in Copenhagen harbour next to the Royal Library of Denmark, aka the Black Diamond (the white building in the following photos). Language, as a living organism, evolves through time and changes from generation to generation. Recording such changes is a cumbersome task which is patiently and carefully carried out by lexicographers as guardians of language. I had the honour to meet amazing people at DSL who shared their ideas about my work, taught me new things through our conversations and gave me new ideas, particularly Sanni Nimb. During my stay not only at DSL but throughout my visit to Copenhagen, she shared valuable ideas about the current challenges that lexicographers at DSL are going through. Some of the impressive Danish resources which are developed or maintained at DSL are Den Danske Ordbog (DDO), Ordbog over det danske Sprog (ODS), KorpusDK, the Danish Thesaurus “Den Danske Begrebsordbog”, the Danish FrameNet Lexicon and DanNet–the Danish WordNet. I am very happy that I could visit such an excellent centre where Danish language and literature is documented from the earliest times to the present day. To get informed of latest news, follow DSL at https://www.facebook.com/DetDanskeSprogogLitteraturselskab/. Centre for Language Technology (CST) The Centre for Language Technology (Center for Sprogteknologi, CST) at the Department of Nordic Studies and Linguistics, University of Copenhagen (UCPH), is a research centre with a focus on natural language processing (NLP) and computational linguistics. In addition to NLP tools, CST has developed a large number of resources over the years, particularly with respect to computational lexical semantics, such as DanNet–the Danish WordNet (in collaboration with DSL) and STO–a Danish computational dictionary. I could also have fruitful conversations and interesting feedbacks from the computational linguists, linguists and lexicographers at CST. My visit to CST was kindly made possible by Bolette Sandford Pedersen. Research purpose: dictionary linking A dictionary is a repository which provides linguistic information about the vocabulary of a language and the semantic relationships between the words. Although we may think about a similar thing when we say, read or draw a word, the way we describe them in the written form may be different. Let’s take a look at how the English word “spring (noun)” is described in two dictionaries, Longman and Collins: Spring (noun) in Longman English dictionary Spring (noun) in Collins English dictionary First of all, the structure of the senses for the word spring (noun) is not completely identical in the two dictionaries; in the Collins dictionary, senses are provided independently (at least for this entry) while in the Longman dictionary, there is a hierarchy of senses which is supposed to provide more fine-grained information, e.g. curved metal is sense 2 where two subsenses (a and b) are provided. Furthermore, the content of those descriptions which refer to the same thing, is not similar neither, e.g. something, usually a twisted piece of metal, that will return to its previous shape after it has been pressed down, in Longman, is semantically equivalent to a spring is a spiral of wire which returns to its original shape after it is pressed or pulled. but textually different. During my visit to Copenhagen, I focused on aligning Danish lexicographic data, particularly senses in two monolingual dictionaries Ordbog over det danske Sprog (ODS) and Den Danske Ordbog (DDO). We define our sense alignment task as linking semantically equivalent senses for the same entries across resources. In the following, you can find a brief description of the two resources: ODS (historical dictionary) Historical Danish dictionary Deals with Danish language from 1700 to 1950. Richly-described entries Noisy senses (both, in printed and XML versions) Senses not linked to any external resource DDO (modern dictionary) Modern Danish dictionary Created according to modern Danish language norms Senses are more descriptive Mostly linked to the DanNet at sense level As we saw above, the differences in structure and content make sense alignment a challenging task. However, these are not the only challenges that we should go through for our Danish data. In our case, the two dictionaries are created in different periods of time, one in the modern form of the language and the other in a historical one. This increases the complexity of alignment because of the following factors: Lexical choice: some words are not used for the same purposes or have completely lost their senses through time vandklar (clear) in vandklar vædske (clear liquid) to describe Alkohol (alcohol) in ODS does not sound natural to Modern Danish speakers. In the Modern Danish dictionary, DDO, farveløs (colorless) is used instead. Orthographic variations: The Danish orthography has changed since when ODS was published from 1919 to 1956. kjøn vs. køn paa vs. på An example Let’s look up a Danish word in the two dictionaries and compare what we get: “afstand” (pronunciation). Afstand (noun) in DDO (in left) and ODS (in right). The very first thing that looks different in the two dictionaries is that the noun entry in ODS is capitalized while in DDO, it is in small. This is because Danish nouns used to follow the capitalization rule which still exists in German which is no more the case for Modern Danish. Unlike DDO where senses are fine-grained and well-organized with concise and clear descriptions and structure, ODS descriptions contain irrelevant information such as citations and examples which may not be directly useful for our task. On the other hand, such information are not structured in a way that we can retrieve certain parts easily. Experiments results As we did not have any gold-standard dataset in place, I could not evaluate the performance of my experiments in terms of precision, recall and F-measure. However, according to the feedbacks that I received, most matchings looked pertinent. There is still a long way to go and a lot of room to improve that I hope that the following ideas can be of help: Creating a gold-standard dataset Text paraphrasing: converting ODS senses into more representative ones by Removing noises Lexical and orthographic normalization Paraphrasing techniques In addition, I believe that corresponding the hierarchical sense structure in DDO where any semantically-distinct sense of the entry is provided separately, requires an extracting of all possible senses in the sense descriptions of ODS independent from the original structure. Some of the senses are no more valid and some others have changed their semantic relationship through time. Therefore, considering a larger range of semantic relationships such as hypernymy and hyponymy in addition to synonymy, antonymy and equivalence makes sense. Presenting the outcomes of my visit to some of the wonderful lexicographers and editors at DSL. We are planning to organize a shared task in a near future and provide our data for the same task of sense alignment. Gallery I think Copenhagen should be called Podilatopolis! (just a fancy word that I coined to mean city of bikes (ποδήλατο (bike), πολις (city))). I could happily discover the city by cycling. I was also lucky enough to attended the Royal Run 2019 on June 10, the 800th birthday of the Danish flag “Dannebrog” on June 15, Sankt Hans Aften on June 23, a Nordic tradition, celebrated on the night before the Midsummer’s Day and a couple of interesting seminars and performances. I truly enjoyed everything in Denmark and admire so much the Danish culture and would really like to learn Danish one day. By the way, did you know Danish has over 40 vowels making it one of the unique languages in the world with so many vowels? Read more here and here. Finally, I would really like to thank everyone who made this experience that memorable to me. I hope that I can meet all of them again soon. Mange tak! Here are some of the photos that I took during my visit (the lighthouse was taken in Malmö, Sweden, though). Last updated on 27 June 2019.</summary></entry><entry><title type="html">Summer datathon in Dagstuhl</title><link href="http://localhost:4000/posts/summer-datathon-in-dagstuhl.html" rel="alternate" type="text/html" title="Summer datathon in Dagstuhl" /><published>2019-05-18T00:00:00+01:00</published><updated>2019-05-18T00:00:00+01:00</updated><id>http://localhost:4000/posts/summer-datathon-in-dagstuhl</id><content type="html" xml:base="http://localhost:4000/posts/summer-datathon-in-dagstuhl.html">&lt;p&gt;Last week, I participated in the &lt;a href=&quot;https://datathon2019.linguistic-lod.org/&quot; target=&quot;_blank&quot;&gt;3rd Summer Datathon on Linguistic Linked Open Data (SD-LLOD-19)&lt;/a&gt; which was held in the &lt;a href=&quot;https://www.dagstuhl.de/&quot; target=&quot;_blank&quot;&gt;Schloss Dagstuhl – Leibniz Center for Informatics&lt;/a&gt;, Wadern, Germany. As my first datathon where I was a tutor, it was such an amazing experience that I would like to write about here.&lt;/p&gt;
 
 &lt;div class=&quot;card mb-3 text-center&quot;&gt;
     &lt;img class=&quot;rounded mx-auto d-block&quot; src=&quot;http://localhost:4000/docs/pictures/Dagstuhl/summerdatathon.jpg&quot; style=&quot;width:50%&quot; align=&quot;middle&quot; alt=&quot;3rd Summer Datathon on Linguistic Linked Open Data&quot; /&gt;
