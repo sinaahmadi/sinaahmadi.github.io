@@ -1,4 +1,138 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-06-26T19:18:33+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Sina Ahmadi’s Personal Page</title><subtitle>Sina Ahmadi's Personal Page</subtitle><author><name>Sina Ahmadi</name></author><entry><title type="html">Research visit to Copenhagen</title><link href="http://localhost:4000/posts/research-visit-to-copenhagen.html" rel="alternate" type="text/html" title="Research visit to Copenhagen" /><published>2019-06-26T00:00:00+01:00</published><updated>2019-06-26T00:00:00+01:00</updated><id>http://localhost:4000/posts/research-visit-to-copenhagen</id><content type="html" xml:base="http://localhost:4000/posts/research-visit-to-copenhagen.html"></content><author><name>Sina Ahmadi</name></author><category term="Lexicography" /><category term="Data-linking" /><category term="NLP" /><category term="ELEXIS" /><summary type="html"></summary></entry><entry><title type="html">Summer datathon in Dagstuhl</title><link href="http://localhost:4000/posts/summer-datathon-in-dagstuhl.html" rel="alternate" type="text/html" title="Summer datathon in Dagstuhl" /><published>2019-05-18T00:00:00+01:00</published><updated>2019-05-18T00:00:00+01:00</updated><id>http://localhost:4000/posts/summer-datathon-in-dagstuhl</id><content type="html" xml:base="http://localhost:4000/posts/summer-datathon-in-dagstuhl.html">&lt;p&gt;Last week, I participated in the &lt;a href=&quot;https://datathon2019.linguistic-lod.org/&quot; target=&quot;_blank&quot;&gt;3rd Summer Datathon on Linguistic Linked Open Data (SD-LLOD-19)&lt;/a&gt; which was held in the &lt;a href=&quot;https://www.dagstuhl.de/&quot; target=&quot;_blank&quot;&gt;Schloss Dagstuhl – Leibniz Center for Informatics&lt;/a&gt;, Wadern, Germany. As my first datathon where I was a tutor, it was such an amazing experience that I would like to write about here.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-06-27T01:21:16+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Sina Ahmadi’s Personal Page</title><subtitle>Sina Ahmadi's Personal Page</subtitle><author><name>Sina Ahmadi</name></author><entry><title type="html">Research visit to Copenhagen</title><link href="http://localhost:4000/posts/research-visit-to-copenhagen.html" rel="alternate" type="text/html" title="Research visit to Copenhagen" /><published>2019-06-26T00:00:00+01:00</published><updated>2019-06-26T00:00:00+01:00</updated><id>http://localhost:4000/posts/research-visit-to-copenhagen</id><content type="html" xml:base="http://localhost:4000/posts/research-visit-to-copenhagen.html">&lt;div class=&quot;card mb-3 text-center&quot;&gt;
+    &lt;img class=&quot;rounded mx-auto d-block&quot; src=&quot;http://localhost:4000/docs/pictures/Denmark2019/IMG_20190622_145646.jpg&quot; style=&quot;width:100%&quot; align=&quot;middle&quot; alt=&quot;Joseph Kosuth's Art as Idea as Idea work, Radical at Louisiana museum&quot; /&gt;
+    &lt;div class=&quot;card-body bg-light&quot;&gt;
+        &lt;div class=&quot;card-text&quot;&gt;
+            Joseph Kosuth's &lt;i&gt;Art as Idea as Idea&lt;/i&gt; work, Radical at &lt;a href=&quot;https://www.louisiana.dk/&quot; target=&quot;_blank&quot;&gt;Louisiana Museum of Modern Art&lt;/a&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;To better view the images&lt;/strong&gt; of this post right-click and “&lt;em&gt;view images&lt;/em&gt;”.&lt;/p&gt;
+
+&lt;h2 id=&quot;dsl&quot;&gt;DSL&lt;/h2&gt;
+
+&lt;div class=&quot;card-columns&quot;&gt;
+    
+    &lt;div class=&quot;card&quot;&gt;
+        &lt;img class=&quot;card-img-top&quot; src=&quot;https://raw.githubusercontent.com/sinaahmadi/sinaahmadi.github.io/master/docs/pictures/Denmark2019/DSL/IMG_20190614_180517.jpg&quot; /&gt;
+    &lt;/div&gt;
+    
+    &lt;div class=&quot;card&quot;&gt;
+        &lt;img class=&quot;card-img-top&quot; src=&quot;https://raw.githubusercontent.com/sinaahmadi/sinaahmadi.github.io/master/docs/pictures/Denmark2019/DSL/IMG_20190611_160454.jpg&quot; /&gt;
+    &lt;/div&gt;
+    
+    &lt;div class=&quot;card&quot;&gt;
+        &lt;img class=&quot;card-img-top&quot; src=&quot;https://raw.githubusercontent.com/sinaahmadi/sinaahmadi.github.io/master/docs/pictures/Denmark2019/DSL/IMG_20190611_182738.jpg&quot; /&gt;
+    &lt;/div&gt;
+    
+    &lt;div class=&quot;card&quot;&gt;
+        &lt;img class=&quot;card-img-top&quot; src=&quot;https://raw.githubusercontent.com/sinaahmadi/sinaahmadi.github.io/master/docs/pictures/Denmark2019/DSL/IMG_20190612_171542.jpg&quot; /&gt;
+    &lt;/div&gt;
+    
+    &lt;div class=&quot;card&quot;&gt;
+        &lt;img class=&quot;card-img-top&quot; src=&quot;https://raw.githubusercontent.com/sinaahmadi/sinaahmadi.github.io/master/docs/pictures/Denmark2019/DSL/IMG_20190613_181147.jpg&quot; /&gt;
+    &lt;/div&gt;
+    
+    &lt;div class=&quot;card&quot;&gt;
+        &lt;img class=&quot;card-img-top&quot; src=&quot;https://raw.githubusercontent.com/sinaahmadi/sinaahmadi.github.io/master/docs/pictures/Denmark2019/DSL/IMG_20190614_180247.jpg&quot; /&gt;
+    &lt;/div&gt;
+    
+&lt;/div&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;I had the chance to visit two amazing centres in the beautiful city of Copenhagen, Denmark, during the last two weeks. This visit was a part of my Ph.D. project in lexicographic data linking within&lt;/td&gt;
+      &lt;td&gt;ELEXIS](https://elex.is/){:target=”_blank”}. ELEXIS-the European lexicographic infrastructure aims at paving the way for efficiently creating, maintaining and updating dictionaries. Heterogeneity of data, diversity in structure and incompatibility of standards are some of the major current obstacles in e-lexicography in Europe. To remedy these, ELEXIS provides innovative, transnational and data-driven approaches to dictionaries.&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;cst&quot;&gt;CST&lt;/h2&gt;
+
+&lt;div class=&quot;card-columns&quot;&gt;
+    
+    &lt;div class=&quot;card&quot;&gt;
+        &lt;img class=&quot;card-img-top&quot; src=&quot;https://raw.githubusercontent.com/sinaahmadi/sinaahmadi.github.io/master/docs/pictures/Denmark2019/CST/IMG_20190617_160806.jpg&quot; /&gt;
+    &lt;/div&gt;
+    
+    &lt;div class=&quot;card&quot;&gt;
+        &lt;img class=&quot;card-img-top&quot; src=&quot;https://raw.githubusercontent.com/sinaahmadi/sinaahmadi.github.io/master/docs/pictures/Denmark2019/CST/IMG_20190617_174040.jpg&quot; /&gt;
+    &lt;/div&gt;
+    
+    &lt;div class=&quot;card&quot;&gt;
+        &lt;img class=&quot;card-img-top&quot; src=&quot;https://raw.githubusercontent.com/sinaahmadi/sinaahmadi.github.io/master/docs/pictures/Denmark2019/CST/IMG_20190617_212631.jpg&quot; /&gt;
+    &lt;/div&gt;
+    
+    &lt;div class=&quot;card&quot;&gt;
+        &lt;img class=&quot;card-img-top&quot; src=&quot;https://raw.githubusercontent.com/sinaahmadi/sinaahmadi.github.io/master/docs/pictures/Denmark2019/CST/IMG_20190617_161034.jpg&quot; /&gt;
+    &lt;/div&gt;
+    
+    &lt;div class=&quot;card&quot;&gt;
+        &lt;img class=&quot;card-img-top&quot; src=&quot;https://raw.githubusercontent.com/sinaahmadi/sinaahmadi.github.io/master/docs/pictures/Denmark2019/CST/IMG_20190617_174125.jpg&quot; /&gt;
+    &lt;/div&gt;
+    
+    &lt;div class=&quot;card&quot;&gt;
+        &lt;img class=&quot;card-img-top&quot; src=&quot;https://raw.githubusercontent.com/sinaahmadi/sinaahmadi.github.io/master/docs/pictures/Denmark2019/CST/IMG_20190617_212336.jpg&quot; /&gt;
+    &lt;/div&gt;
+    
+&lt;/div&gt;
+
+&lt;h2 id=&quot;podilatopolis&quot;&gt;&lt;em&gt;Podilatopolis&lt;/em&gt;!&lt;/h2&gt;
+
+&lt;p&gt;This is the fancy word that can describe Copenhagen: city of bikes!&lt;/p&gt;
+
+&lt;p&gt;By the way, don’t Google the word as I coined this word myself!&lt;/p&gt;
+
+&lt;h2 id=&quot;gallery&quot;&gt;Gallery&lt;/h2&gt;
+
+&lt;div class=&quot;card-columns&quot;&gt;
+    
+    &lt;div class=&quot;card&quot;&gt;
+        &lt;img class=&quot;card-img-top&quot; src=&quot;https://raw.githubusercontent.com/sinaahmadi/sinaahmadi.github.io/master/docs/pictures/Denmark2019/Copenhagen/20190622_214646-EFFECTS.jpg&quot; /&gt;
+    &lt;/div&gt;
+    
+    &lt;div class=&quot;card&quot;&gt;
+        &lt;img class=&quot;card-img-top&quot; src=&quot;https://raw.githubusercontent.com/sinaahmadi/sinaahmadi.github.io/master/docs/pictures/Denmark2019/Copenhagen/IMG_20190622_211533.jpg&quot; /&gt;
+    &lt;/div&gt;
+    
+    &lt;div class=&quot;card&quot;&gt;
+        &lt;img class=&quot;card-img-top&quot; src=&quot;https://raw.githubusercontent.com/sinaahmadi/sinaahmadi.github.io/master/docs/pictures/Denmark2019/Copenhagen/IMG_20190622_125312-EFFECTS.jpg&quot; /&gt;
+    &lt;/div&gt;
+    
+    &lt;div class=&quot;card&quot;&gt;
+        &lt;img class=&quot;card-img-top&quot; src=&quot;https://raw.githubusercontent.com/sinaahmadi/sinaahmadi.github.io/master/docs/pictures/Denmark2019/Copenhagen/IMG_20190610_192333.jpg&quot; /&gt;
+    &lt;/div&gt;
+    
+    &lt;div class=&quot;card&quot;&gt;
+        &lt;img class=&quot;card-img-top&quot; src=&quot;https://raw.githubusercontent.com/sinaahmadi/sinaahmadi.github.io/master/docs/pictures/Denmark2019/Copenhagen/IMG_20190611_195728.jpg&quot; /&gt;
+    &lt;/div&gt;
+    
+    &lt;div class=&quot;card&quot;&gt;
+        &lt;img class=&quot;card-img-top&quot; src=&quot;https://raw.githubusercontent.com/sinaahmadi/sinaahmadi.github.io/master/docs/pictures/Denmark2019/Copenhagen/IMG_20190612_195504.jpg&quot; /&gt;
+    &lt;/div&gt;
+    
+    &lt;div class=&quot;card&quot;&gt;
+        &lt;img class=&quot;card-img-top&quot; src=&quot;https://raw.githubusercontent.com/sinaahmadi/sinaahmadi.github.io/master/docs/pictures/Denmark2019/Copenhagen/IMG_20190618_180317.jpg&quot; /&gt;
+    &lt;/div&gt;
+    
+    &lt;div class=&quot;card&quot;&gt;
+        &lt;img class=&quot;card-img-top&quot; src=&quot;https://raw.githubusercontent.com/sinaahmadi/sinaahmadi.github.io/master/docs/pictures/Denmark2019/Copenhagen/IMG_20190618_221937.jpg&quot; /&gt;
+    &lt;/div&gt;
+    
+    &lt;div class=&quot;card&quot;&gt;
+        &lt;img class=&quot;card-img-top&quot; src=&quot;https://raw.githubusercontent.com/sinaahmadi/sinaahmadi.github.io/master/docs/pictures/Denmark2019/Copenhagen/IMG_20190621_102937.jpg&quot; /&gt;
+    &lt;/div&gt;
+    
+    &lt;div class=&quot;card&quot;&gt;
+        &lt;img class=&quot;card-img-top&quot; src=&quot;https://raw.githubusercontent.com/sinaahmadi/sinaahmadi.github.io/master/docs/pictures/Denmark2019/Copenhagen/IMG_20190610_190623.jpg&quot; /&gt;
+    &lt;/div&gt;
+    
+    &lt;div class=&quot;card&quot;&gt;
+        &lt;img class=&quot;card-img-top&quot; src=&quot;https://raw.githubusercontent.com/sinaahmadi/sinaahmadi.github.io/master/docs/pictures/Denmark2019/Malmo/IMG_20190619_213113-EFFECTS.jpg&quot; /&gt;
+    &lt;/div&gt;
+    
+&lt;/div&gt;</content><author><name>Sina Ahmadi</name></author><category term="Lexicography" /><category term="Data-linking" /><category term="NLP" /><category term="ELEXIS" /><summary type="html">Joseph Kosuth's Art as Idea as Idea work, Radical at Louisiana Museum of Modern Art To better view the images of this post right-click and “view images”. DSL I had the chance to visit two amazing centres in the beautiful city of Copenhagen, Denmark, during the last two weeks. This visit was a part of my Ph.D. project in lexicographic data linking within ELEXIS](https://elex.is/){:target=”_blank”}. ELEXIS-the European lexicographic infrastructure aims at paving the way for efficiently creating, maintaining and updating dictionaries. Heterogeneity of data, diversity in structure and incompatibility of standards are some of the major current obstacles in e-lexicography in Europe. To remedy these, ELEXIS provides innovative, transnational and data-driven approaches to dictionaries. CST Podilatopolis! This is the fancy word that can describe Copenhagen: city of bikes! By the way, don’t Google the word as I coined this word myself! Gallery</summary></entry><entry><title type="html">Summer datathon in Dagstuhl</title><link href="http://localhost:4000/posts/summer-datathon-in-dagstuhl.html" rel="alternate" type="text/html" title="Summer datathon in Dagstuhl" /><published>2019-05-18T00:00:00+01:00</published><updated>2019-05-18T00:00:00+01:00</updated><id>http://localhost:4000/posts/summer-datathon-in-dagstuhl</id><content type="html" xml:base="http://localhost:4000/posts/summer-datathon-in-dagstuhl.html">&lt;p&gt;Last week, I participated in the &lt;a href=&quot;https://datathon2019.linguistic-lod.org/&quot; target=&quot;_blank&quot;&gt;3rd Summer Datathon on Linguistic Linked Open Data (SD-LLOD-19)&lt;/a&gt; which was held in the &lt;a href=&quot;https://www.dagstuhl.de/&quot; target=&quot;_blank&quot;&gt;Schloss Dagstuhl – Leibniz Center for Informatics&lt;/a&gt;, Wadern, Germany. As my first datathon where I was a tutor, it was such an amazing experience that I would like to write about here.&lt;/p&gt;
 
 &lt;div class=&quot;card mb-3 text-center&quot;&gt;
     &lt;img class=&quot;rounded mx-auto d-block&quot; src=&quot;http://localhost:4000/docs/pictures/Dagstuhl/summerdatathon.jpg&quot; style=&quot;width:50%&quot; align=&quot;middle&quot; alt=&quot;3rd Summer Datathon on Linguistic Linked Open Data&quot; /&gt;
