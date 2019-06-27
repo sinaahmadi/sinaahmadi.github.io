@@ -74,7 +74,9 @@ Yes. That was exactly how I was astonished when I visited such a mysterious and 
 <div class="card-columns">
     {% for img in page.images %}
     <div class="card">
+      <a href="{{ img }}" target="_blank">
         <img class="card-img-top" src="{{ img }}" />
+      </a>
     </div>
     {% endfor %}
 </div>
@@ -172,7 +174,9 @@ In addition to our heavy daily programs, we had a couple of cultural visits to t
 <div class="card-columns">
     {% for img in page.trier %}
     <div class="card">
+      <a href="{{ img }}" target="_blank">
         <img class="card-img-top" src="{{ img }}" />
+      </a>
     </div>
     {% endfor %}
 </div>

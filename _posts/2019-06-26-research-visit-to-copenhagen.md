@@ -8,12 +8,11 @@ tags:
 - ELEXIS
 
 DSL:
-  - https://raw.githubusercontent.com/sinaahmadi/sinaahmadi.github.io/master/docs/pictures/Denmark2019/DSL/IMG_20190614_180517.jpg
   - https://raw.githubusercontent.com/sinaahmadi/sinaahmadi.github.io/master/docs/pictures/Denmark2019/DSL/IMG_20190611_160454.jpg
-  - https://raw.githubusercontent.com/sinaahmadi/sinaahmadi.github.io/master/docs/pictures/Denmark2019/DSL/IMG_20190611_182738.jpg
   - https://raw.githubusercontent.com/sinaahmadi/sinaahmadi.github.io/master/docs/pictures/Denmark2019/DSL/IMG_20190612_171542.jpg
-  - https://raw.githubusercontent.com/sinaahmadi/sinaahmadi.github.io/master/docs/pictures/Denmark2019/DSL/IMG_20190613_181147.jpg
   - https://raw.githubusercontent.com/sinaahmadi/sinaahmadi.github.io/master/docs/pictures/Denmark2019/DSL/IMG_20190614_180247.jpg
+  - https://raw.githubusercontent.com/sinaahmadi/sinaahmadi.github.io/master/docs/pictures/Denmark2019/DSL/IMG_20190613_180841.jpg
+  - https://raw.githubusercontent.com/sinaahmadi/sinaahmadi.github.io/master/docs/pictures/Denmark2019/DSL/IMG_20190614_180517.jpg
 
 CST: 
   - https://raw.githubusercontent.com/sinaahmadi/sinaahmadi.github.io/master/docs/pictures/Denmark2019/CST/IMG_20190617_160806.jpg
@@ -31,10 +30,12 @@ gallery:
   - https://raw.githubusercontent.com/sinaahmadi/sinaahmadi.github.io/master/docs/pictures/Denmark2019/Copenhagen/IMG_20190611_195728.jpg
   - https://raw.githubusercontent.com/sinaahmadi/sinaahmadi.github.io/master/docs/pictures/Denmark2019/Copenhagen/IMG_20190612_195504.jpg
   - https://raw.githubusercontent.com/sinaahmadi/sinaahmadi.github.io/master/docs/pictures/Denmark2019/Copenhagen/IMG_20190618_180317.jpg
+  - https://raw.githubusercontent.com/sinaahmadi/sinaahmadi.github.io/master/docs/pictures/Denmark2019/IMG_20190623_142702.jpg
   - https://raw.githubusercontent.com/sinaahmadi/sinaahmadi.github.io/master/docs/pictures/Denmark2019/Copenhagen/IMG_20190618_221937.jpg
   - https://raw.githubusercontent.com/sinaahmadi/sinaahmadi.github.io/master/docs/pictures/Denmark2019/Copenhagen/IMG_20190621_102937.jpg
   - https://raw.githubusercontent.com/sinaahmadi/sinaahmadi.github.io/master/docs/pictures/Denmark2019/Copenhagen/IMG_20190610_190623.jpg
   - https://raw.githubusercontent.com/sinaahmadi/sinaahmadi.github.io/master/docs/pictures/Denmark2019/Malmo/IMG_20190619_213113-EFFECTS.jpg
+  - https://raw.githubusercontent.com/sinaahmadi/sinaahmadi.github.io/master/docs/pictures/Denmark2019/IMG_20190623_142832.jpg
 
 ---
 
@@ -55,7 +56,9 @@ gallery:
 <div class="card-columns">
     {% for img in page.DSL %}
     <div class="card">
-        <img class="card-img-top" src="{{ img }}" />
+        <a href="{{ img }}" target="_blank">
+          <img class="card-img-top" src="{{ img }}" />
+        </a>
     </div>
     {% endfor %}
 </div>
@@ -68,7 +71,9 @@ I had the chance to visit two amazing centres in the beautiful city of Copenhage
 <div class="card-columns">
     {% for img in page.CST %}
     <div class="card">
+      <a href="{{ img }}" target="_blank">
         <img class="card-img-top" src="{{ img }}" />
+      </a>
     </div>
     {% endfor %}
 </div>
@@ -84,7 +89,9 @@ By the way, don't Google the word as I coined this word myself!
 <div class="card-columns">
     {% for img in page.gallery %}
     <div class="card">
+      <a href="{{ img }}" target="_blank">
         <img class="card-img-top" src="{{ img }}" />
+      </a>
     </div>
     {% endfor %}
 </div>
