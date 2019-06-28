@@ -165,7 +165,7 @@ As we saw above, the **differences in structure and content** make sense alignme
 
 - **Lexical choice**: some words are not used for the same purposes or have completely lost their senses through time 
   - *vandklar* (clear) in *vandklar vædske* (clear liquid) to describe *Alkohol* (alcohol) in ODS does not sound natural to Modern Danish speakers. In the Modern Danish dictionary, DDO, *farveløs* (colorless) is used instead. 
-- **Orthographic variations**: The Danish orthography has changed since when ODS was published from 1919 to 1956.
+- **Orthographic variations**: The Danish orthography has changed since ODS was published (1919 to 1956).
   - *kjøn* vs. *køn*
   - *paa* vs. *på*
 
@@ -183,7 +183,7 @@ Let's look up a Danish word in the two dictionaries and compare what we get: "*a
     </div>
 </div>
 
-The very first thing that looks different in the two dictionaries is that the noun entry in ODS is capitalized while in DDO, it is in small. This is because Danish nouns used to follow the capitalization rule which still exists in German which is no more the case for Modern Danish. 
+The very first thing that looks different in the two dictionaries is that the noun entry in ODS is capitalized while in DDO, it is in small. This is because Danish nouns historically used to follow the capitalization rule, as German still does, but is no more the case for Modern Danish. 
 
 Unlike DDO where senses are fine-grained and well-organized with concise and clear descriptions and structure, ODS descriptions contain irrelevant information such as citations and examples which may not be directly useful for our task. On the other hand, such information are not structured in a way that we can retrieve certain parts easily. 
 
@@ -200,7 +200,9 @@ As we did not have any gold-standard dataset in place, I could not evaluate the 
   - Lexical and orthographic normalization
   - Paraphrasing techniques 
 
-In addition, I believe that corresponding the hierarchical sense structure in DDO where any semantically-distinct sense of the entry is provided separately, requires an extracting of all possible senses in the sense descriptions of ODS independent from the original structure. Some of the senses are no more valid and some others have changed their semantic relationship through time. Therefore, considering a larger range of semantic relationships such as hypernymy and hyponymy in addition to synonymy, antonymy and equivalence makes sense. 
+In addition, I believe that corresponding the hierarchical sense structure in DDO where any semantically-distinct sense of the entry is provided separately, requires the extractions of all possible senses, in the sense descriptions of ODS, independent from the original structure. Some of the senses are no more valid and some others have changed their semantic relationship through time. Therefore, considering a larger range of semantic relationships such as hypernymy and hyponymy in addition to synonymy, antonymy and equivalence might should be taken into account as well. 
+
+We are planning to organize a shared task in a near future and provide our data for the same task of sense alignment. 
 
 <div class="card mb-3 text-center">
     <img class="rounded mx-auto d-block" src="{{ site.url }}/docs/pictures/Denmark2019/IMG_0155.JPG" style="width:100%" align="middle" alt="Afstand (noun) in DDO and ODS"/>
@@ -211,13 +213,11 @@ In addition, I believe that corresponding the hierarchical sense structure in DD
     </div>
 </div>
 
-We are planning to organize a shared task in a near future and provide our data for the same task of sense alignment. 
-
 ## Gallery
 
-I think Copenhagen should be called *Podilatopolis*! (just a fancy word that I coined to mean *city of bikes* (ποδήλατο (bike), πολις (city))). I could happily discover the city by cycling. I was also lucky enough to attended the [Royal Run 2019](https://www.royalrun.dk/) on June 10, the 800th birthday of the Danish flag "*Dannebrog*" on June 15, Sankt Hans Aften on June 23, a Nordic tradition, celebrated on the night before the Midsummer's Day and a couple of interesting seminars and performances. 
+I think Copenhagen should be called *Podilatopolis*! (just a fancy word that I coined to mean *city of bikes* (ποδήλατο (bike), πολις (city))). Fortunately, I could discover the city by bike. I was also lucky enough that some of the interesting annual events in Denmark happened during my stay, such as the [Royal Run 2019](https://www.royalrun.dk/) on June 10, the 800th birthday of the Danish flag "*Dannebrog*" on June 15, Sankt Hans Aften on June 23, a Nordic tradition celebrated on the night before the Midsummer's Day and, a couple of interesting seminars and performances. 
 
-I truly enjoyed everything in Denmark and admire so much the Danish culture and would really like to learn Danish one day. By the way, did you know Danish has over **40 vowels** making it one of the unique languages in the world with so many vowels? Read more [here](http://ias.au.dk/fileadmin/internationalstaff.au.dk/UIC/Peter_Bakker_-_UIC_19-08-2015.pdf){:target="_blank"} and [here](http://ias.au.dk/fileadmin/internationalstaff.au.dk/UIC/Presentations/bakker2013Danishinternationalcenter.pdf){:target="_blank"}.
+I truly enjoyed everything in Denmark and admired so much the Danish culture and way of life. I would really like to learn Danish one day too. By the way, did you know Danish has over **40 vowels** making it one of the unique languages in the world with so many vowels? Read more [here](http://ias.au.dk/fileadmin/internationalstaff.au.dk/UIC/Peter_Bakker_-_UIC_19-08-2015.pdf){:target="_blank"} and [here](http://ias.au.dk/fileadmin/internationalstaff.au.dk/UIC/Presentations/bakker2013Danishinternationalcenter.pdf){:target="_blank"}.
 
 Finally, I would really like to thank everyone who made this experience that memorable to me. I hope that I can meet all of them again soon. **Mange tak!**
 
