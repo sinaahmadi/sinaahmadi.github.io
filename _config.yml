@@ -22,6 +22,33 @@ baseurl: ""
 plugins:
   - jekyll-sitemap
   - jekyll-feed
+  - jekyll/scholar
+
+# Jekyll-Scholar
+scholar:
+
+  last_name: Ahmadi
+
+  style: apa
+  locale: en
+
+  sort_by: year
+  order: descending
+
+  source: /_bibliography/
+  bibliography: papers.bib
+  bibliography_template: bib
+
+  replace_strings: true
+  join_strings: true
+
+  details_dir: bibliography
+  details_layout: bibtex.html
+  details_link: Details
+
+  query: "@*"
+  repository: /docs/articles/
+
 
 # Add a directory to hold misc pages, just to keep the root directory clean.
 include: ["_pages", "_portfolio"]
