@@ -48,6 +48,7 @@ scholar:
 
   query: "@*"
   repository: /docs/articles/
+  use_raw_bibtex_entry: true
 
 
 # Add a directory to hold misc pages, just to keep the root directory clean.
