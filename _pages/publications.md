@@ -11,7 +11,9 @@ Publications by categories in reversed chronological order.
 
 ### Main research topics
 
+{% bibliography --file papers %}
 
 ### Kurdish language processing
 
+{% bibliography --file klp %}
 
