@@ -9,9 +9,9 @@
     <meta name="author" content="">
 
     <title>
-        
+
             Data modelling with RDF: a tutorial &middot; Sina Ahmadi's Personal Page
-        
+
     </title>
 
     <script src="/theme/js/jquery-3.2.1.min.js"></script>
@@ -34,42 +34,42 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarContent">
         <ul class="navbar-nav ml-auto">
-        
+
             <li class="nav-item">
                 <a href='/index.html'
                    class="nav-link">
                     Home
                 </a>
             </li>
-        
+
             <li class="nav-item">
                 <a href='/about.html'
                    class="nav-link">
                     About
                 </a>
             </li>
-        
+
             <li class="nav-item">
                 <a href='/publications.html'
                    class="nav-link">
                     Publications
                 </a>
             </li>
-        
+
             <li class="nav-item">
                 <a href='/list/posts.html'
                    class="nav-link">
                     Posts
                 </a>
             </li>
-        
+
             <li class="nav-item">
                 <a href='/list/resources.html'
                    class="nav-link">
                     Resources
                 </a>
             </li>
-        
+
         </ul>
     </div>
 </nav>
@@ -81,7 +81,7 @@
 <div class="container site-container" id="top">
     <div class="row">
         <div class="d-none d-lg-block col-lg-4 col-xl-4 side">
-            
+
 
 
 
@@ -120,32 +120,32 @@
 </svg>
 
                 </span>
-                
+
                     <a href="/list/posts.html#rdf"
                        class="bg-white border rounded p-1 mr-2 mb-2 d-inline-block">
                         RDF
                     </a>
-                
+
                     <a href="/list/posts.html#ontology"
                        class="bg-white border rounded p-1 mr-2 mb-2 d-inline-block">
                         Ontology
                     </a>
-                
+
                     <a href="/list/posts.html#data-model"
                        class="bg-white border rounded p-1 mr-2 mb-2 d-inline-block">
                         Data model
                     </a>
-                
+
                     <a href="/list/posts.html#linked-data"
                        class="bg-white border rounded p-1 mr-2 mb-2 d-inline-block">
                         Linked Data
                     </a>
-                
+
                     <a href="/list/posts.html#tutorial"
                        class="bg-white border rounded p-1 mr-2 mb-2 d-inline-block">
                         Tutorial
                     </a>
-                
+
             </div>
             <hr>
             <div class="d-flex align-items-center mt-2">
@@ -207,32 +207,32 @@
 </svg>
 
                 </span>
-                
+
                     <a href="/list/posts.html#rdf"
                        class="bg-white border rounded p-1 mr-2 mb-2 d-inline-block">
                         RDF
                     </a>
-                
+
                     <a href="/list/posts.html#ontology"
                        class="bg-white border rounded p-1 mr-2 mb-2 d-inline-block">
                         Ontology
                     </a>
-                
+
                     <a href="/list/posts.html#data-model"
                        class="bg-white border rounded p-1 mr-2 mb-2 d-inline-block">
                         Data model
                     </a>
-                
+
                     <a href="/list/posts.html#linked-data"
                        class="bg-white border rounded p-1 mr-2 mb-2 d-inline-block">
                         Linked Data
                     </a>
-                
+
                     <a href="/list/posts.html#tutorial"
                        class="bg-white border rounded p-1 mr-2 mb-2 d-inline-block">
                         Tutorial
                     </a>
-                
+
             </div>
             <hr>
             <div class="d-flex align-items-center mt-2">
@@ -268,7 +268,7 @@
 <p>Now, let’s define URI identifiers for <code class="highlighter-rouge">France</code> and <code class="highlighter-rouge">Paris</code>. Don’t you think there were some other people before us who may have attributed an identifier to those famous <em>things</em>? I say <code class="highlighter-rouge">thing</code>, because once we have not described something, we have no other name to call it but a <code class="highlighter-rouge">thing</code>. Once we identify the nature of that <code class="highlighter-rouge">thing</code>, then we can name it differently. This is how human language works and words are created. Philosophically, such a description is called an <strong>ontology</strong>. Definitely, there have been some people who thought about an ontology as a <em>Place</em> and its characteristics. In the same way, <code class="highlighter-rouge">Paris</code> and <code class="highlighter-rouge">France</code> are defined based on such ontologies and have unique identifiers. The following schema shows a very simple ontology for our scenario where a <code class="highlighter-rouge">Place</code> is defined as a class derived from <code class="highlighter-rouge">Thing</code>, then <code class="highlighter-rouge">Country</code> comes as a sub-class of <code class="highlighter-rouge">Place</code>, <code class="highlighter-rouge">County</code> as a sub-class of <code class="highlighter-rouge">Country</code> and <code class="highlighter-rouge">City</code> as a sub-class of <code class="highlighter-rouge">County</code>. The schema also shows our individuals as <code class="highlighter-rouge">France</code>, <code class="highlighter-rouge">Ile-de-France</code> and <code class="highlighter-rouge">Paris</code>.</p>
 
 <div class="card mb-3 text-center">
-    <img class="rounded mx-auto d-block" src="http://localhost:4000/docs/images/place_ontology.png" style="width:50%" align="middle" alt="A simple ontology for Place, including France, Ile-de-France and Paris" />
+    <img class="rounded mx-auto d-block" src="https://sinaahmadi.github.io/docs/images/place_ontology.png" style="width:50%" align="middle" alt="A simple ontology for Place, including France, Ile-de-France and Paris" />
     <div class="card-body bg-light">
         <div class="card-text">
             A simple ontology for Place, including France, Ile-de-France and Paris.
@@ -279,7 +279,7 @@
 <p>Now that we know how things are described based on ontologies, we can look on the web to find the identifiers which are attributed to each class and individual. For our example, let’s take a look at <a href="https://wiki.dbpedia.org/" target="_blank">DBpedia</a>. DBpedia is an amazing platform which provides linked data features for the content of <a href="https://www.wikipedia.org/" target="_blank">Wikipedia</a>. In other words, it is a tool to semantically query whatever exists on Wikipedia. For instance, <code class="highlighter-rouge">http://dbpedia.org/resource/France</code> and  <code class="highlighter-rouge">http://dbpedia.org/resource/Paris</code> are the identifiers for <a href="http://dbpedia.org/resource/France" target="_blank">France</a> and <a href="http://dbpedia.org/resource/Paris" target="_blank">Paris</a> respectively. You get something like the following for Paris as the capital of France:</p>
 
 <div class="card mb-3 text-center">
-    <img class="rounded mx-auto d-block" src="http://localhost:4000/docs/images/paris_dbpedia.png" style="width:100%" align="middle" alt="Paris as the capital of France in DBpedia" />
+    <img class="rounded mx-auto d-block" src="https://sinaahmadi.github.io/docs/images/paris_dbpedia.png" style="width:100%" align="middle" alt="Paris as the capital of France in DBpedia" />
     <div class="card-body bg-light">
         <div class="card-text">
             Paris as the capital of France in DBpedia.
@@ -438,7 +438,7 @@ dbr:Paris dbo:populationTotal "2229621"^^xsd:integer .</code></pre></figure>
 <h4 id="step-2-draw-a-graphical-representation-of-your-information-model">Step 2: Draw a graphical representation of your information model.</h4>
 
 <div class="card mb-3 text-center">
-    <img class="rounded mx-auto d-block" src="http://localhost:4000/docs/images/webnetwork_1.jpeg" style="width:100%" align="middle" alt="Student management system data model schema" />
+    <img class="rounded mx-auto d-block" src="https://sinaahmadi.github.io/docs/images/webnetwork_1.jpeg" style="width:100%" align="middle" alt="Student management system data model schema" />
     <div class="card-body bg-light">
         <div class="card-text">
             Schema of a data model for student management system (<i>classes</i> are highlighted in yellow and <i>properties</i> in green).
@@ -611,7 +611,7 @@ David is a student at NUI Galway. He is enrolled in M.Sc. Data Analytics program
 
         </div>
         <div class="col-md-12 d-lg-none bottom">
-            
+
 
         </div>
     </div>
