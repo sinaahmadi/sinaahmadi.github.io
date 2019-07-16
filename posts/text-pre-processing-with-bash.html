@@ -9,9 +9,9 @@
     <meta name="author" content="">
 
     <title>
-
+        
             Text pre-processing in command-line &middot; Sina Ahmadi's Personal Page
-
+        
     </title>
 
     <script src="/theme/js/jquery-3.2.1.min.js"></script>
@@ -34,42 +34,42 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarContent">
         <ul class="navbar-nav ml-auto">
-
+        
             <li class="nav-item">
                 <a href='/index.html'
                    class="nav-link">
                     Home
                 </a>
             </li>
-
+        
             <li class="nav-item">
                 <a href='/about.html'
                    class="nav-link">
                     About
                 </a>
             </li>
-
+        
             <li class="nav-item">
                 <a href='/publications.html'
                    class="nav-link">
                     Publications
                 </a>
             </li>
-
+        
             <li class="nav-item">
                 <a href='/list/posts.html'
                    class="nav-link">
                     Posts
                 </a>
             </li>
-
+        
             <li class="nav-item">
                 <a href='/list/resources.html'
                    class="nav-link">
                     Resources
                 </a>
             </li>
-
+        
         </ul>
     </div>
 </nav>
@@ -81,7 +81,7 @@
 <div class="container site-container" id="top">
     <div class="row">
         <div class="d-none d-lg-block col-lg-4 col-xl-4 side">
-
+            
 
 
 
@@ -120,27 +120,27 @@
 </svg>
 
                 </span>
-
+                
                     <a href="/list/posts.html#nlp"
                        class="bg-white border rounded p-1 mr-2 mb-2 d-inline-block">
                         NLP
                     </a>
-
+                
                     <a href="/list/posts.html#text-processing"
                        class="bg-white border rounded p-1 mr-2 mb-2 d-inline-block">
                         Text processing
                     </a>
-
+                
                     <a href="/list/posts.html#bash"
                        class="bg-white border rounded p-1 mr-2 mb-2 d-inline-block">
                         Bash
                     </a>
-
+                
                     <a href="/list/posts.html#tutorial"
                        class="bg-white border rounded p-1 mr-2 mb-2 d-inline-block">
                         Tutorial
                     </a>
-
+                
             </div>
             <hr>
             <div class="d-flex align-items-center mt-2">
@@ -202,27 +202,27 @@
 </svg>
 
                 </span>
-
+                
                     <a href="/list/posts.html#nlp"
                        class="bg-white border rounded p-1 mr-2 mb-2 d-inline-block">
                         NLP
                     </a>
-
+                
                     <a href="/list/posts.html#text-processing"
                        class="bg-white border rounded p-1 mr-2 mb-2 d-inline-block">
                         Text processing
                     </a>
-
+                
                     <a href="/list/posts.html#bash"
                        class="bg-white border rounded p-1 mr-2 mb-2 d-inline-block">
                         Bash
                     </a>
-
+                
                     <a href="/list/posts.html#tutorial"
                        class="bg-white border rounded p-1 mr-2 mb-2 d-inline-block">
                         Tutorial
                     </a>
-
+                
             </div>
             <hr>
             <div class="d-flex align-items-center mt-2">
@@ -249,7 +249,7 @@
 <p>What we mean by <strong>text pre-processing</strong> is the normalisation of text by removing special characters (e.g. punctuation marks, non-Unicode characters etc.), tokens or changing the whole structure of the text for a specific purpose (e.g. adding <code class="highlighter-rouge">&lt;eos&gt;</code> to the end of sentences for training neural networks). In other words, whatever required to prepare a text file to be processed is a part of text pre-processing. Later, we will discuss text processing tasks such as <u>counting unique words</u> in a document, <u>sorting words by frequency</u>, <u>removing stop words</u>, <u>retrieving specific text structures</u>.</p>
 
 <div class="card mb-3 text-center">
-    <img class="rounded mx-auto d-block" src="https://sinaahmadi.github.io/docs/images/command_line_text_preprocessing.png" style="width:75%" align="middle" alt="Text pre-processing using command-line" />
+    <img class="rounded mx-auto d-block" src="/docs/images/command_line_text_preprocessing.png" style="width:75%" align="middle" alt="Text pre-processing using command-line" />
     <div class="card-body bg-light">
         <div class="card-text">
             Text pre-processing is fun with command-line.
@@ -265,7 +265,7 @@
 
 <h2 id="text-preprocessing-commands">Text-preprocessing commands</h2>
 
-<p>If you are interested in executing the commands in practice, you can download <a href="https://sinaahmadi.github.io/docs/tutorials/noisy_text.txt" target="_blank">this text file</a> in your working directory and see how each command works. Our sample text is very noisy; it contains html tags, indented paragraphs, multiple unnecessary newlines, spaces and tokens. <strong>Our goal</strong> is to clean this sample text by getting rid of the noisy stuff.</p>
+<p>If you are interested in executing the commands in practice, you can download <a href="http://localhost:4000/docs/tutorials/noisy_text.txt" target="_blank">this text file</a> in your working directory and see how each command works. Our sample text is very noisy; it contains html tags, indented paragraphs, multiple unnecessary newlines, spaces and tokens. <strong>Our goal</strong> is to clean this sample text by getting rid of the noisy stuff.</p>
 
 <h3 id="text-reading">Text reading</h3>
 
@@ -349,7 +349,7 @@ This is a quick note to remember that I should call the clinic asap.
 
 <p>Although nowadays <a href="https://www.unicode.org/" target="_blank">Unicode standard</a> is the default encoding of most programs and on the web, there are still texts for which older encodings such as ISO 8859 and Windows-1252 were used and therefore, converting them is necessary. For this purpose, there is a program called <code class="highlighter-rouge">iconv</code> which converts your text from an encoding to another one. The syntax of <code class="highlighter-rouge">iconv</code> is shown above; Change the <code class="highlighter-rouge">source-encoding-code</code> and the <code class="highlighter-rouge">target-encoding-code</code> to the encoding of your source text and your desired output encoding, respectively.</p>
 
-<p>Our <a href="https://sinaahmadi.github.io/docs/tutorials/noisy_text.txt" target="_blank">sample text file</a> is encoded in UTF-8. The following is an example to convert “crépuscule” from UTF-8 to ISO-8859-15:</p>
+<p>Our <a href="http://localhost:4000/docs/tutorials/noisy_text.txt" target="_blank">sample text file</a> is encoded in UTF-8. The following is an example to convert “crépuscule” from UTF-8 to ISO-8859-15:</p>
 
 <figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span><span class="nb">echo</span> <span class="s2">"crépuscule"</span> | iconv <span class="nt">-f</span> UTF-8 <span class="nt">-t</span> ISO-8859-15
 cr?puscule
@@ -401,7 +401,7 @@ Amuunt uf bnastac an ucean as wurse than we thuught, study says
 AMOUNT OF PLASTIC IN OCEAN IS WORSE THAN WE THOUGHT, STUDY SAYS
 <span class="nv">$ </span>  </code></pre></figure>
 
-<p>What if we want to replace multiple occurrences of a character by another character? For instance, line 340 to 363 in the <a href="https://sinaahmadi.github.io/docs/tutorials/noisy_text.txt" target="_blank">sample text file</a> contain multiple spaces that we would like to be removed and be replaced by one. This can be done with the <code class="highlighter-rouge">-s</code> option of <code class="highlighter-rouge">tr</code>:</p>
+<p>What if we want to replace multiple occurrences of a character by another character? For instance, line 340 to 363 in the <a href="http://localhost:4000/docs/tutorials/noisy_text.txt" target="_blank">sample text file</a> contain multiple spaces that we would like to be removed and be replaced by one. This can be done with the <code class="highlighter-rouge">-s</code> option of <code class="highlighter-rouge">tr</code>:</p>
 
 <figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span><span class="nb">cat </span>noisy_text.txt | awk <span class="s1">'NR &gt;= 340  &amp;&amp; NR &lt;= 350'</span>
 
@@ -446,7 +446,7 @@ Amunt f plastic <span class="k">in </span>cean is wrse than we thught, study say
 
 <p>Regex allow us to access parts of a text based on the rules that we define. In some ways, a regex is analogous to a database query or a semantic query. It’s a query to extract information from raw text!</p>
 
-<p>Let’s take a look at our <a href="https://sinaahmadi.github.io/docs/tutorials/noisy_text.txt" target="_blank">sample text file</a> where lines 1215 to 1220 contain HTML code (look like an HTML table):</p>
+<p>Let’s take a look at our <a href="http://localhost:4000/docs/tutorials/noisy_text.txt" target="_blank">sample text file</a> where lines 1215 to 1220 contain HTML code (look like an HTML table):</p>
 
 <figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span><span class="nb">cat </span>noisy_text.txt | awk <span class="s1">'NR &gt;= 1215 &amp;&amp; NR &lt;= 1220'</span>
    <span class="nv">style</span><span class="o">=</span><span class="s2">"font-family: Times New Roman;"</span> <span class="nv">class</span><span class="o">=</span><span class="s2">"_mt"</span>
@@ -487,7 +487,7 @@ Amunt f plastic <span class="k">in </span>cean is wrse than we thught, study say
 
 <p>We perviously mentioned how to merge files using <code class="highlighter-rouge">cat</code>. What if we want to split a huge text file into smaller parts? This can be done with <code class="highlighter-rouge">split</code>.</p>
 
-<p><code class="highlighter-rouge">split</code> allows us to split a file based on the number of lines with <code class="highlighter-rouge">-l</code> option and based on size with <code class="highlighter-rouge">-b</code>. Let’s split our <a href="https://sinaahmadi.github.io/docs/tutorials/noisy_text.txt" target="_blank">sample text file</a> into smaller files containing 500 lines each one:</p>
+<p><code class="highlighter-rouge">split</code> allows us to split a file based on the number of lines with <code class="highlighter-rouge">-l</code> option and based on size with <code class="highlighter-rouge">-b</code>. Let’s split our <a href="http://localhost:4000/docs/tutorials/noisy_text.txt" target="_blank">sample text file</a> into smaller files containing 500 lines each one:</p>
 
 <figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span>split <span class="nt">-l</span> 500 noisy_text.txt
 <span class="nv">$ </span>tree
@@ -505,7 +505,7 @@ Amunt f plastic <span class="k">in </span>cean is wrse than we thught, study say
 
 <p>How your text is to be pre-processed depends on the content of your file and your pre-processing purpose. You should know what the noisy stuff are and the issues that should be cleaned or normalised.</p>
 
-<p>Suppose that we need the following steps to clean our <a href="https://sinaahmadi.github.io/docs/tutorials/noisy_text.txt" target="_blank">sample text file</a>:</p>
+<p>Suppose that we need the following steps to clean our <a href="http://localhost:4000/docs/tutorials/noisy_text.txt" target="_blank">sample text file</a>:</p>
 <ul>
   <li>Remove HTML tags (<code class="highlighter-rouge">perl -0777 -pe 's/&lt;[^&gt;]*&gt;//gs'</code>)</li>
   <li>Remove noisy non-alphanumeric content  (<code class="highlighter-rouge">perl -0777 -pe 's/^[\S]*[^\w\s][\S]*$//gmi'</code>)</li>
@@ -517,7 +517,7 @@ Amunt f plastic <span class="k">in </span>cean is wrse than we thught, study say
 <figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span><span class="nb">cat </span>noisy_text.txt | awk <span class="s1">'{gsub(/^ */,""); print }'</span> | tr <span class="nt">-s</span> <span class="s2">" "</span> | perl <span class="nt">-0777</span> <span class="nt">-pe</span> <span class="s1">'s/^[\S]*[^\w\s][\S]*$//gmi'</span> |  perl <span class="nt">-0777</span> <span class="nt">-pe</span> <span class="s1">'s/&lt;[^&gt;]*&gt;//gs'</span> | awk <span class="s1">'{gsub(/^.*javascript.*$/,"\n"); print }'</span> | awk <span class="s1">'{gsub(/&amp;nbsp;/," "); print }'</span> | perl <span class="nt">-0777</span> <span class="nt">-pe</span> <span class="s1">'s/(\n[ ]*){2,}/\n\n/gmi'</span> <span class="o">&gt;</span> cleaned_noisy_text.txt
 <span class="nv">$ </span>   </code></pre></figure>
 
-<p><a href="https://sinaahmadi.github.io/docs/tutorials/cleaned_noisy_text.txt" target="_blank">This is</a> how this long command cleans our sample text file like a charm!</p>
+<p><a href="http://localhost:4000/docs/tutorials/cleaned_noisy_text.txt" target="_blank">This is</a> how this long command cleans our sample text file like a charm!</p>
 
 <hr class="col-xs-12" />
 
@@ -542,7 +542,7 @@ Amunt f plastic <span class="k">in </span>cean is wrse than we thught, study say
 
         </div>
         <div class="col-md-12 d-lg-none bottom">
-
+            
 
         </div>
     </div>
