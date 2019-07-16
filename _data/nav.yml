@@ -4,11 +4,11 @@
 - title: About
   href: about.html
 
-- title: Publications
-  href: publications.html
-
 - title: Posts
   href: list/posts.html
+
+# - title: Teaching
+#   href: teaching.html
 
 # - title: Projects
 #   href: list/projects.html
