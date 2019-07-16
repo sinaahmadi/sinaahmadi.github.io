@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>
+        
+            Data modelling with RDF: a tutorial &middot; Sina Ahmadi's Personal Page
+        
+    </title>
+
+    <script src="/theme/js/jquery-3.2.1.min.js"></script>
+    <script src="/theme/js/popper.min.js"></script>
+    <script src="/theme/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="/theme/css/bootstrap.css">
+    <link rel="stylesheet" href="/theme/css/site.css">
+    <link rel="stylesheet" href="/theme/css/syntax.css">
+
+</head>
+
+
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top justify-content-between">
+    <a class="navbar-brand font-weight-bold" href="/index.html">Sina Ahmadi</a>
+    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarContent" >
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarContent">
+        <ul class="navbar-nav ml-auto">
+        
+            <li class="nav-item">
+                <a href='/index.html'
+                   class="nav-link">
+                    Home
+                </a>
+            </li>
+        
+            <li class="nav-item">
+                <a href='/about.html'
+                   class="nav-link">
+                    About
+                </a>
+            </li>
+        
+            <li class="nav-item">
+                <a href='/publications.html'
+                   class="nav-link">
+                    Publications
+                </a>
+            </li>
+        
+            <li class="nav-item">
+                <a href='/list/posts.html'
+                   class="nav-link">
+                    Posts
+                </a>
+            </li>
+        
+            <li class="nav-item">
+                <a href='/list/resources.html'
+                   class="nav-link">
+                    Resources
+                </a>
+            </li>
+        
+        </ul>
+    </div>
+</nav>
+
+
+
+
+
+<div class="container site-container" id="top">
+    <div class="row">
+        <div class="d-none d-lg-block col-lg-4 col-xl-4 side">
+            
+
+
+
+
+
+
+
+
+    <div class="sticky-top space-before">
+    <div class="card bg-light mb-3 space-before">
+        <div class="card-body">
+            <div class="card-title">
+                <h5>On This Page</h5>
+                <h6>Mar 21, 2019</h6>
+            </div>
+              <ul class="nav flex-column nav-pills header-list">
+            </ul>
+            <hr>
+            <div class="d-flex flex-wrap align-items-center">
+                <span class="icon grey mr-2 mb-2">
+                    <?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg version="1.1" id="Price_tag" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve">
+<g>
+	<path d="M19.388,0.405c-0.111-0.314-0.454-0.48-0.769-0.371c-0.315,0.109-0.481,0.455-0.372,0.77
+		c0.929,2.67-0.915,4.664-2.321,5.732l-0.568-0.814c-0.191-0.273-0.618-0.5-0.95-0.504L11.22,5.232
+		c-0.332-0.006-0.825,0.146-1.097,0.338l-9.394,6.587c-0.455,0.32-0.565,0.947-0.247,1.404l4.269,6.108
+		c0.32,0.455,0.831,0.4,1.287,0.082l9.394-6.588c0.27-0.191,0.582-0.603,0.692-0.918l0.998-3.145
+		c0.11-0.314,0.043-0.793-0.148-1.066l-0.346-0.496C18.516,6.091,20.476,3.534,19.388,0.405z M15.017,9.763
+		c-0.727,0.51-1.731,0.332-2.24-0.396c-0.511-0.73-0.333-1.734,0.395-2.246C13.75,6.716,14.5,6.745,15.04,7.138
+		c-0.272,0.164-0.459,0.26-0.494,0.275c-0.301,0.143-0.43,0.504-0.288,0.805c0.104,0.219,0.321,0.348,0.547,0.348
+		c0.086,0,0.174-0.02,0.257-0.059c0.194-0.092,0.402-0.201,0.619-0.33C15.778,8.771,15.542,9.394,15.017,9.763z"/>
+</g>
+</svg>
+
+                </span>
+                
+                    <a href="/list/posts.html#rdf"
+                       class="bg-white border rounded p-1 mr-2 mb-2 d-inline-block">
+                        RDF
+                    </a>
+                
+                    <a href="/list/posts.html#ontology"
+                       class="bg-white border rounded p-1 mr-2 mb-2 d-inline-block">
+                        Ontology
+                    </a>
+                
+                    <a href="/list/posts.html#data-model"
+                       class="bg-white border rounded p-1 mr-2 mb-2 d-inline-block">
+                        Data model
+                    </a>
+                
+                    <a href="/list/posts.html#linked-data"
+                       class="bg-white border rounded p-1 mr-2 mb-2 d-inline-block">
+                        Linked Data
+                    </a>
+                
+                    <a href="/list/posts.html#tutorial"
+                       class="bg-white border rounded p-1 mr-2 mb-2 d-inline-block">
+                        Tutorial
+                    </a>
+                
+            </div>
+            <hr>
+            <div class="d-flex align-items-center mt-2">
+                <span class="icon grey mr-1">
+                    <?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg version="1.1" id="Arrow_left" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve">
+<path d="M2.5,10L9,3.5V7h8v6H9v3.5L2.5,10z"/>
+</svg>
+
+                </span>
+                <a href="/list/posts.html">Back to all posts</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+        </div>
+        <div class="col-md-12 col-lg-8 col-xl-8 pb-4 content">
+            <h1 class="border border-top-0 border-right-0 border-left-0 mb-3 pb-2">
+    Data modelling with RDF: a tutorial
+</h1>
+
+<div class="d-md-block d-lg-none">
+    <div class="sticky-top space-before">
+    <div class="card bg-light mb-3 space-before">
+        <div class="card-body">
+            <div class="card-title">
+                <h5>On This Page</h5>
+                <h6>Mar 21, 2019</h6>
+            </div>
+              <ul class="nav flex-column nav-pills header-list">
+            </ul>
+            <hr>
+            <div class="d-flex flex-wrap align-items-center">
+                <span class="icon grey mr-2 mb-2">
+                    <?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg version="1.1" id="Price_tag" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve">
+<g>
+	<path d="M19.388,0.405c-0.111-0.314-0.454-0.48-0.769-0.371c-0.315,0.109-0.481,0.455-0.372,0.77
+		c0.929,2.67-0.915,4.664-2.321,5.732l-0.568-0.814c-0.191-0.273-0.618-0.5-0.95-0.504L11.22,5.232
+		c-0.332-0.006-0.825,0.146-1.097,0.338l-9.394,6.587c-0.455,0.32-0.565,0.947-0.247,1.404l4.269,6.108
+		c0.32,0.455,0.831,0.4,1.287,0.082l9.394-6.588c0.27-0.191,0.582-0.603,0.692-0.918l0.998-3.145
+		c0.11-0.314,0.043-0.793-0.148-1.066l-0.346-0.496C18.516,6.091,20.476,3.534,19.388,0.405z M15.017,9.763
+		c-0.727,0.51-1.731,0.332-2.24-0.396c-0.511-0.73-0.333-1.734,0.395-2.246C13.75,6.716,14.5,6.745,15.04,7.138
+		c-0.272,0.164-0.459,0.26-0.494,0.275c-0.301,0.143-0.43,0.504-0.288,0.805c0.104,0.219,0.321,0.348,0.547,0.348
+		c0.086,0,0.174-0.02,0.257-0.059c0.194-0.092,0.402-0.201,0.619-0.33C15.778,8.771,15.542,9.394,15.017,9.763z"/>
+</g>
+</svg>
+
+                </span>
+                
+                    <a href="/list/posts.html#rdf"
+                       class="bg-white border rounded p-1 mr-2 mb-2 d-inline-block">
+                        RDF
+                    </a>
+                
+                    <a href="/list/posts.html#ontology"
+                       class="bg-white border rounded p-1 mr-2 mb-2 d-inline-block">
+                        Ontology
+                    </a>
+                
+                    <a href="/list/posts.html#data-model"
+                       class="bg-white border rounded p-1 mr-2 mb-2 d-inline-block">
+                        Data model
+                    </a>
+                
+                    <a href="/list/posts.html#linked-data"
+                       class="bg-white border rounded p-1 mr-2 mb-2 d-inline-block">
+                        Linked Data
+                    </a>
+                
+                    <a href="/list/posts.html#tutorial"
+                       class="bg-white border rounded p-1 mr-2 mb-2 d-inline-block">
+                        Tutorial
+                    </a>
+                
+            </div>
+            <hr>
+            <div class="d-flex align-items-center mt-2">
+                <span class="icon grey mr-1">
+                    <?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg version="1.1" id="Arrow_left" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve">
+<path d="M2.5,10L9,3.5V7h8v6H9v3.5L2.5,10z"/>
+</svg>
+
+                </span>
+                <a href="/list/posts.html">Back to all posts</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+
+<h2 id="what-is-rdf">What is RDF?</h2>
+
+<p>RDF stands for <strong>R</strong>esource <strong>D</strong>escription <strong>F</strong>ramework which is a framework for describing resources on the web. It was initially designed to represent metadata on the Web. However, nowadays RDF is the foundational data model for <a href="https://www.w3.org/standards/semanticweb/" target="_blank">Semantic Web</a>. In addition, RDF along with other technologies such as SPARQL, OWL, and SKOS empower <a href="https://www.w3.org/standards/semanticweb/data" target="_blank">Linked Data</a>. In other words, RDF is fun, easier than relational databases and efficient to use.</p>
+
+<p>RDF expressions are in the form of <code class="highlighter-rouge">subject predicate object</code>, known as triples. Unlike <strong>traditional databases</strong> where data has to adhere to a fixed schema, there is no prescribed schema for RDF documents. This is the reason that RDF is called <strong>semi-structured</strong>. On the other hand, an RDF document includes schema information and can be described without additional information. Therefore, RDF data model is self-describing too. The following shows two triples about the capital of France and the population of Paris:</p>
+
+<figure class="highlight"><pre><code class="language-plaintext" data-lang="plaintext">	(France, capital, Paris)
+	(Paris, population, 2141000)</code></pre></figure>
+
+<p>However, technically everything has a specific identifier in RDF. The identifier may be URL (Uniform Resource Location), URI (Uniform Resource Identifier (RDF 1.0)) or IRI (Internationalised Resource Identifier (RDF 1.1)). It is also possible to use literals (<code class="highlighter-rouge">L</code>) and, blank nodes (<code class="highlighter-rouge">B</code>) when we don’t want to name something. There are restrictions where to use each type of identifiers. The subject can be a URI, URL, IRI or blank node, the predicate is always URL, URI or IRI and the object can be any of the previous mentioned identifiers, i.e. URI, URL, IRI, blank node or literal. So, the correct way of writing the previous example would be the one that respects the restrictions over <code class="highlighter-rouge">France</code> and <code class="highlighter-rouge">Paris</code> as subjects, <code class="highlighter-rouge">capital</code> and <code class="highlighter-rouge">population</code> as predicates and <code class="highlighter-rouge">Paris</code> and <code class="highlighter-rouge">2141000 </code> as objects. Although URL, URI and IRI have the same functionality in RDF, we keep mentioning URI in this tutorial for being concise.</p>
+
+<p>Now, let’s define URI identifiers for <code class="highlighter-rouge">France</code> and <code class="highlighter-rouge">Paris</code>. Don’t you think there were some other people before us who may have attributed an identifier to those famous <em>things</em>? I say <code class="highlighter-rouge">thing</code>, because once we have not described something, we have no other name to call it but a <code class="highlighter-rouge">thing</code>. Once we identify the nature of that <code class="highlighter-rouge">thing</code>, then we can name it differently. This is how human language works and words are created. Philosophically, such a description is called an <strong>ontology</strong>. Definitely, there have been some people who thought about an ontology as a <em>Place</em> and its characteristics. In the same way, <code class="highlighter-rouge">Paris</code> and <code class="highlighter-rouge">France</code> are defined based on such ontologies and have unique identifiers. The following schema shows a very simple ontology for our scenario where a <code class="highlighter-rouge">Place</code> is defined as a class derived from <code class="highlighter-rouge">Thing</code>, then <code class="highlighter-rouge">Country</code> comes as a sub-class of <code class="highlighter-rouge">Place</code>, <code class="highlighter-rouge">County</code> as a sub-class of <code class="highlighter-rouge">Country</code> and <code class="highlighter-rouge">City</code> as a sub-class of <code class="highlighter-rouge">County</code>. The schema also shows our individuals as <code class="highlighter-rouge">France</code>, <code class="highlighter-rouge">Ile-de-France</code> and <code class="highlighter-rouge">Paris</code>.</p>
+
+<div class="card mb-3 text-center">
+    <img class="rounded mx-auto d-block" src="http://localhost:4000/docs/images/place_ontology.png" style="width:50%" align="middle" alt="A simple ontology for Place, including France, Ile-de-France and Paris" />
+    <div class="card-body bg-light">
+        <div class="card-text">
+            A simple ontology for Place, including France, Ile-de-France and Paris.
+        </div>
+    </div>
+</div>
+
+<p>Now that we know how things are described based on ontologies, we can look on the web to find the identifiers which are attributed to each class and individual. For our example, let’s take a look at <a href="https://wiki.dbpedia.org/" target="_blank">DBpedia</a>. DBpedia is an amazing platform which provides linked data features for the content of <a href="https://www.wikipedia.org/" target="_blank">Wikipedia</a>. In other words, it is a tool to semantically query whatever exists on Wikipedia. For instance, <code class="highlighter-rouge">http://dbpedia.org/resource/France</code> and  <code class="highlighter-rouge">http://dbpedia.org/resource/Paris</code> are the identifiers for <a href="http://dbpedia.org/resource/France" target="_blank">France</a> and <a href="http://dbpedia.org/resource/Paris" target="_blank">Paris</a> respectively. You get something like the following for Paris as the capital of France:</p>
+
+<div class="card mb-3 text-center">
+    <img class="rounded mx-auto d-block" src="http://localhost:4000/docs/images/paris_dbpedia.png" style="width:100%" align="middle" alt="Paris as the capital of France in DBpedia" />
+    <div class="card-body bg-light">
+        <div class="card-text">
+            Paris as the capital of France in DBpedia.
+        </div>
+    </div>
+</div>
+
+<h3 id="rdf-in-practice">RDF in practice</h3>
+
+<p>There are various ways to represent RDF data, namely <a href="https://www.w3.org/TR/2004/NOTE-owl-parsing-20040121/" target="_blank">RDF/XML</a>, <a href="https://www.w3.org/TR/rdfa-lite/" target="_blank">RDFa</a>, <a href="https://www.w3.org/TR/2018/WD-json-ld11-20181214/" target="_blank">JSON-LD</a>, <a href="https://www.w3.org/TR/n-triples/" target="_blank">N-Triples</a> and <a href="https://www.w3.org/TR/turtle/" target="_blank">Turtle</a>, among which we will focus on the two latter ones in this tutorial.</p>
+
+<h4 id="n-triples">N-Triples</h4>
+
+<p>N-Triples is a line-based and a concrete syntax for RDF. N-Triples are a sequence of RDF terms in the form of <code class="highlighter-rouge">subject predicate object</code>, separated by white space and terminated by a ‘.’. The following shows the aforementioned example in N-Triples:</p>
+
+<figure class="highlight"><pre><code class="language-plaintext" data-lang="plaintext">&lt;http://dbpedia.org/resource/France&gt; &lt;http://dbpedia.org/ontology/capital&gt; &lt;http://dbpedia.org/resource/Paris&gt; .
+&lt;http://dbpedia.org/resource/Paris&gt; &lt;http://dbpedia.org/ontology/populationTotal&gt; "2229621"^^xsd:integer .</code></pre></figure>
+
+<p>As you see, we used URI for all the subjects, predicates and objects, but for the population which is a literal. In this case, we determined the type of the literal as an integer using <code class="highlighter-rouge">xsd:integer</code>.</p>
+
+<p>The followings are a few other data types in XSD which are also supported in RDF:</p>
+
+<ul>
+  <li>xsd:boolean</li>
+  <li>xsd:byte</li>
+  <li>xsd:date</li>
+  <li>xsd:decimal</li>
+  <li>xsd:double</li>
+  <li>xsd:integer</li>
+  <li>xsd:string</li>
+  <li>xsd:language</li>
+</ul>
+
+<p>Note that the default value of literals is <code class="highlighter-rouge">String</code>.</p>
+
+<h4 id="turtle">Turtle</h4>
+
+<p>An easier way for representing RDF data is Turtle. Turtle is a more convenient version of N-Triples where we can:</p>
+
+<ul>
+  <li>define prefixes so that we use shorter triples.</li>
+  <li>avoid repeating subjects by using ‘;’ between two triples.</li>
+</ul>
+
+<p>The following shows our examples in Turtle:</p>
+
+<figure class="highlight"><pre><code class="language-plaintext" data-lang="plaintext">@prefix dbr: &lt;http://dbpedia.org/resource/&gt;
+@prefix dbo: &lt;http://dbpedia.org/ontology/&gt;
+
+dbr:France dbo:capital dbr:Paris .
+dbr:Paris dbo:populationTotal "2229621"^^xsd:integer .</code></pre></figure>
+
+<h2 id="data-modelling">Data modelling</h2>
+
+<p>Hopefully, you are now familiar with the basics of RDF and how to represent them. In this section, we would like to create a data model. All you need to know is the following 4 principals which form what is known as RDF Schema (<a href="https://www.w3.org/TR/rdf-schema/" target="_blank">RDFS</a>):</p>
+
+<ul>
+  <li><strong>Class hierarchy</strong>: a class can be a sub-class of a parent class. For instance, <code class="highlighter-rouge">Bird</code> can be defined as a class which is the sub-class of the class <code class="highlighter-rouge">Animal</code>.</li>
+  <li><strong>Property hierarchy</strong>: a property can be a sub-property of another property. Think of a property called <code class="highlighter-rouge">Moves</code>. <code class="highlighter-rouge">MoviesByCar</code> and <code class="highlighter-rouge">MovesByTrain</code> can be  defined as the sub-properties of <code class="highlighter-rouge">Moves</code> as they are the same functionality with a specificity.</li>
+  <li><strong>Domain</strong> and <strong>Range</strong> of properties: Think of a <code class="highlighter-rouge">property</code> as a function. A function has a domain and a range. The domain is what the function (or here the property) gets as input, and the range is what the function (or here the property) produces an output.</li>
+</ul>
+
+<h3 id="example-student-management-system-data-model">Example: Student management system data model</h3>
+
+<p>Consider a scenario of designing a linked data application for a university student management system. Design a data model (ontology) to represent the information related to the students, study programs, modules and students’ grades in the exams.</p>
+
+<h4 id="step-1-identify-the-components-of-your-ontology">Step 1: Identify the components of your ontology</h4>
+
+<p>A strategy to identify classes, sub-classes, properties and sub-properties is to initially describe your ontology in plain English. Something like the following:</p>
+
+<div class="ml-3">
+<p class="text-muted">
+- A student management system helps to organise information about Students.
+- Each Student is a Person.
+- A programme is a class that the Student enrols in. Each programme is composed of various modules.
+- There are different levels of degree.
+- There are a hierarchy of classes belonging to Place.
+- A Student can take an Exam.
+- A University has various Faculties.
+</p>
+</div>
+
+<p>Now, it is easier to detect classes and properties as the following:</p>
+
+<p><strong>Classes and sub-classes</strong></p>
+
+<ul>
+  <li>Person
+    <ul>
+      <li>Student</li>
+    </ul>
+  </li>
+  <li>Programme
+    <ul>
+      <li>Module</li>
+    </ul>
+  </li>
+  <li>Degree
+    <ul>
+      <li>B.Sc.</li>
+      <li>M.Sc.</li>
+      <li>Ph.D.</li>
+    </ul>
+  </li>
+  <li>Place
+    <ul>
+      <li>Country
+        <ul>
+          <li>County
+            <ul>
+              <li>City</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>University
+    <ul>
+      <li>Faculty</li>
+    </ul>
+  </li>
+  <li>Exam</li>
+</ul>
+
+<p><strong>Properties and sub-properties</strong></p>
+
+<ul>
+  <li><code class="highlighter-rouge">AttendsIn</code></li>
+  <li><code class="highlighter-rouge">EnrolledIn</code></li>
+  <li><code class="highlighter-rouge">hasStudentID</code></li>
+  <li><code class="highlighter-rouge">hasModuleID</code></li>
+  <li><code class="highlighter-rouge">hasProgrammeID</code></li>
+  <li><code class="highlighter-rouge">TakesExam</code></li>
+  <li><code class="highlighter-rouge">RegisteredIn</code></li>
+  <li><code class="highlighter-rouge">hasDegree</code></li>
+  <li><code class="highlighter-rouge">hasName</code></li>
+  <li><code class="highlighter-rouge">livesIn</code></li>
+  <li><code class="highlighter-rouge">wasBornIn</code></li>
+  <li><code class="highlighter-rouge">wasBornOn</code></li>
+  <li><code class="highlighter-rouge">isLocatedIn</code></li>
+  <li><code class="highlighter-rouge">takesPlaceIn</code></li>
+  <li><code class="highlighter-rouge">hasEnrollementDate</code></li>
+  <li><code class="highlighter-rouge">startedStudyingIn</code></li>
+  <li><code class="highlighter-rouge">hasGrade</code></li>
+  <li><code class="highlighter-rouge">hasModuleID</code></li>
+  <li><code class="highlighter-rouge">hasProgrammeID</code></li>
+  <li><code class="highlighter-rouge">hasUniName</code></li>
+  <li><code class="highlighter-rouge">hasModuleName</code></li>
+  <li><code class="highlighter-rouge">hasProgrammeName</code></li>
+  <li><code class="highlighter-rouge">isPartOf</code></li>
+</ul>
+
+<p>“hasDate” could be a sub-property of “EnrolledIn”, “Attends”, “TakesExam” and “RegisteredIn”. However, in the current data model I have not used any sub-property.</p>
+
+<h4 id="step-2-draw-a-graphical-representation-of-your-information-model">Step 2: Draw a graphical representation of your information model.</h4>
+
+<div class="card mb-3 text-center">
+    <img class="rounded mx-auto d-block" src="http://localhost:4000/docs/images/webnetwork_1.jpeg" style="width:100%" align="middle" alt="Student management system data model schema" />
+    <div class="card-body bg-light">
+        <div class="card-text">
+            Schema of a data model for student management system (<i>classes</i> are highlighted in yellow and <i>properties</i> in green).
+        </div>
+    </div>
+</div>
+
+<p>Your ontology is not exactly identical with this one? Well, this is normal as more than one way may exist to create an ontology with the same functionality. So, yours may also be a valid ontology but different from the above one.</p>
+
+<h4 id="step-3-model-the-above-information-into-rdf-data-model">Step 3: Model the above information into RDF data model</h4>
+
+<p>Let’s represent our ontology in RDF now. We will try N-Triples and Turtle formats. Usually to save time not to look for the identifiers of the classes on the web, “http://www.example.org” is used to define a URI. For instance, we can create <code class="highlighter-rouge">&lt;http://www.example.org/hasName&gt;</code> as the URI of <code class="highlighter-rouge">hasName</code> property.</p>
+
+<h5 id="n-triples-1">N-Triples</h5>
+
+<figure class="highlight"><pre><code class="language-plaintext" data-lang="plaintext">&lt;http://xmlns.com/foaf/0.1/Person&gt; &lt;http://www.example.org/hasName&gt;    “Person name” .
+&lt;http://xmlns.com/foaf/0.1/Person&gt; &lt;http://www.example.org/LivesIn&gt;     &lt;http://www.example.org/Place&gt;  .
+&lt;http://xmlns.com/foaf/0.1/Person&gt; &lt;http://www.example.org/WasBornIn&gt; &lt;http://www.example.org/Place&gt;  .
+
+&lt;http://xmlns.com/foaf/0.1/Person/Student&gt; &lt;http://www.w3.org/2000/01/rdf-schema#SubClass&gt; &lt;http://xmlns.com/foaf/0.1/Person&gt; .
+&lt;http://xmlns.com/foaf/0.1/Person/Student&gt; &lt;http://www.example.org/EnrolledIn&gt;    &lt;http://www.example.org/Programme&gt; .
+&lt;http://xmlns.com/foaf/0.1/Person/Student&gt; &lt;http://www.example.org/AttendsIn&gt;    &lt;http://www.example.org/Module&gt; .
+&lt;http://xmlns.com/foaf/0.1/Person/Student&gt; &lt;http://www.example.org/TakesExam&gt;    &lt;http://www.example.org/Exam&gt; .
+&lt;http://xmlns.com/foaf/0.1/Person/Student&gt; &lt;http://www.example.org/RegisteredIn&gt;    &lt;http://www.example.org/University&gt; .
+&lt;http://xmlns.com/foaf/0.1/Person/Student&gt; &lt;http://www.example.org/hasDegree&gt;    &lt;http://www.example.org/Degree&gt;  .
+&lt;http://xmlns.com/foaf/0.1/Person/Student&gt; &lt;http://www.example.org/hasStudentID&gt;  “Student ID” .
+&lt;http://xmlns.com/foaf/0.1/Person/Student&gt; &lt;http://www.example.org/StartedStudyingOn&gt; “Starting Date” .
+
+&lt;http://www.example.org/Programme&gt; &lt;http://www.example.org/hasProgrammeName&gt;    “Programme Name” .
+&lt;http://www.example.org/Programme&gt; &lt;http://www.example.org/hasProgrammeID&gt;    “Programme ID” .
+&lt;http://www.example.org/Programme&gt; &lt;http://www.example.org/isPartOf&gt;    &lt;http://www.example.org/University/Faculty&gt;  .
+
+&lt;http://www.example.org/Programme/Module&gt; &lt;http://www.w3.org/2000/01/rdf-schema#SubClass&gt; &lt;http://www.example.org/Programme&gt; .
+&lt;http://www.example.org/Programme/Module&gt; &lt;http://www.example.org/hasModuleID&gt; “Module ID” .
+&lt;http://www.example.org/Programme/Module&gt; &lt;http://www.example.org/hasNameID&gt; “Module Name” .
+&lt;http://www.example.org/Programme/Module&gt; &lt;http://www.example.org/hasGrade&gt; “Grade” .
+&lt;http://www.example.org/Programme/Module&gt; &lt;http://www.example.org/hasEnrollmentDate&gt; “Enrollment Date” .
+&lt;http://www.example.org/Programme/Module&gt; &lt;http://www.example.org/takesPlaceIn&gt;    &lt;http://www.example.org/University/Faculty&gt;  .
+
+&lt;http://www.example.org/Exam&gt; &lt;http://www.example.org/hasNameExam&gt; “Exam Name” .
+
+&lt;http://www.example.org/University&gt; &lt;http://www.example.org/hasUniversityName&gt; “University Name” .
+&lt;http://www.example.org/University&gt; &lt;http://www.example.org/isLocatedIn&gt; Place .
+
+&lt;http://www.example.org/University/Faculty&gt; &lt;http://www.w3.org/2000/01/rdf-schema#SubClass&gt;  &lt;http://www.example.org/University&gt;  .
+
+&lt;http://www.example.org/Degree/BSc&gt; &lt;http://www.w3.org/2000/01/rdf-schema#SubClass&gt;     &lt;http://www.example.org/Degree&gt;  .
+&lt;http://www.example.org/Degree/MSc&gt; &lt;http://www.w3.org/2000/01/rdf-schema#SubClass&gt;     &lt;http://www.example.org/Degree&gt;  .
+&lt;http://www.example.org/Degree/PhD&gt; &lt;http://www.w3.org/2000/01/rdf-schema#SubClass&gt;  &lt;http://www.example.org/Degree&gt;  .
+
+&lt;http://www.example.org/Place/Country&gt; &lt;http://www.w3.org/2000/01/rdf-schema#SubClass&gt; &lt;http://www.example.org/Place&gt; .
+&lt;http://www.example.org/Place/County&gt; &lt;http://www.w3.org/2000/01/rdf-schema#SubClass&gt; &lt;http://www.example.org/Place&gt; .
+&lt;http://www.example.org/Place/City&gt; &lt;http://www.w3.org/2000/01/rdf-schema#SubClass&gt; &lt;http://www.example.org/Place&gt; .</code></pre></figure>
+
+<h5 id="turtle-1">Turtle</h5>
+
+<figure class="highlight"><pre><code class="language-plaintext" data-lang="plaintext">@prefix    foaf:     &lt;http://xmlns.com/foaf/0.1/&gt; .
+@prefix    prop:    &lt;http://www.example.org/ .
+@prefix    stu:    &lt;http://xmlns.com/foaf/0.1/Person/Student&gt; .
+@prefix    subclass    &lt;http://www.w3.org/2000/01/rdf-schema#SubClass&gt; .
+@prefix    prog    &lt;http://www.example.org/Programme&gt; .
+@prefix    univ    &lt;http://www.example.org/University&gt; .
+@prefix    deg    &lt;http://www.example.org/Degree&gt; .
+@prefix    place    &lt;http://www.example.org/Place&gt; .
+
+foaf prop:hasName    “Person name” .
+foaf prop:LivesIn     place: .
+foaf prop:WasBornIn place: .
+
+stu subclass foaf .
+stu prop:EnrolledIn    prop:Programme .
+stu prop:AttendsIn    prop:Module .
+stu prop:TakesExam    prop:Exam .
+stu prop:RegisteredIn    univ .
+stu prop:hasDegree    deg  .
+stu prop:hasStudentID  “Student ID” .
+stu prop:StartedStudyingOn “Starting Date” .
+
+prog prop:hasProgrammeName    “Programme Name” .
+prog prop:hasProgrammeID    “Programme ID” .
+prog prop:isPartOf    uni:Faculty  .
+
+prog:Module subclass prog .
+prog:Module prop:hasModuleID “Module ID” .
+prog:Module prop:hasNameID “Module Name” .
+prog:Module prop:hasGrade “Grade” .
+prog:Module prop:hasEnrollmentDate    “Enrollment Date” .
+prog:Module prop:takesPlaceIn    univ:Faculty  .
+
+prop:Exam prop:hasNameExam “Exam Name” .
+
+univ: prop:hasUniversityName “University Name” .
+univ: prop:isLocatedIn Place .
+
+uni:Faculty subclass:  univ  .
+
+deg:BSc subclass  deg:  .
+deg:MSc subclass  deg:  .
+deg:PhD subclass  deg: .
+
+place:Country subclass place:Place .
+place:County subclass place:Place .
+place:City subclass place:Place .</code></pre></figure>
+
+<h4 id="extract-rdf-triples">Extract RDF triples</h4>
+
+<p>What we have been doing so far was defining the ontology. Our student management ontology, like a data template, can be used to describe Bob, David and all students.</p>
+
+<p>Given the following description of a student:</p>
+
+<div class="ml-3">
+<p class="text-muted">
+David is a student at NUI Galway. He is enrolled in M.Sc. Data Analytics program. David was born on February 20th, 1988 in County Mayo, Ireland. He now lives in Galway. He started his studies at NUI Galway in September 2018. He was enrolled in the following modules: L19872 (Linked Data), IT822 (Programming Languages) and MTH700 (Calculus) during first semester of the academic year 2018-19. The semester started on Monday 15th September. All exams were conducted on Friday 14th December 2018. David got A-, B+ and D grades in L19872, IT822 and MTH700.</p>
+</div>
+
+<p>Let’s rewrite the description based on our ontology.</p>
+
+<figure class="highlight"><pre><code class="language-plaintext" data-lang="plaintext">&lt;http://xmlns.com/foaf/0.1/Student/David&gt;    &lt;http://www.w3.org/2000/01/rdf-schema#SubClass&gt;    &lt;http://xmlns.com/foaf/0.1/Person/&gt; .
+&lt;http://xmlns.com/foaf/0.1/Student/David&gt;     &lt;http://www.example.org/hasName&gt;    “David” .
+&lt;http://xmlns.com/foaf/0.1/Student/David&gt;    &lt;http://www.example.org/RegisteredIn&gt;    “NUIG” .
+&lt;http://xmlns.com/foaf/0.1/Student/David&gt;    &lt;http://www.example.org/EnrolledIn&gt;    “Data Analytics” .
+&lt;http://xmlns.com/foaf/0.1/Student/David&gt;    &lt;http://www.example.org/hasDegree&gt;    &lt;http://www.example.org/Degree/MSc&gt; .
+&lt;http://xmlns.com/foaf/0.1/Student/David&gt;    &lt;http://www.example.org/WasBornIn&gt;    &lt;http://www.example.org/Place/CountyMayo&gt; .
+&lt;http://xmlns.com/foaf/0.1/Student/David&gt;    &lt;http://www.example.org/WasBornOn&gt;    “20/02/1988”^^xsd:date     .
+&lt;http://www.example.org/Place/CountyMayo&gt; &lt;http://www.w3.org/2000/01/rdf-schema#SubClass&gt;    &lt;http://www.example.org/Place/Ireland&gt; .
+&lt;http://xmlns.com/foaf/0.1/Student/David&gt; &lt;http://www.example.org/livesIn&gt; &lt;http://www.example.org/Place/Galway&gt; .
+&lt;http://xmlns.com/foaf/0.1/Student/David&gt; &lt;http://www.example.org/startedStudyingOn&gt;    “September 2018”^^xsd:date .
+
+&lt;http://xmlns.com/foaf/0.1/Student/David&gt; &lt;http://www.example.org/AttendsIn&gt; &lt;http://www.example.org/Programme/Module/1&gt; .
+&lt;http://xmlns.com/foaf/0.1/Student/David&gt; &lt;http://www.example.org/AttendsIn&gt; &lt;http://www.example.org/Programme/Module/2&gt; .
+&lt;http://xmlns.com/foaf/0.1/Student/David&gt; &lt;http://www.example.org/AttendsIn&gt; &lt;http://www.example.org/Programme/Module/3&gt; .
+
+&lt;http://www.example.org/Programme/Module/1&gt; &lt;http://www.example.org/hasModuleName&gt; “Linked Data”     .
+&lt;http://www.example.org/Programme/Module/1&gt; &lt;http://www.example.org/hasModuleID&gt; “L19872” .
+&lt;http://www.example.org/Programme/Module/1&gt; &lt;http://www.example.org/hasEnrolDate&gt;    “Semester 1 2018/19”^^xsd:date .
+&lt;http://www.example.org/Programme/Module/2&gt; &lt;http://www.example.org/hasModuleName&gt; “Programming Languages”     .
+&lt;http://www.example.org/Programme/Module/2&gt; &lt;http://www.example.org/hasModuleID&gt; “IT822” .
+&lt;http://www.example.org/Programme/Module/2&gt; &lt;http://www.example.org/hasEnrolDate&gt;    “Semester 1 2018/19”^^xsd:date .
+&lt;http://www.example.org/Programme/Module/3&gt; &lt;http://www.example.org/hasModuleName&gt; “Calculus”     .
+&lt;http://www.example.org/Programme/Module/3&gt; &lt;http://www.example.org/hasModuleID&gt; “MTH700” .
+&lt;http://www.example.org/Programme/Module/3&gt; &lt;http://www.example.org/hasEnrolDate&gt;    “Semester 1 2018/19”^^xsd:date .
+
+&lt;http://www.example.org/Programme/Module/1&gt; &lt;http://www.example.org/hasGrade&gt;    “A-” .
+&lt;http://www.example.org/Programme/Module/2&gt; &lt;http://www.example.org/hasGrade&gt;    “B+” .
+&lt;http://www.example.org/Programme/Module/3&gt; &lt;http://www.example.org/hasGrade&gt;    “D” .
+
+&lt;http://www.example.org/Programme/Semester&gt; &lt;http://www.example.org/hasDate&gt;    “Monday Sep 15,  2018”^^xsd:date .
+&lt;http://www.example.org/Programme/Exam&gt;     &lt;http://www.example.org/hasDate&gt;    “December 14,  2018”^^xsd:date .</code></pre></figure>
+
+<hr class="col-xs-12" />
+
+<p>Last updated on 28 March 2019.</p>
+
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        var tpl =
+            "<li class='nav-item'>\
+                <a class='nav-link bg-white mb-1' href='#header[idx]'>[name]</a>\
+            </li>"
+        $("h2").each(function(idx, h2) {
+            $(h2).attr("id", "header" + idx)
+            var name = $(h2).text().trim()
+            var dom_string = tpl.replace("[name]", name).replace("[idx]", idx)
+            var header = $(dom_string)
+            $(".header-list").append(header)
+        })
+    })
+</script>
+
+        </div>
+        <div class="col-md-12 d-lg-none bottom">
+            
+
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+/*!
+ * IE10 viewport hack for Surface/desktop Windows 8 bug
+ * Copyright 2014-2017 The Bootstrap Authors
+ * Copyright 2014-2017 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+// See the Getting Started docs for more information:
+// https://getbootstrap.com/getting-started/#support-ie10-width
+
+(function () {
+    'use strict'
+
+    if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+        var msViewportStyle = document.createElement('style')
+        msViewportStyle.appendChild(
+            document.createTextNode(
+                '@-ms-viewport{width:auto!important}'
+            )
+        )
+        document.head.appendChild(msViewportStyle)
+    }
+}())
+</script>
+
+
+
+</body>
+
+</html>

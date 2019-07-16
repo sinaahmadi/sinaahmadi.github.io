@@ -1,0 +1,58 @@
+Whether your are a newbie or professional in
+
+Text preprocessing is one of the tasks that most of those working with text files in natural language processing (NLP) or data analytics go through frequently. Text pre-processing is a normalisation step which is an inseparable component of text processing tasks such as
+
+ text by removing special tokens, adding
+
+
+ {% highlight bash %}
+ 	(France, capital, Paris)
+ 	(Paris, population, 2141000)
+ {% endhighlight %}
+
+
+
+
+### Basic text statistics
+
+wc [-clmw] [file ...]
+
+A word count command could not have a more explicit name than `wc`. `wc` is a very practical command which counts line, word and character. In addition, there are a bunch of other options which may be used with. The following command summarises `wc` and the functions of its options:
+
+<table align="center" class="table table-bordered table-hover table-condensed">
+<tr>
+<th title="Field #1">Option</th>
+<th title="Field #2">Function</th>
+</tr>
+<tr >
+<td><b>-c</b></td>
+<td>print the number of bytes. This will cancel out any prior usage of the -m option.</td>
+</tr>
+<tr>
+<td><b>-m</b></td>
+<td>print the character counts.</td>
+</tr>
+<tr>
+<td><b>-l</b></td>
+<td>print the newline counts.</td>
+</tr>
+</table>
+
+
+
+### Remove metadata of PDF
+
+Although anonymization of files is not that much related to the command-line, we also discuss as it is a part of pre-processing.
+
+/Users/sina/My_GitLab/finnlp/French_financial_corpus/CAC40/Axa/0A/DR/AXA-DDR2017-FR-PDF-e-accessible_02.pdf
+
+
+https://apple.stackexchange.com/questions/87313/how-to-remove-xattr-com-apple-quarantine-from-all-webarchive-files-with-that-ex
+https://apple.stackexchange.com/questions/110239/where-is-the-where-from-meta-data-stored-when-downloaded-via-chrome
+http://www.linux-magazine.com/Online/Blogs/Productivity-Sauce/Remove-EXIF-Metadata-from-Photos-with-exiftool
+
+
+Find all file of all types
+find . -iname '*.pdf'
+
+http://u88.n24.queensu.ca/exiftool/forum/index.php?topic=3943.0

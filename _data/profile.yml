@@ -1,0 +1,35 @@
+- caption: GitHub
+  href: https://github.com/sinaahmadi
+  icon: entypo/github-with-circle.svg
+
+- caption: Email
+  href: mailto:ahmadi.sina@outlook.com
+  icon: entypo/email.svg
+
+- caption: ORCID
+  href: http://orcid.org/0000-0001-7904-6551
+  icon: entypo/orcid_24x24.svg
+
+- caption: Google Scholar
+  href: https://scholar.google.fr/citations?user=adu3L94AAAAJ&hl=en
+  icon: entypo/graduation-cap.svg
+
+- caption: Stack Overflow
+  href: https://stackoverflow.com/story/sinaahm
+  icon: entypo/stack-overflow.svg
+
+- caption: Twitter
+  href: https://www.twitter.com/sina_ahm
+  icon: entypo/twitter-with-circle.svg
+
+# - caption: Google Maps
+#
+#   icon: entypo/Google_Photos_icon.svg
+
+- caption: Galway, Ireland
+  href: https://goo.gl/maps/6H5SxKrfgZn
+  icon: entypo/location-pin.svg
+
+- caption: RSS
+  href: feed.xml
+  icon: entypo/rss.svg
