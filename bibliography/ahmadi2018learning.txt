@@ -1,0 +1,6 @@
+@article{ahmadi2018learning,
+  title={Learning Noun Cases Using Sequential Neural Networks},
+  author={Ahmadi, Sina},
+  journal={arXiv preprint arXiv:1810.03996},
+  year={2018}
+}

@@ -1,0 +1,7 @@
+@inproceedings{ahmadi2019lexical,
+  title={Lexical sense alignment using weighted bipartite b-matching},
+  author={Ahmadi, Sina and Arcan, Mihael and McCrae, John},
+  organization={2nd Conference on Language, Data and Knowledge (LDK 2019)},
+  year={2019},
+  booktitle={Proceedings of the LDK 2019 Workshops}
+}

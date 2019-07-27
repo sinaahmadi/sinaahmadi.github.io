@@ -1,0 +1,6 @@
+@article{ahmadi2018attention,
+  title={Attention-based encoder-decoder networks for spelling and grammatical error correction},
+  author={Ahmadi, Sina},
+  journal={arXiv preprint arXiv:1810.00660},
+  year={2018}
+}

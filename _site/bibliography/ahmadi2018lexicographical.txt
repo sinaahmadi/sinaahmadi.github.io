@@ -1,0 +1,7 @@
+@inproceedings{ahmadi2018lexicographical,
+  title={On lexicographical networks},
+  author={Ahmadi, Sina and Arcan, Mihael and McCrae, John},
+  booktitle={Workshop on eLexicography: Between Digital Humanities and Artificial Intelligence},
+  year={2018},
+  publisher={Workshop on eLexicography: Between Digital Humanities and Artificial Intelligence}
+}

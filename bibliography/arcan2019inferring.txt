@@ -1,0 +1,8 @@
+@inproceedings{arcan2019inferring,
+  title={Inferring translation candidates for multilingual dictionary generation with multi-way neural machine translation},
+  author={Arcan, Mihael and Torregrosa, Daniel and Ahmadi, Sina and McCrae, John P},
+  booktitle={Proceedings of the Translation Inference Across Dictionaries Workshop (TIAD 2019)},
+  year={2019},
+  address={Leipzig, Germany},
+  organization={Proceedings of the LDK 2019 Workshops}
+}

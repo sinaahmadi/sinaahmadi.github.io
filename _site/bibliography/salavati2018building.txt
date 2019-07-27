@@ -1,0 +1,7 @@
+@inproceedings{salavati2018building,
+  title={Building a Lemmatizer and a Spell-checker for Sorani Kurdish},
+  author={Salavati, Shahin and Ahmadi, Sina},
+  booktitle={Proceedings of the 8th Language & Technology Conference: Human Language Technologies as a Challenge for Computer Science and Linguistics},
+  address = "Poznan, Poland",
+  year={2017}
+}

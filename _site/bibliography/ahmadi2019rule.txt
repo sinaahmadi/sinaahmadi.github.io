@@ -1,0 +1,10 @@
+@article{ahmadi2019rule,
+  title={A Rule-Based {K}urdish Text Transliteration System},
+  author={Ahmadi, Sina},
+  journal={ACM Transactions on Asian and Low-Resource Language Information Processing (TALLIP)},
+  volume={18},
+  number={2},
+  pages={18},
+  year={2019},
+  publisher={ACM}
+}

@@ -1,0 +1,7 @@
+@inproceedings{aliabadi2014towards,
+  title={Towards building {K}urdnet, the {K}urdish {W}ordnet},
+  author={Aliabadi, Purya and Ahmadi, Sina and Salavati, Shahin and Esmaili, Kyumars Sheykh},
+  booktitle={Proceedings of the Seventh Global Wordnet Conference},
+  pages={1--6},
+  year={2014}
+}

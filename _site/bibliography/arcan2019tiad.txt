@@ -1,0 +1,8 @@
+@article{arcan2019tiad,
+  title={TIAD 2019 {S}hared {T}ask: Leveraging knowledge graphs with neural machine translation for automatic multilingual dictionary generation},
+  author={Arcan, Mihael and Torregrosa, Daniel and Ahmadi, Sina and McCrae, John P},
+  journal={Shared Task on Translation Inference Across Dictionaries},
+  year={2019},
+  address={Leipzig, Germany},
+  publisher={Proceedings of the LDK 2019 Workshops}
+}

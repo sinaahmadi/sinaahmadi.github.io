@@ -1,0 +1,10 @@
+@inproceedings{daudert-ahmadi-2019-nuig,
+    title = "{NUIG} at the {F}in{SBD} Task: Sentence Boundary Detection for Noisy Financial {PDF}s in {E}nglish and {F}rench",
+    author = "Daudert, Tobias  and Ahmadi, Sina",
+    booktitle = "Proceedings of the First Workshop on Financial Technology and Natural Language Processing",
+    month = "12 " # aug,
+    year = "2019",
+    address = "Macao, China",
+    url = "https://www.aclweb.org/anthology/W19-5519",
+    pages = "108--114",
+}

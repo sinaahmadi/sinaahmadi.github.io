@@ -1,0 +1,7 @@
+@article{abdulrahman2019ktc,
+  title={Developing a Fine-grained Corpus for a Less-resourced Language: the case of {K}urdish},
+  author={Abdulrahman, Roshna and Hassani, Hossein and Ahmadi, Sina},
+  journal={WiNLP ACL 2019},
+  address = "Florence, Italy",
+  year={2019}
+}
