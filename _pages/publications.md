@@ -16,7 +16,7 @@ Publications by categories in reversed chronological order.
 	<b>2019</b>
 </div>
 
-1. **(Accepted) The ELEXIS Interface for Interoperable Lexical [Resource]s**  
+1. **(Accepted) The ELEXIS Interface for Interoperable Lexical Resources**  
 McCrae, John P., Carole Tiberius, Anas Fahad Khan, Ilan Kernerman, Thierry Declerck, Simon Krek, Monica Monachini, and <u>Sina Ahmadi</u>  
 *In Proceedings of the Sixth Biennial Conference on Electronic Lexicography (eLex 2019)*  
 
@@ -77,7 +77,7 @@ arXiv preprint arXiv:1810.00660
 	<b>2019</b>
 </div>
 
-1. **(Accepted) Developing multi-dialect machine-readable lexicographical [Resource]s for Kurdish language**  
+1. **(Accepted) Developing multi-dialect machine-readable lexicographical Resources for Kurdish language**  
 <u>Sina Ahmadi</u>, and Hossein Hassani  
 *In Proceedings of Sixth Biennial Conference on Electronic Lexicography (eLex 2019)*  
 
@@ -88,7 +88,7 @@ Roshna Abdulrahman, Hassani, Hossein, and <u>Sina Ahmadi</u>
 
 3. **A Rule-Based Kurdish Text Transliteration System**  
 <u>Sina Ahmadi</u>  
-*ACM Transactions on Asian and Low-[Resource] Language Information Processing (TALLIP)*  
+*ACM Transactions on Asian and Low-resource Language Information Processing (TALLIP)*  
 [[PDF]](docs/articles/ahmadi2019rule.pdf){:target="_blank"} [[bib]](bibliography/ahmadi2019rule.txt){:target="_blank"} [[Code]](https://github.com/sinaahmadi/wergor){:target="_blank"}
 
 <div align="center" style="background-color:lightblue">
