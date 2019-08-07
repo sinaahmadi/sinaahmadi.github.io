@@ -38,6 +38,23 @@ A word count command could not have a more explicit name than `wc`. `wc` is a ve
 </tr>
 </table>
 
+## Converting from character cases
+
+tr '[:upper:]' '[:lower:]' < input
+
+## Find the n most frequent words
+
+tr -c '[:alnum:]' '[\n*]' < test.txt | sort | uniq -c | sort -nr | head  -10
+
+If you don't put in a sort before the uniq -c you'll probably get a lot of false singleton words. uniq only does unique runs of lines, not overall uniquness.
+
+## Replace punctuation marks 
+
+cat head.txt | sed 's/[[:punct:]]/ /g'
+
+## Strip multiple spaces to one using sed
+
+ sed 's/  */ /g'
 
 
 ### Remove metadata of PDF
@@ -56,3 +73,9 @@ Find all file of all types
 find . -iname '*.pdf'
 
 http://u88.n24.queensu.ca/exiftool/forum/index.php?topic=3943.0
+
+
+A tool for lexicographers to manually create resources in OntoLex.
+A converter from Tabular format to Ontolex
+all about language modelling
+all about word embeddings
