@@ -79,3 +79,57 @@ A tool for lexicographers to manually create resources in OntoLex.
 A converter from Tabular format to Ontolex
 all about language modelling
 all about word embeddings
+
+
+---
+show_profile: false
+title: Converting tabular data to Lexicog in Ontolex-Lemon
+show_profile: false
+tags:
+- Ontolex-Lemon
+- Lexicography
+- Resource
+- Linked data
+- Data conversion
+---
+
+This blog post describes the conversion tool that I created to convert tabular data into Ontolex-Lemon in RDF. Find the repository at [https://github.com/sinaahmadi/Tabular2Lexicog](https://github.com/sinaahmadi/Tabular2Lexicog){:target="_blank"}.
+
+---
+
+The [Semantic Web](https://www.w3.org/standards/semanticweb/){:target="_blank"} as an extension of the [World Wide Web (WWW)](https://en.wikipedia.org/wiki/World_Wide_Web){:target="_blank"} represents an effective means of data representation and enables users and computers to retrieve and share information efficiently. The [Resource Description Framework (RDF)](https://www.w3.org/RDF/){:target="_blank"} is the foundational data model for Semantic Web. Unlike traditional databases, such as [relational ones](https://en.wikipedia.org/wiki/Relational_database){:target="_blank"}, where data has to adhere to a fixed schema, RDF documents are not prescribed by a schema and can be described without additional information making RDF data model self-describing.
+
+More recently, the concept of the Web of Linked Data, which makes RDF data available using the HyperText Transfer Protocol (HTTP), and [Linguistic Linked Open Data](http://linguistic-lod.org/){:target="_blank"} has gained traction along with the Semantic Web, particularly in the [natural language processing (NLP)](https://en.wikipedia.org/wiki/Natural_language_processing){:target="_blank"} community as a standard for linguistic resource creation. According to the [official definition](https://www.w3.org/standards/semanticweb/data){:target="_blank"} of W3C:
+
+<div class="ml-3">
+<p class="text-muted" >
+Linked Data lies at the heart of what Semantic Web is all about: large scale integration of, and reasoning on, data on the Web. Almost all applications listed in, say collection of Semantic Web Case Studies and Use Cases are essentially based on the accessibility of, and integration of Linked Data at various level of complexities. 
+</p>
+</div>
+
+Moreover, the unique potential which the Semantic Web and Linked Data offer to e-lexicography enables interoperability across lexical resources by leveraging printed or unstructured linguistic data to machine-readable semantic formats.
+
+To know more about RDF, you can read one of my previous blog posts on [data modelling with RDF](https://sinaahmadi.github.io/posts/rdf-data-modelling-a-tutorial.html){:target="_blank"}.
+
+## Ontolex-Lemon and Lexicog
+
+Lexicography is the science of words and their semantic relationships. Wouldn't it be beneficial to take advantage of linked data for lexicography too? Well, this is the motivation behind Ontolex-Lemon. 
+
+[Lemon](https://lemon-model.net/){:target="_blank"} stands for the lexicon model for ontologies (*lemon*) which provides rich linguistic grounding for ontologies. By rich, the creators theoretically aim at all types of information related to words in dictionaries, such as morphological and syntactic properties. The [Ontolex-Lemon](https://www.w3.org/2016/05/ontolex/){:target="_blank"} is the result of the [W3C Ontology-Lexica Community Group](https://www.w3.org/community/ontolex/){:target="_blank"}.
+
+One of the useful modules in Ontolex-Lemon is the [Ontolex-Lemon lexicography module (lexicog)](https://jogracia.github.io/ontolex-lexicog/){:target="_blank"}.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
