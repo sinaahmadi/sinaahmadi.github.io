@@ -56,6 +56,9 @@ cat head.txt | sed 's/[[:punct:]]/ /g'
 
  sed 's/  */ /g'
 
+## Split sentences by line in a text
+
+sed -e :1 -e 's/\([.?!]\)[[:blank:]]\{1,\}\([^[:blank:]]\)/\1\\2/;t1'
 
 ### Remove metadata of PDF
 
