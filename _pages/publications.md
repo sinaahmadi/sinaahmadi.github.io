@@ -83,12 +83,12 @@ arXiv preprint arXiv:1810.00660
 	<b>2019</b>
 </div>
 
-1. **(Accepted) Developing multi-dialect machine-readable lexicographical Resources for Kurdish language**  
-<u>Sina Ahmadi</u> and Hossein Hassani  
+1. **(Accepted) Towards Electronic Lexicography for the Kurdish Language**  
+<u>Sina Ahmadi</u>, Hossein Hassani and J. P. McCrae
 *In Proceedings of Sixth Biennial Conference on Electronic Lexicography (eLex 2019)*  
 
 2. **Developing a Fine-grained Corpus for a Less-resourced Language: the case of Kurdish**  
-Roshna Abdulrahman, Hassani, Hossein and <u>Sina Ahmadi</u>
+Roshna Abdulrahman, Hossein Hassani and <u>Sina Ahmadi</u>
 *WiNLP ACL 2019*   
 [[PDF]](docs/articles/abdulrahman2019ktc.pdf){:target="_blank"} [[bib]](bibliography/abdulrahman2019ktc.txt){:target="_blank"} [[Resource]](https://sinaahmadi.github.io/resources/ktc.html){:target="_blank"}
 
