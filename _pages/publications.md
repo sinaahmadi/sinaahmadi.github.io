@@ -90,7 +90,7 @@ arXiv preprint arXiv:1810.00660
 2. **Developing a Fine-grained Corpus for a Less-resourced Language: the case of Kurdish**  
 Roshna Abdulrahman, Hossein Hassani and <u>Sina Ahmadi</u>
 *WiNLP ACL 2019*   
-[[PDF]](docs/articles/abdulrahman2019ktc.pdf){:target="_blank"} [[bib]](bibliography/abdulrahman2019ktc.txt){:target="_blank"} [[Resource]](https://sinaahmadi.github.io/resources/ktc.html){:target="_blank"}
+[[PDF]](docs/articles/abdulrahman2019ktc.pdf){:target="_blank"} [[Poster]](docs/articles/poster/abdulrahman2019ktc-poster.pdf){:target="_blank"} [[bib]](bibliography/abdulrahman2019ktc.txt){:target="_blank"} [[Resource]](https://sinaahmadi.github.io/resources/ktc.html){:target="_blank"}
 
 3. **A Rule-Based Kurdish Text Transliteration System**  
 <u>Sina Ahmadi</u>  
