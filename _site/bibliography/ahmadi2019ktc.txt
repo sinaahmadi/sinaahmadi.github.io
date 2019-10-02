@@ -1,7 +1,0 @@
-@article{ahmadi2019ktc,
-  title={(Accepted) Developing multi-dialect machine-readable lexicographical resources for {K}urdish language},
-  author={Ahmadi, Sina and Hassani, Hossein},
-  journal={Proceedings of Sixth Biennial Conference on Electronic Lexicography (eLex 2019)},
-  address = "Sintra, Portugal",
-  year={2019}
-}

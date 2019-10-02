@@ -1,7 +1,10 @@
-@article{mccrae2019elexis,
-  title={(Accepted) The ELEXIS Interface for Interoperable Lexical Resources},
+@inproceedings{mccrae2019elexis,
+  title={The {ELEXIS} Interface for Interoperable Lexical Resources},
   author={McCrae, John P. and Tiberius, Carole and Khan, Anas Fahad and Kernerman, Ilan and Declerck, Thierry and Krek, Simon and Monachini, Monica and Ahmadi, Sina},
-  journal={Proceedings of Sixth Biennial Conference on Electronic Lexicography (eLex 2019)},
+  journal={Proceedings of Sixth Biennial Conference on Electronic Lexicography (eLex)},
+  month = "10",
   year={2019},
+  url = "https://elex.link/elex2019/wp-content/uploads/2019/09/eLex_2019_37.pdf",
+  pages = "642--659",
   address= "Sintra, Portugal"
 }
