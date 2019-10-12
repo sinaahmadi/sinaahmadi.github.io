@@ -1,0 +1,8 @@
+@inproceedings{speranza2019creating,
+    title = "Creating a Multilingual Terminological Resource using Linked Data: the case of Archaeological Domain in the Italian language",
+    author = "Speranza, Giulia and Carlino, Carola and Ahmadi, Sina",
+    booktitle = " Proceedings of the Sixth Italian Conference on Computational Linguistics ({CL}i{C}-it)",
+    month = "11",
+    year = "2019",
+    address = "Bari, Italy"
+}

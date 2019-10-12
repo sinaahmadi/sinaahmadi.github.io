@@ -1,7 +1,7 @@
 @inproceedings{mccrae2019elexis,
   title={The {ELEXIS} Interface for Interoperable Lexical Resources},
   author={McCrae, John P. and Tiberius, Carole and Khan, Anas Fahad and Kernerman, Ilan and Declerck, Thierry and Krek, Simon and Monachini, Monica and Ahmadi, Sina},
-  journal={Proceedings of Sixth Biennial Conference on Electronic Lexicography (eLex)},
+  booktitle = "Proceedings of the sixth biennial conference on electronic lexicography (eLex)",
   month = "10",
   year={2019},
   url = "https://elex.link/elex2019/wp-content/uploads/2019/09/eLex_2019_37.pdf",

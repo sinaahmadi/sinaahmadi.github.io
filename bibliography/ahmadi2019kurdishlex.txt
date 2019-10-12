@@ -4,7 +4,6 @@
     booktitle = "Proceedings of the sixth biennial conference on electronic lexicography (eLex)",
     month = "10",
     year = "2019",
-    address = "Sintra, Portugal",
     url = "https://elex.link/elex2019/wp-content/uploads/2019/09/eLex_2019_50.pdf",
     pages = "881--906",
     address= "Sintra, Portugal"
