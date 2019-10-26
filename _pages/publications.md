@@ -17,9 +17,10 @@ Publications by categories in reversed chronological order.
 </div>
 
 
-1. **(Accepted) Creating a Multilingual Terminological Resource using Linked Data: the case of archaeological domain in the Italian language**  
+1. **Creating a Multilingual Terminological Resource using Linked Data: the case of archaeological domain in the Italian language**  
 Speranza Giulia, Carola Carlino and <u>Sina Ahmadi</u>  
-*The Sixth Italian Conference on Computational Linguistics - CLiC-it 2019* 
+*The Sixth Italian Conference on Computational Linguistics - CLiC-it 2019*   
+[[Paper]](docs/articles/speranza2019creating.pdf){:target="_blank"}  [[Poster]](){:target="_blank"} [[Code]](https://github.com/sinaahmadi/sparql4respop){:target="_blank"} [[bib]](bibliography/speranza2019creating.txt){:target="_blank"} 
 
 1. **The ELEXIS Interface for Interoperable Lexical Resources**  
 John P. McCrae, Carole Tiberius, Anas Fahad Khan, Ilan Kernerman, Thierry Declerck, Simon Krek, Monica Monachini and <u>Sina Ahmadi</u>  
@@ -84,8 +85,8 @@ arXiv preprint arXiv:1810.00660
 </div>
 
 1. **Towards Electronic Lexicography for the Kurdish Language**  
-<u>Sina Ahmadi</u>, Hossein Hassani and J. P. McCrae
-*In Proceedings of Sixth Biennial Conference on Electronic Lexicography (eLex 2019)*  
+<u>Sina Ahmadi</u>, Hossein Hassani and John P. McCrae  
+*In Proceedings of Sixth Biennial Conference on Electronic Lexicography (eLex 2019)*    
 [[Paper]](docs/articles/ahmadi2019kurdishlex.pdf){:target="_blank"} [[Poster]](docs/posters/ahmadi2019kurdishlex_poster.pdf){:target="_blank"} [[Resource]](https://sinaahmadi.github.io/resources/kurdishlex.html){:target="_blank"} [[bib]](bibliography/ahmadi2019kurdishlex.txt){:target="_blank"}
 
 

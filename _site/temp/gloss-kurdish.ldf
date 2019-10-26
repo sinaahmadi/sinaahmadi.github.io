@@ -1,0 +1,207 @@
+% Created on September 1, 2019
+% Sina Ahmadi (https://sinaahmadi.github.io/)
+\ProvidesFile{gloss-kurdish.ldf}[polyglossia: module for Kurdish]
+
+\RequireBidi
+\RequirePackage{arabicnumbers}
+\RequirePackage{farsical}
+\RequirePackage{hijrical}
+\PolyglossiaSetup{kurdish}{
+  script=Arabic,
+  direction=RL,
+  scripttag=arab,
+  langtag=KUR,
+  hyphennames={nohyphenation},
+  fontsetup=true
+}
+
+\newif\if@western@numerals
+\def\tmp@western{western}
+\define@key{kurdish}{numerals}[eastern]{%
+  \def\@tmpa{#1}%
+  \ifx\@tmpa\tmp@western\@western@numeralstrue\else%
+    \@western@numeralsfalse%
+  \fi}
+
+%this is needed for \abjad in arabicnumbers.sty
+\def\tmp@true{true}
+\define@key{kurdish}{abjadjimnotail}[true]{%
+  \def\@tmpa{#1}%
+  \ifx\@tmpa\tmp@true\abjad@jim@notailtrue%
+  \else
+    \abjad@jim@notailfalse
+  \fi}
+
+% NOT YET USED
+\define@key{kurdish}{locale}[default]{%
+  \def\@kurdish@locale{#1}}
+
+%TODO add option for CALENDAR
+
+\setkeys{kurdish}{locale,numerals}
+
+\def\kurdishtraditionalmontharabic#1{\ifcase#1% traditional calendar, Sorani with Arabic script
+  \or رێبه‌ندان\or ره‌شه‌مێ\or خاكه‌لێوه‌\or گوڵان\or جۆزه‌ردان\or پووشپه‌ڕ\or خه‌رمانان\or گه‌لاوێژ\or ره‌زبه‌ر\or گه‌ڵارێزان\or سه‌رماوه‌ز\or به‌فرانبار\fi}
+\def\kurdishmonth#1{\ifcase#1% Gregorian calendar (Sorani-Arabic script)
+  \or کانونی دووەم\or شوبات\or ئازار\or نیسان\or ئایار\or حوزه‌یران\or ته‌ممووز\or ئاب\or ئه‌یلوول\or تشرینی یه‌كه‌م\or تشرینی دووهه‌م\or كانوونی یه‌كه‌م\fi}
+\def\kurdishgregorianmonthlatinsorani#1{\ifcase#1% Gregorian (Latin script- Sorani)
+  \or Kanûnî Yekem\or Şubat\or Azar\or Nîsan\or Ayar\or Huzeyran\or Temmûz\or Ab\or Eylûl\or Tişrînî Yekem\or Tişrînî Dûhem \or Kanûnî Dûhem \fi}
+\def\kurdishgregorianmonthlatinkurmanji#1{\ifcase#1% Gregorian - Latin script- Kurmanji)
+  \or Çileya Paşîn\or Sibat\or Adar\or Nîsan\or Gulan\or Hezîran\or Tîrmeh\or Tebax\or Îlon\or Çiriya Pêşîn\or Çiriya Paşîn \or Çileya Pêşîn \fi}
+\def\kurdishtraditionalmontharabickurmanji#1{\ifcase#1% Traditional - Latin script- Kurmanji)
+  \or Rêbendan \or Reşemih \or Adar\or Cotan\or Gulan\or Pûşper\or Tîrmeh\or Gelavêj \or Gelarezan \or Kewçêr \or Sermawez \or Berfandar \fi}
+  
+%\Hijritoday is now locale-aware and will format the date with this macro:
+\DefineFormatHijriDate{kurdish}{\@ensure@RTL{%
+\farsinumber{\value{Hijriday}}\space\HijriMonthArabic{\value{Hijrimonth}}\space\farsinumber{\value{Hijriyear}}}}
+
+\def\captionskurdish{%
+	\def\prefacename{\@ensure@RTL{پێشه‌كی}}%
+	\def\refname{\@ensure@RTL{سه‌رچاوه‌کان}}%
+	\def\abstractname{\@ensure@RTL{پوخته‌}}%
+	\def\bibname{\@ensure@RTL{کتێبنامه‌}}%
+	\def\chaptername{\@ensure@RTL{به‌ندی}}%
+	\def\appendixname{\@ensure@RTL{پاشکۆ}}%
+	\def\contentsname{\@ensure@RTL{نێوه‌ڕۆک}}%
+	\def\listfigurename{\@ensure@RTL{لیستی وێنه‌کان}}%
+	\def\listtablename{\@ensure@RTL{لیستی خشته‌کان}}%
+	\def\indexname{\@ensure@RTL{پێڕست}}%
+	\def\figurename{\@ensure@RTL{وێنه‌ی}}%
+	\def\tablename{\@ensure@RTL{خشتەی}}%
+	\def\partname{\@ensure@RTL{به‌شی}}%
+	\def\enclname{\@ensure@RTL{هاوپێچ}}%
+	\def\ccname{\@ensure@RTL{روونووس}}%
+	\def\headtoname{\@ensure@RTL{بۆ}}%
+	\def\pagename{\@ensure@RTL{لاپه‌ڕه‌}}%
+	\def\seename{\@ensure@RTL{چاو لێکه‌ن}}%
+	\def\alsoname{\@ensure@RTL{هه‌روه‌ها چاو لێکه‌ن}}%
+	\def\proofname{\@ensure@RTL{سەلماندن}}%
+	\def\glossaryname{\@ensure@RTL{فه‌رهه‌نگۆک}}%
+}
+
+\def\captionskurmanjiarabic{%
+	\def\prefacename{\@ensure@RTL{پێشگۆتن}}%
+	\def\refname{\@ensure@RTL{پرتووکێن بژارتی}}%
+	\def\abstractname{\@ensure@RTL{کورتەبیر}}%
+	\def\bibname{\@ensure@RTL{چاڤکانییا پرتووکان}}%
+	\def\chaptername{\@ensure@RTL{سەرێ}}%
+	\def\appendixname{\@ensure@RTL{پاشکۆ}}%
+	\def\contentsname{\@ensure@RTL{ناڤێرۆک}}%
+	\def\listfigurename{\@ensure@RTL{هەژمارا دیمەنا}}%
+	\def\listtablename{\@ensure@RTL{هەژمارا کەڤالێن}}%
+	\def\indexname{\@ensure@RTL{پێرست}}%
+	\def\figurename{\@ensure@RTL{دیمەنێ}}%
+	\def\tablename{\@ensure@RTL{کەڤالا}}%
+	\def\partname{\@ensure@RTL{بەشا}}%
+	\def\enclname{\@ensure@RTL{دوماهک}}%
+	\def\ccname{\@ensure@RTL{بەلاڤکەر}}%
+	\def\headtoname{\@ensure@RTL{ژ بۆ}}%
+	\def\pagename{\@ensure@RTL{رووپەلێ}}%
+	\def\seename{\@ensure@RTL{بنێرا}}%
+	\def\alsoname{\@ensure@RTL{لە ڤێیا ژ بنێرا}}%
+	\def\proofname{\@ensure@RTL{دەلیل}}%
+	\def\glossaryname{\@ensure@RTL{چاڤکانییا لێکۆلینێ}}%
+}
+
+\def\captionssoranilatin{%
+	\def\prefacename{Pêşekî}%
+	\def\refname{Serçawekan}%
+	\def\abstractname{Puxte}%
+	\def\bibname{Kitêbname}%
+	\def\chaptername{Bendî}%
+	\def\appendixname{Paşko}%
+	\def\contentsname{Nêwerrok}%
+	\def\listfigurename{Lîstî Wênekan}%
+	\def\listtablename{Lîstî Xiştekan}%
+	\def\indexname{Pêrrist}%
+	\def\figurename{Wêney}%
+	\def\tablename{Xiştey}%
+	\def\partname{Beşî}%
+	\def\enclname{Hawpêç}%
+	\def\ccname{Rûnûs}%
+	\def\headtoname{Bo}%
+	\def\pagename{Laperre}%
+	\def\seename{Çaw lêken}%
+	\def\alsoname{Herweha çaw lêken}%
+	\def\proofname{Selmandin}%
+	\def\glossaryname{Ferhengok}%
+}
+
+\def\captionskurmanjilatin{%
+	\def\prefacename{Pêşgotin}%
+	\def\refname{Pirtûkên bijartî}%
+	\def\abstractname{Kurtebîr}%
+	\def\bibname{Çavkanîya Pirtûkan}%
+	\def\chaptername{Serê}%
+	\def\appendixname{Paşko}%
+	\def\contentsname{Navêrok}%
+	\def\listfigurename{Hejmara Dîmena}%
+	\def\listtablename{Hejmara Kevalên}%
+	\def\indexname{Pêrist}%
+	\def\figurename{Dîmenê}%
+	\def\tablename{Kevala}%
+	\def\partname{Beşa}%
+	\def\enclname{Dumahik}% according to the Kurmanji package for Babel
+	\def\ccname{Belavker}%
+	\def\headtoname{Ji bo}%
+	\def\pagename{Rûpelê}%
+	\def\seename{binêra}%
+	\def\alsoname{le vêya ji binêra}%
+	\def\proofname{Delîl}%
+	\def\glossaryname{Çavkanîya lêkolînê}%
+}
+
+
+\def\datekurdish{%
+   \def\today{\@ensure@RTL{\farsinumber\day{ی}\space\kurdishmonth{\month}{ی}\space\farsinumber\year}}%
+}
+
+\def\farsinumber#1{%
+  \if@western@numerals
+    \number#1%
+  \else
+    \ifnum\XeTeXcharglyph"06F0 > 0%
+      \farsidigits{\number#1}%
+      %%{\protect\addfontfeature{Mapping=farsidigits}\number#1}%
+    \else%
+      \arabicdigits{\number#1}%
+      %%{\protect\addfontfeature{Mapping=arabicdigits}\number#1}%
+    \fi
+  \fi}
+
+%\def\farsinum#1{\expandafter\farsinumber\csname c@#1\endcsname}
+%\def\farsibracenum#1{(\expandafter\farsinumber\csname c@#1\endcsname)}
+%\def\farsiornatebracenum#1{\char"FD3E\expandafter\farsinumber\csname c@#1\endcsname\char"FD3F}
+%\def\farsialph#1{\expandafter\@farsialph\csname c@#1\endcsname}
+
+\def\kurdish@numbers{%
+   \let\@latinalph\@alph%
+   \let\@latinAlph\@Alph%
+   \let\@alph\abjad%
+   \let\@Alph\abjad%
+}
+\def\nokurdish@numbers{%
+  \let\@alph\@latinalph%
+  \let\@Alph\@latinAlph%
+  }
+
+\def\kurdish@globalnumbers{%
+   \let\orig@arabic\@arabic%
+   \let\@arabic\farsinumber%
+   % For some reason \thefootnote needs to be set separately:
+   \renewcommand\thefootnote{\protect\farsinumber{\c@footnote}}%
+   }
+
+\def\nofarsi@globalnumbers{
+   \let\@arabic\orig@arabic%
+   \renewcommand\thefootnote{\protect\number{\c@footnote}}%
+   }
+
+\def\blockextras@kurdish{%
+   \let\@@MakeUppercase\MakeUppercase%
+   \def\MakeUppercase##1{##1}%
+   }
+\def\noextras@kurdish{%
+   \let\MakeUppercase\@@MakeUppercase%
+   }
+\endinput
