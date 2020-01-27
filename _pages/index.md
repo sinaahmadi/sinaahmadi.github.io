@@ -13,8 +13,9 @@ title: Welcome to Sina Ahmadi's Personal Page
 
 ### News about me
 
+* [15/10/2019] I am an organiser of the 6th [Insight Student Conference](studentconference2020.insight-centre.org/){:target="_blank"}
 * [10/06/2019] Research visit to Denmark to explore Danish lexicographic data linking. [[Read more]](https://sinaahmadi.github.io/posts/research-visit-to-copenhagen.html)
-* [19/05/2019] Presented a poster in the [Language, Data and Knowledge](http://2019.ldk-conf.org/call-for-papers/){:target="_blank"} conference in Leipzig, Germany [[Poster]](../docs/LDK2019-Poster.pdf) [[Paper]](https://aran.library.nuigalway.ie/bitstream/handle/10379/15214/LDK_2019_paper_51.pdf)
+* [19/05/2019] Presented a poster in the [Language, Data and Knowledge](http://2019.ldk-conf.org/call-for-papers/){:target="_blank"} conference in Leipzig, Germany [[Poster]](../docs/posters/ahmadi2019lexical_poster.pdf) [[Paper]](https://aran.library.nuigalway.ie/bitstream/handle/10379/15214/LDK_2019_paper_51.pdf)
 * [17/05/2019] Participated in the [3rd Summer Datathon on Linguistic Linked Open Data](https://datathon2019.linguistic-lod.org/){:target="_blank"} in Dagstuhl. [[Read more]](http://sinaahmadi.github.io/posts/summer-datathon-in-dagstuhl.html)
 * [09/05/2019] Presented a summary of my Ph.D. progress in the Ph.D. day of our unit [[Slides]](../docs/PhD_Day2019_Sina_Ahmadi.pdf){:target="_blank"}
 * [20/02/2019] I'll be a tutor in the [3rd Summer Datathon on Linguistic Linked Open Data](https://datathon2019.linguistic-lod.org/){:target="_blank"} in May.

@@ -30,7 +30,7 @@ John P. McCrae, Carole Tiberius, Anas Fahad Khan, Ilan Kernerman, Thierry Decler
 2. **CoFiF: A Corpus of Financial Reports in French Language**  
 <u>Sina Ahmadi</u>&#42; and Tobias Daudert  
 *In Proceedings of the First Workshop on Financial Technology and Natural Language Processing*   
-[[Paper]](docs/articles/ahmadi-daudert-2019-cofif.pdf){:target="_blank"} [[Poster]](docs/posters/ahmadi-daudert-2019-cofif_poster.pdf){:target="_blank"} [[Resource]](https://sinaahmadi.github.io/resources/cofif.html){:target="_blank"} [[bib]](bibliography/ahmadi-daudert-2019-cofif.txt){:target="_blank"} 
+[[Paper]](docs/articles/ahmadi-daudert-2019-cofif.pdf){:target="_blank"} [[Slides]](docs/posters/ahmadi-daudert-2019-cofif_poster.pdf){:target="_blank"} [[Resource]](https://sinaahmadi.github.io/resources/cofif.html){:target="_blank"} [[bib]](bibliography/ahmadi-daudert-2019-cofif.txt){:target="_blank"} 
 
 3. **NUIG at the FinSBD Task: Sentence Boundary Detection for Noisy Financial PDFs in English and French**  
 Tobias Daudert and <u>Sina Ahmadi</u>  
