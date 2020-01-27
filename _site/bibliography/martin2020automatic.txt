@@ -1,0 +1,8 @@
+@inproceedings{martin2020automatic,
+    title = "Automatic Creation of Linked Legal Terminologies (under review)",
+    author = "Martín-Chozas, Patricia and Ahmadi, Sina and Montiel-Ponsoda, Elena",
+    booktitle = "The 35th {ACM/SIGAPP} Symposium On Applied Computing",
+    month = "4",
+    year = "2020",
+    address = "Brno, Czech Republic"
+}

@@ -20,7 +20,7 @@ Publications by categories in reversed chronological order.
 1. **Creating a Multilingual Terminological Resource using Linked Data: the case of archaeological domain in the Italian language**  
 Speranza Giulia, Carola Carlino and <u>Sina Ahmadi</u>  
 *The Sixth Italian Conference on Computational Linguistics - CLiC-it 2019*   
-[[Paper]](docs/articles/speranza2019creating.pdf){:target="_blank"}  [[Poster]](){:target="_blank"} [[Code]](https://github.com/sinaahmadi/sparql4respop){:target="_blank"} [[bib]](bibliography/speranza2019creating.txt){:target="_blank"} 
+[[Paper]](docs/articles/speranza2019creating.pdf){:target="_blank"}  [[Poster]](docs/posters/speranza2019creating_poster.pdf){:target="_blank"} [[Code]](https://github.com/sinaahmadi/sparql4respop){:target="_blank"} [[bib]](bibliography/speranza2019creating.txt){:target="_blank"} 
 
 1. **The ELEXIS Interface for Interoperable Lexical Resources**  
 John P. McCrae, Carole Tiberius, Anas Fahad Khan, Ilan Kernerman, Thierry Declerck, Simon Krek, Monica Monachini and <u>Sina Ahmadi</u>  

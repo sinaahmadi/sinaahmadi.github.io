@@ -1,4 +1,260 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-11-03T20:36:03+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Sina Ahmadi’s Personal Page</title><subtitle>Sina Ahmadi's Personal Page</subtitle><author><name>Sina Ahmadi</name></author><entry><title type="html">Dynamic spreadsheets for data linking annotation</title><link href="http://localhost:4000/posts/dynamic-spreadsheets-for-data-annotation.html" rel="alternate" type="text/html" title="Dynamic spreadsheets for data linking annotation" /><published>2019-07-31T00:00:00+01:00</published><updated>2019-07-31T00:00:00+01:00</updated><id>http://localhost:4000/posts/dynamic-spreadsheets-for-data-annotation</id><content type="html" xml:base="http://localhost:4000/posts/dynamic-spreadsheets-for-data-annotation.html">&lt;p&gt;On the importance of data a lot has been said. We are living in the age of data where we produce constantly data by our presence online. At some point in your career or your studies, you may need to create your own dataset according to your field knowledge for a specific task. Such a dataset, which is technically called a &lt;strong&gt;gold-standard&lt;/strong&gt;, is used as a collection of trustable instances for applying machine learning techniques and training neural networks. &lt;a href=&quot;https://www.mturk.com/&quot; target=&quot;_blank&quot;&gt;Amazon Mechanical Turk&lt;/a&gt; is one of the famous platforms which enables individuals and businesses create and annotate datasets through crowdsourcing.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-01-27T02:20:51+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Sina Ahmadi’s Personal Page</title><subtitle>Sina Ahmadi's Personal Page</subtitle><author><name>Sina Ahmadi</name></author><entry><title type="html">Is Kurdish a less-resourced language?</title><link href="http://localhost:4000/posts/is-kurdish-a-less-resourced-language.html" rel="alternate" type="text/html" title="Is Kurdish a less-resourced language?" /><published>2019-11-09T00:00:00+00:00</published><updated>2019-11-09T00:00:00+00:00</updated><id>http://localhost:4000/posts/is-kurdish-a-less-resourced-language</id><content type="html" xml:base="http://localhost:4000/posts/is-kurdish-a-less-resourced-language.html">&lt;p&gt;&lt;strong&gt;TLDR&lt;/strong&gt; &lt;em&gt;Yes&lt;/em&gt;, for the time being, but hopefully &lt;strong&gt;no&lt;/strong&gt;, if we take serious actions.&lt;/p&gt;
+
+&lt;p&gt;To know more about why a language spoken by 20-30 million speakers should still be less-resourced, read the post. 🙃&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;A language is called “less-resourced” when the only available resources for computationally processing it are descriptive grammars and online resources. Regarding Kurdish, it has been always highlighted by the researchers that &lt;em&gt;Kurdish is a less-resourced language&lt;/em&gt;. As the following figure indicates, Kurdish is not the only less-resourced language, but most languages in the world are actually still less-resourced. More precisely, among the languages spoken in the Middle East, including Kurdish as a major one, only a couple of them can be considered medium-resourced, let alone high-resourced!&lt;/p&gt;
+
+&lt;div class=&quot;card mb-3 text-center&quot;&gt;
+    &lt;img class=&quot;rounded mx-auto d-block&quot; src=&quot;http://localhost:4000/docs/images/nlp_resource_hierarchy.png&quot; style=&quot;width:100%&quot; align=&quot;middle&quot; alt=&quot;A conceptual view of the NLP resource hierarchy&quot; /&gt;
+    &lt;div class=&quot;card-body bg-light&quot;&gt;
+        &lt;div class=&quot;card-text&quot;&gt;
+            A conceptual view of the NLP resource hierarchy (&lt;a href=&quot;https://ruder.io/unsupervised-cross-lingual-learning/&quot; target=&quot;_blank&quot;&gt;Source&lt;/a&gt;).
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;In this post, I am going to dig more into this problem: To what extent Kurdish is less-resourced? And, what types of resources are available/missing?&lt;/p&gt;
+
+&lt;h2 id=&quot;kurdish-lexicography&quot;&gt;Kurdish lexicography&lt;/h2&gt;
+
+&lt;p&gt;Lexicography is the science of words and compiling them into resources called “dictionaries”. Nowadays, much effort in this field is on creating electronic dictionaries, therefore called electronic lexicography (or e-lexicography). Electronic dictionaries form the backbone of fundamental applications and tools in natural language processing, such as spell-checking, named-entity recognition, i.e. finding name of places, people or organisations, and so on.&lt;/p&gt;
+
+&lt;p&gt;In a recent study &lt;a href=&quot;https://elex.link/elex2019/wp-content/uploads/2019/09/eLex_2019_50.pdf&quot; target=&quot;_blank&quot;&gt;(Ahmadi &amp;amp; Hassani, 2019)&lt;/a&gt;, we carried out a comprehensive study on the Kurdish lexicographic resources based on the major Kurdish dialects (Kurmanji, Sorani, Hawrami, Southern Kurdish and Zaza), scripts (Latin, Persian-Arabic and Cyrillic) and dictionary types (bilingual, monolingual or multilingual). The results were &lt;strong&gt;astonishing&lt;/strong&gt;. Let’s take a look at what our analysis says:&lt;/p&gt;
+
+&lt;div class=&quot;card mb-3 text-center&quot;&gt;
+	&lt;iframe width=&quot;700&quot; height=&quot;500&quot; align=&quot;middle&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;//plot.ly/~sinahm/29.embed?showlink=false&quot;&gt;&lt;/iframe&gt;
+	&lt;div class=&quot;card-body bg-light&quot;&gt;
+    &lt;div class=&quot;card-text&quot;&gt;
+      Kurdish Lexicographic Resources: A survey
+        &lt;a href=&quot;https://sinaahmadi.github.io/docs/articles/ahmadi2019kurdishlex.pdf&quot; target=&quot;_blank&quot;&gt;(Source)&lt;/a&gt;.
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Our survey which included all the dictionaries that we could have access in printed or electronic version, i.e. 71 dictionaries, suggests that all the Kurdish dialects have at least one lexicographic resource. Proportionally, more than 70% of the Kurdish dictionaries are in Sorani or Kurmanji. Only a handful of the resources are electronic, &lt;a href=&quot;https://freedict.org/&quot; target=&quot;_blank&quot;&gt;FreeDict&lt;/a&gt; which provides Kurmanji-Turkish/German/English dictionaries, as well as a Sorani-Kurmanji dictionary, &lt;a href=&quot;https://www.wiktionary.org/&quot; target=&quot;_blank&quot;&gt;Wiktionary&lt;/a&gt; and &lt;a href=&quot;dictio.kurditgroup.org/&quot; target=&quot;_blank&quot;&gt;Dictio&lt;/a&gt;, to mention a few. On the other hand, only a couple of those resources are in structured formats like XML and none of them in RDF. This makes them less interoperable and integrable in other resources and applications.&lt;/p&gt;
+
+&lt;h2 id=&quot;domain-specific-and-general-purpose-corpora&quot;&gt;Domain-specific and general-purpose corpora&lt;/h2&gt;
+
+&lt;p&gt;Terminological resources, aka terminologies, and glossaries are other types of resources which provide information about a specific domain. Various such resources exist for Kurdish, such as glossary of name of animals or dictionary of cities and villages. One of the outstanding resources which is also one of the only online ones is the &lt;a href=&quot;https://www.institutkurde.org/en/publications/kurmanci/&quot; target=&quot;_blank&quot;&gt;Kurmancî&lt;/a&gt; biannual  linguistic  magazine  published  by  the  Kurdish Institute of Paris since 1987. You can query the database of this terminological resource &lt;a href=&quot;https://www.institutkurde.org/en/publications/kurmanci/dictionary/&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;general-literature&quot;&gt;General literature&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.vejinbooks.com/view/%D8%AF%DB%95%D8%B3%D8%AA%D9%BE%DB%8E%DA%A9&quot; target=&quot;_blank&quot;&gt;Vejîn Books&lt;/a&gt; is an outstanding initiative for collecting historical and literary text in Kurdish. The project is a Wikiproject for which many collaborators actively contribute to the create electronic version of classical Kurdish works, such as poems.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://bnk.institutkurde.org/?l=en&quot; target=&quot;_blank&quot;&gt;The Kurdish Digital Library of the Kurdish Institute of Paris&lt;/a&gt; also contains over 10,000 monographs about the Kurds in 25 languages. However, not all of them are available in electronic version and accessible to the public.&lt;/p&gt;
+
+&lt;h2 id=&quot;kurdish-media&quot;&gt;Kurdish media&lt;/h2&gt;
+
+&lt;p&gt;The Kurdish media has played a primordial role during the past decades in creating a universal Kurdish identity. Happily, there are many Kurdish news agencies which create content in Kurdish on the Web on a daily basis. Such resources not only enrich the language in terms of the resources, but also facilitate the computational processing of the Kurdish language. For instance, to create a machine translation system, a huge amount of parallel sentences are required. A parallel corpus, a corpus containing such parallel examples in two or several languages, is then used to create models for machine translation. Some of the main Kurdish broadcast news stations are the followings:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.kurdistan24.net/en/&quot; target=&quot;_blank&quot;&gt;Kurdistan24&lt;/a&gt;:
+Turkish 	English 	Kurmanji (Latin script) 	Sorani (Arabic script) 	Arabic 	 Persian&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.nrttv.com/Ba/Default.aspx&quot; target=&quot;_blank&quot;&gt;NRT&lt;/a&gt;:
+Kurmanji (Latin and Arabic scripts) 	Sorani (Arabic script) 	English 	Arabic&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.rudaw.net/english&quot; target=&quot;_blank&quot;&gt;Rûdaw&lt;/a&gt;:
+Turkish 	English 	Kurmanji (Latin script) 	Sorani (Arabic script) 	Arabic&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I spent some time playing with the links of the news articles to discover if the same news articles are available in different languages; this is important as we can make parallel corpora based on the news content. It seems that the same news articles are not available for all the languages. However, changing the language ID in the URL of a news to that of the other languages gives relatively identical topics in some cases. For instance, the following is the content of &lt;a href=&quot;https://www.rudaw.net/english/middleeast/iraq/10112019&quot; target=&quot;_blank&quot;&gt;this new&lt;/a&gt; in the available languages on &lt;a href=&quot;https://www.rudaw.net&quot; target=&quot;_blank&quot;&gt;Rûdaw&lt;/a&gt;:&lt;/p&gt;
+
+&lt;table align=&quot;center&quot; class=&quot;table table-bordered table-hover table-condensed&quot;&gt;
+&lt;thead&gt;
+  &lt;tr&gt;
+    &lt;th&gt;News agency&lt;/th&gt;
+    &lt;th&gt;English&lt;/th&gt;
+    &lt;th&gt;Arabic&lt;/th&gt;
+    &lt;th&gt;Sorani&lt;/th&gt;
+    &lt;th&gt;Kurmanji&lt;/th&gt;
+    &lt;th&gt;Turkish&lt;/th&gt;
+  &lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+    &lt;td&gt;&lt;a href=&quot;https://www.rudaw.net/english&quot; target=&quot;_blank&quot;&gt;Rûdaw&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;Resolution of ongoing protests in central and southern Iraq cannot be achieved through a security solution, Iraq’s three presidencies and its judiciary chief asserted in a joint meeting on Sunday - despite security forces continuing their crackdown to bring an end to the protests.&lt;/td&gt;
+    &lt;td&gt;أكد صالح محمد العراقي، المقرب من زعيم التيار الصدري، مقتدى الصدر، أن الأخير لم يتفق مع أي جهة بشأن إبقاء الحكومة الحالية برئاسة عادل عبدالمهدي، مضيفاً: &quot;الصدر مع الشعب وكفاكم سماعاً للأكاذيب والإشاعات&quot;.&lt;/td&gt;
+    &lt;td&gt;سەرچاوەیەك لە نووسینگەی عەلی سیستانی، مەرجەعی باڵای شیعەی عێراق لە نەجەف رەتیكردەوە مەرجەعیەت لایەنێك بێت لە رێككەوتنی نێوان سەدر، حەكیم و قاسم سولەیمانی لەبارەی كۆتاییهێنان بە خۆپیشاندانەكان و هێشتنەوەی حكومەتی ئێستای عێراق.&lt;/td&gt;
+    &lt;td&gt;Fraksyona Nehcî ya Wetenî li Parlamentoya Iraqê ragihand ku divê di dema 30 rojan de parlamento û ‎hikûmet bên hilweşandin û yasayeke nû bo hilbijartinê were derxistin.‎&lt;/td&gt;
+    &lt;td&gt;İnsan Hakları İzleme Örgütü (HRW), Iraklı güvenlik güçlerini ülkede devam eden gözstericilere karşı aşırı şiddet kullanmakla eleştirdi. Örgüt, sadece 25 Ekim’nden bu yana devam eden gösterilerde 16 kişinin gaz bombası kapsülleri ile öldürüldüğünü açıkladı.&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;community-efforts&quot;&gt;Community efforts&lt;/h2&gt;
+
+&lt;h3 id=&quot;wikipedia&quot;&gt;Wikipedia&lt;/h3&gt;
+
+&lt;p&gt;Wikipedia is a free encyclopaedia created by volunteers. According to the &lt;a href=&quot;https://meta.wikimedia.org/wiki/List_of_Wikipedias&quot; target=&quot;_blank&quot;&gt;list of Wikipedias&lt;/a&gt;, the three available Kurdish dialects, Kurmanji, Sorani and Zazaki, have over 10,000 articles on Wikipedia. There are a few other websites with wiki functionalities, like &lt;a href=&quot;https://www.kurdipedia.org&quot; target=&quot;_blank&quot;&gt;https://www.kurdipedia.org&lt;/a&gt;, that even if we take them into account, there is a considerable margin for Kurdish to be considered a medium-resourced language (having 100k documents). The following table summarises the current status of the Kurdish dialects on Wikipedia (November 2019):&lt;/p&gt;
+
+&lt;table align=&quot;center&quot; class=&quot;table table-bordered table-hover table-condensed&quot;&gt;
+	&lt;thead&gt;
+		&lt;tr&gt;
+			&lt;th&gt;Language&lt;/th&gt;
+			&lt;th&gt;Wiki &lt;/th&gt;
+			&lt;th&gt;Articles &lt;/th&gt;
+			&lt;th&gt;Total &lt;/th&gt;
+			&lt;th&gt;Edits &lt;/th&gt;
+			&lt;th&gt;Admins &lt;/th&gt;
+			&lt;th&gt;Users &lt;/th&gt;
+			&lt;th&gt;Active Users &lt;/th&gt;
+			&lt;th&gt;Files &lt;/th&gt;
+			&lt;th&gt;Depth&lt;/th&gt;
+		&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&lt;a href=&quot;https://ku.wikipedia.org/wiki/Destp%C3%AAk&quot; target=&quot;_blank&quot;&gt; Kurmanji Kurdish&lt;/a&gt;&lt;/td&gt;
+			&lt;td&gt;ku &lt;/td&gt;
+			&lt;td&gt;26334 &lt;/td&gt;
+			&lt;td&gt;64874 &lt;/td&gt;
+			&lt;td&gt;739494 &lt;/td&gt;
+			&lt;td&gt;4 &lt;/td&gt;
+			&lt;td&gt;39013 &lt;/td&gt;
+			&lt;td&gt;57 &lt;/td&gt;
+			&lt;td&gt;580 &lt;/td&gt;
+			&lt;td&gt;24 &lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&lt;a href=&quot;https://ckb.wikipedia.org/wiki/%D8%AF%DB%95%D8%B3%D8%AA%D9%BE%DB%8E%DA%A9&quot; target=&quot;_blank&quot;&gt;Sorani Kurdish&lt;/a&gt;&lt;/td&gt;
+			&lt;td&gt;ckb &lt;/td&gt;
+			&lt;td&gt;24925 &lt;/td&gt;
+			&lt;td&gt;130974 &lt;/td&gt;
+			&lt;td&gt;645920 &lt;/td&gt;
+			&lt;td&gt;7 &lt;/td&gt;
+			&lt;td&gt;37344 &lt;/td&gt;
+			&lt;td&gt;142 &lt;/td&gt;
+			&lt;td&gt;955 &lt;/td&gt;
+			&lt;td&gt;89&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&lt;a href=&quot;https://diq.wikipedia.org/wiki/Pela_Seri&quot; target=&quot;_blank&quot;&gt;Zazaki&lt;/a&gt;&lt;/td&gt;
+			&lt;td&gt;diq &lt;/td&gt;
+			&lt;td&gt;12184 &lt;/td&gt;
+			&lt;td&gt;31055 &lt;/td&gt;
+			&lt;td&gt;399744 &lt;/td&gt;
+			&lt;td&gt;6 &lt;/td&gt;
+			&lt;td&gt;18903 &lt;/td&gt;
+			&lt;td&gt;67 &lt;/td&gt;
+			&lt;td&gt;215 &lt;/td&gt;
+			&lt;td&gt;31&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr bgcolor=&quot;#d0d3d4&quot;&gt;
+			&lt;td&gt;&lt;a href=&quot;https://fa.wikipedia.org/wiki/%D8%B5%D9%81%D8%AD%D9%87%D9%94_%D8%A7%D8%B5%D9%84%DB%8C&quot; target=&quot;_blank&quot;&gt;Persian&lt;/a&gt;&lt;/td&gt;
+			&lt;td&gt;fa &lt;/td&gt;
+			&lt;td&gt;700361 &lt;/td&gt;
+			&lt;td&gt;4479817 &lt;/td&gt;
+			&lt;td&gt;27557535 &lt;/td&gt;
+			&lt;td&gt;31 &lt;/td&gt;
+			&lt;td&gt;869033 &lt;/td&gt;
+			&lt;td&gt;5142 &lt;/td&gt;
+			&lt;td&gt;59532 &lt;/td&gt;
+			&lt;td&gt;179 &lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr bgcolor=&quot;#d0d3d4&quot;&gt;
+			&lt;td&gt;&lt;a href=&quot;https://ca.wikipedia.org/wiki/Portada&quot; target=&quot;_blank&quot;&gt;Catalan&lt;/a&gt;&lt;/td&gt;
+			&lt;td&gt;ca &lt;/td&gt;
+			&lt;td&gt;628692 &lt;/td&gt;
+			&lt;td&gt;1547511 &lt;/td&gt;
+			&lt;td&gt;22264282 &lt;/td&gt;
+			&lt;td&gt;21 &lt;/td&gt;
+			&lt;td&gt;338436 &lt;/td&gt;
+			&lt;td&gt;1597 &lt;/td&gt;
+			&lt;td&gt;11863 &lt;/td&gt;
+			&lt;td&gt;31&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr bgcolor=&quot;#d0d3d4&quot;&gt;
+			&lt;td&gt;&lt;a href=&quot;https://sr.wikipedia.org/wiki/%D0%93%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B0&quot; target=&quot;_blank&quot;&gt;Serbian&lt;/a&gt;&lt;/td&gt;
+			&lt;td&gt;sr &lt;/td&gt;
+			&lt;td&gt;626216 &lt;/td&gt;
+			&lt;td&gt;3838890 &lt;/td&gt;
+			&lt;td&gt;22263049 &lt;/td&gt;
+			&lt;td&gt;18 &lt;/td&gt;
+			&lt;td&gt;252892 &lt;/td&gt;
+			&lt;td&gt;771 &lt;/td&gt;
+			&lt;td&gt;32517 &lt;/td&gt;
+			&lt;td&gt;153 &lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;wiktionary&quot;&gt;Wiktionary&lt;/h3&gt;
+
+&lt;p&gt;Similar to Wikipedia, Wiktionary is also a free platform where volunteers provide lexicographic data. As of November 2019, according to the &lt;a href=&quot;https://en.wiktionary.org/wiki/Wiktionary:Statistics&quot; target=&quot;_blank&quot;&gt;Wiktionary statistics&lt;/a&gt;, there are less than 1,300 lemmata available for Kurdish on Wiktionary!&lt;/p&gt;
+
+&lt;table align=&quot;center&quot; class=&quot;table table-bordered table-hover table-condensed&quot;&gt;
+	&lt;thead&gt;
+		&lt;tr&gt;
+			&lt;th title=&quot;Field #1&quot;&gt;Dialect&lt;/th&gt;
+			&lt;th title=&quot;Field #3&quot;&gt;#Gloss definitions  &lt;/th&gt;
+			&lt;th title=&quot;Field #4&quot;&gt;#Entries  &lt;/th&gt;
+			&lt;th title=&quot;Field #5&quot;&gt;#Gloss entries  &lt;/th&gt;
+			&lt;th title=&quot;Field #6&quot;&gt;#Form definitions  &lt;/th&gt;
+			&lt;th title=&quot;Field #7&quot;&gt;Total definitions&lt;/th&gt;
+		&lt;/tr&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&lt;a href=&quot;https://en.wiktionary.org/wiki/Category:Kurdish_language&quot; target=&quot;_blank&quot;&gt;Northern Kurdish (Kurmanji)&lt;/a&gt;&lt;/td&gt;
+			&lt;td&gt;2251 &lt;/td&gt;
+			&lt;td&gt;5340 &lt;/td&gt;
+			&lt;td&gt;2034 &lt;/td&gt;
+			&lt;td&gt;9188 &lt;/td&gt;
+			&lt;td&gt;11439&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&lt;a href=&quot;https://en.wiktionary.org/wiki/Category:Central_Kurdish_language&quot; target=&quot;_blank&quot;&gt;Central Kurdish (Sorani)&lt;/a&gt;&lt;/td&gt;
+			&lt;td&gt;339  &lt;/td&gt;
+			&lt;td&gt;290  &lt;/td&gt;
+			&lt;td&gt;279  &lt;/td&gt;
+			&lt;td&gt;11 &lt;/td&gt;
+			&lt;td&gt;350&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&lt;a href=&quot;https://en.wiktionary.org/wiki/Category:Southern_Kurdish_language&quot; target=&quot;_blank&quot;&gt;Southern Kurdish&lt;/a&gt;&lt;/td&gt;
+			&lt;td&gt;55  &lt;/td&gt;
+			&lt;td&gt;46  &lt;/td&gt;
+			&lt;td&gt;46   &lt;/td&gt;
+			&lt;td&gt;0 &lt;/td&gt;
+			&lt;td&gt;55&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;&lt;a href=&quot;https://en.wiktionary.org/wiki/Category:Zazaki_language&quot; target=&quot;_blank&quot;&gt;Zazaki&lt;/a&gt;&lt;/td&gt;
+			&lt;td&gt;842  &lt;/td&gt;
+			&lt;td&gt;697  &lt;/td&gt;
+			&lt;td&gt;691  &lt;/td&gt;
+			&lt;td&gt;5  &lt;/td&gt;
+			&lt;td&gt;847&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;I am not particularly happy that there are only 226k articles in Kurdish available on Wikipedia, in comparison to over 4 million in Persian, 1.5 million in Catalan and 3.8 million in Serbian!&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;Now that we know about some of the major resources of the Kurdish language, I would like to draw a few conclusions:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Kurdish &lt;strong&gt;is&lt;/strong&gt; less-resourced because of lack of electronic resources. Just take a look at the dictionaries. There are many Kurdish dictionaries which are only available in hardcopy while they could be used on the Web, if available electronically. Which one of those many Russian-Kurdish dictionaries have you ever queried online?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Kurdish &lt;strong&gt;will remain&lt;/strong&gt; less-resourced, if appropriate actions could not be taken to
+    &lt;ul&gt;
+      &lt;li&gt;retro-digitize printed resources&lt;/li&gt;
+      &lt;li&gt;contribute to the current platforms such as Wikipedia and Wiktionary&lt;/li&gt;
+      &lt;li&gt;raise awareness among Kurdish speakers to use their own language to create content and write on the Web&lt;/li&gt;
+      &lt;li&gt;encourage Kurdish writers and scholars to provide their works free and open to the public&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Kurdish language processing: in a &lt;a href=&quot;https://sinaahmadi.github.io/posts/why-kurdish-language-processing-matters.html&quot; target=&quot;_blank&quot;&gt;previous post&lt;/a&gt;, I have discussed why Kurdish language processing matters. One of the main reasons is actually to create new resources, manipulate the current ones and process them automatically.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr class=&quot;col-xs-12&quot; /&gt;
+
+&lt;p&gt;Last updated on 16 November 2019.&lt;/p&gt;</content><author><name>Sina Ahmadi</name></author><category term="Kurdish" /><category term="NLP" /><category term="Kurdish language processing" /><category term="Less-resourced languages" /><summary type="html">TLDR Yes, for the time being, but hopefully no, if we take serious actions. To know more about why a language spoken by 20-30 million speakers should still be less-resourced, read the post. 🙃 A language is called “less-resourced” when the only available resources for computationally processing it are descriptive grammars and online resources. Regarding Kurdish, it has been always highlighted by the researchers that Kurdish is a less-resourced language. As the following figure indicates, Kurdish is not the only less-resourced language, but most languages in the world are actually still less-resourced. More precisely, among the languages spoken in the Middle East, including Kurdish as a major one, only a couple of them can be considered medium-resourced, let alone high-resourced! A conceptual view of the NLP resource hierarchy (Source). In this post, I am going to dig more into this problem: To what extent Kurdish is less-resourced? And, what types of resources are available/missing? Kurdish lexicography Lexicography is the science of words and compiling them into resources called “dictionaries”. Nowadays, much effort in this field is on creating electronic dictionaries, therefore called electronic lexicography (or e-lexicography). Electronic dictionaries form the backbone of fundamental applications and tools in natural language processing, such as spell-checking, named-entity recognition, i.e. finding name of places, people or organisations, and so on. In a recent study (Ahmadi &amp;amp; Hassani, 2019), we carried out a comprehensive study on the Kurdish lexicographic resources based on the major Kurdish dialects (Kurmanji, Sorani, Hawrami, Southern Kurdish and Zaza), scripts (Latin, Persian-Arabic and Cyrillic) and dictionary types (bilingual, monolingual or multilingual). The results were astonishing. Let’s take a look at what our analysis says: Kurdish Lexicographic Resources: A survey (Source). Our survey which included all the dictionaries that we could have access in printed or electronic version, i.e. 71 dictionaries, suggests that all the Kurdish dialects have at least one lexicographic resource. Proportionally, more than 70% of the Kurdish dictionaries are in Sorani or Kurmanji. Only a handful of the resources are electronic, FreeDict which provides Kurmanji-Turkish/German/English dictionaries, as well as a Sorani-Kurmanji dictionary, Wiktionary and Dictio, to mention a few. On the other hand, only a couple of those resources are in structured formats like XML and none of them in RDF. This makes them less interoperable and integrable in other resources and applications. Domain-specific and general-purpose corpora Terminological resources, aka terminologies, and glossaries are other types of resources which provide information about a specific domain. Various such resources exist for Kurdish, such as glossary of name of animals or dictionary of cities and villages. One of the outstanding resources which is also one of the only online ones is the Kurmancî biannual linguistic magazine published by the Kurdish Institute of Paris since 1987. You can query the database of this terminological resource here. General literature Vejîn Books is an outstanding initiative for collecting historical and literary text in Kurdish. The project is a Wikiproject for which many collaborators actively contribute to the create electronic version of classical Kurdish works, such as poems. The Kurdish Digital Library of the Kurdish Institute of Paris also contains over 10,000 monographs about the Kurds in 25 languages. However, not all of them are available in electronic version and accessible to the public. Kurdish media The Kurdish media has played a primordial role during the past decades in creating a universal Kurdish identity. Happily, there are many Kurdish news agencies which create content in Kurdish on the Web on a daily basis. Such resources not only enrich the language in terms of the resources, but also facilitate the computational processing of the Kurdish language. For instance, to create a machine translation system, a huge amount of parallel sentences are required. A parallel corpus, a corpus containing such parallel examples in two or several languages, is then used to create models for machine translation. Some of the main Kurdish broadcast news stations are the followings: Kurdistan24: Turkish English Kurmanji (Latin script) Sorani (Arabic script) Arabic Persian NRT: Kurmanji (Latin and Arabic scripts) Sorani (Arabic script) English Arabic Rûdaw: Turkish English Kurmanji (Latin script) Sorani (Arabic script) Arabic I spent some time playing with the links of the news articles to discover if the same news articles are available in different languages; this is important as we can make parallel corpora based on the news content. It seems that the same news articles are not available for all the languages. However, changing the language ID in the URL of a news to that of the other languages gives relatively identical topics in some cases. For instance, the following is the content of this new in the available languages on Rûdaw: News agency English Arabic Sorani Kurmanji Turkish Rûdaw Resolution of ongoing protests in central and southern Iraq cannot be achieved through a security solution, Iraq’s three presidencies and its judiciary chief asserted in a joint meeting on Sunday - despite security forces continuing their crackdown to bring an end to the protests. أكد صالح محمد العراقي، المقرب من زعيم التيار الصدري، مقتدى الصدر، أن الأخير لم يتفق مع أي جهة بشأن إبقاء الحكومة الحالية برئاسة عادل عبدالمهدي، مضيفاً: &quot;الصدر مع الشعب وكفاكم سماعاً للأكاذيب والإشاعات&quot;. سەرچاوەیەك لە نووسینگەی عەلی سیستانی، مەرجەعی باڵای شیعەی عێراق لە نەجەف رەتیكردەوە مەرجەعیەت لایەنێك بێت لە رێككەوتنی نێوان سەدر، حەكیم و قاسم سولەیمانی لەبارەی كۆتاییهێنان بە خۆپیشاندانەكان و هێشتنەوەی حكومەتی ئێستای عێراق. Fraksyona Nehcî ya Wetenî li Parlamentoya Iraqê ragihand ku divê di dema 30 rojan de parlamento û ‎hikûmet bên hilweşandin û yasayeke nû bo hilbijartinê were derxistin.‎ İnsan Hakları İzleme Örgütü (HRW), Iraklı güvenlik güçlerini ülkede devam eden gözstericilere karşı aşırı şiddet kullanmakla eleştirdi. Örgüt, sadece 25 Ekim’nden bu yana devam eden gösterilerde 16 kişinin gaz bombası kapsülleri ile öldürüldüğünü açıkladı. Community efforts Wikipedia Wikipedia is a free encyclopaedia created by volunteers. According to the list of Wikipedias, the three available Kurdish dialects, Kurmanji, Sorani and Zazaki, have over 10,000 articles on Wikipedia. There are a few other websites with wiki functionalities, like https://www.kurdipedia.org, that even if we take them into account, there is a considerable margin for Kurdish to be considered a medium-resourced language (having 100k documents). The following table summarises the current status of the Kurdish dialects on Wikipedia (November 2019): Language Wiki Articles Total Edits Admins Users Active Users Files Depth Kurmanji Kurdish ku 26334 64874 739494 4 39013 57 580 24 Sorani Kurdish ckb 24925 130974 645920 7 37344 142 955 89 Zazaki diq 12184 31055 399744 6 18903 67 215 31 Persian fa 700361 4479817 27557535 31 869033 5142 59532 179 Catalan ca 628692 1547511 22264282 21 338436 1597 11863 31 Serbian sr 626216 3838890 22263049 18 252892 771 32517 153 Wiktionary Similar to Wikipedia, Wiktionary is also a free platform where volunteers provide lexicographic data. As of November 2019, according to the Wiktionary statistics, there are less than 1,300 lemmata available for Kurdish on Wiktionary! Dialect #Gloss definitions #Entries #Gloss entries #Form definitions Total definitions Northern Kurdish (Kurmanji) 2251 5340 2034 9188 11439 Central Kurdish (Sorani) 339 290 279 11 350 Southern Kurdish 55 46 46 0 55 Zazaki 842 697 691 5 847 I am not particularly happy that there are only 226k articles in Kurdish available on Wikipedia, in comparison to over 4 million in Persian, 1.5 million in Catalan and 3.8 million in Serbian! Conclusion Now that we know about some of the major resources of the Kurdish language, I would like to draw a few conclusions: Kurdish is less-resourced because of lack of electronic resources. Just take a look at the dictionaries. There are many Kurdish dictionaries which are only available in hardcopy while they could be used on the Web, if available electronically. Which one of those many Russian-Kurdish dictionaries have you ever queried online? Kurdish will remain less-resourced, if appropriate actions could not be taken to retro-digitize printed resources contribute to the current platforms such as Wikipedia and Wiktionary raise awareness among Kurdish speakers to use their own language to create content and write on the Web encourage Kurdish writers and scholars to provide their works free and open to the public Kurdish language processing: in a previous post, I have discussed why Kurdish language processing matters. One of the main reasons is actually to create new resources, manipulate the current ones and process them automatically. Last updated on 16 November 2019.</summary></entry><entry><title type="html">Dynamic spreadsheets for data linking annotation</title><link href="http://localhost:4000/posts/dynamic-spreadsheets-for-data-annotation.html" rel="alternate" type="text/html" title="Dynamic spreadsheets for data linking annotation" /><published>2019-07-31T00:00:00+01:00</published><updated>2019-07-31T00:00:00+01:00</updated><id>http://localhost:4000/posts/dynamic-spreadsheets-for-data-annotation</id><content type="html" xml:base="http://localhost:4000/posts/dynamic-spreadsheets-for-data-annotation.html">&lt;p&gt;On the importance of data a lot has been said. We are living in the age of data where we produce constantly data by our presence online. At some point in your career or your studies, you may need to create your own dataset according to your field knowledge for a specific task. Such a dataset, which is technically called a &lt;strong&gt;gold-standard&lt;/strong&gt;, is used as a collection of trustable instances for applying machine learning techniques and training neural networks. &lt;a href=&quot;https://www.mturk.com/&quot; target=&quot;_blank&quot;&gt;Amazon Mechanical Turk&lt;/a&gt; is one of the famous platforms which enables individuals and businesses create and annotate datasets through crowdsourcing.&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Data annotation&lt;/em&gt;, as its name suggests, is the task of labelling data in various forms such as text, audio, image, video etc. In this post, one of the many functionalities of spreadsheets, particularly &lt;strong&gt;dropdown lists&lt;/strong&gt;, for the task of data annotation is explored. I introduce a toy example of creating a dataset for sense linking using dropdown lists in spreadsheets. This example may not exactly fit into your case, but hopefully will give you a brighter idea of how much spreadsheets can be useful for annotating datasets instead of creating a program or a graphical interface.&lt;/p&gt;
 
