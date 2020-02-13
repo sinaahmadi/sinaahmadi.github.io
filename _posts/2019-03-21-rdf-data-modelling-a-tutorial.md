@@ -82,8 +82,8 @@ An easier way for representing RDF data is Turtle. Turtle is a more convenient v
 The following shows our examples in Turtle:
 
 {% highlight plaintext %}
-@prefix dbr: <http://dbpedia.org/resource/>
-@prefix dbo: <http://dbpedia.org/ontology/>
+@prefix dbr: <http://dbpedia.org/resource/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
 
 dbr:France dbo:capital dbr:Paris .
 dbr:Paris dbo:populationTotal "2229621"^^xsd:integer .

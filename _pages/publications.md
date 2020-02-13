@@ -12,10 +12,22 @@ Publications by categories in reversed chronological order.
 
 ### Main research topics
 
+<div align="center" style="background-color:mediumseagreen">
+	<b>2020</b>
+</div>
+
+1. (accepted) **Defying Wikidata: Validation of Terminological Relations in the Web of Data**  
+Patricia Martín-Chozas, <u>Sina Ahmadi</u> and Elena Montiel-Ponsoda  
+*The 12th International Conference on Language Resources and Evaluation (LREC)*   
+
+1. (accepted) **A Multilingual Evaluation Dataset for Monolingual Word Sense Alignment**  
+<u>Sina Ahmadi</u>, John Philip McCrae, Thierry Declerck, Sanni Nimb, Tanja Wissik, Sussi Olsen, Monica Monachini, Bolette S. Pedersen, Fahad Khan, Simon Krek, Veronika Lipp, Tamas Varadi, Carole Tiberius, Ilan Kernerman, Kira Kovalenko, Oksana Dereza and Theodorus Fransen  
+*The 12th International Conference on Language Resources and Evaluation (LREC)*   
+
+
 <div align="center" style="background-color:lightblue">
 	<b>2019</b>
 </div>
-
 
 1. **Creating a Multilingual Terminological Resource using Linked Data: the case of archaeological domain in the Italian language**  
 Speranza Giulia, Carola Carlino and <u>Sina Ahmadi</u>  
@@ -79,6 +91,15 @@ arXiv preprint arXiv:1810.00660
 
 
 ### Kurdish language processing
+
+<div align="center" style="background-color:mediumseagreen">
+	<b>2020</b>
+</div>
+
+1. (under review) **Towards Finite-State Morphology of Kurdish**  
+<u>Sina Ahmadi</u> and Hossein Hassani  
+*ACM Transactions on Asian and Low-Resource Language Information Processing (TALLIP)*
+
 
 <div align="center" style="background-color:lightblue">
 	<b>2019</b>
