@@ -23,7 +23,7 @@ tags:
 
 I still remember that scene in front of my eyes, just like it is happening now. This is what Dyako was told, a classmate who used to sit next to me in our classroom when I was 9 and he was repeatedly beaten by the teacher. **Why**? He could not pronounce a phoneme correctly, because he was forced to speak in a language which was not his. And, sadly, this is still the case of millions of people around our world of the 21st century, particularly the Kurds who are forced to replace their mother tongue, Kurdish, by other languages from the very early stages of formal education.
 
-In this post, I am going to briefly describe how being deprived from having a formal education in mother tongue influences a child's life. Being a polyglot, I have been always wondering how education in my mother tongue might have changed the way I see the world around me.
+In this post, I am going to briefly describe how being deprived of having a formal education in mother tongue influences a child's life. Being a polyglot, I have been always wondering how education in my mother tongue might have changed the way I see the world around me.
 
 ---
 
