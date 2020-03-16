@@ -33,3 +33,7 @@
 - caption: RSS
   href: feed.xml
   icon: entypo/rss.svg
+
+- caption: FOAF
+  href: foaf.rdf
+  icon: entypo/FOAFAnim.svg

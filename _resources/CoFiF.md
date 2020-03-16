@@ -19,7 +19,7 @@ These documents are collected from the 60 largest French companies listed in Fra
 CoFiF can be downloaded at [https://github.com/CoFiF/Corpus](https://github.com/CoFiF/Corpus). The PDF files of the corpus can be found [here](https://drive.google.com/uc?id=1H0r1YJ8Jw1Z1glFe0gXoTDi9o_FwoTAG&export=download). In addition to the PDF files which were collected from enterprises (all rights reserved), we provide the reports in raw text without further pre-processing. We also provide a cleaned dataset `CoFiF_cleaned_all.txt` which was used for training our language model reported in the paper. 
 
 ## Reference
-If you're using CoFiF in your researches, please don't forget to cite [this paper](https://www.aclweb.org/anthology/papers/W/W19/W19-5504/):
+If you're using CoFiF in your research, please don't forget to cite [this paper](https://www.aclweb.org/anthology/papers/W/W19/W19-5504/):
 
 ~~~
 @inproceedings{daudert-ahmadi-2019-cofif,

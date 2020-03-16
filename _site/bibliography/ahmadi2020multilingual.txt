@@ -1,0 +1,8 @@
+@inproceedings{ahmadi2020multilingual,
+	title={{A Multilingual Evaluation Dataset for Monolingual Word Sense Alignment}},
+	author="Ahmadi, Sina and McCrae, John P. and Nimb, Sanni and Khan, Fahad and Monachini, Monica and Pedersen, Bolette S. and Declerck, Thierry and Wissik, Tanja and Bellandi, Andrea and Pisani, Irene and Troelsgård, Thomas and Olsen, Sussi and Krek, Simon and Lipp, Veronika and Váradi, Tamás and Simon, László and Győrffy, András and Tiberius, Carole and Schoonheim, Tanneke and Ben Moshe, Yifat and Rudich, Maya and Abu Ahmad, Raya and Lonke, Dorielle and Kovalenko, Kira and Langemets, Margit and Kallas, Jelena and Dereza, Oksana and Fransen, Theodorus and Cillessen, David and Lindemann, David and Alonso, Mikel and Salgado, Ana and Sancho, José Luis and Ureña-Ruiz, Rafael-J. and Simov, Kiril and Osenova, Petya and Kancheva, Zara and Radev, Ivaylo and Stanković, Ranka and Perdih, Andrej and Gabrovšek, Dejan",
+	booktitle="Proceedings of the 12th Language Resource and Evaluation Conference (LREC 2020)",
+	year={2020},
+	date="2020-05-11",
+	address= "Marseille, France"
+}
