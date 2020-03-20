@@ -1,0 +1,566 @@
+@book{garzoni1787grammatica,
+  title={Grammatica e vocabolario della lingua kurda composti dal p. Maurizio Garzoni de'predicatori ex-missionario apostolico},
+  author={Garzoni, Maurizio},
+  year={1787},
+  publisher={nella Stamperia della Sacra Congregazione di Propaganda Fide}
+}
+
+@book{nodeyy1936,
+  title={Ahmadi dictionary: Arabic-Kurdish},
+  author={Nodeyî, Marif},
+  year={1936},
+  publisher={Jyan Publishing house, Sulaymaniyah}
+}
+
+@book{siabandov1957,
+  title={Armenian-Kurdish Dictionary},
+  author={Siabandov, Samand and Châchân, A.},
+  pages={352},
+  year={1957},
+  publisher={State Press of Armenia (HayPetHrat), Yerevan}
+}
+@book{bakaev1957,
+  title={Kurdish-Russian dictionary},
+  author={Bakaev, Cherkes Khudoevich},
+  pages={618},
+  year={1957},
+  publisher={State Publishing House of Foreign and National Dictionaries, Moscow}
+}
+
+@article{chyet1998kurdish,
+  title={Kurdish Lexicography a Survey and Discussion},
+  author={Chyet, Michael},
+  journal={Iran and the Caucasus},
+  volume={2},
+  number={1},
+  pages={109--118},
+  year={1998},
+  publisher={Brill}
+}
+
+@article{leezenberg2011soviet,
+  title={Soviet Kurdology and Kurdish Orientalism},
+  author={Leezenberg, Michiel and others},
+  journal={2011). The Heritage of Soviet Oriental Studies},
+  pages={86--102},
+  year={2011}
+}
+
+@book{farizov1957,
+  title={Russian-Kurdish dictionary (Kurmanji)},
+  author={Farizov, I.O.},
+  pages={781},
+  year={1957},
+  publisher={State Publishing House of Foreign and National Dictionaries, Moscow}
+}
+
+@book{kurdoyusu1983,
+  title={Kurdish-Russian Dictionary (Sorani)},
+  author={Kurdoev, Kanat Kalashevich and Yusupova, Z.A.},
+  pages={377},
+  year={1983},
+  publisher={Moscow, Publisher "Russian Language"}
+}
+
+@book{keidane1977,
+  title={Educational Russian-Kurdish Dictionary},
+  author={Keidane, KI and Mukriani, Kurdistan and Mitrokhina, V.I.},
+  pages={187},
+  year={1977},
+  publisher={Moscow, Publisher "Russian Language"}
+}
+
+@book{giwmukryani1950,
+  title={Rêber dictionary: Arabic-Kurdish (Sorani)},
+  author={Giw Mukryani},
+  pages={450},
+  year={1950},
+  publisher={Erbil}
+}
+
+@book{giwmukryanimahabad1961,
+  title={Mahabad dictionary: Kurdish-Arabic (Sorani)},
+  author={Giw Mukryani},
+  pages={800},
+  year={1961},
+  publisher={Erbil}
+}
+
+@book{giwmukryanipell1966,
+  title={Pellke-zêrrîne dictionary: Kurdish-Arabic-Persian-French-English (Sorani)},
+  author={Giw Mukryani},
+  pages={240},
+  year={1966},
+  publisher={Erbil}
+}
+
+@book{giwmukryaninobere2005,
+  title={Nobere dictionary: Arabic-Kurdish dictionary for Educational Puropses (Sorani)},
+  author={Giw Mukryani},
+  pages={341},
+  year={2005},
+  publisher={Aras Publishing House, Erbil}
+}
+
+@book{chyet2003kurdish,
+  title={Kurdish-English Dictionary (Kurmanji)},
+  author={Chyet, Michael L and Schwartz, Martin},
+  year={2003},
+  publisher={Yale University Press}
+}
+
+@book{jaba1879dictionnaire,
+  title={Dictionnaire kurde-fran{\c{c}}ais (Kurdish-French dictionary) (Kurmanji)},
+  author={Jaba, Auguste},
+  year={1879},
+  publisher={Commissionaire de l'Acad{\'e}mie Imp{\'e}riale des Sciences}
+}
+
+@book{halkawt2012,
+  title={Dictionnaire kurde-français: Sorani (Kurdish-French dictionary: Sorani)},
+  author={Halkawt Hakem},
+  pages={586},
+  year={2012},
+  publisher={L'Asiathèque, Maison des langues du monde}
+}
+
+@misc{demirhan2007ferhenga,
+  title={Ferhenga Dest{\^\i}--Kurd{\^\i} bi K{\^u}rd{\^\i} (Kurdish-Kurdish pocket dictionary)},
+  author={Demîrhan, Umîd},
+  year={2007},
+  publisher={Sewad}
+}
+
+@book{wahby1966kurdish,
+  title={A Kurdish-English Dictionary},
+  author={Wahby, Taufiq and Edmonds, Cecil John},
+  year={1966},
+  pages={192},
+  publisher={Clarendon Press}
+}
+
+@article{bodrogligeti1967,
+  title={A Kurdish-English dictionary. By Taufiq Wahby and C. J. Edmonds, pp. xii, 179. Oxford, Clarendon Press, 1966.},
+  volume={99},
+  DOI={10.1017/S0035869X0012578X},
+  number={2},
+  journal={Journal of the Royal Asiatic Society of Great Britain \& Ireland},
+  publisher={Cambridge University Press}, author={Bodrogligeti, A.},
+  year={1967},
+  pages={152–155}
+}
+
+@book{nujen1985,
+  title={Ferhenga Kurdî Nûjen: Kurdî-Erebî (Nûjen Kurdish dictionary: Kurdish-Arabic) (Kurmanji)},
+  author={Gewranî, Ali Seydo Ali},
+  pages={670},
+  year={1985},
+  publisher={Amman: A.S.A.},
+  url={https://books.google.ie/books?id=kJncNQAACAAJ}
+}
+
+@book{anter1967ferhenga,
+  title={Ferhenga Kurd{\^\i}-Tirk{\^\i} (Kurdish-Turkish dictionary)},
+  author={Anter, Musa},
+  year={1967},
+  pages={167},
+  publisher={Istanbul: Yeni Matbaa}
+}
+
+@book{blau1965dictionnaire,
+  title={Dictionnaire kurde-fran{\c{c}}ais-anglais (Kurdish-French-English dictionary)},
+  author={Blau, Joyce},
+  volume={9},
+  year={1965},
+  publisher={Centre pour l'{\'e}tude des probl{\`e}mes du monde musulman contemporain}
+}
+
+@article{dnm1966,
+    title={Joyce Blau: Kurdish-French-English dictionary}, 
+    volume={29},
+    DOI={10.1017/S0041977X00073948},
+    number={3},
+    journal={Bulletin of the School of Oriental and African Studies}, 
+    publisher={Cambridge University Press},
+    author={D. N. M.},
+    year={1966},
+    pages={672–673}
+}
+
+@book{blau1975kurde,
+  title={Le Kurde de Amadiya et de Djabal Sindjar: analyse linguistique, textes folkloriques, glossaires},
+  author={Blau, Joyce},
+  year={1975},
+  pages={252},
+  publisher={Librairie C. Klincksieck}
+}
+
+@book{izoli1992ferheng,
+  title={Ferheng: Kurdi-Tirki, Türkçe-Kürtçe (Dictionary: Kurdish-Turkish, Turkish-Kurdish) (Kurmanji)},
+  author={Izoli, Del{\^\i}lo},
+  year={1992},
+  pages={913},
+  publisher={Istanbul: Deng Yayinlari}
+}
+
+@book{zilan1989ferhenga,
+  title={Ferhenga Sw{\^e}d{\^\i}-Kurdi (Kurmanc{\^\i}) (Swedish-Kurdish dictionary) (Kurmanji)},
+  author={Z{\^\i}lan, R.},
+  isbn={9789171130471},
+  lccn={94958005},
+  url={https://books.google.ie/books?id=WHX2AQAACAAJ},
+  year={1989},
+  publisher={SIL, Statens Institut f{\"o}r L{\"a}romedel}
+}
+
+@article{umit3kurtcce,
+  title={K{\"u}rt{\c{c}}e S{\"o}zl{\"u}kler {\"U}zerinde Bir {\c{C}}al{\i}{\c{s}}ma (1655-1990) (A study on the Kurdish dictionaries (1655-1990)) (in Kurdish)},
+  author={{\"U}mit, I{\c{S}}IK},
+  journal={Anemon Mu{\c{s}} Alparslan {\"U}niversitesi Sosyal Bilimler Dergisi},
+  volume={3},
+  number={1},
+  year={2015},
+  pages={155--169}
+}
+
+@book{kahn1974,
+  title={Kurmanji-English, Enlgish-Kurmanji Lexicon},
+  author={Kahn, Margaret},
+  year={1974},
+  note={Unpublished manuscript},
+  publisher={Ann Arbor: The University of Michigan}
+}
+
+@book{izadpanah1978,
+  title={Lak and Lor dictionary},
+  author={Hamid Izadpanah},
+  pages={304},
+  year={1978},
+  publisher={Kurdish {S}cientific {C}ouncil, Baghdad}
+}
+
+@book{kyanikolivand2011,
+  title={Kian dictionary: Laki lexicon (in Persian)},
+  author={Kiani Kolivand, Karim},
+  pages={1300},
+  year={2011},
+  volume={2},
+  publisher={Sifa, Khorramabad}
+}
+
+@book{canosergo1991,
+  title={Ferheng Erebî-Kurdî Zaraveyê Kurdmancî (Arabic-Kurdish dictionary) (Kurmanji)},
+  author={Cano, D and Şêrgo, M.},
+  pages={110},
+  volume={2},
+  year={1991},
+  publisher={Beirut, Lebanon}
+}
+
+@book{rizgar1993kurdish,
+  title={Kurdish-English, English-Kurdish Dictionary (Kurmanji)},
+  author={Rizgar, Baran},
+  year={1993},
+  pages={400},
+  publisher={MF Onen, London}
+}
+
+@book{bedirxan2009ferheng,
+  title={Ferheng: Kurd{\^\i}, Kurd{\^\i} (Kurdish-Kurdish dictionary) (Kurmanji)},
+  author={Bedirxan, Celadet Ali and Keskin, Abdullah},
+  year={2009},
+  pages={328},
+  volume={2},
+  publisher={Avesta}
+}
+
+@book{hejar1991,
+  title={Hanbana Borina: Kurdish-Persian dictionary (Sorani)},
+  author={Sharafkandi, Abdolrahman (Hejar)},
+  pages={1065},
+  volume={2},
+  year={1991},
+  publisher={Soroush, Tehran}
+}
+
+%for educational purposes
+@book{harashan2007,
+  title={Haraşan dictionary: Kurdish-Kurdish (Sorani)},
+  author={Mukryani, Kurdistan},
+  pages={336},
+  year={2007},
+  publisher={Kurdistan region, Ministry of Culture}
+}
+
+@book{boti2006ferhenga,
+  title={Ferhenga Kam{\^e}ran: Kurd{\^\i}-Kurd{\^\i} (Kamêran dictionary: Kurdish-Kurdish) (Kurmanji)},
+  author={Bot{\^\i}, K.S.},
+  lccn={2008323991},
+  url={https://books.google.ie/books?id=AVErAQAAIAAJ},
+  year={2006},
+  pages={780},
+  publisher={Sp{\^\i}r{\^e}z Press \& Publisher}
+}
+
+@book{uok2012,
+  title={University of Kurdistan Dictionary: Persian-Kurdish},
+  author={M. Rohani, Majed},
+  pages={2527},
+  volume={3},
+  year={2012},
+  publisher={University of Kurdistan, Sanandaj Iran}
+}
+
+@book{uok2018,
+  title={University of Kurdistan Dictionary: Kurdish-Kurdish-Persian},
+  author={M. Rohani, Majed},
+  volume={4},
+  year={2018},
+  publisher={University of Kurdistan, Sanandaj Iran}
+}
+
+@book{krmashani1997,
+  title={Kermanshahi Kurdish Dictionary},
+  author={Darvishian, Aliashraf},
+  pages={434},
+  year={1997},
+  publisher={Sahand Publication House}
+}
+
+@book{garusi2012,
+  title={Farhang-e Garus (Garus Dictionary) (Southern Kurdish)},
+  author={Sohrabi, Reza and Sreshabadi, Jaafar},
+  pages={503},
+  year={2012},
+  publisher={University of Kurdistan}
+}
+
+@book{hazhir2008,
+  title={Ferhengî Hejîr: Farsî-Kurdî (Hejîr dictionary: Persian-Kurdish) (Sorani)},
+  author={Abdollahpour, Hazhir},
+  pages={1422},
+  volume={2},
+  year={2008},
+  publisher={Mukryani Publishing House}
+}
+
+@book{bashour2009,
+  title={Ferhengî Başûr (Başûr Dictionary) (Southern Kurdish)},
+  author={Jalilian, Abbas (Ako)},
+  pages={834},
+  year={2009},
+  publisher={Enstîtûy Kelepûrî Kurdî}
+}
+
+@book{asteragasha2003,
+  title={Ferhengî Estêregeşe: Kurdî-Erebî (Estêregeşe dictionary: Kurdish-Arabic) (Sorani)},
+  author={Nizameddin, Fazil},
+  pages={579},
+  year={2003},
+  publisher={Aras, Erbil}
+}
+
+@book{harman2005,
+  title={Ferhengî Kurdîy Herman (Herman Kurdish Dictionary) (Sorani Kurdish)},
+  author={Nanwazade, Ali},
+  volume={2},
+  pages={981},
+  year={2005},
+  publisher={Mukryani Publishing House}
+}
+
+@book{govandzinar2006,
+  title={Govend-Zinar: Ferhengî Farsî-Kurdî (Govend-Zinar Persian-Kurdish Dictionary) (Sorani)},
+  author={Arif, Hama Karim},
+  volume={2},
+  pages={1221},
+  year={2006},
+  publisher={Mukryani Publishing House}
+}
+
+@book{MacKenzie1966,
+  address    = {Copenhagen},
+  author     = {MacKenzie, D.  N.},
+  publisher  = {Munksgaard},
+  title      = {The dialect of Awroman (Hawraman-i Luhon) Grammatical sketch, texts, and vocabulary},
+  year       = {1966},
+  iso_code   = {hac},
+  olac_field = {typology; syntax; general_linguistics},
+  wals_code  = {hwr}
+}
+
+@book{guliferheng2002,
+  title={Ferhenga Gulî: Farsî-Kurdî (Gulî dictionary: Persian-Kurdish) (Kurmanji)},
+  author={Khalidgul, Masoud},
+  pages={400},
+  year={2002},
+  publisher={Sp{\^\i}r{\^e}z Press \& Publisher}
+}
+
+@book{saladinAr1998,
+  title={Saladin's English-Kurdish Dictionary (Kurmanji)},
+  author={Saadalla, Salah},
+  pages={1193},
+  year={1998},
+  publisher={Sweden},
+  note={(Arabic script)}
+}
+
+@book{saladinLa2000,
+  title={Saladin's English-Kurdish Dictionary (Kurmanji)},
+  author={Saadalla, Salah},
+  pages={1477},
+  year={2000},
+  publisher={Avesta},
+  note={(Latin script)}
+}
+
+@book{taghi2008,
+  title={Ferhengî Kurdî-Îngilîsî (Kurdish-English Dictionary) (Sorani)},
+  author={Ebrahimpour, Taghi},
+  pages={1369},
+  year={2008},
+  publisher={Saha Publications, Tehran}
+}
+
+@book{mayy2009,
+  title={Ferhenga Mayî: Kurdî-Erebî (Mayî Dictionary: Kurdish-Arabic) (Kurmanji)},
+  author={Mayi, Taha Mazhar},
+  pages={1051},
+  year={2009},
+  publisher={Sp{\^\i}r{\^e}z Press \& Publisher}
+}
+
+@book{nahid2011,
+  title={Ferhengî Nahîd: Kurdî-Kurdî-Farsî (Nahid dictionary: Kurdish-Kurdish-Persian) (Sorani)},
+  author={Nahid, Mohammad},
+  pages={417},
+  year={2011},
+  publisher={Akadîmyay Kurdî, Erbil}
+}
+
+@book{yad2003,
+  title={Yad dictionary: English-Arabic-Kurdish},
+  author={M. Amin, Prshng},
+  pages={1265},
+  year={2003},
+  publisher={Erbil}
+}
+
+@book{xal1960,
+  title={Ferhengî Xall (Xall dictionary) (Sorani)},
+  author={Xal, Mohammad},
+  pages={571},
+  year={1960},
+  publisher={Aras Publishing House, Erbil}
+}
+
+@book{thackston2006kurmanji,
+  title={Kurmanji Kurdish:-A Reference Grammar with Selected Readings},
+  author={Thackston, Wheeler M.},
+  year={2006},
+  publisher={Harvard University}
+}
+
+@book{thackston2006sorani,
+  title={Sorani Kurdish--A Reference Grammar with Selected Readings},
+  author={Thackston, Wheeler M.},
+  year={2006},
+  publisher={Harvard University}
+}
+
+@book{ulumaskan2016ferheng,
+  title={Ferheng - W{\"o}rterbuch: Kurd{\^\i} - Alman{\^\i}, Kurdisch - Deutsch \& Deutsch - Kurdisch, Alman{\^\i} - Kurd{\^\i} (Kurdish-German, German-Kurdish dictionary) (Kurmanji)},
+  author={Ulumaskan, A.},
+  isbn={9783945326107},
+  url={https://books.google.ie/books?id=LK9YnQAACAAJ},
+  year={2016},
+  pages={286},
+  publisher={Mezopotamien Verlag und Vertrieb GmbH}
+}
+
+@book{ozcan1997zazaca,
+  title={Zazaca-T{\"u}rk{\c{c}}e S{\"o}zl{\"u}k (Zaza-Turkish dictionary)},
+  author={{\"O}zcan, Mesut},
+  year={1997},
+  publisher={Kaynak Yay{\i}nlar{\i}}
+}
+
+@book{turgut2001zazaca,
+  title={Zazaca-t{\"u}rk{\c{c}}e s{\"o}zl{\"u}k (Zaza-Turkish dictionary)},
+  author={Turgut, Harun},
+  year={2001},
+  publisher={W{\^e}jiayi{\c{s}}{\^e} Tiji-Tij Yay{\i}nlar{\i}}
+}
+
+@book{turgut2008turkcce,
+  title={T{\"u}rk{\c{c}}e-Zazaca S{\"o}zl{\"u}k (Turkish-Zaza dictionary)},
+  author={Turgut, Harun},
+  year={2008},
+  publisher={Do Yay{\i}nlar{\i}}
+}
+
+@book{paul1998zazaki,
+  title={Zazaki: Grammatik und Versuch einer Dialektologie (Grammar and dialectology experiment)},
+  author={Paul, Ludwig},
+  year={1998},
+  publisher={Reichert Verlag}
+}
+
+@book{selma2006,
+  title={{English-Kurdish Kurdish-English Dictionary}},
+  author={Selma Abdallah, Khursheed Alam},
+  pages={304},
+  year={2006},
+  publisher={Star Publications (P) Ltd., India}
+}
+
+@book{shawkat2009,
+  title={Kurdish-English Dictionary},
+  author={Shawkat, Mullah Ismail Hassan},
+  pages={1689},
+  year={2019},
+  publisher={Tafseer Office}
+}
+
+@book{nawkhosh2012,
+  title={Kurdish-Arabic-English Dictionary},
+  author={Salam Nawkhosh},
+  pages={244},
+  year={2012},
+  publisher={}
+}
+
+@book{gharib1975,
+  title={Arabic-English-Kurdish Dictionary},
+  author={{Kamal Jalal} Gharib},
+  pages={104},
+  year={1975},
+  publisher={Alajial, Baghdad}
+}
+
+@article{yaseen2018kurdish,
+  title={Kurdish Optical Character Recognition},
+  author={Yaseen, Rasty and Hassani, Hossein},
+  journal={UKH Journal of Science and Engineering},
+  volume={2},
+  number={1},
+  pages={18--27},
+  year={2018}
+}
+
+@book{bedar2010,
+  title={Wişename (Lexicon)},
+  author={{Habiballah (Bedar)}, Jamal},
+  pages={1147},
+  year={2010},
+  publisher={Aras Publishing and Printing House} 
+}
+
+@book{chyet2020ferhenga,
+  title={FERHENGA BIR{\^U}SK{\^I}-Kurmanji-English Dictionary-Volume Two: MZ},
+  author={Chyet, Michael L},
+  volume={2},
+  year={2020},
+  publisher={Transnational Press London}
+}

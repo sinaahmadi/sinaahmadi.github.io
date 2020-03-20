@@ -474,6 +474,38 @@
 
 <p>To find out more, read our <a href="http://localhost:4000/docs/articles/ahmadi2019kurdishlex.pdf" target="_blank">paper</a>. Our data is available at <a href="https://github.com/KurdishBLARK/KurdishLex/" target="_blank">Kurdish lexicographical resources</a>.</p>
 
+<h2 id="output">Output</h2>
+
+<p>All the datasets are available in the Turtle format. For example, the following is the corresponding RDF data of the entry “bend (noun)” in Kurmanji Kurdish:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>:lexicon a lime:Lexicon;
+    lime:language &lt;www.lexvo.org/page/iso639-3/kmr&gt; ;
+    lime:entry :lex_bend .
+
+:lex_bend a ontolex:LexicalEntry, ontolex:Word ;
+    ontolex:canonicalForm :form_bend ;
+    rdfs:label "bend"@kmr-latn .
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lexinfo:gender lexinfo:feminine ;
+    ontolex:sense :bend_n_sense ;
+:form_bend a ontolex:Form ;
+    dct:language &lt;www.lexvo.org/page/iso639-3/kmr&gt; ;
+    ontolex:writtenRep "bend"@kmr-latn ;
+    lexinfo:number lexinfo:singular ;
+:bend_n_sense a ontolex:LexicalSense ;
+    lexicog:usageExample :bend_n_sense_ex .
+:en_bond a ontolex:LexicalEntry ;
+    dct:language &lt;http://lexvo.org/id/iso639-1/en&gt; ;
+    rdfs:label "bond"@en ;
+    ontolex:sense :en_bond_sense .
+:trans a vartrans:Translation ;
+   vartrans:source :bend_n_sense ;
+   vartrans:target :en_bond_sense .
+:bend_n_sense_ex a lexicog:UsageExample;
+    rdf:value "divê em êdî li benda sibehê ranewestin."@kmr-latn .
+    rdf:value "we shouldn't stand around waiting for tomorrow."@en .
+</code></pre></div></div>
+
 <h2 id="reference">Reference</h2>
 <p>If you’re using these resources in your researches, please don’t forget to cite our paper]:</p>
 

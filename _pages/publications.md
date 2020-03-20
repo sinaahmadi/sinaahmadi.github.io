@@ -16,13 +16,21 @@ Publications by categories in reversed chronological order.
 	<b>2020</b>
 </div>
 
+1. (accepted) **Towards Automatic Linking of Lexicographic Data: the case of a historical and a modern Danish dictionary**  
+<u>Sina Ahmadi</u> and Sanni Nimb and Thomas Troelsgård and John P. McCrae and Nicolai H. Sørensen  
+*The XIX EURALEX International Congress*  
+[[bib]](bibliography/ahmadi2020danishlinking.txt){:target="_blank"} 
+
+
 1. (accepted) **Defying Wikidata: Validation of Terminological Relations in the Web of Data**  
 Patricia Martín-Chozas, <u>Sina Ahmadi</u> and Elena Montiel-Ponsoda  
-*The 12th International Conference on Language Resources and Evaluation (LREC)*   
+*The 12th International Conference on Language Resources and Evaluation (LREC)*  
+[[bib]](bibliography/chozas2020defying.txt){:target="_blank"} 
 
 1. (accepted) **A Multilingual Evaluation Dataset for Monolingual Word Sense Alignment**  
 <u>Sina Ahmadi</u>, John Philip McCrae, Thierry Declerck, Sanni Nimb, Tanja Wissik, Sussi Olsen, Monica Monachini, Bolette S. Pedersen, Fahad Khan, Simon Krek, Veronika Lipp, Tamas Varadi, Carole Tiberius, Ilan Kernerman, Kira Kovalenko, Oksana Dereza and Theodorus Fransen  
 *The 12th International Conference on Language Resources and Evaluation (LREC)*   
+[[bib]](bibliography/ahmadi2020multilingual.txt){:target="_blank"} 
 
 
 <div align="center" style="background-color:lightblue">
@@ -95,6 +103,13 @@ arXiv preprint arXiv:1810.00660
 <div align="center" style="background-color:mediumseagreen">
 	<b>2020</b>
 </div>
+
+
+
+1. (accepted) **A Corpus of the Sorani Kurdish Folkloric Lyrics**  
+<u>Sina Ahmadi</u> and Hossein Hassani  
+*In Proceedings of the 1st Joint Spoken Language Technologies for Under-resourced languages ({SLTU}) and Collaboration and Computing for Under-Resourced Languages (CCURL) Workshop at the 12th International Conference on Language Resources and Evaluation (LREC)*   
+[[bib]](bibliography/ahmadi2020folklyrics.txt){:target="_blank"}
 
 1. (under review) **Towards Finite-State Morphology of Kurdish**  
 <u>Sina Ahmadi</u> and Hossein Hassani  

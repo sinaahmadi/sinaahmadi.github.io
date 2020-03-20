@@ -1,6 +1,6 @@
 @inproceedings{chozas2020defying,
   title={{Defying Wikidata: Validation of Terminological Relations in the Web of Data}},
-  author={Martín-Chozas, (accepted) Patricia and Ahmadi, Sina and Montiel-Ponsoda, Elena},
+  author={Martín-Chozas, Patricia and Ahmadi, Sina and Montiel-Ponsoda, Elena},
   booktitle={{The 12th International Conference on Language Resources and Evaluation (LREC)}},
   date="2020-05-11",
   year={2020},
