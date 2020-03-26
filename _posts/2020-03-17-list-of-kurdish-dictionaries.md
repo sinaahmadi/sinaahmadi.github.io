@@ -52,10 +52,28 @@ Please note that all the tables are sortable (by clicking on the name of the col
     </tr>
   </thead>
   <tbody>
+  	<tr>
+      <th scope="row">1</th>
+      <td><b>Dicts.info</b></td>
+      <td><a href="https://www.dicts.info/dictlist1.php?l=kurdish" target="_blank">link</a></td>
+      <td>Bilingual</td>
+      <td>Sorani/Kurmanji</td>
+      <td>70 languages</td>
+      <td>Persian-Arabic/Latin</td>
+    </tr>
+     <tr>
+      <th scope="row">2</th>
+      <td><b>Wiktionary</b></td>
+      <td><a href="https://www.wiktionary.org/" target="_blank">link</a></td>
+      <td>Multilingual</td>
+      <td>All dialects</td>
+      <td>All languages</td>
+      <td>Persian-Arabic/Latin</td>
+    </tr>
     <tr>
     	<!-- A Kurdish-Persian dictionary which has incorporated all Kurdish dialects in its compilation. In addition to the Persian translations, this resource provides synonyms and senses in Kurdish, including all dialects. Therefore, it sets a foundation for the unification of the dialects. Many dictionaries, which have been compiled following Henbane Borîne, have referred to it as one of their essential resources -->
-      <th scope="row">1</th>
-      <td><b>Henbana</b> Borîne (via Vejinbooks)</td>
+      <th scope="row">3</th>
+      <td><b>Henbana Borîne</b> (via Vejinbooks)</td>
       <td><a href="https://lex.vejinbooks.com/" target="_blank">link</a></td>
       <td>Bilingual/Monolingual</td>
       <td>Sorani</td>
@@ -63,7 +81,7 @@ Please note that all the tables are sortable (by clicking on the name of the col
       <td>Persian-Arabic</td>
     </tr>
     <tr>
-      <th scope="row">2</th>
+      <th scope="row">4</th>
       <td><b>Xal</b> (via Vejinbooks)</td>
       <td><a href="https://lex.vejinbooks.com/" target="_blank">link</a></td>
       <td>Monolingual</td>
@@ -72,7 +90,7 @@ Please note that all the tables are sortable (by clicking on the name of the col
       <td>Persian-Arabic</td>
     </tr>
     <tr>
-      <th scope="row">3</th>
+      <th scope="row">5</th>
       <td><b>Wişename</b> (via Vejinbooks)</td>
       <td><a href="https://lex.vejinbooks.com/" target="_blank">link</a></td>
       <td>Cross-dialectal</td>
@@ -81,7 +99,7 @@ Please note that all the tables are sortable (by clicking on the name of the col
       <td>Persian-Arabic</td>
     </tr>
 	<tr>
-      <th scope="row">4</th>
+      <th scope="row">6</th>
       <td><b>Endêk</b> (via Vejinbooks)</td>
       <td><a href="https://lex.vejinbooks.com/" target="_blank">link</a></td>
       <td>Bilingual</td>
@@ -90,7 +108,7 @@ Please note that all the tables are sortable (by clicking on the name of the col
       <td>Persian-Arabic</td>
     </tr>
     <tr>
-      <th scope="row">5</th>
+      <th scope="row">7</th>
       <td><b>Kanî</b> (via Vejinbooks)</td>
       <td><a href="https://lex.vejinbooks.com/" target="_blank">link</a></td>
       <td>Cross-dialectal</td>
@@ -100,7 +118,7 @@ Please note that all the tables are sortable (by clicking on the name of the col
     </tr>
     <tr>
     	<!-- A collaboratively-curated dictionary containing 28k entries (March 2020) -->
-      <th scope="row">6</th>
+      <th scope="row">8</th>
       <td><b>Dictio</b></td>
       <td><a href="https://dictio.kurditgroup.org/" target="_blank">link</a></td>
       <td>Bilingual</td>
@@ -109,7 +127,7 @@ Please note that all the tables are sortable (by clicking on the name of the col
       <td>Persian-Arabic</td>
     </tr>
     <tr>
-      <th scope="row">7</th>
+      <th scope="row">9</th>
       <td><b>Enahita</b></td>
       <td><a href="http://ferheng.info/" target="_blank">link</a></td>
       <td>Monolingual/Bilingual</td>
@@ -118,7 +136,7 @@ Please note that all the tables are sortable (by clicking on the name of the col
       <td>Persian-Arabic/Latin</td>
     </tr>
     <tr>
-      <th scope="row">8</th>
+      <th scope="row">10</th>
       <td><b>Ferheng.org (=FreeDict)</b></td>
       <td><a href="http://ferheng.org/" target="_blank">link</a></td>
       <td>Multilingual</td>
@@ -127,7 +145,7 @@ Please note that all the tables are sortable (by clicking on the name of the col
       <td>Latin</td>
     </tr>
     <tr>
-      <th scope="row">9</th>
+      <th scope="row">11</th>
       <td><b>Kawa</b></td>
       <td><a href="http://www.farhangumejuikawa.com/kawe/index.php" target="_blank">link</a></td>
       <td>Bilingual</td>
@@ -136,7 +154,7 @@ Please note that all the tables are sortable (by clicking on the name of the col
       <td>Persian-Arabic</td>
     </tr>
     <tr>
-      <th scope="row">10</th>
+      <th scope="row">12</th>
       <td><b>The Kurdish dictionary</b></td>
       <td><a href="https://www.thekurdishdictionary.com/" target="_blank">link</a></td>
       <td>Multilingual</td>
@@ -145,7 +163,7 @@ Please note that all the tables are sortable (by clicking on the name of the col
       <td>Persian-Arabic/Latin</td>
     </tr>
     <tr>
-      <th scope="row">11</th>
+      <th scope="row">13</th>
       <td><b>Hakkarim.net</b></td>
       <td><a href="https://www.hakkarim.net" target="_blank">link</a></td>
       <td>Bilingual</td>
@@ -154,7 +172,7 @@ Please note that all the tables are sortable (by clicking on the name of the col
       <td>Latin</td>
     </tr>
     <tr>
-      <th scope="row">12</th>
+      <th scope="row">14</th>
       <td><b>Ferheng.com</b> (Scientific Terms)</td>
       <td><a href="http://www.ferhang.com" target="_blank">link</a></td>
       <td>Multilingual</td>
