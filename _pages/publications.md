@@ -16,6 +16,11 @@ Publications by categories in reversed chronological order.
 	<b>2020</b>
 </div>
 
+1. (accepted) **Challenges of Word Sense Alignment: Portuguese Language Resources**  
+Ana Salgado, <u>Sina Ahmadi</u> , Alberto Simões, John McCrae, Rute Costa  
+*the 7th Workshop on Linked Data in Linguistics: Building tools and infrastructure at the 12th International Conference on Language Resources and Evaluation (LREC)*
+
+
 1. (accepted) **Towards Automatic Linking of Lexicographic Data: the case of a historical and a modern Danish dictionary**  
 <u>Sina Ahmadi</u> and Sanni Nimb and Thomas Troelsgård and John P. McCrae and Nicolai H. Sørensen  
 *The XIX EURALEX International Congress*  

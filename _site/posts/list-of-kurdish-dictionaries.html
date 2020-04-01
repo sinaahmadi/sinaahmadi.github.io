@@ -257,6 +257,11 @@
     $('#printeddicts').DataTable();
 	} );
 	</script>
+	<script type="text/javascript">
+	$(document).ready(function() {
+    $('#etymologicaldics').DataTable();
+	} );
+	</script>
 <body>
 
 <p>
@@ -423,8 +428,16 @@ Please note that all the tables are sortable (by clicking on the name of the col
 
 <!-- A fantasic dictionary portal giving access to five dictionaries (as of March 2020), namely Hanbana Borina, Xal, Wişename, Kanî and Endêk -->
 
-<h2>List of printed dictionaries in Kurdish</h2>
 
+
+
+
+<section>
+<br />
+<hr />
+
+<h2>List of printed dictionaries in Kurdish</h2>
+<p>
 The following table contains all the printed dictionaries dealing with the Kurdish language. The following information are provided for each resource:
 
 <ul>
@@ -439,9 +452,10 @@ The following table contains all the printed dictionaries dealing with the Kurdi
 </ul>
 
 More details about the resources can be found in the <a href="/bibliography/KurdishLexicography.txt" target="_blank">bibliography file</a> where authors' name are used as the index of each bibliographic entry. And finally, in cases of uncertainty, ? is used.
+<br />
+</p>
 
 
-<section>
 <table id="printeddicts" class="table table-striped table-bordered" style="width:100%">
   <thead>
     <tr>
@@ -1143,7 +1157,75 @@ More details about the resources can be found in the <a href="/bibliography/Kurd
 </table>
 </section>
 
+
+<section>
+
+<br />
+<hr />
+<h2>List of Kurdish etymological dictionaries</h2>
+
+<table id="etymologicaldics" class="table table-striped table-bordered" style="width:100%">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Author</th>
+      <th scope="col">Name</th>
+      <th scope="col">Link</th>
+      <th scope="col">Year</th>
+      <th scope="col"># Entries</th>
+      <th scope="col">Resource language</th>
+      <th scope="col">Script</th>
+    </tr>
+  </thead>
+  <tbody>
+	<tr>
+		<td>1</td>
+		<td>Dr. Abdullah Ibrahimsadeh</td>
+		<td>Raman Dictionary of Kurdish etymology</td>
+		<td><a href="http://emegraman.blogspot.com/2014/02/2014-02-02-rawej-dr-abdullah.html" target="_blank">link</a> (<a href="https://drive.google.com/file/d/0BxYxwvek1h91TFFQVDZMTkZtb0t1Uk1kY0JiZlZWaUtGUV9z/edit" target="_blank">Vol. 1</a>, <a href="https://drive.google.com/file/d/0BxYxwvek1h91Mk9XZlNVWUlzMGs/edit" target="_blank">Vol. 2</a>)</td>
+		<td>2014</td>
+		<td>~1200 pages</td>
+		<td>Sorani Kurdish</td>
+		<td>Persian-Arabic/Latin</td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>Ali Nanvazadeh</td>
+		<td>The Kurdish etymological dictionary</td>
+		<td>-</td>
+		<td>2017-</td>
+		<td>-</td>
+		<td>Sorani Kurdish</td>
+		<td>Persian-Arabic/Latin</td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>Ali Husein Kerim</td>
+		<td>The Kurdish etymological dictionary (comparative)</td>
+		<td><a href="http://dirokakurdistan.com/2018/09/02/kurdish_etimilogy/" target="_blank">link</a> (<a href="http://dirokakurdistan.com/tr/wp-content/uploads/2019/05/K%C3%BCrt%C3%A7enin-Etimolojik-S%C3%B6zl%C3%BC%C4%9F%C3%BC-1.pdf" target="_blank">sample</a>)</td>
+		<td>2019</td>
+		<td>~640 pages</td>
+		<td>Turkish</td>
+		<td>Turkish</td>
+	</tr>
+	<tr>
+		<td>4</td>
+		<td>R. L. Tsabolov</td>
+		<td>Etymological Dictionary of Kurdish</td>
+		<td><a href="https://www.jstor.org/stable/4030725" target="_blank">link</a></td>
+		<td>689 pages</td>
+		<td>2001</td>
+		<td>Russian</td>
+		<td>Cyrillic</td>
+	</tr>
+</tbody>
+</table>
+</section>
+
+<hr />
+
 <p>
+	<br />
 	If you are using these data in your research, please don't forget to cite the paper:
 
 </p>

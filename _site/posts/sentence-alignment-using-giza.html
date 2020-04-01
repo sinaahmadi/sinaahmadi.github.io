@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>
+        
+            Sentence alignment using GIZA++ &middot; Sina Ahmadi's Personal Page
+        
+    </title>
+
+    <script src="/theme/js/jquery-3.2.1.min.js"></script>
+    <script src="/theme/js/popper.min.js"></script>
+    <script src="/theme/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="/theme/css/bootstrap.css">
+    <link rel="stylesheet" href="/theme/css/site.css">
+    <link rel="stylesheet" href="/theme/css/syntax.css">
+    <link rel="meta" type="application/rdf+xml" title="FOAF" href="foaf.rdf" /> 
+
+</head>
+
+
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top justify-content-between">
+    <a class="navbar-brand font-weight-bold" href="/index.html">Sina Ahmadi</a>
+    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarContent" >
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarContent">
+        <ul class="navbar-nav ml-auto">
+        
+            <li class="nav-item">
+                <a href='/index.html'
+                   class="nav-link">
+                    Home
+                </a>
+            </li>
+        
+            <li class="nav-item">
+                <a href='/about.html'
+                   class="nav-link">
+                    About
+                </a>
+            </li>
+        
+            <li class="nav-item">
+                <a href='/publications.html'
+                   class="nav-link">
+                    Publications
+                </a>
+            </li>
+        
+            <li class="nav-item">
+                <a href='/teaching.html'
+                   class="nav-link">
+                    Teaching
+                </a>
+            </li>
+        
+            <li class="nav-item">
+                <a href='/list/posts.html'
+                   class="nav-link">
+                    Posts
+                </a>
+            </li>
+        
+            <li class="nav-item">
+                <a href='/list/resources.html'
+                   class="nav-link">
+                    Resources
+                </a>
+            </li>
+        
+        </ul>
+    </div>
+</nav>
+
+
+
+
+
+<div class="container site-container" id="top">
+    <div class="row">
+        <div class="d-none d-lg-block col-lg-4 col-xl-4 side">
+            
+
+
+
+
+
+
+
+
+    <div class="sticky-top space-before">
+    <div class="card bg-light mb-3 space-before">
+        <div class="card-body">
+            <div class="card-title">
+                <h5>On This Page</h5>
+                <h6>Apr 1, 2020</h6>
+            </div>
+              <ul class="nav flex-column nav-pills header-list">
+            </ul>
+            <hr>
+            <div class="d-flex flex-wrap align-items-center">
+                <span class="icon grey mr-2 mb-2">
+                    <?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg version="1.1" id="Price_tag" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve">
+<g>
+	<path d="M19.388,0.405c-0.111-0.314-0.454-0.48-0.769-0.371c-0.315,0.109-0.481,0.455-0.372,0.77
+		c0.929,2.67-0.915,4.664-2.321,5.732l-0.568-0.814c-0.191-0.273-0.618-0.5-0.95-0.504L11.22,5.232
+		c-0.332-0.006-0.825,0.146-1.097,0.338l-9.394,6.587c-0.455,0.32-0.565,0.947-0.247,1.404l4.269,6.108
+		c0.32,0.455,0.831,0.4,1.287,0.082l9.394-6.588c0.27-0.191,0.582-0.603,0.692-0.918l0.998-3.145
+		c0.11-0.314,0.043-0.793-0.148-1.066l-0.346-0.496C18.516,6.091,20.476,3.534,19.388,0.405z M15.017,9.763
+		c-0.727,0.51-1.731,0.332-2.24-0.396c-0.511-0.73-0.333-1.734,0.395-2.246C13.75,6.716,14.5,6.745,15.04,7.138
+		c-0.272,0.164-0.459,0.26-0.494,0.275c-0.301,0.143-0.43,0.504-0.288,0.805c0.104,0.219,0.321,0.348,0.547,0.348
+		c0.086,0,0.174-0.02,0.257-0.059c0.194-0.092,0.402-0.201,0.619-0.33C15.778,8.771,15.542,9.394,15.017,9.763z"/>
+</g>
+</svg>
+
+                </span>
+                
+                    <a href="/list/posts.html#tutorial"
+                       class="bg-white border rounded p-1 mr-2 mb-2 d-inline-block">
+                        tutorial
+                    </a>
+                
+            </div>
+            <hr>
+            <div class="d-flex align-items-center mt-2">
+                <span class="icon grey mr-1">
+                    <?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg version="1.1" id="Arrow_left" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve">
+<path d="M2.5,10L9,3.5V7h8v6H9v3.5L2.5,10z"/>
+</svg>
+
+                </span>
+                <a href="/list/posts.html">Back to all posts</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+        </div>
+        <div class="col-md-12 col-lg-8 col-xl-8 pb-4 content">
+            <h1 class="border border-top-0 border-right-0 border-left-0 mb-3 pb-2">
+    Sentence alignment using GIZA++
+</h1>
+
+<div class="d-md-block d-lg-none">
+    <div class="sticky-top space-before">
+    <div class="card bg-light mb-3 space-before">
+        <div class="card-body">
+            <div class="card-title">
+                <h5>On This Page</h5>
+                <h6>Apr 1, 2020</h6>
+            </div>
+              <ul class="nav flex-column nav-pills header-list">
+            </ul>
+            <hr>
+            <div class="d-flex flex-wrap align-items-center">
+                <span class="icon grey mr-2 mb-2">
+                    <?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg version="1.1" id="Price_tag" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve">
+<g>
+	<path d="M19.388,0.405c-0.111-0.314-0.454-0.48-0.769-0.371c-0.315,0.109-0.481,0.455-0.372,0.77
+		c0.929,2.67-0.915,4.664-2.321,5.732l-0.568-0.814c-0.191-0.273-0.618-0.5-0.95-0.504L11.22,5.232
+		c-0.332-0.006-0.825,0.146-1.097,0.338l-9.394,6.587c-0.455,0.32-0.565,0.947-0.247,1.404l4.269,6.108
+		c0.32,0.455,0.831,0.4,1.287,0.082l9.394-6.588c0.27-0.191,0.582-0.603,0.692-0.918l0.998-3.145
+		c0.11-0.314,0.043-0.793-0.148-1.066l-0.346-0.496C18.516,6.091,20.476,3.534,19.388,0.405z M15.017,9.763
+		c-0.727,0.51-1.731,0.332-2.24-0.396c-0.511-0.73-0.333-1.734,0.395-2.246C13.75,6.716,14.5,6.745,15.04,7.138
+		c-0.272,0.164-0.459,0.26-0.494,0.275c-0.301,0.143-0.43,0.504-0.288,0.805c0.104,0.219,0.321,0.348,0.547,0.348
+		c0.086,0,0.174-0.02,0.257-0.059c0.194-0.092,0.402-0.201,0.619-0.33C15.778,8.771,15.542,9.394,15.017,9.763z"/>
+</g>
+</svg>
+
+                </span>
+                
+                    <a href="/list/posts.html#tutorial"
+                       class="bg-white border rounded p-1 mr-2 mb-2 d-inline-block">
+                        tutorial
+                    </a>
+                
+            </div>
+            <hr>
+            <div class="d-flex align-items-center mt-2">
+                <span class="icon grey mr-1">
+                    <?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg version="1.1" id="Arrow_left" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve">
+<path d="M2.5,10L9,3.5V7h8v6H9v3.5L2.5,10z"/>
+</svg>
+
+                </span>
+                <a href="/list/posts.html">Back to all posts</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+
+<p>Recently, I was working on a task for which I needed to align sentences in two languages in a <a href="https://en.wikipedia.org/wiki/Parallel_text" target="_blank">parallel corpus</a>. For this purpose, I wanted to use GIZA++, a <a href="https://en.wikipedia.org/wiki/Statistical_machine_translation" target="_blank">statistical machine translation</a> toolkit that is used to train <a href="https://en.wikipedia.org/wiki/IBM_alignment_models" target="_blank">IBM Models 1-5</a> and an HMM word alignment model. The toolkit is a bit outdated and does not seem to be further developped. Therefore, it was a bit challenging to find out how to install and use it.</p>
+
+<p>In this post, I am going to go through each step of installing GIZA++ with an alignment example. I have tested the following on my macOS (Catalina).</p>
+
+<hr />
+
+<h2 id="1--install-giza">1- Install GIZA++</h2>
+
+<p>There are various version of GIZA++ available on the web, including that on the <a href="http://www.statmt.org/moses/giza/GIZA++.html" target="_blank">official website</a> and another one <a href="https://github.com/moses-smt/giza-pp" target="_blank">on Github</a>. I found the latter less problematic to install on modern machines.</p>
+
+<p>Download the zipped repository at <a href="https://github.com/moses-smt/giza-pp" target="_blank">https://github.com/moses-smt/giza-pp</a> and unzip it locally or, clone it as follows:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ git clone git@github.com:moses-smt/giza-pp.git
+</code></pre></div></div>
+
+<p>As GIZA++ was initially written for Linux, we need to apply a few modifications to use it on a case-insensitive file system like macOS.</p>
+
+<p>Navigate to the <code class="language-plaintext highlighter-rouge">giza-pp/</code> and then <code class="language-plaintext highlighter-rouge">GIZA++-v2</code> directory and edit lines 321-322 of the <code class="language-plaintext highlighter-rouge">model3.cpp</code> file which contains the following:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>      alignfile = Prefix + ".A3." + number ;
+      test_alignfile = Prefix + ".tst.A3." + number ;
+</code></pre></div></div>
+
+<p>to this:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>      alignfile = Prefix + ".AA3." + number ;
+      test_alignfile = Prefix + ".tst.AA3." + number ;
+</code></pre></div></div>
+
+<p>You can do it by simply opening the file in <code class="language-plaintext highlighter-rouge">Vim</code> and modify it as follows:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cd giza-pp/GIZA++-v2
+$ vim +321 model3.cpp
+</code></pre></div></div>
+
+<p>These solutions were found thanks to <a href="http://catherinegasnier.blogspot.com/2014/04/install-giza-107-on-mac-osx-1092.html" target="_blank">this</a> and <a href="http://wiki.apertium.org/wiki/Using_GIZA%2B%2B" target="_blank">this</a> websites.</p>
+
+<p>Now, in the same <code class="language-plaintext highlighter-rouge">giza-pp/GIZA++-v2</code> directory, edit line 9 of the GIZA++ <code class="language-plaintext highlighter-rouge">Makefile</code>. That line contains the following:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>CFLAGS_OPT = $(CFLAGS) -O3 -funroll-loops -DNDEBUG -DWORDINDEX_WITH_4_BYTE -DBINARY_SEARCH_FOR_TTABLE -DWORDINDEX_WITH_4_BYTE
+</code></pre></div></div>
+
+<p>and it should be changed to this new one:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>CFLAGS_OPT = $(CFLAGS) -O3 -funroll-loops -DNDEBUG -DWORDINDEX_WITH_4_BYTE
+</code></pre></div></div>
+
+<p>And one last modification is with regard to references to <code class="language-plaintext highlighter-rouge">tr1</code> which are not supported by macOS. Running the following lines will fix that problem too (make sure you are in the <code class="language-plaintext highlighter-rouge">giza-pp</code> directory):</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cd giza-pp
+perl -pi -w -e 's/&lt;tr1\//&lt;/g;' GIZA++-v2/* mkcls-v2/*
+perl -pi -w -e 's/using namespace std::tr1;//g;' GIZA++-v2/* mkcls-v2/*
+perl -pi -w -e 's/std::tr1:://g;' GIZA++-v2/* mkcls-v2/*
+sed '36d' mkcls-v2/mystl.h &gt; mkcls-v2/mystl.h.tmp
+sed '50d' mkcls-v2/mystl.h.tmp &gt; mkcls-v2/mystl.h
+rm mkcls-v2/mystl.h.tmp
+make
+</code></pre></div></div>
+
+<p>The final line, <code class="language-plaintext highlighter-rouge">make</code>, will take a while and make your files. Now, we are OK with GIZA++.</p>
+
+<h2 id="2--prepare-your-data">2- Prepare your data</h2>
+
+<p>For this tutorial, I would like to align the English and Irish versions of the <a href="https://en.wikipedia.org/wiki/Constitution_of_Ireland" target="_blank">Constitution of Ireland</a>. Download the two files and put them in a new directory, let’s say <code class="language-plaintext highlighter-rouge">giza_example/</code> in the same directory of <code class="language-plaintext highlighter-rouge">giza-pp</code>:</p>
+
+<ul>
+  <li><a href="https://raw.githubusercontent.com/sinaahmadi/Advanced-Natural-Language-Processing-Course/master/Constitution_of_Ireland.tok.en" target="_blank">Constitution_of_Ireland.en</a></li>
+  <li><a href="https://raw.githubusercontent.com/sinaahmadi/Advanced-Natural-Language-Processing-Course/master/Constitution_of_Ireland.tok.ga" target="_blank">Constitution_of_Ireland.ga</a></li>
+</ul>
+
+<p>These two files are already tokenized with spaces. This can be done by any tool or library of your choice, such as <a href="https://github.com/moses-smt/mosesdecoder/blob/master/scripts/tokenizer/tokenizer.perl" target="_blank">Moses</a> or <a href="https://www.nltk.org/api/nltk.tokenize.html" target="_blank">NLTK</a>.</p>
+
+<p>Make sure that your data are parallel, that is the same line in each file refers to the same thing in different languages.</p>
+
+<h2 id="3--align-the-words">3- Align the words</h2>
+
+<p>Following the two previous steps, you should now be ready to align words in your parallel data. To do so, first, we should create a few files required for GIZA++ to find the most probable alignments.</p>
+
+<p>Assuming that your working directory looks like this (the parallel data are in <code class="language-plaintext highlighter-rouge">giza_example</code>):</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>.
+├── GIZA++-v2
+├── giza_example
+└── mkcls-v2
+</code></pre></div></div>
+
+<p>Navigate to the <code class="language-plaintext highlighter-rouge">GIZA++-v2</code> directory and run the following which will generate the vocabulary (<code class="language-plaintext highlighter-rouge">.vcb</code>) and sentences files (`.snt):</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>./plain2snt.out ../giza_example/Constitution_of_Ireland.tok.en ../giza_example/Constitution_of_Ireland.tok.ga 
+</code></pre></div></div>
+
+<p>Now, your <code class="language-plaintext highlighter-rouge">giza_example</code> directory contains the following files:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Constitution_of_Ireland.tok.ga.vcb
+Constitution_of_Ireland.tok.ga_Constitution_of_Ireland.tok.en.snt
+Constitution_of_Ireland.tok.ga
+Constitution_of_Ireland.tok.en.vcb
+Constitution_of_Ireland.tok.en_Constitution_of_Ireland.tok.ga.snt
+Constitution_of_Ireland.tok.en
+Constitution_of_Ireland.ga
+Constitution_of_Ireland.en
+</code></pre></div></div>
+
+<p>The next step is to extract the co-occurrences by running the following:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>./snt2cooc.out ../giza_example/Constitution_of_Ireland.tok.en.vcb ../giza_example/Constitution_of_Ireland.tok.ga.vcb ../giza_example/Constitution_of_Ireland.tok.ga_Constitution_of_Ireland.tok.en.snt &gt; ../giza_example/corp.cooc
+</code></pre></div></div>
+
+<p>Although it doesn’t matter which <code class="language-plaintext highlighter-rouge">.snt</code> file you are providing, you should make sure that you will provide <strong>the same thing</strong> in the next step as it’s going to be your source resource.</p>
+
+<p>And finally, in the same directory of <code class="language-plaintext highlighter-rouge">GIZA++-v2</code>, run GIZA++ as follows:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>./GIZA++ -S ../giza_example/Constitution_of_Ireland.tok.ga.vcb -T ../giza_example/Constitution_of_Ireland.tok.en.vcb -C ../giza_example/Constitution_of_Ireland.tok.ga_Constitution_of_Ireland.tok.en.snt -CoocurrenceFile ../giza_example/corp.cooc -outputpath ../giza_example/
+</code></pre></div></div>
+
+<p>All these steps should provide you with many files including <code class="language-plaintext highlighter-rouge">/giza_example/2020-04-01.030523.sina.AA3.final</code> and <code class="language-plaintext highlighter-rouge">/giza_example/2020-04-01.030523.sina.actual.ti.final</code> (ignore the file prefixes):</p>
+
+<ul>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">2020-04-01.030523.sina.AA3.final</code>: contains sentence pairs and word alignments from the source language (Irish) into the target language (English) using Viterbi Alignment, which is the most probable alignment (the one that maximizes the alignment probability). One particular sentence pair of this file looks like the following:</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># Sentence pair (43) source length 12 target length 17 alignment score : 6.81325e-23
+the name of the state is éire , or , in the english language , ireland . 
+NULL ({ 3 8 12 }) éire ({ 1 }) is ({ }) ainm ({ 2 }) don ({ 4 }) stát ({ 5 }) nó ({ 9 }) , ({ 10 }) sa ({ 11 }) sacs-bhéarla ({ 13 14 }) , ({ 15 }) ireland ({ 6 7 16 }) . ({ 17 }) 
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<p>The first line shows the length (number of words) of the source (Irish) and target (English) sentences, along with the Viterbi alignment score.</p>
+
+<p>The second line is the target sentence, and the third line is the source sentence annotated with alignment information. Each source word is annotated with the set of indices of target words that are aligned to that source word. Note that in IBM Models assume that one target word is aligned at most one source word. The first <code class="language-plaintext highlighter-rouge">NULL ({ 3 8 12 })</code> means that the 3rd, 8th and 12th target words, <code class="language-plaintext highlighter-rouge">of</code>, <code class="language-plaintext highlighter-rouge">,</code> and <code class="language-plaintext highlighter-rouge">the</code>, are not aligned to any words, while <code class="language-plaintext highlighter-rouge">stát ({ 5 })</code> is aligned with <code class="language-plaintext highlighter-rouge">state</code>.</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">2020-04-01.030523.sina.actual.ti.final</code>: This is the final inverse T-tables (lexical translation probability) trained by the model. Lexical translation probability <code class="language-plaintext highlighter-rouge">t(e|f)</code> is the probability that word <code class="language-plaintext highlighter-rouge">f</code> in the source language (Irish) is translated to word <code class="language-plaintext highlighter-rouge">e</code> in the target language (Target). Since this is the inverse T-tables, it contains <code class="language-plaintext highlighter-rouge">t(f|e)</code>. The following is a sample of the file:</li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>regulated bunrialacha 2.0894e-06
+regulated réir 1.54128e-05
+regulated de 3.15225e-05
+regulated rialú 5.94554e-05
+regulated a 2.33605e-05
+regulated seo 4.05318e-05
+regulated shibhialta 1.17498e-06
+regulated gur 5.15473e-06
+</code></pre></div></div>
+
+<hr class="col-xs-12" />
+
+<p>Last updated on 1 April 2020.</p>
+
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        var tpl =
+            "<li class='nav-item'>\
+                <a class='nav-link bg-white mb-1' href='#header[idx]'>[name]</a>\
+            </li>"
+        $("h2").each(function(idx, h2) {
+            $(h2).attr("id", "header" + idx)
+            var name = $(h2).text().trim()
+            var dom_string = tpl.replace("[name]", name).replace("[idx]", idx)
+            var header = $(dom_string)
+            $(".header-list").append(header)
+        })
+    })
+</script>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+  extensions: [
+    "tex2jax.js", 
+    "MathMenu.js",
+    "MathZoom.js",
+    "AssistiveMML.js",
+    "a11y/accessibility-menu.js"
+  ],
+  tex2jax: {   
+    inlineMath: [['$', '$']],
+    displayMath: [['$$', '$$']]
+  },
+    jax: ["input/TeX", "output/CommonHTML"],
+    TeX: {
+      extensions: [
+        "AMSmath.js",
+        "AMSsymbols.js",
+        "noErrors.js",
+        "noUndefined.js",
+      ]
+    }
+  });
+  MathJax.Hub.Register.StartupHook("TeX Jax Ready",function () {
+    var TEX = MathJax.InputJax.TeX;
+    var COLS = function (W) {
+      var WW = [];
+      for (var i = 0, m = W.length; i < m; i++)
+        {WW[i] = TEX.Parse.prototype.Em(W[i])}
+      return WW.join(" ");
+    };
+    TEX.Definitions.Add({
+      environment: {
+        psmallmatrix: ['Array',null,'(',')','c',COLS([1/3]),".2em",'S',1],
+      }
+    });
+  });
+</script>
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js">
+</script>
+
+
+        </div>
+        <div class="col-md-12 d-lg-none bottom">
+            
+
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+/*!
+ * IE10 viewport hack for Surface/desktop Windows 8 bug
+ * Copyright 2014-2017 The Bootstrap Authors
+ * Copyright 2014-2017 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+// See the Getting Started docs for more information:
+// https://getbootstrap.com/getting-started/#support-ie10-width
+
+(function () {
+    'use strict'
+
+    if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+        var msViewportStyle = document.createElement('style')
+        msViewportStyle.appendChild(
+            document.createTextNode(
+                '@-ms-viewport{width:auto!important}'
+            )
+        )
+        document.head.appendChild(msViewportStyle)
+    }
+}())
+</script>
+
+
+
+</body>
+
+</html>

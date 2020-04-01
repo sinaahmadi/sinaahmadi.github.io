@@ -10,7 +10,7 @@
 
     <title>
         
-            Semantic relation inference: a survey &middot; Sina Ahmadi's Personal Page
+            Semantic relationship detection &middot; Sina Ahmadi's Personal Page
         
     </title>
 
@@ -171,7 +171,7 @@
         </div>
         <div class="col-md-12 col-lg-8 col-xl-8 pb-4 content">
             <h1 class="border border-top-0 border-right-0 border-left-0 mb-3 pb-2">
-    Semantic relation inference: a survey
+    Semantic relationship detection
 </h1>
 
 <div class="d-md-block d-lg-none">
@@ -253,15 +253,47 @@
 
 <hr />
 
-<h2 id="introduction">Introduction</h2>
-
 <p>There exists a vast amount of lexicographical data, including dictionaries, thesauri, Wordnet and so on, that are distinctly providing various information about words. The automatic alignment of such resources is currently a challenging task.</p>
 
 <p>In a recent attempt to address the task of monolingual word sense alignment (MWSA), we created a set of monolingual datasets containing manual annotations of semantic relationships between senses across resources. However, the sheer volume and heterogeneity of data make human annotation limited. Instead, we would like to have a computer annotate all data with the structure of our interest. Normally, we are interested in relations between word definitions, a.k.a. senses.</p>
 
-<script type="math/tex; mode=display">mean = \frac{\displaystyle\sum_{i=1}^{n} x_{i}}{n}</script>
+<p>Information Extraction (IE) automatically finds relevant entities or relations (including facts and events) in natural language texts. More specifically, the task of Relation Extraction (RE) aims to recognize and extract instances of semantic relations between entities or concepts mentioned in these texts. Many applications in information extraction, natural language understanding, information retrieval require an understanding of the semantic relations between entities. The main objective of capturing structured relational knowledge  about lexical terms has been the motivating force underlying many projects in lexical acquisition, information extraction, and the construction of semantic taxonomies.</p>
 
-<script type="math/tex; mode=display">k_{n+1} = n^2 + k_n^2 - k_{n-1}</script>
+<h2 id="semantic-textual-similarity-and-semantic-relationship-detection">Semantic Textual Similarity and Semantic Relationship Detection</h2>
+
+<p>What has been done so far?</p>
+
+<h3 id="blogs">Blogs</h3>
+<ul>
+  <li><a href="https://ai.googleblog.com/2018/05/advances-in-semantic-textual-similarity.html">Advances in Semantic Textual Similarity</a></li>
+  <li><a href="http://nlpprogress.com/english/relationship_extraction.html">Relationship extraction</a></li>
+</ul>
+
+<h3 id="datasets">Datasets</h3>
+<ul>
+  <li><a href="http://ixa2.si.ehu.es/stswiki/index.php/STSbenchmark">STSBenchmark</a> (a sentence similarity benchmark)</li>
+  <li><a href="http://alt.qcri.org/semeval2017/task3/">CQA task B</a> (a question/question similarity task).</li>
+</ul>
+
+<h3 id="tools">Tools</h3>
+
+<ul>
+  <li><a href="http://rtw.ml.cmu.edu/rtw/overview">Read the Web</a></li>
+  <li><a href="https://openie.allenai.org/">Open Information Extraction</a></li>
+  <li><a href="http://www.zhuhao.me/fewrel/">FewRel</a></li>
+  <li><a href="http://trainomatic.org/">http://trainomatic.org/</a></li>
+</ul>
+
+<h3 id="related-shared-tasks">Related shared tasks</h3>
+<ul>
+  <li><a href="https://competitions.codalab.org/competitions/17119">SemEval-2018 - Task 9: Hypernym Discovery</a></li>
+  <li><a href="http://alt.qcri.org/semeval2017/task1/">SemEval-2017 Task 1: Semantic Textual Similarity</a></li>
+  <li><a href="http://alt.qcri.org/semeval2017/task2/">SemEval-2017 Task 2: Multilingual and Cross-lingual Semantic Word Similarity</a></li>
+  <li><a href="http://alt.qcri.org/semeval2016/task2/">SemEval-2016 Task 2: Interpretable Semantic Textual Similarity</a></li>
+  <li><a href="http://alt.qcri.org/semeval2016/task13/">SemEval-2016 Task 13: Taxonomy Extraction Evaluation (TExEval-2)</a></li>
+  <li><a href="http://alt.qcri.org/semeval2015/task13/">SemEval-2015 Task 13: Multilingual All-Words Sense Disambiguation and Entity Linking</a></li>
+</ul>
+
 
 
 <script type="text/javascript">
