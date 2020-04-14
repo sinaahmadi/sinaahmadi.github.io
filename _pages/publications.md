@@ -33,7 +33,7 @@ Patricia Martín-Chozas, <u>Sina Ahmadi</u> and Elena Montiel-Ponsoda
 [[bib]](bibliography/chozas2020defying.txt){:target="_blank"} 
 
 1. (accepted) **A Multilingual Evaluation Dataset for Monolingual Word Sense Alignment**  
-<u>Sina Ahmadi</u>, John Philip McCrae, Thierry Declerck, Sanni Nimb, Tanja Wissik, Sussi Olsen, Monica Monachini, Bolette S. Pedersen, Fahad Khan, Simon Krek, Veronika Lipp, Tamas Varadi, Carole Tiberius, Ilan Kernerman, Kira Kovalenko, Oksana Dereza and Theodorus Fransen  
+<u>Sina Ahmadi</u>, John P. McCrae, Sanni Nimb, Fahad Khan, Monica Monachini, Bolette S. Pedersen, Thierry Declerck, Tanja Wissik, Andrea Bellandi, Irene Pisani, Thomas Troelsgård, Sussi Olsen, Simon Krek, Veronika Lipp, Tamás Váradi, László Simon, András Győrffy, Carole Tiberius, Tanneke Schoonheim, Yifat Ben Moshe, Maya Rudich, Raya Abu Ahmad, Dorielle Lonke, Kira Kovalenko, Margit Langemets, Jelena Kallas, Oksana Dereza, Theodorus Fransen, David Cillessen, David Lindemann, Mikel Alonso, Ana Salgado, José Luis Sancho, Rafael-J. Ureña-Ruiz, Kiril Simov, Petya Osenova, Zara Kancheva, Ivaylo Radev, Ranka Stanković, Andrej Perdih, and Dejan Gabrovšek   
 *The 12th International Conference on Language Resources and Evaluation (LREC)*   
 [[bib]](bibliography/ahmadi2020multilingual.txt){:target="_blank"} 
 
