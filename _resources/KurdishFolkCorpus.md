@@ -3,6 +3,7 @@ title: A Corpus of the Sorani Kurdish Folkloric Lyrics
 show_profile: true
 ---
 
+
 ## Why Kurdish folk lyrics?
 
 Kurdish poetry and prose narratives were historically transmitted orally and less in a written form. Being an essential medium of oral narration and literature, Kurdish lyrics have had a unique attribute in becoming a vital resource for different types of studies, including Digital Humanities, Computational Folkloristics and Computational Linguistics. As an initial study of its kind for the Kurdish language, this paper presents our efforts in transcribing and collecting Kurdish folk lyrics as a corpus that covers various Kurdish musical genres, in particular *Beyt*, *Goranî*, *Bend*, and *Heyran*.
@@ -52,6 +53,8 @@ This corpus contains 49,582 tokens in the Sorani dialect of Kurdish. The followi
 ## Get the corpus
 
 The datasets are publicly freely available in the Text Encoding Initiative (TEI) format for non-commercial use under the CCBY-NC-SA 4.0 license at [https://github.com/KurdishBLARK/KurdishLyricsCorpus](https://github.com/KurdishBLARK/KurdishLyricsCorpus){:target="_blank"}. 
+
+The corpus is also available at [https://kurdishblark.github.io/KurdishLyricsCorpus/](https://kurdishblark.github.io/KurdishLyricsCorpus/"){:target="_blank"} with basic query functions.
 
 
 ## Reference

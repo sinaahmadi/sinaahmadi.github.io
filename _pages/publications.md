@@ -18,7 +18,8 @@ Publications by categories in reversed chronological order.
 
 1. (accepted) **Challenges of Word Sense Alignment: Portuguese Language Resources**  
 Ana Salgado, <u>Sina Ahmadi</u> , Alberto Simões, John McCrae, Rute Costa  
-*the 7th Workshop on Linked Data in Linguistics: Building tools and infrastructure at the 12th International Conference on Language Resources and Evaluation (LREC)*
+*the 7th Workshop on Linked Data in Linguistics: Building tools and infrastructure at the 12th International Conference on Language Resources and Evaluation (LREC)*  
+[[bib]](bibliography/salgado2020ldl.txt){:target="_blank"} 
 
 
 1. (accepted) **Towards Automatic Linking of Lexicographic Data: the case of a historical and a modern Danish dictionary**  
@@ -30,12 +31,12 @@ Ana Salgado, <u>Sina Ahmadi</u> , Alberto Simões, John McCrae, Rute Costa
 1. (accepted) **Defying Wikidata: Validation of Terminological Relations in the Web of Data**  
 Patricia Martín-Chozas, <u>Sina Ahmadi</u> and Elena Montiel-Ponsoda  
 *The 12th International Conference on Language Resources and Evaluation (LREC)*  
-[[bib]](bibliography/chozas2020defying.txt){:target="_blank"} 
+[[Code]](https://github.com/sinaahmadi/LDTerm){:target="_blank"}  [[bib]](bibliography/chozas2020defying.txt){:target="_blank"} 
 
 1. (accepted) **A Multilingual Evaluation Dataset for Monolingual Word Sense Alignment**  
 <u>Sina Ahmadi</u>, John P. McCrae, Sanni Nimb, Fahad Khan, Monica Monachini, Bolette S. Pedersen, Thierry Declerck, Tanja Wissik, Andrea Bellandi, Irene Pisani, Thomas Troelsgård, Sussi Olsen, Simon Krek, Veronika Lipp, Tamás Váradi, László Simon, András Győrffy, Carole Tiberius, Tanneke Schoonheim, Yifat Ben Moshe, Maya Rudich, Raya Abu Ahmad, Dorielle Lonke, Kira Kovalenko, Margit Langemets, Jelena Kallas, Oksana Dereza, Theodorus Fransen, David Cillessen, David Lindemann, Mikel Alonso, Ana Salgado, José Luis Sancho, Rafael-J. Ureña-Ruiz, Kiril Simov, Petya Osenova, Zara Kancheva, Ivaylo Radev, Ranka Stanković, Andrej Perdih, and Dejan Gabrovšek   
 *The 12th International Conference on Language Resources and Evaluation (LREC)*   
-[[bib]](bibliography/ahmadi2020multilingual.txt){:target="_blank"} 
+[[Resource]](https://github.com/elexis-eu/MWSA){:target="_blank"}  [[bib]](bibliography/ahmadi2020multilingual.txt){:target="_blank"} 
 
 
 <div align="center" style="background-color:lightblue">
@@ -112,9 +113,9 @@ arXiv preprint arXiv:1810.00660
 
 
 1. (accepted) **A Corpus of the Sorani Kurdish Folkloric Lyrics**  
-<u>Sina Ahmadi</u> and Hossein Hassani  
+<u>Sina Ahmadi</u> and Hossein Hassani and Kamaladdin Abedi  
 *In Proceedings of the 1st Joint Spoken Language Technologies for Under-resourced languages ({SLTU}) and Collaboration and Computing for Under-Resourced Languages (CCURL) Workshop at the 12th International Conference on Language Resources and Evaluation (LREC)*   
-[[bib]](bibliography/ahmadi2020folklyrics.txt){:target="_blank"}
+[[Resource]](https://github.com/KurdishBLARK/KurdishLyricsCorpus){:target="_blank"} [[bib]](bibliography/ahmadi2020folklyrics.txt){:target="_blank"}  
 
 1. (under review) **Towards Finite-State Morphology of Kurdish**  
 <u>Sina Ahmadi</u> and Hossein Hassani  
@@ -139,7 +140,7 @@ Roshna Abdulrahman, Hossein Hassani and <u>Sina Ahmadi</u>
 3. **A Rule-Based Kurdish Text Transliteration System**  
 <u>Sina Ahmadi</u>  
 *ACM Transactions on Asian and Low-resource Language Information Processing (TALLIP)*  
-[[Paper]](docs/articles/ahmadi2019rule.pdf){:target="_blank"} [[Code]](https://github.com/sinaahmadi/wergor){:target="_blank"} [[bib]](bibliography/ahmadi2019rule.txt){:target="_blank"}  
+[[Paper]](https://dl.acm.org/doi/10.1145/3278623?cid=99659343970){:target="_blank"} [[Code]](https://github.com/sinaahmadi/wergor){:target="_blank"} [[bib]](bibliography/ahmadi2019rule.txt){:target="_blank"}  
 
 <div align="center" style="background-color:lightblue">
 	<b>2017</b>

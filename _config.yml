@@ -23,6 +23,10 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
 
+# Disqus Comments
+disqus:
+    shortname: sinaahmadi
+
 # Add a directory to hold misc pages, just to keep the root directory clean.
 include: ["_pages", "_portfolio"]
 

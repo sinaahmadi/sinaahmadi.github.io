@@ -1,0 +1,9 @@
+@inproceedings{salgado2020ldl,
+  title={Challenges of Word Sense Alignment: Portuguese Language Resources},
+  author={Salgado, Ana and Ahmadi, Sina and Simões, Alberto and McCrae, John P., Costa, Rute},
+  booktitle={the 7th Workshop on Linked Data in Linguistics: Building tools and infrastructure at the 12th International Conference on Language Resources and Evaluation (LREC)},
+  date="2020-05-11",
+  year={2020},
+  address= "Marseille, France"
+}
+

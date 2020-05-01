@@ -6,6 +6,7 @@ tags:
 - NLP
 - Kurdish language processing
 - Less-resourced languages
+
 ---
 
 Since the first time that I touched my home computer keyboard in 2001, I used to ask myself if it would be possible to make computer understand my mother language, [Kurdish](https://en.wikipedia.org/wiki/Kurdish_languages){:target="_blank"}. Well, what I was imagining was definitely something limited to a Kurdish interface for Windows, particularly when I was going through the installation descriptions of [Return to Castle Wolfenstein](https://en.wikipedia.org/wiki/Return_to_Castle_Wolfenstein){:target="_blank"} and [Mafia: The City of Lost Heaven](https://en.wikipedia.org/wiki/Mafia_(video_game)){:target="_blank"}! Let alone the spontaneous questions that [Clippy](https://en.wikipedia.org/wiki/Office_Assistant){:target="_blank"} was asking and how much I was curious to see the same messages in Kurdish.
