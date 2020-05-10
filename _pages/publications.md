@@ -112,10 +112,10 @@ arXiv preprint arXiv:1810.00660
 
 
 
-1. (accepted) **A Corpus of the Sorani Kurdish Folkloric Lyrics**  
+1. **A Corpus of the Sorani Kurdish Folkloric Lyrics**  
 <u>Sina Ahmadi</u> and Hossein Hassani and Kamaladdin Abedi  
 *In Proceedings of the 1st Joint Spoken Language Technologies for Under-resourced languages ({SLTU}) and Collaboration and Computing for Under-Resourced Languages (CCURL) Workshop at the 12th International Conference on Language Resources and Evaluation (LREC)*   
-[[Resource]](https://github.com/KurdishBLARK/KurdishLyricsCorpus){:target="_blank"} [[bib]](bibliography/ahmadi2020folklyrics.txt){:target="_blank"}  
+[[Paper]](docs/articles/ahmadi2020folklyrics.pdf){:target="_blank"} [[Resource]](https://github.com/KurdishBLARK/KurdishLyricsCorpus){:target="_blank"} [[bib]](bibliography/ahmadi2020folklyrics.txt){:target="_blank"}  
 
 1. (under review) **Towards Finite-State Morphology of Kurdish**  
 <u>Sina Ahmadi</u> and Hossein Hassani  
