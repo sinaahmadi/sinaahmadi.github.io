@@ -1,0 +1,9 @@
+@proceedings{kernerman2020globalex,
+title={{Globalex Workshop on Linked Lexicography}},
+editor="Ilan Kernerman and Simon Krek and John P. McCrae and Jorge Gracia and Sina Ahmadi and Besim Kabashi",
+year="2020",
+isbn="979-10-95546-46-7",
+publisher="European Language Resources Association (ELRA)",
+address="9 rue des Cordelières, 75013, Paris, France",
+series="LREC 2020 Workshop Language Resources and Evaluation Conference"
+}

@@ -16,6 +16,12 @@ Publications by categories in reversed chronological order.
 	<b>2020</b>
 </div>
 
+1. **Globalex Workshop on Linked Lexicography**  
+Ilan Kernerman, Simon Krek, John P. McCrae, Jorge Gracia, <u>Sina Ahmadi</u> and Besim Kabashi  
+European Language Resources Association (ELRA) - LREC 2020 Workshop Language Resources and Evaluation Conference    
+[[Paper]](docs/articles/kernerman2020globalex.pdf){:target="_blank"} [[bib]](bibliography/kernerman2020globalex.txt){:target="_blank"} 
+
+
 1. (accepted) **A Multilingual Evaluation Dataset for Monolingual Word Sense Alignment**  
 <u>Sina Ahmadi</u>, John P. McCrae, Sanni Nimb, Fahad Khan, Monica Monachini, Bolette S. Pedersen, Thierry Declerck, Tanja Wissik, Andrea Bellandi, Irene Pisani, Thomas Troelsgård, Sussi Olsen, Simon Krek, Veronika Lipp, Tamás Váradi, László Simon, András Győrffy, Carole Tiberius, Tanneke Schoonheim, Yifat Ben Moshe, Maya Rudich, Raya Abu Ahmad, Dorielle Lonke, Kira Kovalenko, Margit Langemets, Jelena Kallas, Oksana Dereza, Theodorus Fransen, David Cillessen, David Lindemann, Mikel Alonso, Ana Salgado, José Luis Sancho, Rafael-J. Ureña-Ruiz, Kiril Simov, Petya Osenova, Zara Kancheva, Ivaylo Radev, Ranka Stanković, Andrej Perdih, and Dejan Gabrovšek   
 *The 12th International Conference on Language Resources and Evaluation (LREC)*   
