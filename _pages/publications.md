@@ -25,7 +25,7 @@ European Language Resources Association (ELRA) - LREC 2020 Workshop Language Res
 1. (accepted) **A Multilingual Evaluation Dataset for Monolingual Word Sense Alignment**  
 <u>Sina Ahmadi</u>, John P. McCrae, Sanni Nimb, Fahad Khan, Monica Monachini, Bolette S. Pedersen, Thierry Declerck, Tanja Wissik, Andrea Bellandi, Irene Pisani, Thomas Troelsgård, Sussi Olsen, Simon Krek, Veronika Lipp, Tamás Váradi, László Simon, András Győrffy, Carole Tiberius, Tanneke Schoonheim, Yifat Ben Moshe, Maya Rudich, Raya Abu Ahmad, Dorielle Lonke, Kira Kovalenko, Margit Langemets, Jelena Kallas, Oksana Dereza, Theodorus Fransen, David Cillessen, David Lindemann, Mikel Alonso, Ana Salgado, José Luis Sancho, Rafael-J. Ureña-Ruiz, Kiril Simov, Petya Osenova, Zara Kancheva, Ivaylo Radev, Ranka Stanković, Andrej Perdih, and Dejan Gabrovšek   
 *The 12th International Conference on Language Resources and Evaluation (LREC)*   
-[[Resource]](https://github.com/elexis-eu/MWSA){:target="_blank"}  [[bib]](bibliography/ahmadi2020multilingual.txt){:target="_blank"} 
+[[Paper]](docs/articles/ahmadi2020multilingual.pdf){:target="_blank"} [[Resource]](https://github.com/elexis-eu/MWSA){:target="_blank"}  [[bib]](bibliography/ahmadi2020multilingual.txt){:target="_blank"} 
 
 
 1. (accepted) **Towards Automatic Linking of Lexicographic Data: the case of a historical and a modern Danish dictionary**  
@@ -40,10 +40,10 @@ Ana Salgado, <u>Sina Ahmadi</u> , Alberto Simões, John McCrae, Rute Costa
 [[Paper]](docs/articles/salgado2020ldl.pdf){:target="_blank"} [[bib]](bibliography/salgado2020ldl.txt){:target="_blank"}  
 
 
-1. (accepted) **Defying Wikidata: Validation of Terminological Relations in the Web of Data**  
+1. **Defying Wikidata: Validation of Terminological Relations in the Web of Data**  
 Patricia Martín-Chozas, <u>Sina Ahmadi</u> and Elena Montiel-Ponsoda  
 *The 12th International Conference on Language Resources and Evaluation (LREC)*  
-[[Code]](https://github.com/sinaahmadi/LDTerm){:target="_blank"}  [[bib]](bibliography/chozas2020defying.txt){:target="_blank"} 
+[[Paper]](docs/articles/chozas2020defying.pdf){:target="_blank"} [[Code]](https://github.com/sinaahmadi/LDTerm){:target="_blank"}  [[bib]](bibliography/chozas2020defying.txt){:target="_blank"} 
 
 
 <div align="center" style="background-color:lightblue">
