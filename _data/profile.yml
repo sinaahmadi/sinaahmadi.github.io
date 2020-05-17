@@ -26,6 +26,10 @@
 #
 #   icon: entypo/Google_Photos_icon.svg
 
+- caption: FOAF
+  href: foaf.rdf
+  icon: entypo/rdf.svg
+
 - caption: Galway, Ireland
   href: https://goo.gl/maps/6H5SxKrfgZn
   icon: entypo/location-pin.svg
@@ -33,7 +37,3 @@
 - caption: RSS
   href: feed.xml
   icon: entypo/rss.svg
-
-- caption: FOAF
-  href: foaf.rdf
-  icon: entypo/FOAFAnim.svg
