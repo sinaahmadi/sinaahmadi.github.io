@@ -22,7 +22,7 @@ European Language Resources Association (ELRA) - LREC 2020 Workshop Language Res
 [[Paper]](docs/articles/kernerman2020globalex.pdf){:target="_blank"} [[bib]](bibliography/kernerman2020globalex.txt){:target="_blank"} 
 
 
-1. (accepted) **A Multilingual Evaluation Dataset for Monolingual Word Sense Alignment**  
+1. **A Multilingual Evaluation Dataset for Monolingual Word Sense Alignment**  
 <u>Sina Ahmadi</u>, John P. McCrae, Sanni Nimb, Fahad Khan, Monica Monachini, Bolette S. Pedersen, Thierry Declerck, Tanja Wissik, Andrea Bellandi, Irene Pisani, Thomas Troelsgård, Sussi Olsen, Simon Krek, Veronika Lipp, Tamás Váradi, László Simon, András Győrffy, Carole Tiberius, Tanneke Schoonheim, Yifat Ben Moshe, Maya Rudich, Raya Abu Ahmad, Dorielle Lonke, Kira Kovalenko, Margit Langemets, Jelena Kallas, Oksana Dereza, Theodorus Fransen, David Cillessen, David Lindemann, Mikel Alonso, Ana Salgado, José Luis Sancho, Rafael-J. Ureña-Ruiz, Kiril Simov, Petya Osenova, Zara Kancheva, Ivaylo Radev, Ranka Stanković, Andrej Perdih, and Dejan Gabrovšek   
 *The 12th International Conference on Language Resources and Evaluation (LREC)*   
 [[Paper]](docs/articles/ahmadi2020multilingual.pdf){:target="_blank"} [[Resource]](https://github.com/elexis-eu/MWSA){:target="_blank"}  [[bib]](bibliography/ahmadi2020multilingual.txt){:target="_blank"} 
@@ -37,7 +37,7 @@ European Language Resources Association (ELRA) - LREC 2020 Workshop Language Res
 1. **Challenges of Word Sense Alignment: Portuguese Language Resources**  
 Ana Salgado, <u>Sina Ahmadi</u> , Alberto Simões, John McCrae, Rute Costa  
 *the 7th Workshop on Linked Data in Linguistics: Building tools and infrastructure at the 12th International Conference on Language Resources and Evaluation (LREC)*  
-[[Paper]](docs/articles/salgado2020ldl.pdf){:target="_blank"} [[bib]](bibliography/salgado2020ldl.txt){:target="_blank"}  
+[[Paper]](docs/articles/salgado2020ldl.pdf){:target="_blank"} [[Slides]](docs/slides/salgado2020ldl.pdf){:target="_blank"} [[bib]](bibliography/salgado2020ldl.txt){:target="_blank"}  
 
 
 1. **Defying Wikidata: Validation of Terminological Relations in the Web of Data**  
