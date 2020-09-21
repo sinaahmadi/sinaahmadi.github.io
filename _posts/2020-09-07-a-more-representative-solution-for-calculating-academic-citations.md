@@ -46,11 +46,11 @@ We can model the citation problem as a weighted directed graph (or also tree), w
 
 Here is a simple solution. When a paper is cited, instead of considering direct citations, all future papers that cite succeeding papers will have an impact on the current one based on their citation counts and number of papers that they cite. To further clarify, let's get back to our graph above. Paper B cites Paper A and Paper C. The two latter papers are cited once each one. If we divide the whole number of citations of Paper B, i.e. 8, to the number of papers that it cites, i.e. 2, Paper A and Paper C each one will have 4 citation impacts. Citation impact of a paper cited by a paper that has not been cited is 0. 
 
-Therefore, we can define citation impact of paper $i$, $CI_i$, as follows:
+Therefore, we can define citation impact of paper $$i$$, $$CI_i$$, as follows:
 
 $$ CI_i = \sum_{j \in J}^{} \frac{CI_j}{|cite(i)|}  $$
 
-where $i$ is a given paper, $J$ is the set of papers that directly cite $i$, $CI_j$ is the citation impact of the papers that cite paper $i$ and \|$cite(i)$\| is the number of papers that paper $i$ cites. We set the citation impact of parents of children nodes, i.e. papers which are not cited at all, as the whole number of citations.
+where $$i$$ is a given paper, $$J$$ is the set of papers that directly cite $$i$$, $$CI_j$$ is the citation impact of the papers that cite paper $$i$$ and \|$$cite(i)$$\| is the number of papers that paper $$i$$ cites. We set the citation impact of parents of children nodes, i.e. papers which are not cited at all, as the whole number of citations.
 
 The following shows a more detailed scenario where the impact of papers that cite B is propagated to the older citations in such a way that papers A and C have a citation impact of 5 while their direct citation remains 1.
 
