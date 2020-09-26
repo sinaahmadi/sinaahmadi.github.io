@@ -247,9 +247,9 @@
 
 </div>
 
-<p>Millions of scientific articles are published every year and released to the scientific communities using various <a href="https://en.wikipedia.org/wiki/Bibliographic_database">bibliographic databases</a> such as <a href="https://scholar.google.com/">Google Scholar</a>, <a href="https://citeseerx.ist.psu.edu">CiteSeerX</a> or <a href="https://www.scopus.com">Scopus</a>. In order to understand the impact of a publication and how it shapes the future of the research field, <a href="https://en.wikipedia.org/wiki/Citation_index">citation index</a> and <a href="https://en.wikipedia.org/wiki/Citation_impact">citation impact</a> measures are used. Such measures enable researchers to trace the succeeding papers that rely on their publications.</p>
+<p>Millions of scientific articles are published every year and released to the scientific communities using various <a href="https://en.wikipedia.org/wiki/Bibliographic_database" target="_blank">bibliographic databases</a> such as <a href="https://scholar.google.com/" target="_blank">Google Scholar</a>, <a href="https://citeseerx.ist.psu.edu" target="_blank">CiteSeerX</a> or <a href="https://www.scopus.com" target="_blank">Scopus</a>. In order to understand the impact of a publication and how it shapes the future of the research field, <a href="https://en.wikipedia.org/wiki/Citation_index" target="_blank">citation index</a> and <a href="https://en.wikipedia.org/wiki/Citation_impact" target="_blank">citation impact</a> measures are used. Such measures enable researchers to trace the succeeding papers that rely on their publications.</p>
 
-<p>Although there are many ways to calculate citation index and impact at article-level, such as the famous <a href="https://en.wikipedia.org/wiki/H-index">h-index</a> and many more <a href="https://en.wikipedia.org/wiki/Author-level_metrics">author-level metrics</a>, all of them seem to be sharing one strong assumption and that is, <strong>a citation is counted only when a paper directly cites another paper</strong>. The following figure illustrates how citations are calculated in <code class="language-plaintext highlighter-rouge">Article 1</code> and <code class="language-plaintext highlighter-rouge">Article 2</code> according to their bibliographies.</p>
+<p>Although there are many ways to calculate citation index and impact at article-level, such as the famous <a href="https://en.wikipedia.org/wiki/H-index" target="_blank">h-index</a> and many more <a href="https://en.wikipedia.org/wiki/Author-level_metrics" target="_blank">author-level metrics</a>, all of them seem to be sharing one strong assumption and that is, <strong>a citation is counted only when a paper directly cites another paper</strong>. The following figure illustrates how citations are calculated in <code class="language-plaintext highlighter-rouge">Article 1</code> and <code class="language-plaintext highlighter-rouge">Article 2</code> according to their bibliographies.</p>
 
 <div class="card mb-3 text-center">
     <img class="rounded mx-auto d-block" src="http://localhost:4000/docs/images/citation_system.jpg" style="width:100%" align="middle" alt="citation system design" />
@@ -285,11 +285,11 @@
 
 <p>Here is a simple solution. When a paper is cited, instead of considering direct citations, all future papers that cite succeeding papers will have an impact on the current one based on their citation counts and number of papers that they cite. To further clarify, let’s get back to our graph above. Paper B cites Paper A and Paper C. The two latter papers are cited once each one. If we divide the whole number of citations of Paper B, i.e. 8, to the number of papers that it cites, i.e. 2, Paper A and Paper C each one will have 4 citation impacts. Citation impact of a paper cited by a paper that has not been cited is 0.</p>
 
-<p>Therefore, we can define citation impact of paper $i$, $CI_i$, as follows:</p>
+<p>Therefore, we can define citation impact of paper <script type="math/tex">i</script>, <script type="math/tex">CI_i</script>, as follows:</p>
 
 <script type="math/tex; mode=display">CI_i = \sum_{j \in J}^{} \frac{CI_j}{|cite(i)|}</script>
 
-<p>where $i$ is a given paper, $J$ is the set of papers that directly cite $i$, $CI_j$ is the citation impact of the papers that cite paper $i$ and |$cite(i)$| is the number of papers that paper $i$ cites. We set the citation impact of parents of children nodes, i.e. papers which are not cited at all, as the whole number of citations.</p>
+<p>where <script type="math/tex">i</script> is a given paper, <script type="math/tex">J</script> is the set of papers that directly cite <script type="math/tex">i</script>, <script type="math/tex">CI_j</script> is the citation impact of the papers that cite paper <script type="math/tex">i</script> and |<script type="math/tex">cite(i)</script>| is the number of papers that paper <script type="math/tex">i</script> cites. We set the citation impact of parents of children nodes, i.e. papers which are not cited at all, as the whole number of citations.</p>
 
 <p>The following shows a more detailed scenario where the impact of papers that cite B is propagated to the older citations in such a way that papers A and C have a citation impact of 5 while their direct citation remains 1.</p>
 
@@ -314,6 +314,9 @@
   <li id="Bollmann">Bollmann M, Elliott D. On Forgetting to Cite Older Papers: An Analysis of the ACL Anthology. InProceedings of the 58th Annual Meeting of the Association for Computational Linguistics 2020 July (pp. 7819-7827) <a href="https://www.aclweb.org/anthology/2020.acl-main.699.pdf" target="_blank">[Link]</a>.</li>
 </ul>
 
+<hr class="col-xs-12" />
+
+<p>Last updated on 18 September 2020.</p>
 
 
 

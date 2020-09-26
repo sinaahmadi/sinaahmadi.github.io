@@ -7,9 +7,9 @@ tags:
 - Research
 ---
 
-Millions of scientific articles are published every year and released to the scientific communities using various [bibliographic databases](https://en.wikipedia.org/wiki/Bibliographic_database) such as [Google Scholar](https://scholar.google.com/), [CiteSeerX](https://citeseerx.ist.psu.edu) or [Scopus](https://www.scopus.com). In order to understand the impact of a publication and how it shapes the future of the research field, [citation index](https://en.wikipedia.org/wiki/Citation_index) and [citation impact](https://en.wikipedia.org/wiki/Citation_impact) measures are used. Such measures enable researchers to trace the succeeding papers that rely on their publications.
+Millions of scientific articles are published every year and released to the scientific communities using various [bibliographic databases](https://en.wikipedia.org/wiki/Bibliographic_database){:target="_blank"} such as [Google Scholar](https://scholar.google.com/){:target="_blank"}, [CiteSeerX](https://citeseerx.ist.psu.edu){:target="_blank"} or [Scopus](https://www.scopus.com){:target="_blank"}. In order to understand the impact of a publication and how it shapes the future of the research field, [citation index](https://en.wikipedia.org/wiki/Citation_index){:target="_blank"} and [citation impact](https://en.wikipedia.org/wiki/Citation_impact){:target="_blank"} measures are used. Such measures enable researchers to trace the succeeding papers that rely on their publications.
 
-Although there are many ways to calculate citation index and impact at article-level, such as the famous [h-index](https://en.wikipedia.org/wiki/H-index) and many more [author-level metrics](https://en.wikipedia.org/wiki/Author-level_metrics), all of them seem to be sharing one strong assumption and that is, **a citation is counted only when a paper directly cites another paper**. The following figure illustrates how citations are calculated in `Article 1` and `Article 2` according to their bibliographies.
+Although there are many ways to calculate citation index and impact at article-level, such as the famous [h-index](https://en.wikipedia.org/wiki/H-index){:target="_blank"} and many more [author-level metrics](https://en.wikipedia.org/wiki/Author-level_metrics){:target="_blank"}, all of them seem to be sharing one strong assumption and that is, **a citation is counted only when a paper directly cites another paper**. The following figure illustrates how citations are calculated in `Article 1` and `Article 2` according to their bibliographies.
 
 <div class="card mb-3 text-center">
     <img class="rounded mx-auto d-block" src="{{ site.url }}/docs/images/citation_system.jpg" style="width:100%" align="middle" alt="citation system design"/>
@@ -76,4 +76,5 @@ I think there are many ways to improve our current citation calculation systems 
 </ul> 
 
 
-
+<hr class="col-xs-12">
+Last updated on 18 September 2020.

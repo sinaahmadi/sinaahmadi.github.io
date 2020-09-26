@@ -1,0 +1,7 @@
+@inproceedings{ahmadi2020tokenization,
+  title={{A Tokenization System for the Kurdish Language}},
+  author={Ahmadi, Sina},
+  booktitle={Proceedings of the Seventh Workshop on NLP for Similar Languages, Varieties and Dialects (VarDial 2020)},
+  pages={},
+  year={2020}
+}
