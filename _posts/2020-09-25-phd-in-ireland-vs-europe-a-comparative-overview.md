@@ -58,9 +58,7 @@ In the countries where PhD students are considered public servants, a set of rul
 
 ## Q3: How much does a PhD student pay to enrol for a program?
 
-non-employed PhD students, EU/EEA/Switzerland, full-time, field, 
-
-It should be also noted that adminstrative fees and personal insurance also exist in most countries making the tuition fees not completely out of charge.
+Most European countries apply a model of free higher education. The current data are for full-time PhD students from EU/EEA/Switzerland. It should be noted that administrative fees and personal insurance also exist in most countries making the tuition fees not completely out of charge (but within a reasonable rates).
 
 
 <iframe title="Tuition fees for EU/EEA/Switzerland students" aria-label="Map" id="datawrapper-chart-6FXOr" src="https://datawrapper.dwcdn.net/6FXOr/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="585"></iframe>
