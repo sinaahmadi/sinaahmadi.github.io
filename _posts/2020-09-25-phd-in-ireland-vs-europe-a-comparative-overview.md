@@ -58,7 +58,7 @@ In the countries where PhD students are considered public servants, a set of rul
 
 ## Q3: How much does a PhD student pay to enrol for a program?
 
-Most European countries apply a model of free higher education. The current data are for full-time PhD students from EU/EEA/Switzerland. It should be noted that administrative fees and personal insurance also exist in most countries making the tuition fees not completely out of charge (but within a reasonable rates).
+Most European countries apply a model of free higher education. The current data are for full-time PhD students from EU/EEA/Switzerland. It should be noted that administrative fees and personal insurance also exist in most countries making the tuition fees not completely out of charge (but within reasonable rates).
 
 
 <iframe title="Tuition fees for EU/EEA/Switzerland students" aria-label="Map" id="datawrapper-chart-6FXOr" src="https://datawrapper.dwcdn.net/6FXOr/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="585"></iframe>
@@ -120,7 +120,7 @@ Here are the facts based on the collected data:
 	- is the only country where PhD students are not paid for teaching activities.
 	- has the highest tuition fees.
 	- along with the UK, Spain, Belgium and Portugal, are the countries where PhD students are paid a stipend and have no public service status.
-	- along with the UK, have the most highest rents.
+	- along with the UK, have the highest rents.
 
 I am not going to draw any conclusion from the data shown here. I believe that every one, depending on his/her life conditions, would evaluate the answers to the aforementioned questions differently. I am sure the reader knows that things are not always black and white and any comparison should be made in a fair way.
 
