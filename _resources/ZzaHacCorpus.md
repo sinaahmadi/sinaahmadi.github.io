@@ -4,15 +4,15 @@ show_profile: true
 
 
 gallery:
+  - https://raw.githubusercontent.com/sinaahmadi/sinaahmadi.github.io/master/docs/images/Hawraman_6.jpg
   - https://raw.githubusercontent.com/sinaahmadi/sinaahmadi.github.io/master/docs/images/Hawraman_4.jpg
-  - https://raw.githubusercontent.com/sinaahmadi/sinaahmadi.github.io/master/docs/images/Hawraman_1.jpg
   - https://raw.githubusercontent.com/sinaahmadi/sinaahmadi.github.io/master/docs/images/Hawraman_2.jpg
   - https://raw.githubusercontent.com/sinaahmadi/sinaahmadi.github.io/master/docs/images/Hawraman_3.jpg
+  - https://raw.githubusercontent.com/sinaahmadi/sinaahmadi.github.io/master/docs/images/Hawraman_1.jpg
   - https://raw.githubusercontent.com/sinaahmadi/sinaahmadi.github.io/master/docs/images/Hawraman_5.jpg
-  - https://raw.githubusercontent.com/sinaahmadi/sinaahmadi.github.io/master/docs/images/Hawraman_6.jpg
 ---
 
-
+https://www.facebook.com/Elmizade
 
 In 2008, when I was 15, I went for the first time to [Hawraman](https://en.wikipedia.org/wiki/Hawraman){:target="_blank"}. I remember how much I was intrigued by everything! I went to a local grocery and the saleswoman counted the money when she gave it back to me and I almost did not understand anything! One word that I still remember she used was *yerê* [yaere:] for three, while in [Sorani Kurdish](https://en.wikipedia.org/wiki/Sorani){:target="_blank"} we say *sê* [se:].
 
