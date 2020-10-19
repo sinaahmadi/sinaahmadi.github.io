@@ -15,7 +15,7 @@
 
     <title>
         
-            All Resources &middot; Sina Ahmadi's Personal Page
+            Kurdish Multilingual Parallel Corpus &middot; Sina Ahmadi's Personal Page
         
     </title>
 
@@ -93,7 +93,7 @@
 
 <div class="container site-container" id="top">
     <div class="row">
-        <div class="d-none d-lg-block col-lg-4 col-xl-3 side">
+        <div class="d-none d-lg-block col-lg-4 col-xl-4 side">
             
     <div class="card bg-light">
         <div class="card-body text-center">
@@ -339,45 +339,102 @@
 
 
         </div>
-        <div class="col-md-12 col-lg-8 col-xl-9 pb-4 content">
-            <h5 class="list-title border border-left-0 border-right-0 py-2">
-    All Resources
-</h5>
+        <div class="col-md-12 col-lg-8 col-xl-8 pb-4 content">
+            <h1 class="border border-top-0 border-right-0 border-left-0 mb-3 pb-2">Kurdish Multilingual Parallel Corpus</h1>
 
+<div class="d-md-block d-lg-none">
+    <div class="sticky-top space-before">
+    <div class="card bg-light mb-3 space-before">
+        <div class="card-body">
+            <div class="card-title">
+                <h5>On This Page</h5>
+            </div>
+            <ul class="nav flex-column nav-pills header-list">
+            </ul>
+            <div class="d-flex align-items-center mt-2">
+                <span class="icon grey mr-1">
+                    <?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg version="1.1" id="Arrow_left" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve">
+<path d="M2.5,10L9,3.5V7h8v6H9v3.5L2.5,10z"/>
+</svg>
+
+                </span>
+                <a href="/list/resources.html">Back to all resources</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+
+<p>Aligned <a href="https://en.wikipedia.org/wiki/Text_corpus" target="_blank">corpora</a> are essential resources with various applications in natural language processing, particularly in <a href="https://en.wikipedia.org/wiki/Machine_translation" target="_blank">Machine Translation</a>. Such a resource is composed of pairs of sentences or chunks of sentences in two languages or dialects which are translations and thus, useful to train a model for automatic translation. One can imagine how tedious and expensive the task of manual translation can be!</p>
+
+<div class="card mb-3 text-center">
+    <img class="rounded mx-auto d-block" src="http://localhost:4000/docs/images/parallel_corpus_methodology.png" style="width:100%" align="middle" alt="Kurdish Lex workflow" />
+    <div class="card-body bg-light">
+        <div class="card-text">
+            Our approach to automatically retrieve identical news articles
+        </div>
+    </div>
+</div>
+
+<p><a href="https://en.wikipedia.org/wiki/Kurdish_languages" target="_blank">Kurdish</a>, as a less-resourced language, lacks large parallel corpora which are required for further progress in creating statistical and neural machine translation systems. To tackle this problem in a viable way, we create a large <a href="https://en.wikipedia.org/wiki/Parallel_text" target="_blank">parallel text</a> for <a href="https://en.wikipedia.org/wiki/Kurmanji" target="_blank">Kurmanji</a> and <a href="https://en.wikipedia.org/wiki/Sorani" target="_blank">Sorani</a> dialects of Kurdish and extend it to include Kurdish-English translations using multilingual news websites. Although there are many multilingual and multi-dialectal news websites for Kurdish, none of them provide their content in an inter-operable way. In other words, an identical news article is translated differently and oftentimes, the translations are not even linked together.</p>
+
+<h2 id="parallel-corpus">Parallel corpus</h2>
+
+<p>Our parallel corpus contains three manually-aligned corpus in Sorani-Kurmanji, Sorani-English and Kurmanji-English in various formats, namely <a href="https://en.wikipedia.org/wiki/Translation_Memory_eXchange" target="_blank">Translation Memory eXchange</a> file format (<code class="language-plaintext highlighter-rouge">.tmx</code>), parallel annotated text useful for <a href="https://paraconc.com/" target="_blank">ParaConc</a> and raw parallel texts (<code class="language-plaintext highlighter-rouge">.txt</code>). In the latter, each line corresponds to the same line in the other aligned file. This corpus contains <strong>12,327</strong> translation pairs in the two major dialects of Kurdish, Sorani and Kurmanji. We also provide <strong>1,797</strong> and <strong>650</strong> translation pairs in English-Kurmanji and English-Sorani.</p>
+
+<p>It should be noted that machine translation methods, particularly those based on <a href="https://en.wikipedia.org/wiki/Neural_network" target="_blank">neural networks</a>, have voracious appetite for data. As a consequence, these datasets may be more suitable for evaluation purposes, fine-tuning or even for trainings for low-resource setups.</p>
+
+<p>The following shows a sample of the corpus:</p>
+
+<table align="center" class="table table-bordered table-hover table-condensed">
+<thead>
+  <tr>
+    <th>Source</th>
+    <th>Translation target</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>لە سیاسەتی فەرمیدا ئەرکێکی زۆری خستە سەرشانی.</td>
+    <td>Di siyaseta legal de wezîfeyên girîng da ser milê xwe.</td>
+  </tr>
+  <tr>
+    <td>Bi biharê re li çiyayên Kurdistanê gelek celebên pincaran şîn bû.</td>
+    <td>In the mountains of Kurdistan different kinds of edible plants grow in spring.</td>
+  </tr>
+  <tr>
+    <td>لەشاری کاراسنۆدار-ی فیدراسیۆنی ڕووسیا کۆرسی زمانی کوردی بۆمندالان کرایەوە.</td>
+    <td>A Kurdish language course has been started for children in the Russian city of Krasnodar.</td>
+  </tr>
+</tbody>
+</table>
+
+<h2 id="nota-bene">Nota bene</h2>
 
 <ul>
-  <li>
-    <p><a href="/resources/cofif.html">CoFiF-a Corpus of Financial Reports in French Language</a></p>
-  </li>
-  <li>
-    <p><a href="/resources/ktc.html">Kurdish Textbooks Corpus (KTC)</a></p>
-  </li>
-  <li>
-    <p><a href="/resources/kurdnet.html">KurdNet—the Kurdish WordNet</a></p>
-  </li>
-  <li>
-    <p><a href="/resources/kurdishfolkcorpus.html">A Corpus of the Sorani Kurdish Folkloric Lyrics</a></p>
-  </li>
-  <li>
-    <p><a href="/resources/kurdishlex.html">Kurdish Lexicographical Resources</a></p>
-  </li>
-  <li>
-    <p><a href="/resources/kurdishparallelcorpus.html">Kurdish Multilingual Parallel Corpus</a></p>
-  </li>
-  <li>
-    <p><a href="/resources/mwsa.html">A Multilingual Dataset for Monolingual Word Sense Alignment</a></p>
-  </li>
-  <li>
-    <p><a href="/resources/pewan.html">Pewan—a Kurdish corpus and test collection</a></p>
-  </li>
-  <li>
-    <p><a href="/resources/wergor.html">Wergor Transliteration Corpus</a></p>
-  </li>
-  <li>
-    <p><a href="/resources/zzahaccorpus.html">Zaza-Gorani Corpus</a></p>
-  </li>
+  <li>If you are interested in machine translation in general, and in Kurdish language processing, in particular, check out this paper entitled <a href="http://localhost:4000/docs/articles/ahmadi2020machine.pdf" target="_blank">Towards Machine Translation for the Kurdish Language</a>.</li>
+  <li>Shortly after this project in August 2020, the <a href="https://en.wikipedia.org/wiki/Microsoft_Translator" target="_blank">Microsoft Translation Service</a> added Sorani and Kurmanji to its service. See <a href="https://www.bing.com/translator" target="_blank">https://www.bing.com/translator</a>.</li>
+  <li>Our approach in this project can be applied to any other language/dialect, or even further enrich the resource for Kurdish. If you are interested in the task, please check out the annotation guidelines at <a href="https://github.com/KurdishBLARK/InterdialectCorpus/tree/master/X_Guidelines" target="_blank">here</a>.</li>
+  <li>For the alignment task, check out <a href="https://wanthalf.saga.cz/intertext" target="_blank">InterText</a>. Check out this <a href="https://www.youtube.com/watch?v=8OSHkF56H8Q" target="_blank">short tutorial video</a>.</li>
 </ul>
 
+<h2 id="cite-this-corpus">Cite this corpus</h2>
+
+<p>Download this parallel corpus at <a href="https://github.com/KurdishBLARK/InterdialectCorpus" target="_blank">https://github.com/KurdishBLARK/InterdialectCorpus</a>. If you use this resource, please cite the following <a href="http://localhost:4000/docs/articles/ahmadi2020leveraging.pdf" target="_blank">paper</a>:</p>
+
+<figure class="highlight"><pre><code class="language-plaintext" data-lang="plaintext">@misc{ahmadi2020leveraging,
+      title={Leveraging Multilingual News Websites for Building a Kurdish Parallel Corpus}, 
+      author={Sina Ahmadi and Hossein Hassani and Daban Q. Jaff},
+      year={2020},
+      eprint={2010.01554},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}</code></pre></figure>
 
 
         </div>

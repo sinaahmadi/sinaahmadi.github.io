@@ -1,5 +1,5 @@
 ---
-title: Wergor transliteration corpus
+title: Wergor Transliteration Corpus
 show_profile: true
 ---
 

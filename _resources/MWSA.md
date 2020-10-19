@@ -145,7 +145,7 @@ As the principal material of my Ph.D. within the [ELEXIS project](https://elex.i
 </tr>
 
 <tr>
-	<td rowspan="2">Estonian (es)</td>
+	<td rowspan="2">Estonian (et)</td>
 	<td> <a href="http://www.eki.ee/dict/eks/" target="_blank"> Dictionary of Estonian (EKS) </a> </td>
 	<td> 543 (4012) </td>
 	<td> 273 (1598) </td>

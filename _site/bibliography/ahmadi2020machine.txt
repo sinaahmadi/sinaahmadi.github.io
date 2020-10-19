@@ -1,0 +1,8 @@
+@misc{ahmadi2020machine,
+      title={Towards Machine Translation for the Kurdish Language}, 
+      author={Sina Ahmadi and Mariam Masoud},
+      year={2020},
+      eprint={2010.06041},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}

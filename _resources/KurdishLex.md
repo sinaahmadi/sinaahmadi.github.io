@@ -1,5 +1,5 @@
 ---
-title: Kurdish lexicographical resources
+title: Kurdish Lexicographical Resources
 show_profile: true
 ---
 
