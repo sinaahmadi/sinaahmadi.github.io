@@ -13,8 +13,8 @@
 - title: Posts
   href: list/posts.html
 
-# - title: Projects
-#   href: list/projects.html
+- title: Projects
+  href: projects.html
 
 - title: Resources
   href: list/resources.html

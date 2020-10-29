@@ -32,10 +32,6 @@ include: ["_pages", "_portfolio"]
 
 # Turn the projects into a collection.
 collections:
-  projects:
-    output: true
-    title: Projects
-    permalink: /:collection/:name.html
   posts:
     output: true
     title: Posts
@@ -48,6 +44,10 @@ collections:
     output: true
     title: portfolio
     permalink: /:collection/:name.html
+  # projects:
+  #   output: true
+  #   title: Projects
+  #   permalink: /:collection/:name.html
 
 defaults:
 # Turn the profile sidebar on for all pages by default, except for the
@@ -74,12 +74,6 @@ defaults:
       layout: defaults/portfolio
   -
     scope:
-      path: "_projects"
-    values:
-      show_profile: false
-      layout: defaults/projects
-  -
-    scope:
       path: "_resources"
     values:
       show_profile: false
@@ -90,5 +84,9 @@ defaults:
     values:
       show_profile: false
       layout: defaults/list
-
-
+  # -
+  #   scope:
+  #     path: "_projects"
+  #   values:
+  #     show_profile: false
+  #     layout: defaults/projects

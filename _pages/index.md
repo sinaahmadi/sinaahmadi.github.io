@@ -11,7 +11,13 @@ title: Welcome to Sina Ahmadi's Personal Page
 
 <hr />
 
-### News about me
+### Recent Posts
+
+{% for post in site.posts limit:2 %}
+{% include components/post-card.html %}
+{% endfor %}
+
+<!-- ### News about me
 
 * [15/10/2019] I am an organiser of the 6th [Insight Student Conference](http://studentconference2020.insight-centre.org/){:target="_blank"}
 * [10/06/2019] Research visit to Denmark to explore Danish lexicographic data linking. [[Read more]](https://sinaahmadi.github.io/posts/research-visit-to-copenhagen.html)
@@ -33,3 +39,4 @@ title: Welcome to Sina Ahmadi's Personal Page
 * [17/09/2016] New academic year in M2-AI at [Paris Descartes University](https://www.math-info.parisdescartes.fr/){:target="_blank"}
 
 <hr />
+ -->
