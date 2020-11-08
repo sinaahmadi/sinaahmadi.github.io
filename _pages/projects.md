@@ -40,6 +40,18 @@ title: Projects
 			  <tr>
 			    <td>Linking lexical resources is a challenge that requires impractical amounts of human efforts, but is still not easy to solve automatically. We develop methods that will make the linking problem viable for large resources, by using state-of-the-art semantic and natural language processing techniques. Our approaches are integrated as a single automated linking tool called <a href="https://github.com/insight-centre/naisc" target="_blank">NAISC</a> /naʃk/ which facilitates any linking problem for any type of input, from tabular to ontological.</td>
 			  </tr>
+			  <tr>
+		      <td class="w-25" rowspan="3">
+			      <img src="https://raw.githubusercontent.com/sinaahmadi/klpt/master/docs/img/KLPT_logo.png" class="img-fluid img-thumbnail" alt="Kurdish Language Processing Toolkit">
+		      </td>
+		      <td><a href="https://github.com/sinaahmadi/klpt" target="_blank">Kurdish Langauge Processing Toolkit</a></td>
+		    </tr>
+		    <tr>
+			    <td>2020-</td>
+			 </tr>
+			  <tr>
+			    <td>KLPT-Kurdish Language Processing Toolkit is a natural language processing (NLP) toolkit in Python for the Kurdish language. It comes with core modules for language processing, such as preprocessing, stemming, transliteration and tokenizion, spell-checking and morphological analysis of various dialect of Kurdish.</td>
+			  </tr>
 		  </tbody>
 		</table>   
     </div>

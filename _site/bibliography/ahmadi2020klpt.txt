@@ -1,0 +1,8 @@
+@inproceedings{ahmadi2020klpt,
+    title = "{KLPT--Kurdish Language Processing Toolkit}",
+    author = "Ahmadi, (accepted) Sina",
+    booktitle = "Proceedings of the second Workshop for {NLP} Open Source Software ({NLP}-{OSS})",
+    month = nov,
+    year = "2020",
+    publisher = "Association for Computational Linguistics"
+}

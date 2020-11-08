@@ -1,8 +1,8 @@
-@misc{ahmadi2020machine,
-      title={Towards Machine Translation for the Kurdish Language}, 
-      author={Sina Ahmadi and Mariam Masoud},
-      year={2020},
-      eprint={2010.06041},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+@inproceedings{ahmadi2020machine,
+    title = {{Towards Machine Translation for the Kurdish Language}},
+    author = {Ahmadi, Sina and Masoud, Mariam},
+    booktitle = {Proceedings of the 3rd Workshop on Technologies for MT of Low Resource Languages ({LoResMT} 2020) at {AACL-IJCNLP}},
+    month = dec,
+    year = "2020",
+    address = "China"
 }
