@@ -1,8 +1,11 @@
 @inproceedings{ahmadi2020klpt,
-    title = "{KLPT--Kurdish Language Processing Toolkit}",
-    author = "Ahmadi, (accepted) Sina",
-    booktitle = "Proceedings of the second Workshop for {NLP} Open Source Software ({NLP}-{OSS})",
+    title = "{KLPT} {--} {K}urdish Language Processing Toolkit",
+    author = "Ahmadi, Sina",
+    booktitle = "Proceedings of Second Workshop for NLP Open Source Software (NLP-OSS)",
     month = nov,
     year = "2020",
-    publisher = "Association for Computational Linguistics"
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/2020.nlposs-1.11",
+    pages = "72--84"
 }

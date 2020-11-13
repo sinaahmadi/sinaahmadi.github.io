@@ -50,7 +50,7 @@ title: Projects
 			    <td>2020-</td>
 			 </tr>
 			  <tr>
-			    <td>KLPT-Kurdish Language Processing Toolkit is a natural language processing (NLP) toolkit in Python for the Kurdish language. It comes with core modules for language processing, such as preprocessing, stemming, transliteration and tokenizion, spell-checking and morphological analysis of various dialect of Kurdish.</td>
+			    <td>KLPT-Kurdish Language Processing Toolkit is a natural language processing (NLP) toolkit in Python for the Kurdish language. It comes with core modules for language processing, such as preprocessing, stemming, transliteration and tokenizion, spell-checking and morphological analysis of various dialects of Kurdish.</td>
 			  </tr>
 		  </tbody>
 		</table>   
