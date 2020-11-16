@@ -1,0 +1,8 @@
+@misc{ahmadi2020finitestate,
+      title={Towards Finite-State Morphology of Kurdish}, 
+      author={Sina Ahmadi and Hossein Hassani},
+      year={2020},
+      eprint={2005.10652},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}

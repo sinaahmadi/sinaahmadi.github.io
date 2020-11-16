@@ -10,9 +10,17 @@ Publications by categories in reversed chronological order.
 
 &#42; indicates equal contribution. 
 
-### Main research topics
-
 <div align="center" style="background-color:mediumseagreen">
+	<b>2021</b>
+</div>
+
+1. (accepted) **Word Sense Alignment as a Classification Problem**  
+<u>Sina Ahmadi</u> and John P. McCrae  
+The 11th International Global Wordnet Conference (GWC2021)    
+[Paper] [[bib]](bibliography/ahmadi2021gwn.txt){:target="_blank"} 
+
+
+<div align="center" style="background-color:lightblue">
 	<b>2020</b>
 </div>
 
@@ -28,10 +36,10 @@ European Language Resources Association (ELRA) - LREC 2020 Workshop Language Res
 [[Paper]](docs/articles/ahmadi2020multilingual.pdf){:target="_blank"} [[Resource]](https://github.com/elexis-eu/MWSA){:target="_blank"}  [[bib]](bibliography/ahmadi2020multilingual.txt){:target="_blank"} 
 
 
-1. (accepted) **Towards Automatic Linking of Lexicographic Data: the case of a historical and a modern Danish dictionary**  
+1. **Towards Automatic Linking of Lexicographic Data: the case of a historical and a modern Danish dictionary**  
 <u>Sina Ahmadi</u> and Sanni Nimb and Thomas Troelsgård and John P. McCrae and Nicolai H. Sørensen  
 *The XIX EURALEX International Congress*  
-[[bib]](bibliography/ahmadi2020danishlinking.txt){:target="_blank"} 
+[Paper] [[bib]](bibliography/ahmadi2020danishlinking.txt){:target="_blank"} 
 
 
 1. **Challenges of Word Sense Alignment: Portuguese Language Resources**  
@@ -111,12 +119,33 @@ arXiv preprint arXiv:1810.00660
 [[Paper]](docs/articles/ahmadi2018attention.pdf){:target="_blank"} [[Code]](https://github.com/sinaahmadi/RNN){:target="_blank"} [[bib]](bibliography/ahmadi2018attention.txt){:target="_blank"}
 
 
+---
+
 ### Kurdish language processing
 
 <div align="center" style="background-color:mediumseagreen">
 	<b>2020</b>
 </div>
 
+1. **KLPT - Kurdish Language Processing Toolkit**  
+<u>Sina Ahmadi</u>
+*Proceedings of Second Workshop for NLP Open Source Software (NLP-OSS) - EMNLP 2020*  
+[[Paper]](docs/articles/ahmadi2020klpt.pdf){:target="_blank"} [[Poster]](docs/posters/ahmadi2020klpt_poster.pdf){:target="_blank"} [[Slides]](docs/slides/ahmadi2020klpt_slides.pdf){:target="_blank"} [[Presentation]](https://slideslive.com/38939750/klpt-kurdish-language-processing-toolkit){:target="_blank"} [[Code]](https://github.com/sinaahmadi/klpt){:target="_blank"} [[bib]](bibliography/ahmadi2020klpt.txt){:target="_blank"} 
+
+1. **Building a Corpus for the Zaza–Gorani Language Family**  
+<u>Sina Ahmadi</u>  
+*Proceedings of the Seventh Workshop on NLP for Similar Languages, Varieties and Dialects (VarDial 2020)*  
+[[Paper]](docs/articles/ahmadi2020zazagorani.pdf){:target="_blank"} [[Poster]](docs/posters/ahmadi2020zazagorani_poster.pdf){:target="_blank"} [[Resource]](https://github.com/sinaahmadi/ZazaGoraniCorpus){:target="_blank"} [[bib]](bibliography/ahmadi2020zazagorani.txt){:target="_blank"} 
+
+1. **A Tokenization System for the Kurdish Language**  
+<u>Sina Ahmadi</u>  
+*Proceedings of the Seventh Workshop on NLP for Similar Languages, Varieties and Dialects (VarDial 2020)*  
+[[Paper]](docs/articles/ahmadi2020tokenization.pdf){:target="_blank"} [[Poster]](docs/posters/ahmadi2020tokenization_poster.pdf){:target="_blank"} [[Code]](https://github.com/sinaahmadi/KurdishTokenization){:target="_blank"} [[bib]](bibliography/ahmadi2020tokenization.txt){:target="_blank"} 
+
+1. **Towards Machine Translation for the Kurdish Language**  
+<u>Sina Ahmadi</u> and Mariam Masoud  
+*Proceedings of the 3rd Workshop on Technologies for MT of Low Resource Languages (LoResMT 2020) at AACL-IJCNLP*  
+[[Paper]](docs/articles/ahmadi2020machine.pdf){:target="_blank"} [[Slide/Presentation]]() [[Code]](https://github.com/sinaahmadi/KurdishMT){:target="_blank"} [[bib]](bibliography/ahmadi2020machine.txt){:target="_blank"} 
 
 
 1. **A Corpus of the Sorani Kurdish Folkloric Lyrics**  
@@ -124,10 +153,15 @@ arXiv preprint arXiv:1810.00660
 *In Proceedings of the 1st Joint Spoken Language Technologies for Under-resourced languages ({SLTU}) and Collaboration and Computing for Under-Resourced Languages (CCURL) Workshop at the 12th International Conference on Language Resources and Evaluation (LREC)*   
 [[Paper]](docs/articles/ahmadi2020folklyrics.pdf){:target="_blank"} [[Resource]](https://github.com/KurdishBLARK/KurdishLyricsCorpus){:target="_blank"} [[bib]](bibliography/ahmadi2020folklyrics.txt){:target="_blank"}  
 
+1. (under review) **Leveraging Multilingual News Websites for Building a Kurdish Parallel Corpus**  
+<u>Sina Ahmadi</u> and Hossein Hassani and Daban Q. Jaff  
+*ACM Transactions on Asian and Low-Resource Language Information Processing (TALLIP)*  
+[[preprint]](docs/articles/ahmadi2020leveraging.pdf){:target="_blank"} [[Resource]](https://github.com/KurdishBLARK/InterdialectCorpus){:target="_blank"} [[bib]](bibliography/ahmadi2020leveraging.txt){:target="_blank"}  
+
 1. (under review) **Towards Finite-State Morphology of Kurdish**  
 <u>Sina Ahmadi</u> and Hossein Hassani  
-*ACM Transactions on Asian and Low-Resource Language Information Processing (TALLIP)*
-
+*ACM Transactions on Asian and Low-Resource Language Information Processing (TALLIP)*  
+[[preprint]](https://arxiv.org/pdf/2005.10652.pdf){:target="_blank"} [[bib]](ahmadi2020finitestate){:target="_blank"}  
 
 <div align="center" style="background-color:lightblue">
 	<b>2019</b>

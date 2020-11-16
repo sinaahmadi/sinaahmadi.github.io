@@ -1,0 +1,7 @@
+@inproceedings{ahmadi2021gwn,
+  title={Word Sense Alignment as a Classification Problem},
+  author={Ahmadi, Sina and McCrae, John P.},
+  booktitle={Proceedings of the 11th International Global Wordnet Conference},
+  pages={},
+  year={2021}
+}
