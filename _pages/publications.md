@@ -71,7 +71,7 @@ John P. McCrae, Carole Tiberius, Anas Fahad Khan, Ilan Kernerman, Thierry Decler
 2. **CoFiF: A Corpus of Financial Reports in French Language**  
 <u>Sina Ahmadi</u>&#42; and Tobias Daudert  
 *In Proceedings of the First Workshop on Financial Technology and Natural Language Processing*   
-[[Paper]](docs/articles/ahmadi-daudert-2019-cofif.pdf){:target="_blank"} [[Slides]](docs/posters/ahmadi-daudert-2019-cofif_poster.pdf){:target="_blank"} [[Resource]](https://sinaahmadi.github.io/resources/cofif.html){:target="_blank"} [[bib]](bibliography/ahmadi-daudert-2019-cofif.txt){:target="_blank"} 
+[[Paper]](docs/articles/ahmadi-daudert-2019-cofif.pdf){:target="_blank"} [[Slides]](docs/slides/ahmadi-daudert-2019-cofif_slides.pdf){:target="_blank"} [[Resource]](https://sinaahmadi.github.io/resources/cofif.html){:target="_blank"} [[bib]](bibliography/ahmadi-daudert-2019-cofif.txt){:target="_blank"} 
 
 3. **NUIG at the FinSBD Task: Sentence Boundary Detection for Noisy Financial PDFs in English and French**  
 Tobias Daudert and <u>Sina Ahmadi</u>  
@@ -128,7 +128,7 @@ arXiv preprint arXiv:1810.00660
 </div>
 
 1. **KLPT - Kurdish Language Processing Toolkit**  
-<u>Sina Ahmadi</u>
+<u>Sina Ahmadi</u>  
 *Proceedings of Second Workshop for NLP Open Source Software (NLP-OSS) - EMNLP 2020*  
 [[Paper]](docs/articles/ahmadi2020klpt.pdf){:target="_blank"} [[Poster]](docs/posters/ahmadi2020klpt_poster.pdf){:target="_blank"} [[Slides]](docs/slides/ahmadi2020klpt_slides.pdf){:target="_blank"} [[Presentation]](https://slideslive.com/38939750/klpt-kurdish-language-processing-toolkit){:target="_blank"} [[Code]](https://github.com/sinaahmadi/klpt){:target="_blank"} [[bib]](bibliography/ahmadi2020klpt.txt){:target="_blank"} 
 
@@ -145,7 +145,7 @@ arXiv preprint arXiv:1810.00660
 1. **Towards Machine Translation for the Kurdish Language**  
 <u>Sina Ahmadi</u> and Mariam Masoud  
 *Proceedings of the 3rd Workshop on Technologies for MT of Low Resource Languages (LoResMT 2020) at AACL-IJCNLP*  
-[[Paper]](docs/articles/ahmadi2020machine.pdf){:target="_blank"} [[Slide/Presentation]]() [[Code]](https://github.com/sinaahmadi/KurdishMT){:target="_blank"} [[bib]](bibliography/ahmadi2020machine.txt){:target="_blank"} 
+[[Paper]](docs/articles/ahmadi2020machine.pdf){:target="_blank"} [[Slides]](docs/slides/ahmadi2020machine_slides.pdf){:target="_blank"} [[Presentation]](https://drive.google.com/file/d/1XYXm-p_HYkGQ8GP7qUql_oLqulcmWpwT/view?usp=sharing){:target="_blank"} [[Code]](https://github.com/sinaahmadi/KurdishMT){:target="_blank"} [[bib]](bibliography/ahmadi2020machine.txt){:target="_blank"} 
 
 
 1. **A Corpus of the Sorani Kurdish Folkloric Lyrics**  
