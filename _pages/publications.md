@@ -39,7 +39,7 @@ European Language Resources Association (ELRA) - LREC 2020 Workshop Language Res
 1. **Towards Automatic Linking of Lexicographic Data: the case of a historical and a modern Danish dictionary**  
 <u>Sina Ahmadi</u> and Sanni Nimb and Thomas Troelsgård and John P. McCrae and Nicolai H. Sørensen  
 *The XIX EURALEX International Congress*  
-[Paper] [[bib]](bibliography/ahmadi2020danishlinking.txt){:target="_blank"} 
+[[Paper]](docs/articles/ahmadi2020danishlinking.pdf){:target="_blank"} [[bib]](bibliography/ahmadi2020danishlinking.txt){:target="_blank"} 
 
 
 1. **Challenges of Word Sense Alignment: Portuguese Language Resources**  
