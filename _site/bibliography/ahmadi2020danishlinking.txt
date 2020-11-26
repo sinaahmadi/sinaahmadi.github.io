@@ -1,7 +1,7 @@
 @inproceedings{ahmadi2020danishlinking,
   title={{Towards Automatic Linking of Lexicographic Data: the case of a historical and a modern Danish dictionary}},
-  author={Ahmadi, Sina and Nimb, Sanni and Troelsgård, Thomas and McCrae, John P. and Sørensen, Nicolai H.},
-  booktitle={{The XIX EURALEX International Congress}},
+  author={Ahmadi, Sina and Nimb, Sanni and McCrae, John P. and Sørensen, Nicolai H.},
+  booktitle={{The XIX EURALEX International Congress of the European Association for Lexicography}},
   date="2020-09-8",
   year={2020},
   address= "Alexandroupolis, Greece"
