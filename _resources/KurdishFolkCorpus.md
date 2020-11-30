@@ -54,7 +54,7 @@ This corpus contains 49,582 tokens in the Sorani dialect of Kurdish. The followi
 
 The datasets are publicly freely available in the Text Encoding Initiative (TEI) format for non-commercial use under the CCBY-NC-SA 4.0 license at [https://github.com/KurdishBLARK/KurdishLyricsCorpus](https://github.com/KurdishBLARK/KurdishLyricsCorpus){:target="_blank"}. 
 
-The corpus is also available at [https://kurdishblark.github.io/KurdishLyricsCorpus/](https://kurdishblark.github.io/KurdishLyricsCorpus/"){:target="_blank"} with basic query functions.
+The corpus is also available at [https://kurdishblark.github.io/KurdishLyricsCorpus/](https://kurdishblark.github.io/KurdishLyricsCorpus/){:target="_blank"} with basic query functions.
 
 
 ## Reference
