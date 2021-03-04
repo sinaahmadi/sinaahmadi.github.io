@@ -1,0 +1,12 @@
+@inproceedings{ahmadi2021gwn,
+    title = "Monolingual Word Sense Alignment as a Classification Problem",
+    author = "Ahmadi, Sina  and
+      McCrae, John P.",
+    booktitle = "Proceedings of the 11th Global Wordnet Conference",
+    month = jan,
+    year = "2021",
+    address = "University of South Africa (UNISA)",
+    publisher = "Global Wordnet Association",
+    url = "https://www.aclweb.org/anthology/2021.gwc-1.9",
+    pages = "73--80"
+}

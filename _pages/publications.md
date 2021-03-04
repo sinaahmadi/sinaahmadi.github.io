@@ -14,11 +14,10 @@ Publications by categories in reversed chronological order.
 	<b>2021</b>
 </div>
 
-1. (accepted) **Word Sense Alignment as a Classification Problem**  
+1. **Word Sense Alignment as a Classification Problem**  
 <u>Sina Ahmadi</u> and John P. McCrae  
 The 11th International Global Wordnet Conference (GWC2021)    
-[Paper] [[bib]](bibliography/ahmadi2021gwn.txt){:target="_blank"} 
-
+[[Paper]](https://www.aclweb.org/anthology/2021.gwc-1.9.pdf){:target="_blank"} [[Slides]](docs/slides/ahmadi2021gwc_slides.pdf){:target="_blank"} [[Presentation]](https://drive.google.com/file/d/1j7BiuFv6G8XyWuoypRQCHsmqqVVrCEkR/view?usp=sharing){:target="_blank"} [[bib]](bibliography/ahmadi2021gwc.txt){:target="_blank"}  
 
 <div align="center" style="background-color:lightblue">
 	<b>2020</b>
@@ -123,7 +122,7 @@ arXiv preprint arXiv:1810.00660
 
 ### Kurdish language processing
 
-<div align="center" style="background-color:mediumseagreen">
+<div align="center" style="background-color:lightblue">
 	<b>2020</b>
 </div>
 
