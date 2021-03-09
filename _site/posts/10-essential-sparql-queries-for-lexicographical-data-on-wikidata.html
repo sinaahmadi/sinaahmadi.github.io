@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Sina Ahmadi's personal website">
+    <meta name="author" content="Sina Ahmadi">
+    <meta name="keywords" content="Natural Language Processing, Kurdish, Kurdish language processing, Kurdish-BLARK, Computational Linguistics, less-resourced languages, پاڵاوتنی زمان, زمانی کوردی, تێکنۆلۆژیا بۆ زمان, زانست, سینا ئەحمەدی, پێواژۆکردنی زمانی سروشتی, Doğal dil işleme, traitement automatique du langage naturel, la langue kurde, le traitement automatique du kurde, zimanê kurdî, teknolojiya ji bo zimanê kurdî">
+    <meta name="twitter:title" content="Sina Ahmadi's personal website">
+    <meta property="og:image" content="https://sinaahmadi.github.io/docs/P_20180307_160121_BF.png">
+    <meta property="og:description" content="Sina Ahmadi's personal website">
+    <meta property="og:title" content="Sina Ahmadi's personal website">
+
+    <title>
+        
+            10 basic but essential SPARQL queries for 
+lexicographical data on Wikidata &middot; Sina Ahmadi's Personal Page
+        
+    </title>
+
+    <script src="/theme/js/jquery-3.2.1.min.js"></script>
+    <script src="/theme/js/popper.min.js"></script>
+    <script src="/theme/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="/theme/css/bootstrap.css">
+    <link rel="stylesheet" href="/theme/css/site.css">
+    <link rel="stylesheet" href="/theme/css/syntax.css">
+    <link rel="meta" type="application/rdf+xml" title="FOAF" href="foaf.rdf" /> 
+
+</head>
+
+
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top justify-content-between">
+    <a class="navbar-brand font-weight-bold" href="/index.html">Sina Ahmadi</a>
+    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarContent" >
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarContent">
+        <ul class="navbar-nav ml-auto">
+        
+            <li class="nav-item">
+                <a href='/index.html'
+                   class="nav-link">
+                    Home
+                </a>
+            </li>
+        
+            <li class="nav-item">
+                <a href='/about.html'
+                   class="nav-link">
+                    About
+                </a>
+            </li>
+        
+            <li class="nav-item">
+                <a href='/publications.html'
+                   class="nav-link">
+                    Publications
+                </a>
+            </li>
+        
+            <li class="nav-item">
+                <a href='/teaching.html'
+                   class="nav-link">
+                    Teaching
+                </a>
+            </li>
+        
+            <li class="nav-item">
+                <a href='/list/posts.html'
+                   class="nav-link">
+                    Posts
+                </a>
+            </li>
+        
+            <li class="nav-item">
+                <a href='/projects.html'
+                   class="nav-link">
+                    Projects
+                </a>
+            </li>
+        
+            <li class="nav-item">
+                <a href='/list/resources.html'
+                   class="nav-link">
+                    Resources
+                </a>
+            </li>
+        
+        </ul>
+    </div>
+</nav>
+
+
+
+
+
+<div class="container site-container" id="top">
+    <div class="row">
+        <div class="d-none d-lg-block col-lg-4 col-xl-4 side">
+            
+
+
+
+
+
+
+
+
+    <div class="sticky-top space-before">
+    <div class="card bg-light mb-3 space-before">
+        <div class="card-body">
+            <div class="card-title">
+                <h5>On This Page</h5>
+                <h6>Dec 10, 2020</h6>
+            </div>
+              <ul class="nav flex-column nav-pills header-list">
+            </ul>
+            <hr>
+            <div class="d-flex flex-wrap align-items-center">
+                <span class="icon grey mr-2 mb-2">
+                    <?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg version="1.1" id="Price_tag" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve">
+<g>
+	<path d="M19.388,0.405c-0.111-0.314-0.454-0.48-0.769-0.371c-0.315,0.109-0.481,0.455-0.372,0.77
+		c0.929,2.67-0.915,4.664-2.321,5.732l-0.568-0.814c-0.191-0.273-0.618-0.5-0.95-0.504L11.22,5.232
+		c-0.332-0.006-0.825,0.146-1.097,0.338l-9.394,6.587c-0.455,0.32-0.565,0.947-0.247,1.404l4.269,6.108
+		c0.32,0.455,0.831,0.4,1.287,0.082l9.394-6.588c0.27-0.191,0.582-0.603,0.692-0.918l0.998-3.145
+		c0.11-0.314,0.043-0.793-0.148-1.066l-0.346-0.496C18.516,6.091,20.476,3.534,19.388,0.405z M15.017,9.763
+		c-0.727,0.51-1.731,0.332-2.24-0.396c-0.511-0.73-0.333-1.734,0.395-2.246C13.75,6.716,14.5,6.745,15.04,7.138
+		c-0.272,0.164-0.459,0.26-0.494,0.275c-0.301,0.143-0.43,0.504-0.288,0.805c0.104,0.219,0.321,0.348,0.547,0.348
+		c0.086,0,0.174-0.02,0.257-0.059c0.194-0.092,0.402-0.201,0.619-0.33C15.778,8.771,15.542,9.394,15.017,9.763z"/>
+</g>
+</svg>
+
+                </span>
+                
+                    <a href="/list/posts.html#nlp"
+                       class="bg-white border rounded p-1 mr-2 mb-2 d-inline-block">
+                        NLP
+                    </a>
+                
+                    <a href="/list/posts.html#linked-data"
+                       class="bg-white border rounded p-1 mr-2 mb-2 d-inline-block">
+                        linked data
+                    </a>
+                
+            </div>
+            <hr>
+            <div class="d-flex align-items-center mt-2">
+                <span class="icon grey mr-1">
+                    <?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg version="1.1" id="Arrow_left" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve">
+<path d="M2.5,10L9,3.5V7h8v6H9v3.5L2.5,10z"/>
+</svg>
+
+                </span>
+                <a href="/list/posts.html">Back to all posts</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+        </div>
+        <div class="col-md-12 col-lg-8 col-xl-8 pb-4 content">
+            <h1 class="border border-top-0 border-right-0 border-left-0 mb-3 pb-2">
+    10 basic but essential SPARQL queries for 
+lexicographical data on Wikidata
+</h1>
+
+<div class="d-md-block d-lg-none">
+    <div class="sticky-top space-before">
+    <div class="card bg-light mb-3 space-before">
+        <div class="card-body">
+            <div class="card-title">
+                <h5>On This Page</h5>
+                <h6>Dec 10, 2020</h6>
+            </div>
+              <ul class="nav flex-column nav-pills header-list">
+            </ul>
+            <hr>
+            <div class="d-flex flex-wrap align-items-center">
+                <span class="icon grey mr-2 mb-2">
+                    <?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg version="1.1" id="Price_tag" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve">
+<g>
+	<path d="M19.388,0.405c-0.111-0.314-0.454-0.48-0.769-0.371c-0.315,0.109-0.481,0.455-0.372,0.77
+		c0.929,2.67-0.915,4.664-2.321,5.732l-0.568-0.814c-0.191-0.273-0.618-0.5-0.95-0.504L11.22,5.232
+		c-0.332-0.006-0.825,0.146-1.097,0.338l-9.394,6.587c-0.455,0.32-0.565,0.947-0.247,1.404l4.269,6.108
+		c0.32,0.455,0.831,0.4,1.287,0.082l9.394-6.588c0.27-0.191,0.582-0.603,0.692-0.918l0.998-3.145
+		c0.11-0.314,0.043-0.793-0.148-1.066l-0.346-0.496C18.516,6.091,20.476,3.534,19.388,0.405z M15.017,9.763
+		c-0.727,0.51-1.731,0.332-2.24-0.396c-0.511-0.73-0.333-1.734,0.395-2.246C13.75,6.716,14.5,6.745,15.04,7.138
+		c-0.272,0.164-0.459,0.26-0.494,0.275c-0.301,0.143-0.43,0.504-0.288,0.805c0.104,0.219,0.321,0.348,0.547,0.348
+		c0.086,0,0.174-0.02,0.257-0.059c0.194-0.092,0.402-0.201,0.619-0.33C15.778,8.771,15.542,9.394,15.017,9.763z"/>
+</g>
+</svg>
+
+                </span>
+                
+                    <a href="/list/posts.html#nlp"
+                       class="bg-white border rounded p-1 mr-2 mb-2 d-inline-block">
+                        NLP
+                    </a>
+                
+                    <a href="/list/posts.html#linked-data"
+                       class="bg-white border rounded p-1 mr-2 mb-2 d-inline-block">
+                        linked data
+                    </a>
+                
+            </div>
+            <hr>
+            <div class="d-flex align-items-center mt-2">
+                <span class="icon grey mr-1">
+                    <?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg version="1.1" id="Arrow_left" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 20 20" enable-background="new 0 0 20 20" xml:space="preserve">
+<path d="M2.5,10L9,3.5V7h8v6H9v3.5L2.5,10z"/>
+</svg>
+
+                </span>
+                <a href="/list/posts.html">Back to all posts</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+
+<p>The <a href="https://www.w3.org/standards/semanticweb/" target="_blank">Semantic Web</a> as an extension of the <a href="https://en.wikipedia.org/wiki/World_Wide_Web" target="_blank">World Wide Web (WWW)</a> represents an effective means of data representation and enables users and computers to retrieve and share information efficiently. The <a href="https://www.w3.org/RDF/" target="_blank">Resource Description Framework (RDF)</a> is the foundational data model for Semantic Web. Unlike traditional databases, such as <a href="https://en.wikipedia.org/wiki/Relational_database" target="_blank">relational ones</a>, where data has to adhere to a fixed schema, RDF documents are not prescribed by a schema and can be described without additional information making RDF data model self-describing. <strong>To learn more about RDF, you can read one of my previous blog posts on <a href="https://sinaahmadi.github.io/posts/rdf-data-modelling-a-tutorial.html" target="_blank">data modelling with RDF</a>.</strong></p>
+
+<p>More recently, the concept of the Web of <a href="https://en.wikipedia.org/wiki/Linked_data">Linked Data</a>, which makes RDF data available using the <a href="https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol" target="_blank">HyperText Transfer Protocol (HTTP)</a>, and <a href="http://linguistic-lod.org/" target="_blank">Linguistic Linked Open Data</a> has gained traction along with the Semantic Web, particularly in the <a href="https://en.wikipedia.org/wiki/Natural_language_processing" target="_blank">natural language processing (NLP)</a> community as a standard for linguistic resource creation. According to the <a href="https://www.w3.org/standards/semanticweb/data" target="_blank">official definition</a> of W3C,</p>
+
+<div class="ml-3">
+<p class="text-muted">
+Linked Data lies at the heart of what Semantic Web is all about: large scale integration of, and reasoning on, data on the Web. Almost all applications listed in, say collection of Semantic Web Case Studies and Use Cases are essentially based on the accessibility of, and integration of Linked Data at various level of complexities. 
+</p>
+</div>
+
+<p>Moreover, the unique potential which the Semantic Web and Linked Data offer to electronic <a href="https://en.wikipedia.org/wiki/Lexicography" target="_blank">lexicography</a> enables interoperability across lexical resources by leveraging printed or unstructured linguistic data to machine-readable semantic formats.</p>
+
+<div class="card mb-3 text-center">
+    <img class="rounded mx-auto d-block" src="http://localhost:4000/docs/images/dictionary-rdf-library-linked-data.jpg" style="width:100%" align="middle" alt="dictionary-rdf-library-linked-data" />
+    <div class="card-body bg-light">
+        <div class="card-text">
+            Semantic web and linked data facilitate retrieving information from huge resources such as printed dictionaries (Photo taken at <a href="https://dsl.dk/" target="_blank">DSL in Copenhagen</a>)
+        </div>
+    </div>
+</div>
+
+<h2 id="queries">Queries</h2>
+
+<p>We present 10 essential queries in SPARQL, an RDF query language, for lexicographical purposes to retrieve information. To this end, we use the <a href="https://query.wikidata.org/" target="_blank">SPARQL endpoint of Wikidata</a> which comes with a few lexeme queries as example, too.</p>
+
+<p>It is important to get familiar with <a href="https://www.w3.org/2016/05/ontolex/" target="_blank">Ontolex-Lemon</a> and the <a href="https://jogracia.github.io/ontolex-lexicog/" target="_blank">Ontolex-Lemon lexicography module (lexicog)</a> as lexicographical data on Wikidata are provided based on those ontologies.</p>
+
+<p>Moreover, a list of other useful queries are provided at:</p>
+<ul>
+  <li><a href="https://www.wikidata.org/wiki/Wikidata:Lexicographical_data/Ideas_of_queries">https://www.wikidata.org/wiki/Wikidata:Lexicographical_data/Ideas_of_queries</a></li>
+  <li><a href="https://en.wikibooks.org/wiki/SPARQL/WIKIDATA_Lexicographical_data" target="_blank">https://en.wikibooks.org/wiki/SPARQL/WIKIDATA_Lexicographical_data</a></li>
+  <li><a href="https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service/queries/examples/en#Lexeme_queries" target="_blank">https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service/queries/examples/en#Lexeme_queries</a></li>
+  <li><a href="http://www2.imm.dtu.dk/pubdb/edoc/imm7154.pdf" target="_blank">Lexemes in Wikidata: 2020 status</a></li>
+</ul>
+
+<p>Unfortunately, not all languages are equally represented on Wikipedia. In this tutorial, we focus on some of the richly represented ones, e.g. English and French. So, if you modify the queries to work on another language, make sure that your language is sufficiently represented on Wikidata before double-checking the soundness of the syntax of your queries.</p>
+
+<h4 id="1--retrieve-lexemes-describing-bookl536-in-different-languages">1- Retrieve lexemes describing <a href="https://www.wikidata.org/wiki/Lexeme:L536" target="_blank"><code class="language-plaintext highlighter-rouge">book(L536)</code></a> in different languages</h4>
+
+<figure class="highlight"><pre><code class="language-sparql" data-lang="sparql"><span class="k">SELECT</span><span class="w"> </span><span class="nv">?lemma</span><span class="w"> </span><span class="nv">?languageLabel</span><span class="w"> </span><span class="k">WHERE</span><span class="w"> </span><span class="p">{</span><span class="w">
+  </span><span class="nv">?l</span><span class="w"> </span><span class="err">a</span><span class="w"> </span><span class="nn">ontolex:</span><span class="ss">LexicalEntry</span><span class="w"> </span><span class="p">;</span><span class="w"> 
+       </span><span class="nn">ontolex:</span><span class="ss">sense</span><span class="w"> </span><span class="nv">?sense</span><span class="w"> </span><span class="p">;</span><span class="w"> 
+       </span><span class="nn">dct:</span><span class="ss">language</span><span class="w"> </span><span class="nv">?language</span><span class="w"> </span><span class="p">;</span><span class="w"> 
+       </span><span class="nn">wikibase:</span><span class="ss">lemma</span><span class="w"> </span><span class="nv">?lemma</span><span class="p">.</span><span class="w">
+  </span><span class="nv">?sense</span><span class="w"> </span><span class="nn">wdt:</span><span class="ss">P5137</span><span class="w"> </span><span class="nn">wd:</span><span class="ss">Q571</span><span class="w"> </span><span class="p">.</span><span class="w"> </span><span class="c1"># the concept for our sense is Q571</span><span class="w">
+  </span><span class="c1"># Set the language of the labels to English.</span><span class="w">
+  </span><span class="c1"># For any variable, if label exists, add "Label" to the variable to get its label using the following:</span><span class="w">
+  </span><span class="k">SERVICE</span><span class="w"> </span><span class="nn">wikibase:</span><span class="ss">label</span><span class="w"> </span><span class="p">{</span><span class="w"> 
+    </span><span class="nn">bd:</span><span class="ss">serviceParam</span><span class="w"> </span><span class="nn">wikibase:</span><span class="ss">language</span><span class="w"> </span><span class="s2">"en"</span><span class="p">.</span><span class="w"> 
+  </span><span class="p">}</span><span class="w">
+</span><span class="p">}</span></code></pre></figure>
+
+<p><strong><a href="https://query.wikidata.org/#SELECT%20%3Flemma%20%3FlanguageLabel%20WHERE%20%7B%0A%20%20%3Fl%20a%20ontolex%3ALexicalEntry%20%3B%20%0A%20%20%20%20%20%20%20ontolex%3Asense%20%3Fsense%20%3B%20%0A%20%20%20%20%20%20%20dct%3Alanguage%20%3Flanguage%20%3B%20%0A%20%20%20%20%20%20%20wikibase%3Alemma%20%3Flemma.%0A%20%20%3Fsense%20wdt%3AP5137%20wd%3AQ571%20.%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%0A%20%20%20%20bd%3AserviceParam%20wikibase%3Alanguage%20%22en%22.%0A%20%20%7D%0A%7D" target="_blank">Run this query</a></strong></p>
+
+<h4 id="2--list-the-antonyms-of-sadness-in-english">2- List the antonyms of “sadness” in English</h4>
+
+<figure class="highlight"><pre><code class="language-sparql" data-lang="sparql"><span class="k">SELECT</span><span class="w"> </span><span class="nv">?l</span><span class="w"> </span><span class="nv">?lemma</span><span class="w"> </span><span class="nv">?antonymLabel</span><span class="w"> </span><span class="k">WHERE</span><span class="w"> </span><span class="p">{</span><span class="w">
+  </span><span class="k">VALUES</span><span class="w"> </span><span class="nv">?lemma</span><span class="w"> </span><span class="p">{</span><span class="s1">'sadness'</span><span class="o">@</span><span class="py">en</span><span class="p">}</span><span class="w"> 
+  </span><span class="nv">?l</span><span class="w"> </span><span class="nn">wikibase:</span><span class="ss">lemma</span><span class="w"> </span><span class="nv">?lemma</span><span class="p">;</span><span class="w">
+          </span><span class="nn">wdt:</span><span class="ss">P461</span><span class="w"> </span><span class="nv">?antonym</span><span class="w"> </span><span class="p">.</span><span class="w"> </span><span class="c1"># P461 is the property for opposite of or antonymy</span><span class="w">
+  </span><span class="k">SERVICE</span><span class="w"> </span><span class="nn">wikibase:</span><span class="ss">label</span><span class="w"> </span><span class="p">{</span><span class="w">
+   </span><span class="nn">bd:</span><span class="ss">serviceParam</span><span class="w"> </span><span class="nn">wikibase:</span><span class="ss">language</span><span class="w"> </span><span class="s2">"en"</span><span class="w"> </span><span class="p">.</span><span class="w">
+  </span><span class="p">}</span><span class="w">  
+</span><span class="p">}</span></code></pre></figure>
+
+<p><strong><a href="https://query.wikidata.org/#SELECT%20%3Fl%20%3Flemma%20%3FantonymLabel%20WHERE%20%7B%0A%20%20VALUES%20%3Flemma%20%7B%27sadness%27%40en%7D%20%0A%20%20%3Fl%20wikibase%3Alemma%20%3Flemma%3B%0A%20%20%20%20%20%20%20%20%20%20wdt%3AP461%20%3Fantonym%20.%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%0A%20%20%20bd%3AserviceParam%20wikibase%3Alanguage%20%22en%22%20.%0A%20%20%7D%20%20%0A%7D" target="_blank">Run this query</a></strong></p>
+
+<h4 id="3--retrieve-the-lemmas-in-a-given-language-with-part-of-speech-glosses-and-usage-examples">3- Retrieve the lemmas in a given language with part-of-speech, glosses and usage examples</h4>
+
+<figure class="highlight"><pre><code class="language-sparql" data-lang="sparql"><span class="k">SELECT</span><span class="w"> </span><span class="nv">?lemma</span><span class="w"> </span><span class="nv">?categoryLabel</span><span class="w"> </span><span class="nv">?gloss</span><span class="w"> </span><span class="nv">?example</span><span class="w"> </span><span class="k">WHERE</span><span class="w"> </span><span class="p">{</span><span class="w">
+   </span><span class="nv">?l</span><span class="w"> </span><span class="err">a</span><span class="w"> </span><span class="nn">ontolex:</span><span class="ss">LexicalEntry</span><span class="w"> </span><span class="p">;</span><span class="w">
+        </span><span class="nn">dct:</span><span class="ss">language</span><span class="w"> </span><span class="nv">?language</span><span class="w"> </span><span class="p">;</span><span class="w">
+        </span><span class="nn">wikibase:</span><span class="ss">lemma</span><span class="w"> </span><span class="nv">?lemma</span><span class="w"> </span><span class="p">;</span><span class="w">
+        </span><span class="nn">wikibase:</span><span class="ss">lexicalCategory</span><span class="w"> </span><span class="nv">?category</span><span class="w"> </span><span class="p">;</span><span class="w">
+        </span><span class="nn">ontolex:</span><span class="ss">sense</span><span class="w"> </span><span class="nv">?sense</span><span class="w"> </span><span class="p">.</span><span class="w">
+        </span><span class="nv">?language</span><span class="w"> </span><span class="nn">wdt:</span><span class="ss">P218</span><span class="w"> </span><span class="s1">'en'</span><span class="w"> </span><span class="p">.</span><span class="w">
+  </span><span class="c1"># Find the gloss (definition) of the senses</span><span class="w">
+  </span><span class="nv">?sense</span><span class="w"> </span><span class="nn">skos:</span><span class="ss">definition</span><span class="w"> </span><span class="nv">?gloss</span><span class="w"> </span><span class="p">.</span><span class="w">
+  </span><span class="c1"># Usage example</span><span class="w">
+  </span><span class="nv">?l</span><span class="w"> </span><span class="nn">p:</span><span class="ss">P5831</span><span class="w"> </span><span class="nv">?statement</span><span class="w"> </span><span class="p">.</span><span class="w">
+  </span><span class="nv">?statement</span><span class="w"> </span><span class="nn">ps:</span><span class="ss">P5831</span><span class="w"> </span><span class="nv">?example</span><span class="w"> </span><span class="p">.</span><span class="w">
+  </span><span class="c1"># Get only those lexemes for which senses are available</span><span class="w">
+  </span><span class="k">FILTER</span><span class="w"> </span><span class="k">EXISTS</span><span class="w"> </span><span class="p">{</span><span class="nv">?l</span><span class="w"> </span><span class="nn">ontolex:</span><span class="ss">sense</span><span class="w"> </span><span class="nv">?sense</span><span class="w"> </span><span class="p">}</span><span class="w">
+  </span><span class="c1"># Set the language of the glosses to English</span><span class="w">
+  </span><span class="k">FILTER</span><span class="p">(</span><span class="nb">LANG</span><span class="p">(</span><span class="nv">?gloss</span><span class="p">)</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s2">"en"</span><span class="p">)</span><span class="w">
+  </span><span class="k">SERVICE</span><span class="w"> </span><span class="nn">wikibase:</span><span class="ss">label</span><span class="w"> </span><span class="p">{</span><span class="w">
+   </span><span class="nn">bd:</span><span class="ss">serviceParam</span><span class="w"> </span><span class="nn">wikibase:</span><span class="ss">language</span><span class="w"> </span><span class="s2">"en"</span><span class="w"> </span><span class="p">.</span><span class="w">
+  </span><span class="p">}</span><span class="w">  
+</span><span class="p">}</span><span class="w">
+</span><span class="k">LIMIT</span><span class="w"> </span><span class="mi">100</span></code></pre></figure>
+
+<p><strong><a href="https://query.wikidata.org/#SELECT%20%3Flemma%20%3FcategoryLabel%20%3Fgloss%20%3Fexample%20WHERE%20%7B%0A%20%20%20%3Fl%20a%20ontolex%3ALexicalEntry%20%3B%0A%20%20%20%20%20%20%20%20dct%3Alanguage%20%3Flanguage%20%3B%0A%20%20%20%20%20%20%20%20wikibase%3Alemma%20%3Flemma%20%3B%0A%20%20%20%20%20%20%20%20wikibase%3AlexicalCategory%20%3Fcategory%20%3B%0A%20%20%20%20%20%20%20%20ontolex%3Asense%20%3Fsense%20.%0A%20%20%20%20%20%20%20%20%3Flanguage%20wdt%3AP218%20%27en%27%20.%0A%20%20%23%20Find%20the%20gloss%20%28definition%29%20of%20the%20senses%0A%20%20%3Fsense%20skos%3Adefinition%20%3Fgloss%20.%0A%20%20%23%20Usage%20example%0A%20%20%3Fl%20p%3AP5831%20%3Fstatement%20.%0A%20%20%3Fstatement%20ps%3AP5831%20%3Fexample%20.%0A%20%20%23%20Get%20only%20those%20lexemes%20for%20which%20senses%20are%20available%0A%20%20FILTER%20EXISTS%20%7B%3Fl%20ontolex%3Asense%20%3Fsense%20%7D%0A%20%20FILTER%28LANG%28%3Fgloss%29%20%3D%20%22en%22%29%0A%20%20%23%20Set%20the%20language%20of%20the%20labels%20to%20English.%0A%20%20%23%20For%20any%20variable%2C%20if%20label%20exists%2C%20add%20%22Label%22%20to%20the%20variable%20to%20get%20its%20label.%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%0A%20%20%20bd%3AserviceParam%20wikibase%3Alanguage%20%22en%22%20.%0A%20%20%7D%20%20%0A%7D%0ALIMIT%20100" target="_blank">Run this query</a></strong></p>
+
+<h4 id="4--find-verb-forms-in-french-ending-with-é">4- Find verb forms in French ending with “é”</h4>
+
+<figure class="highlight"><pre><code class="language-sparql" data-lang="sparql"><span class="k">SELECT</span><span class="w"> </span><span class="k">DISTINCT</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="k">WHERE</span><span class="w"> </span><span class="p">{</span><span class="w">
+     </span><span class="nv">?l</span><span class="w"> </span><span class="err">a</span><span class="w"> </span><span class="nn">ontolex:</span><span class="ss">LexicalEntry</span><span class="w"> </span><span class="p">;</span><span class="w"> 
+       </span><span class="nn">dct:</span><span class="ss">language</span><span class="w"> </span><span class="nn">wd:</span><span class="ss">Q150</span><span class="w"> </span><span class="p">;</span><span class="w"> 
+       </span><span class="nn">wikibase:</span><span class="ss">lexicalCategory</span><span class="w"> </span><span class="nn">wd:</span><span class="ss">Q24905</span><span class="w"> </span><span class="p">;</span><span class="w"> 
+       </span><span class="nn">wikibase:</span><span class="ss">lemma</span><span class="w"> </span><span class="nv">?lemma</span><span class="w"> </span><span class="p">;</span><span class="w"> 
+       </span><span class="nn">ontolex:</span><span class="ss">lexicalForm</span><span class="w"> </span><span class="nv">?form</span><span class="w"> </span><span class="p">.</span><span class="w">
+    </span><span class="nv">?form</span><span class="w"> </span><span class="nn">ontolex:</span><span class="ss">representation</span><span class="w"> </span><span class="nv">?word</span><span class="w"> </span><span class="p">.</span><span class="w">
+    </span><span class="k">FILTER</span><span class="w"> </span><span class="p">(</span><span class="nb">regex</span><span class="p">(</span><span class="nv">?word</span><span class="p">,</span><span class="w"> </span><span class="s1">'é$'</span><span class="p">))</span><span class="w">
+</span><span class="p">}</span></code></pre></figure>
+
+<p><strong><a href="https://query.wikidata.org/#SELECT%20DISTINCT%20%2a%20WHERE%20%7B%0A%20%20%20%20%20%3Fl%20a%20ontolex%3ALexicalEntry%20%3B%20%0A%20%20%20%20%20%20%20dct%3Alanguage%20wd%3AQ150%20%3B%20%0A%20%20%20%20%20%20%20wikibase%3AlexicalCategory%20wd%3AQ24905%20%3B%20%0A%20%20%20%20%20%20%20%23wikibase%3AgrammaticalFeature%20wd%3AQ12717679%20%3B%0A%20%20%20%20%20%20%20wikibase%3Alemma%20%3Flemma%20%3B%20%0A%20%20%20%20%20%20%20ontolex%3AlexicalForm%20%3Fform%20.%0A%20%20%20%20%3Fform%20ontolex%3Arepresentation%20%3Fword%20.%0A%20%20%20%20FILTER%20%28regex%28%3Fword%2C%20%27%C3%A9%24%27%29%29%0A%7D%0A" target="_blank">Run this query</a></strong></p>
+
+<h4 id="5--create-a-trilingual-dictionary-of-headwords">5- Create a trilingual dictionary of headwords</h4>
+
+<figure class="highlight"><pre><code class="language-sparql" data-lang="sparql"><span class="c1"># Create a French-German-Basque lexicon</span><span class="w">
+</span><span class="k">SELECT</span><span class="w"> </span><span class="k">DISTINCT</span><span class="w"> </span><span class="nv">?sense</span><span class="w"> </span><span class="nv">?frLemma</span><span class="w"> </span><span class="nv">?deLemma</span><span class="w"> </span><span class="nv">?euLemma</span><span class="w"> </span><span class="k">WHERE</span><span class="w"> </span><span class="p">{</span><span class="w">
+  </span><span class="c1"># Retrieve lemmata based on common senses (use ?sense)</span><span class="w">
+    </span><span class="nv">?fr</span><span class="w"> </span><span class="nn">dct:</span><span class="ss">language</span><span class="w"> </span><span class="nn">wd:</span><span class="ss">Q150</span><span class="p">;</span><span class="w">
+        </span><span class="nn">wikibase:</span><span class="ss">lemma</span><span class="w"> </span><span class="nv">?frLemma</span><span class="p">;</span><span class="w">
+        </span><span class="nn">ontolex:</span><span class="ss">sense</span><span class="w"> </span><span class="p">[</span><span class="w"> </span><span class="nn">wdt:</span><span class="ss">P5137</span><span class="w"> </span><span class="nv">?sense</span><span class="w"> </span><span class="p">].</span><span class="w">
+    </span><span class="nv">?de</span><span class="w"> </span><span class="nn">dct:</span><span class="ss">language</span><span class="w"> </span><span class="nn">wd:</span><span class="ss">Q188</span><span class="p">;</span><span class="w">
+        </span><span class="nn">wikibase:</span><span class="ss">lemma</span><span class="w"> </span><span class="nv">?deLemma</span><span class="p">;</span><span class="w">
+        </span><span class="nn">ontolex:</span><span class="ss">sense</span><span class="w"> </span><span class="p">[</span><span class="w"> </span><span class="nn">wdt:</span><span class="ss">P5137</span><span class="w"> </span><span class="nv">?sense</span><span class="w"> </span><span class="p">].</span><span class="w">
+    </span><span class="nv">?eu</span><span class="w"> </span><span class="nn">dct:</span><span class="ss">language</span><span class="w"> </span><span class="nn">wd:</span><span class="ss">Q8752</span><span class="p">;</span><span class="w">
+        </span><span class="nn">wikibase:</span><span class="ss">lemma</span><span class="w"> </span><span class="nv">?euLemma</span><span class="p">;</span><span class="w">
+        </span><span class="nn">ontolex:</span><span class="ss">sense</span><span class="w"> </span><span class="p">[</span><span class="w"> </span><span class="nn">wdt:</span><span class="ss">P5137</span><span class="w"> </span><span class="nv">?sense</span><span class="w"> </span><span class="p">].</span><span class="w">
+  </span><span class="p">}</span><span class="w">
+</span><span class="k">ORDER</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="k">ASC</span><span class="p">(</span><span class="nb">UCASE</span><span class="p">(</span><span class="nb">STR</span><span class="p">(</span><span class="nv">?frLemma</span><span class="p">)))</span><span class="w">
+</span><span class="k">LIMIT</span><span class="w"> </span><span class="mi">100</span><span class="w"> </span></code></pre></figure>
+
+<p><strong><a href="https://query.wikidata.org/#%23%20Create%20a%20French-German-Basque%20lexicon%0ASELECT%20DISTINCT%20%3Fsense%20%3FfrLemma%20%3FdeLemma%20%3FeuLemma%20WHERE%20%7B%0A%20%20%23%20Retrieve%20lemmata%20based%20on%20common%20senses%20%28use%20%3Fsense%29%0A%20%20%20%20%3Ffr%20dct%3Alanguage%20wd%3AQ150%3B%0A%20%20%20%20%20%20%20%20wikibase%3Alemma%20%3FfrLemma%3B%0A%20%20%20%20%20%20%20%20ontolex%3Asense%20%5B%20wdt%3AP5137%20%3Fsense%20%5D.%0A%20%20%20%20%3Fde%20dct%3Alanguage%20wd%3AQ188%3B%0A%20%20%20%20%20%20%20%20wikibase%3Alemma%20%3FdeLemma%3B%0A%20%20%20%20%20%20%20%20ontolex%3Asense%20%5B%20wdt%3AP5137%20%3Fsense%20%5D.%0A%20%20%20%20%3Feu%20dct%3Alanguage%20wd%3AQ8752%3B%0A%20%20%20%20%20%20%20%20wikibase%3Alemma%20%3FeuLemma%3B%0A%20%20%20%20%20%20%20%20ontolex%3Asense%20%5B%20wdt%3AP5137%20%3Fsense%20%5D.%0A%20%20%7D%0AORDER%20BY%20ASC%28UCASE%28str%28%3FfrLemma%29%29%29%0ALIMIT%20100%20%0A" target="_blank">Run this query</a></strong></p>
+
+<h4 id="6--count-the-number-of-senses-per-language">6- Count the number of senses per language</h4>
+
+<figure class="highlight"><pre><code class="language-sparql" data-lang="sparql"><span class="k">SELECT</span><span class="w"> </span><span class="nv">?languageLabel</span><span class="w"> </span><span class="p">(</span><span class="nb">COUNT</span><span class="p">(</span><span class="nv">?sense</span><span class="p">)</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="nv">?count</span><span class="w"> </span><span class="p">)</span><span class="w"> </span><span class="k">WHERE</span><span class="w"> </span><span class="p">{</span><span class="w">
+  </span><span class="nv">?l</span><span class="w"> </span><span class="err">a</span><span class="w"> </span><span class="nn">ontolex:</span><span class="ss">LexicalEntry</span><span class="w"> </span><span class="p">;</span><span class="w">
+       </span><span class="nn">dct:</span><span class="ss">language</span><span class="w"> </span><span class="nv">?language</span><span class="w"> </span><span class="p">;</span><span class="w">
+       </span><span class="nn">ontolex:</span><span class="ss">sense</span><span class="w"> </span><span class="nv">?sense</span><span class="w"> </span><span class="p">.</span><span class="w">
+  </span><span class="k">SERVICE</span><span class="w"> </span><span class="nn">wikibase:</span><span class="ss">label</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nn">bd:</span><span class="ss">serviceParam</span><span class="w"> </span><span class="nn">wikibase:</span><span class="ss">language</span><span class="w"> </span><span class="s2">"en"</span><span class="w"> </span><span class="p">.</span><span class="w">
+  </span><span class="p">}</span><span class="w">  
+</span><span class="p">}</span><span class="w">
+</span><span class="k">GROUP</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="nv">?languageLabel</span><span class="w">
+</span><span class="k">ORDER</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="k">DESC</span><span class="p">(</span><span class="nv">?count</span><span class="p">)</span></code></pre></figure>
+
+<p><strong><a href="https://query.wikidata.org/#%0ASELECT%20%3FlanguageLabel%20%28COUNT%28%3Fsense%29%20AS%20%3Fcount%20%29%20WHERE%20%7B%0A%20%20%3Fl%20a%20ontolex%3ALexicalEntry%20%3B%0A%20%20%20%20%20%20%20dct%3Alanguage%20%3Flanguage%20%3B%0A%20%20%20%20%20%20%20ontolex%3Asense%20%3Fsense%20.%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%0A%20%20%20%20bd%3AserviceParam%20wikibase%3Alanguage%20%22en%22%20.%0A%20%20%7D%20%20%0A%7D%0AGROUP%20BY%20%3FlanguageLabel%0AORDER%20BY%20DESC%28%3Fcount%29" target="_blank">Run this query</a></strong></p>
+
+<h4 id="7--lemmatize-a-word-in-english">7- Lemmatize a word in English</h4>
+
+<figure class="highlight"><pre><code class="language-sparql" data-lang="sparql"><span class="k">SELECT</span><span class="w"> </span><span class="nv">?word</span><span class="w"> </span><span class="nv">?lemma</span><span class="w"> </span><span class="k">WHERE</span><span class="w"> </span><span class="p">{</span><span class="w">
+  </span><span class="k">VALUES</span><span class="w"> </span><span class="nv">?word</span><span class="w"> </span><span class="p">{</span><span class="s1">'brought'</span><span class="o">@</span><span class="py">en</span><span class="p">}</span><span class="w"> 
+  </span><span class="nv">?l</span><span class="w"> </span><span class="err">a</span><span class="w"> </span><span class="nn">ontolex:</span><span class="ss">LexicalEntry</span><span class="w"> </span><span class="p">;</span><span class="w"> 
+       </span><span class="nn">dct:</span><span class="ss">language</span><span class="w"> </span><span class="nn">wd:</span><span class="ss">Q1860</span><span class="w"> </span><span class="p">;</span><span class="w"> 
+       </span><span class="nn">wikibase:</span><span class="ss">lemma</span><span class="w"> </span><span class="nv">?lemma</span><span class="w"> </span><span class="p">;</span><span class="w"> 
+       </span><span class="nn">ontolex:</span><span class="ss">lexicalForm</span><span class="w"> </span><span class="nv">?form</span><span class="w"> </span><span class="p">.</span><span class="w">
+  </span><span class="nv">?form</span><span class="w"> </span><span class="nn">ontolex:</span><span class="ss">representation</span><span class="w"> </span><span class="nv">?word</span><span class="w"> </span><span class="p">.</span><span class="w">
+</span><span class="p">}</span><span class="w"> </span></code></pre></figure>
+
+<p><strong><a href="https://query.wikidata.org/#SELECT%20%3Fword%20%3Flemma%20WHERE%20%7B%0A%20%20VALUES%20%3Fword%20%7B%27brought%27%40en%7D%20%0A%20%20%3Fl%20a%20ontolex%3ALexicalEntry%20%3B%20%0A%20%20%20%20%20%20%20dct%3Alanguage%20wd%3AQ1860%20%3B%20%0A%20%20%20%20%20%20%20wikibase%3Alemma%20%3Flemma%20%3B%20%0A%20%20%20%20%20%20%20ontolex%3AlexicalForm%20%3Fform%20.%0A%20%20%3Fform%20ontolex%3Arepresentation%20%3Fword%20.%0A%7D%20%0A" target="_blank">Run this query</a></strong></p>
+
+<h4 id="8--retrieve-masculine-nouns-in-french-that-end-with-specific-characters">8- Retrieve masculine nouns in French that end with specific characters</h4>
+
+<figure class="highlight"><pre><code class="language-sparql" data-lang="sparql"><span class="k">SELECT</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="k">WHERE</span><span class="w"> </span><span class="p">{</span><span class="w">
+  </span><span class="nv">?l</span><span class="w"> </span><span class="err">a</span><span class="w"> </span><span class="nn">ontolex:</span><span class="ss">LexicalEntry</span><span class="w"> </span><span class="p">;</span><span class="w"> 
+       </span><span class="c1"># entries in French (Q150)</span><span class="w">
+       </span><span class="nn">dct:</span><span class="ss">language</span><span class="w"> </span><span class="nn">wd:</span><span class="ss">Q150</span><span class="w"> </span><span class="p">;</span><span class="w">
+       </span><span class="nn">wdt:</span><span class="ss">P5185</span><span class="w"> </span><span class="nn">wd:</span><span class="ss">Q499327</span><span class="w"> </span><span class="p">;</span><span class="w"> </span><span class="c1"># masculine grammatical gender</span><span class="w">
+       </span><span class="nn">wikibase:</span><span class="ss">lemma</span><span class="w"> </span><span class="nv">?lemma</span><span class="p">.</span><span class="w">
+  </span><span class="k">FILTER</span><span class="w"> </span><span class="p">(</span><span class="nb">regex</span><span class="p">(</span><span class="nv">?lemma</span><span class="p">,</span><span class="w"> </span><span class="s1">'^*(tion|ie|ique|aison|sion)$'</span><span class="p">))</span><span class="w">
+  </span><span class="k">SERVICE</span><span class="w"> </span><span class="nn">wikibase:</span><span class="ss">label</span><span class="w"> </span><span class="p">{</span><span class="w"> 
+    </span><span class="nn">bd:</span><span class="ss">serviceParam</span><span class="w"> </span><span class="nn">wikibase:</span><span class="ss">language</span><span class="w"> </span><span class="s2">"en"</span><span class="p">.</span><span class="w"> 
+  </span><span class="p">}</span><span class="w">
+</span><span class="p">}</span><span class="w"> </span></code></pre></figure>
+
+<p><strong><a href="https://query.wikidata.org/#SELECT%20%2a%20WHERE%20%7B%0A%20%20%3Fl%20a%20ontolex%3ALexicalEntry%20%3B%20%0A%20%20%20%20%20%20%20%23%20entries%20in%20French%20%28Q150%29%0A%20%20%20%20%20%20%20dct%3Alanguage%20wd%3AQ150%20%3B%0A%20%20%20%20%20%20%20wdt%3AP5185%20wd%3AQ499327%20%3B%20%23%20masculine%20grammatical%20gender%0A%20%20%20%20%20%20%20wikibase%3Alemma%20%3Flemma.%0A%20%20FILTER%20%28regex%28%3Flemma%2C%20%27%5E%2a%28tion%7Cie%7Cique%7Caison%7Csion%29%24%27%29%29%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20%0A%20%20%20%20bd%3AserviceParam%20wikibase%3Alanguage%20%22en%22.%20%0A%20%20%7D%0A%7D%20" target="_blank">Run this query</a></strong></p>
+
+<h4 id="9--create-a-picture-dictionary-of-animals-in-english">9- Create a picture dictionary of animals in English</h4>
+
+<figure class="highlight"><pre><code class="language-sparql" data-lang="sparql"><span class="c1">#defaultView:ImageGrid</span><span class="w">
+</span><span class="k">SELECT</span><span class="w"> </span><span class="k">DISTINCT</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="k">WHERE</span><span class="w"> </span><span class="p">{</span><span class="w">
+  </span><span class="nv">?l</span><span class="w"> </span><span class="nn">dct:</span><span class="ss">language</span><span class="w"> </span><span class="nn">wd:</span><span class="ss">Q1860</span><span class="p">;</span><span class="w">
+     </span><span class="nn">wikibase:</span><span class="ss">lemma</span><span class="w"> </span><span class="nv">?lemma</span><span class="p">;</span><span class="w">
+     </span><span class="nn">ontolex:</span><span class="ss">sense</span><span class="w"> </span><span class="nv">?sense</span><span class="p">.</span><span class="w">
+  </span><span class="c1"># senes belonging to a concept related to animals</span><span class="w">
+  </span><span class="nv">?sense</span><span class="w"> </span><span class="nn">wdt:</span><span class="ss">P5137</span><span class="w"> </span><span class="nv">?concept</span><span class="w"> </span><span class="p">.</span><span class="w">
+  </span><span class="nv">?concept</span><span class="w"> </span><span class="nn">wdt:</span><span class="ss">P18</span><span class="w"> </span><span class="nv">?image</span><span class="w"> </span><span class="p">;</span><span class="w">
+           </span><span class="nn">wdt:</span><span class="ss">P279</span><span class="o">+</span><span class="w"> </span><span class="nn">wd:</span><span class="ss">Q729</span><span class="w"> </span><span class="p">.</span><span class="w">
+  </span><span class="k">SERVICE</span><span class="w"> </span><span class="nn">wikibase:</span><span class="ss">label</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nn">bd:</span><span class="ss">serviceParam</span><span class="w"> </span><span class="nn">wikibase:</span><span class="ss">language</span><span class="w"> </span><span class="s2">"en"</span><span class="p">.</span><span class="w">
+  </span><span class="p">}</span><span class="w">
+</span><span class="p">}</span></code></pre></figure>
+
+<p><strong><a href="https://query.wikidata.org/#%23defaultView%3AImageGrid%0ASELECT%20DISTINCT%20%2a%20WHERE%20%7B%0A%20%20%3Fl%20dct%3Alanguage%20wd%3AQ1860%3B%0A%20%20%20%20%20wikibase%3Alemma%20%3Flemma%3B%0A%20%20%20%20%20ontolex%3Asense%20%3Fsense.%0A%20%20%23%20senes%20belonging%20to%20a%20concept%20related%20to%20animals%0A%20%20%3Fsense%20wdt%3AP5137%20%3Fconcept%20.%0A%20%20%3Fconcept%20wdt%3AP18%20%3Fimage%20%3B%0A%20%20%20%20%20%20%20%20%20%20%20wdt%3AP279%2B%20wd%3AQ729%20.%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%0A%20%20%20%20bd%3AserviceParam%20wikibase%3Alanguage%20%22en%22.%0A%20%20%7D%0A%7D" target="_blank">Run this query</a></strong></p>
+
+<h4 id="10--check-if-a-word-exists-in-a-given-language-ie-spell-error-detection">10- Check if a word exists in a given language (i.e. spell error detection)</h4>
+
+<figure class="highlight"><pre><code class="language-sparql" data-lang="sparql"><span class="k">ASK</span><span class="w"> </span><span class="k">WHERE</span><span class="w"> </span><span class="p">{</span><span class="w">
+  </span><span class="k">VALUES</span><span class="w"> </span><span class="nv">?word</span><span class="w"> </span><span class="p">{</span><span class="s1">'amazing'</span><span class="o">@</span><span class="py">en</span><span class="p">}</span><span class="w"> 
+  </span><span class="nv">?l</span><span class="w"> </span><span class="err">a</span><span class="w"> </span><span class="nn">ontolex:</span><span class="ss">LexicalEntry</span><span class="w"> </span><span class="p">;</span><span class="w"> 
+       </span><span class="nn">dct:</span><span class="ss">language</span><span class="w"> </span><span class="nn">wd:</span><span class="ss">Q1860</span><span class="w"> </span><span class="p">;</span><span class="w"> 
+       </span><span class="nn">wikibase:</span><span class="ss">lemma</span><span class="w"> </span><span class="nv">?lemma</span><span class="w"> </span><span class="p">;</span><span class="w"> 
+       </span><span class="nn">ontolex:</span><span class="ss">lexicalForm</span><span class="w"> </span><span class="nv">?form</span><span class="w"> </span><span class="p">.</span><span class="w">
+  </span><span class="nv">?form</span><span class="w"> </span><span class="nn">ontolex:</span><span class="ss">representation</span><span class="w"> </span><span class="nv">?word</span><span class="w"> </span><span class="p">.</span><span class="w">
+</span><span class="p">}</span><span class="w"> </span></code></pre></figure>
+
+<p><strong><a href="https://query.wikidata.org/#ASK%20WHERE%20%7B%0A%20%20VALUES%20%3Fword%20%7B%27brought%27%40en%7D%20%0A%20%20%3Fl%20a%20ontolex%3ALexicalEntry%20%3B%20%0A%20%20%20%20%20%20%20dct%3Alanguage%20wd%3AQ1860%20%3B%20%0A%20%20%20%20%20%20%20wikibase%3Alemma%20%3Flemma%20%3B%20%0A%20%20%20%20%20%20%20ontolex%3AlexicalForm%20%3Fform%20.%0A%20%20%3Fform%20ontolex%3Arepresentation%20%3Fword%20.%0A%7D%20%0A" target="_blank">Run this query</a></strong></p>
+
+<p>In addition to the Wikidata endpoint, you can integrate your SPARQL queries in your code. For instance, you can use the following in Python:</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="kn">from</span> <span class="nn">SPARQLWrapper</span> <span class="kn">import</span> <span class="n">SPARQLWrapper</span><span class="p">,</span> <span class="n">XML</span>
+
+<span class="n">sparql</span> <span class="o">=</span> <span class="n">SPARQLWrapper</span><span class="p">(</span><span class="s">"https://query.wikidata.org/"</span><span class="p">)</span>
+<span class="n">sparql</span><span class="o">.</span><span class="n">setQuery</span><span class="p">(</span><span class="s">"""
+    ASK WHERE {
+      VALUES ?word {'amazing'@en} 
+      ?l a ontolex:LexicalEntry ; 
+           dct:language wd:Q1860 ; 
+           wikibase:lemma ?lemma ; 
+           ontolex:lexicalForm ?form .
+      ?form ontolex:representation ?word .
+    } 
+"""</span><span class="p">)</span>
+
+<span class="n">sparql</span><span class="o">.</span><span class="n">setReturnFormat</span><span class="p">(</span><span class="n">XML</span><span class="p">)</span>
+<span class="n">results</span> <span class="o">=</span> <span class="n">sparql</span><span class="o">.</span><span class="n">query</span><span class="p">()</span><span class="o">.</span><span class="n">convert</span><span class="p">()</span>
+<span class="k">print</span><span class="p">(</span><span class="n">results</span><span class="p">)</span></code></pre></figure>
+
+<hr class="col-xs-12" />
+
+<p>Last updated on 9 March 2021.</p>
+
+
+
+
+  
+
+  <div id="disqus_thread"></div>
+  <script>
+    var disqus_config = function () {
+      this.page.url = 'http://localhost:4000/posts/10-essential-sparql-queries-for-lexicographical-data-on-wikidata.html';
+      this.page.identifier = 'http://localhost:4000/posts/10-essential-sparql-queries-for-lexicographical-data-on-wikidata.html';
+    };
+    (function() {
+      var d = document, s = d.createElement('script');
+      s.src = 'https://sinaahmadi.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+
+
+
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        var tpl =
+            "<li class='nav-item'>\
+                <a class='nav-link bg-white mb-1' href='#header[idx]'>[name]</a>\
+            </li>"
+        $("h2").each(function(idx, h2) {
+            $(h2).attr("id", "header" + idx)
+            var name = $(h2).text().trim()
+            var dom_string = tpl.replace("[name]", name).replace("[idx]", idx)
+            var header = $(dom_string)
+            $(".header-list").append(header)
+        })
+    })
+</script>
+
+<script type="text/javascript">
+window.MathJax = {
+  tex: {
+    packages: ['base', 'ams']
+  },
+  loader: {
+    load: ['ui/menu', '[tex]/ams']
+  },
+  startup: {
+    ready() {
+      MathJax.startup.defaultReady();
+      const Macro = MathJax._.input.tex.Symbol.Macro;
+      const MapHandler = MathJax._.input.tex.MapHandler.MapHandler;
+      const Array = MathJax._.input.tex.ams.AmsMethods.default.Array;
+      const env = new Macro('psmallmatrix', Array, [null, '(', ')', 'c', '.333em', '.2em', 'S', 1]);
+      MapHandler.getMap('AMSmath-environment').add('psmallmatrix', env);
+    }
+  }
+};
+</script>
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>
+
+
+        </div>
+        <div class="col-md-12 d-lg-none bottom">
+            
+
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+/*!
+ * IE10 viewport hack for Surface/desktop Windows 8 bug
+ * Copyright 2014-2017 The Bootstrap Authors
+ * Copyright 2014-2017 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+// See the Getting Started docs for more information:
+// https://getbootstrap.com/getting-started/#support-ie10-width
+
+(function () {
+    'use strict'
+
+    if (navigator.userAgent.match(/IEMobile\/10\.0/)) {
+        var msViewportStyle = document.createElement('style')
+        msViewportStyle.appendChild(
+            document.createTextNode(
+                '@-ms-viewport{width:auto!important}'
+            )
+        )
+        document.head.appendChild(msViewportStyle)
+    }
+}())
+</script>
+
+
+
+</body>
+
+</html>
