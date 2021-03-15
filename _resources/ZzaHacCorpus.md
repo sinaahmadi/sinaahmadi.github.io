@@ -102,11 +102,11 @@ If you use this resource, please cite the following publication:
 
 {% highlight plaintext %}
 @inproceedings{ahmadi2020zazagorani,
-  title={{Building a Corpus for the Zaza–Gorani Language Family}},
-  author={Ahmadi, Sina},
-  booktitle={Proceedings of the Seventh Workshop on NLP for Similar Languages, Varieties and Dialects (VarDial 2020)},
-  pages={},
-  year={2020}
+  title= "Building a Corpus for the Zaza–Gorani Language Family",
+  author= "Ahmadi, Sina",
+  booktitle="Proceedings of the Seventh Workshop on NLP for Similar Languages, Varieties and Dialects (VarDial 2020)",
+  pages="",
+  year="2020"
 }
 
 {% endhighlight %}
