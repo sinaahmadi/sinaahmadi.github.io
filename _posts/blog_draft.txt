@@ -14,7 +14,9 @@ Text preprocessing is one of the tasks that most of those working with text file
 - A simple yet robust pipeline for language technology for less-resourced languages
 - SPARQL
 - EndonymLinked
-- LinkedBib: import bibliography through linked data and query within LaTeX 
+- LinkedBib: import bibliography through linked data and query within LaTeX
+- NLP in the ME
+- practical nlp from scratch
 
 
 ### Basic text statistics

@@ -45,10 +45,6 @@
 <lastmod>2020-03-17T00:00:00+00:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/posts/semantic-relation-induction-a-survey.html</loc>
-<lastmod>2020-03-24T00:00:00+00:00</lastmod>
-</url>
-<url>
 <loc>http://localhost:4000/posts/sentence-alignment-using-giza.html</loc>
 <lastmod>2020-04-01T00:00:00+01:00</lastmod>
 </url>
@@ -71,6 +67,10 @@
 <url>
 <loc>http://localhost:4000/posts/creating-a-tool-for-the-collection-of-endonyms.html</loc>
 <lastmod>2021-03-15T00:00:00+00:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/posts/the-landscape-of-language-technology-in-west-asia-and-north-africa.html</loc>
+<lastmod>2021-04-16T00:00:00+01:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/resources/cofif.html</loc>
@@ -296,7 +296,7 @@
 </url>
 <url>
 <loc>http://localhost:4000/docs/articles/ahmadi2020klpt.pdf</loc>
-<lastmod>2020-11-02T19:55:02+00:00</lastmod>
+<lastmod>2021-03-21T15:12:00+00:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/docs/articles/ahmadi2020leveraging.pdf</loc>

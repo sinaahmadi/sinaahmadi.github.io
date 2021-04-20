@@ -52,11 +52,24 @@ title: Projects
 			  <tr>
 			    <td>KLPT-Kurdish Language Processing Toolkit is a natural language processing (NLP) toolkit in Python for the Kurdish language. It comes with core modules for language processing, such as preprocessing, stemming, transliteration and tokenizion, spell-checking and morphological analysis of various dialects of Kurdish.</td>
 			  </tr>
+			<tr>
+		      <td class="w-25" rowspan="3">
+			      <img src="/docs/images/Nexus-Linguarum_Web-Logo-head-08.png" class="img-fluid img-thumbnail" alt="NexusLinguarum logo">
+		      </td>
+		      <td><a href="https://nexuslinguarum.eu/" target="_blank">NexusLinguarum</a></td>
+		    </tr>
+		    <tr>
+			    <td>2021-</td>
+			 </tr>
+			  <tr>
+			    <td>I am a member of the WG1 focusing on cross-lingual data interlinking, access and retrieval in the Linguistic Linked Open Data (LLOD).</td>
+			  </tr>
 		  </tbody>
 		</table>   
     </div>
   </div>
 </div>
+
 
 
 <h2>Past projects</h2>
