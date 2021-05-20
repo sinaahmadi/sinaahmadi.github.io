@@ -2,7 +2,7 @@
 show_profile: false
 title: Sentence alignment using GIZA++
 tags:
-- tutorial
+- Tutorial
 ---
 
 Recently, I was working on a task for which I needed to align sentences in two languages in a [parallel corpus](https://en.wikipedia.org/wiki/Parallel_text){:target="_blank"}. For this purpose, I wanted to use GIZA++, a [statistical machine translation](https://en.wikipedia.org/wiki/Statistical_machine_translation){:target="_blank"} toolkit that is used to train [IBM Models 1-5](https://en.wikipedia.org/wiki/IBM_alignment_models){:target="_blank"} and an HMM word alignment model. The toolkit is a bit outdated and does not seem to be further developped. Therefore, it was a bit challenging to find out how to install and use it. 

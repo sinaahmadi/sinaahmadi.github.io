@@ -15,7 +15,7 @@
 
     <title>
         
-            The landscape of language technology in West Asia and North Africa &middot; Sina Ahmadi's Personal Page
+            Three solutions for working with large datasets in Python &middot; Sina Ahmadi's Personal Page
         
     </title>
 
@@ -115,7 +115,7 @@
         <div class="card-body">
             <div class="card-title">
                 <h5>On This Page</h5>
-                <h6>Apr 16, 2021</h6>
+                <h6>Apr 15, 2021</h6>
             </div>
               <ul class="nav flex-column nav-pills header-list">
             </ul>
@@ -140,6 +140,11 @@
 </svg>
 
                 </span>
+                
+                    <a href="/list/posts.html#tutorial"
+                       class="bg-white border rounded p-1 mr-2 mb-2 d-inline-block">
+                        Tutorial
+                    </a>
                 
             </div>
             <hr>
@@ -168,7 +173,7 @@
         </div>
         <div class="col-md-12 col-lg-8 col-xl-8 pb-4 content">
             <h1 class="border border-top-0 border-right-0 border-left-0 mb-3 pb-2">
-    The landscape of language technology in West Asia and North Africa
+    Three solutions for working with large datasets in Python
 </h1>
 
 <div class="d-md-block d-lg-none">
@@ -177,7 +182,7 @@
         <div class="card-body">
             <div class="card-title">
                 <h5>On This Page</h5>
-                <h6>Apr 16, 2021</h6>
+                <h6>Apr 15, 2021</h6>
             </div>
               <ul class="nav flex-column nav-pills header-list">
             </ul>
@@ -203,6 +208,11 @@
 
                 </span>
                 
+                    <a href="/list/posts.html#tutorial"
+                       class="bg-white border rounded p-1 mr-2 mb-2 d-inline-block">
+                        Tutorial
+                    </a>
+                
             </div>
             <hr>
             <div class="d-flex align-items-center mt-2">
@@ -224,11 +234,42 @@
 
 </div>
 
-<p>Infographs and maps are based on the <a href="https://gulf2000.columbia.edu/index.shtml">GULF/2000 Project</a></p>
+<h1 id="working-with-large-datasets-in-python">Working with large datasets in Python</h1>
 
-<p>https://upload.wikimedia.org/wikipedia/commons/6/6b/Iranian_languages_distribution.png</p>
+<p>Given the increasing size of publicly available data, such as Wikipedia, it is quite common to work with large datasets in many applications. But working with data of considerable sizes, let’s say 70 gigabytes, can be a real nightmare for programmers which requires efficient solutions.</p>
 
-<p>https://gulf2000.columbia.edu/images/maps/Mid_East_Ethnic_lg.png</p>
+<p>In this tutorial, we use the latest dump of Wikipedia to demonstrate how efficiently and easily we can read the data and process it in Python. As of May 2021, the size of the <a href="https://dumps.wikimedia.org/enwiki/latest/">latest dump of Wikipedia</a> is 17.6G as compressed (<code class="language-plaintext highlighter-rouge">bz2</code> compression) and over 79G once decompressed which makes it impossible to be read at once in the memory.</p>
+
+<p>In summary, the following three solutions are suggested in order of my personal preference:</p>
+
+<ol>
+  <li>Use <a href="https://spark.apache.org/docs/0.9.2/index.html">Apache Spark</a></li>
+  <li>Convert your data into an SQL database and import it in Python using <a href="https://www.sqlalchemy.org/">SQLAlchemy</a></li>
+  <li>Use <a href="https://pandas.pydata.org/">Pandas</a></li>
+</ol>
+
+<h2 id="1-prepare-your-data">1. Prepare your data</h2>
+
+<p>If you already have your own large dataset, skip to the next step.</p>
+
+<p>We first download the latest dump of Wikipedia for English at <a href="https://dumps.wikimedia.org/enwiki/latest/">https://dumps.wikimedia.org/enwiki/latest/</a>. These dump files are provided in different formats and contain different information for various languages. Let’s focus on the articles of the biggest Wikipedia, which is obviously the English one.</p>
+
+<p>To download the latest dump, you can try:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span>wget <span class="nt">-c</span> https://dumps.wikimedia.org/enwiki/latest/enwiki-latest-pages-articles.xml.bz2</code></pre></figure>
+
+<p>If you want to download dumps in many other languages, just try the following script:</p>
+
+<script src="https://gist.github.com/sgraaf/3bf80b2d9579fcd5afa1bf0477cc4339.js"></script>
+
+<p>Once the zipped file is decompressed, extract data in text from the dump.</p>
+
+<p>https://spark.apache.org/docs/0.9.2/index.html</p>
+
+<p>https://pandas.pydata.org/</p>
+
+<p>https://gist.github.com/sgraaf/3bf80b2d9579fcd5afa1bf0477cc4339</p>
+
 
 
 
@@ -237,8 +278,8 @@
   <div id="disqus_thread"></div>
   <script>
     var disqus_config = function () {
-      this.page.url = 'http://localhost:4000/posts/the-landscape-of-language-technology-in-west-asia-and-north-africa.html';
-      this.page.identifier = 'http://localhost:4000/posts/the-landscape-of-language-technology-in-west-asia-and-north-africa.html';
+      this.page.url = 'http://localhost:4000/posts/working-with-big-data-python.html';
+      this.page.identifier = 'http://localhost:4000/posts/working-with-big-data-python.html';
     };
     (function() {
       var d = document, s = d.createElement('script');

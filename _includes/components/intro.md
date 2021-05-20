@@ -1,9 +1,9 @@
-<div class="p-3 mb-2 bg-danger text-white text-center">
+<!-- <div class="p-3 mb-2 bg-danger text-white text-center">
 	<p><strike><b>Currently looking for an internship in 2021</b></strike></p>
 </div>
 <div class="p-3 mb-2 bg-success text-white text-center">
 	<p><b>I will be joining Loria and ATILF (CNRS & Université de Lorraine) for an internship.</b></p>
-</div>
+</div> -->
 
 This is my personal website where I share the latest news about myself and my professional life. I also discuss my ideas and whatever I think is worth to write about here in my blog.
 
