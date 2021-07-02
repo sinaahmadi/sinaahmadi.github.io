@@ -39,5 +39,5 @@ In addition to this web site, you can find information about me at various socia
 	c-1.816,1.839-1.381,3.956-0.209,5.143c1.173,1.187,3.262,1.629,5.079-0.212l9.748-9.87c0.269-0.272,0.705-0.272,0.974,0
 	c0.269,0.272,0.269,0.714,0,0.987L9.25,18.15C8.101,19.312,6.814,19.8,5.602,19.8z"/></svg>
     </span>
-    My CV (last updated late March 2021)
+    My CV (last updated July 2021)
 </a>
