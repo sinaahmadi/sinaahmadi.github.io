@@ -14,10 +14,33 @@ Publications by categories in reversed chronological order.
 	<b>2021</b>
 </div>
 
+
+
+1. **NUIG at TIAD 2021: Cross-lingual Word Embeddings for Translation Inference**  
+<u>Sina Ahmadi</u>, Atul Kr. Ojha, Shubhanker Banerjee and John P. McCrae  
+*In Proceedings of the Translation Inference Across Dictionaries Workshop (TIAD 2021)*   
+[[Paper]](docs/articles/ahmadi2021TIAD.pdf){:target="_blank"} [[bib]](bibliography/ahmadi2021TIAD.txt){:target="_blank"}  
+
+
+1. **The ELEXIS system for monolingual sense linking in dictionaries**  
+John P. McCrae, <u>Sina Ahmadi</u>, Seung-bin Yim and Lenka Bajčetić  
+*In Proceedings of the Seventh Biennial Conference on Electronic Lexicography (eLex 2021)*  
+[[Paper]](docs/articles/mccrae2021elexis.pdf){:target="_blank"} [[Demo]](https://www.youtube.com/watch?v=E_axdoCHoZo){:target="_blank"} [[bib]](bibliography/mccrae2021elexis.txt){:target="_blank"}  
+
+
+1. **An Evaluation of Definition Paradigms in Lexicography for Word Sense Alignment**  
+<u>Sina Ahmadi</u>, John P. McCrae  
+*In Proceedings of the Seventh Biennial Conference on Electronic Lexicography (eLex 2021)*  
+[[Paper]](docs/articles/ahmadi2021elexis.pdf){:target="_blank"} [[bib]](bibliography/ahmadi2021elexis.txt){:target="_blank"}  
+
+
+
 1. **Word Sense Alignment as a Classification Problem**  
 <u>Sina Ahmadi</u> and John P. McCrae  
 The 11th International Global Wordnet Conference (GWC2021)    
 [[Paper]](https://www.aclweb.org/anthology/2021.gwc-1.9.pdf){:target="_blank"} [[Slides]](docs/slides/ahmadi2021gwc_slides.pdf){:target="_blank"} [[Presentation]](https://drive.google.com/file/d/1j7BiuFv6G8XyWuoypRQCHsmqqVVrCEkR/view?usp=sharing){:target="_blank"} [[bib]](bibliography/ahmadi2021gwc.txt){:target="_blank"}  
+
+
 
 <div align="center" style="background-color:lightblue">
 	<b>2020</b>
@@ -121,6 +144,22 @@ arXiv preprint arXiv:1810.00660
 ---
 
 ### Kurdish language processing
+
+<div align="center" style="background-color:mediumseagreen">
+	<b>2021</b>
+</div>
+
+1. **Creating an Electronic Lexicon for the Under-resourced Southern Varieties of Kurdish Language**  
+Zahra Azin and <u>Sina Ahmadi</u>  
+*In Proceedings of the Seventh Biennial Conference on Electronic Lexicography (eLex 2021)*  
+[[Paper]](docs/articles/azin2021sk.pdf){:target="_blank"} [[Poster]](docs/posters/azin2021sk_poster.pdf){:target="_blank"} [[bib]](bibliography/azin2021sk.txt){:target="_blank"} 
+
+
+1. **On the Current State of Kurdish Language Processing**  
+<u>Sina Ahmadi</u>  
+*Proceedings of the 5th International Conference on Kurdish Linguistics (ICKL-5) Conference*  
+[[Paper]](docs/articles/ahmadi2021_KNLP_ICKL.pdf){:target="_blank"} [[bib]](bibliography/ahmadi2021_KNLP_ICKL.txt){:target="_blank"} 
+
 
 <div align="center" style="background-color:lightblue">
 	<b>2020</b>

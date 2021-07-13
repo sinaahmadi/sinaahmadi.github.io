@@ -1,0 +1,7 @@
+@article{mccrae2021elexis,
+  title={{The ELEXIS system for monolingual sense linking in dictionaries}},
+  author={McCrae, John P. and Ahmadi, Sina and Yim, Seung-bin and Bajčetić, Lenka},
+  journal={Proceedings of Seventh Biennial Conference on Electronic Lexicography (eLex 2021)},
+  year={2021},
+  address= "online"
+}

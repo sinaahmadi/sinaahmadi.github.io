@@ -1,0 +1,7 @@
+@article{azin2021sk,
+  title={{Creating an Electronic Lexicon for the Under-resourced Southern Varieties of Kurdish Language}},
+  author={Azin, Zahra and Ahmadi, Sina},
+  journal={Proceedings of Seventh Biennial Conference on Electronic Lexicography (eLex 2021)},
+  address = "online",
+  year={2021}
+}

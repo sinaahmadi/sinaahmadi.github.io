@@ -1,0 +1,7 @@
+@article{ahmadi2021ickl,
+  title={{On the Current State of Kurdish Language Processing}},
+  author={Ahmadi, Sina},
+  journal={Proceedings of the 5th International Conference on Kurdish Linguistics (ICKL-5) Conference},
+  address = {Graz, Austria},
+  year={2021}
+}

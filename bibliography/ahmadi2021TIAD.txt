@@ -1,0 +1,8 @@
+@article{ahmadi2021TIAD,
+  title={NUIG at TIAD 2021: Cross-lingual Word Embeddings for Translation Inference},
+  author={Ahmadi, Sina and Kr. Ojha, Atul and Banerjee, Shubhanker and McCrae, John P.},
+  journal={Shared Task on Translation Inference Across Dictionaries},
+  year={2021},
+  address={Zaragoza, Spain},
+  publisher={Proceedings of the LDK 2021 Workshops}
+}

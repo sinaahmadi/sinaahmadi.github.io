@@ -1,0 +1,7 @@
+@article{ahmadi2021elexis,
+  title={{An Evaluation of Definition Paradigms in Lexicography for Word Sense Alignment}},
+  author={Ahmadi, Sina and McCrae, John P.},
+  journal={Proceedings of Seventh Biennial Conference on Electronic Lexicography (eLex 2021)},
+  year={2021},
+  address= "online"
+}
