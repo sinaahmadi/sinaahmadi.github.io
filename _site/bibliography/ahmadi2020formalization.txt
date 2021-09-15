@@ -1,0 +1,6 @@
+@article{ahmadi2020formalization,
+	title={{A Formal Description of Sorani Kurdish Morphology}},
+	author={Ahmadi, Sina},
+	journal={arXiv preprint arXiv:2109.03942},
+	year={2021}
+}

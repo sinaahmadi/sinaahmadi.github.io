@@ -1,0 +1,7 @@
+@article{mccrae2021frontiers,
+  title={{Towards an Integrative Approach for Making Sense Distinctions}},
+  author={McCrae, John P. and Fransen, Theodorus and Ahmadi, Sina and Buitelaar, Paul and Goswami, Koustava},
+  journal={Frontiers in Artificial Intelligence},
+  year={(unvder review) 2021},
+  address= "online"
+}

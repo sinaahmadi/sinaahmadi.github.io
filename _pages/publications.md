@@ -14,12 +14,16 @@ Publications by categories in reversed chronological order.
 	<b>2021</b>
 </div>
 
+1. **Towards an Integrative Approach for Making Sense Distinctions**  
+John P. McCrae, Theodorus Fransen, <u>Sina Ahmadi</u>, Paul Buitelaar and Koustava Goswami   
+*(under review) Frontiers in Artificial Intelligence*   
+[[bib]](bibliography/mccrae2021frontiers.txt){:target="_blank"}  
 
 
 1. **NUIG at TIAD 2021: Cross-lingual Word Embeddings for Translation Inference**  
 <u>Sina Ahmadi</u>, Atul Kr. Ojha, Shubhanker Banerjee and John P. McCrae  
 *In Proceedings of the Translation Inference Across Dictionaries Workshop (TIAD 2021)*   
-[[Paper]](docs/articles/ahmadi2021TIAD.pdf){:target="_blank"} [[bib]](bibliography/ahmadi2021TIAD.txt){:target="_blank"}  
+[[Paper]](docs/articles/ahmadi2021TIAD.pdf){:target="_blank"} [[Slides]](docs/slides/ahmadi2021TIAD_slides.pdf){:target="_blank"}  [[bib]](bibliography/ahmadi2021TIAD.txt){:target="_blank"}  
 
 
 1. **The ELEXIS system for monolingual sense linking in dictionaries**  
@@ -34,10 +38,9 @@ John P. McCrae, <u>Sina Ahmadi</u>, Seung-bin Yim and Lenka Bajčetić
 [[Paper]](docs/articles/ahmadi2021elexis.pdf){:target="_blank"} [[bib]](bibliography/ahmadi2021elexis.txt){:target="_blank"}  
 
 
-
 1. **Word Sense Alignment as a Classification Problem**  
 <u>Sina Ahmadi</u> and John P. McCrae  
-The 11th International Global Wordnet Conference (GWC2021)    
+*The 11th International Global Wordnet Conference (GWC2021)*    
 [[Paper]](https://www.aclweb.org/anthology/2021.gwc-1.9.pdf){:target="_blank"} [[Slides]](docs/slides/ahmadi2021gwc_slides.pdf){:target="_blank"} [[Presentation]](https://drive.google.com/file/d/1j7BiuFv6G8XyWuoypRQCHsmqqVVrCEkR/view?usp=sharing){:target="_blank"} [[bib]](bibliography/ahmadi2021gwc.txt){:target="_blank"}  
 
 
@@ -61,7 +64,7 @@ European Language Resources Association (ELRA) - LREC 2020 Workshop Language Res
 1. **Towards Automatic Linking of Lexicographic Data: the case of a historical and a modern Danish dictionary**  
 <u>Sina Ahmadi</u> and Sanni Nimb and Thomas Troelsgård and John P. McCrae and Nicolai H. Sørensen  
 *The XIX EURALEX International Congress*  
-[[Paper]](docs/articles/ahmadi2020danishlinking.pdf){:target="_blank"} [[bib]](bibliography/ahmadi2020danishlinking.txt){:target="_blank"} 
+[[Paper]](docs/articles/ahmadi2020danishlinking.pdf){:target="_blank"} [[Slides]](docs/slides/ahmadi2020danishlinking_slides.pdf){:target="_blank"} [[bib]](bibliography/ahmadi2020danishlinking.txt){:target="_blank"} 
 
 
 1. **Challenges of Word Sense Alignment: Portuguese Language Resources**  
@@ -149,10 +152,20 @@ arXiv preprint arXiv:1810.00660
 	<b>2021</b>
 </div>
 
+1. **Hunspell for Sorani Kurdish Spell Checking and Morphological Analysis**  
+<u>Sina Ahmadi</u>  
+*arXiv preprint arXiv:2109.06374*  
+[[Paper]](docs/articles/ahmadi2020Hunspell.pdf){:target="_blank"} [[Code]](https://github.com/sinaahmadi/KurdishHunspell){:target="_blank"} [[bib]](bibliography/ahmadi2020Hunspell.txt){:target="_blank"} 
+
+1. **A Formal Description of Sorani Kurdish Morphology**  
+<u>Sina Ahmadi</u>  
+*arXiv preprint arXiv:2109.03942*  
+[[Paper]](docs/articles/ahmadi2020formalization.pdf){:target="_blank"} [[bib]](bibliography/ahmadi2020formalization.txt){:target="_blank"} 
+
 1. **Creating an Electronic Lexicon for the Under-resourced Southern Varieties of Kurdish Language**  
 Zahra Azin and <u>Sina Ahmadi</u>  
 *In Proceedings of the Seventh Biennial Conference on Electronic Lexicography (eLex 2021)*  
-[[Paper]](docs/articles/azin2021sk.pdf){:target="_blank"} [[Poster]](docs/posters/azin2021sk_poster.pdf){:target="_blank"} [[bib]](bibliography/azin2021sk.txt){:target="_blank"} 
+[[Paper]](docs/articles/azin2021sk.pdf){:target="_blank"} [[Poster]](docs/posters/azin2021sk_poster.pdf){:target="_blank"} [[Resource]](https://github.com/sinaahmadi/KurdishLexicography){:target="_blank"} [[bib]](bibliography/azin2021sk.txt){:target="_blank"} 
 
 
 1. **On the Current State of Kurdish Language Processing**  

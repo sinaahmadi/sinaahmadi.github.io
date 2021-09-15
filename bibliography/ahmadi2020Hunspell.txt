@@ -1,0 +1,6 @@
+@article{ahmadi2020Hunspell,
+	title={{Hunspell for Sorani Kurdish Spell Checking and Morphological Analysis}},
+	author={Ahmadi, Sina},
+	journal={arXiv preprint arXiv:2109.06374},
+	year={2021},
+}
