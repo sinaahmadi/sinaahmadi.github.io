@@ -171,7 +171,7 @@ Zahra Azin and <u>Sina Ahmadi</u>
 1. **On the Current State of Kurdish Language Processing**  
 <u>Sina Ahmadi</u>  
 *Proceedings of the 5th International Conference on Kurdish Linguistics (ICKL-5) Conference*  
-[[Paper]](docs/articles/ahmadi2021_KNLP_ICKL.pdf){:target="_blank"} [[bib]](bibliography/ahmadi2021_KNLP_ICKL.txt){:target="_blank"} 
+[[Paper]](docs/articles/ahmadi2021_KNLP_ICKL.pdf){:target="_blank"} [[Slides]](docs/slides/ahmadi2021_KNLP_ICKL_slides.pdf){:target="_blank"} [[bib]](bibliography/ahmadi2021_KNLP_ICKL.txt){:target="_blank"} 
 
 
 <div align="center" style="background-color:lightblue">
