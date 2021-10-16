@@ -141,7 +141,7 @@ arXiv preprint arXiv:1810.03996
 1. **Attention-based encoder-decoder networks for spelling and grammatical error correction**  
 <u>Sina Ahmadi</u>
 arXiv preprint arXiv:1810.00660  
-[[Paper]](docs/articles/ahmadi2018attention.pdf){:target="_blank"} [[Poster]](docs/posters/Masters_thesis_poster.pdf){:target="_blank"} [[Code]](https://github.com/sinaahmadi/RNN){:target="_blank"} [[bib]](bibliography/ahmadi2018attention.txt){:target="_blank"}
+[[Paper]](docs/articles/ahmadi2018attention.pdf){:target="_blank"} [[Slides]](docs/slides/Masters_thesis_slides.pdf){:target="_blank"} [[Poster]](docs/posters/Masters_thesis_poster.pdf){:target="_blank"} [[Code]](https://github.com/sinaahmadi/RNN){:target="_blank"} [[bib]](bibliography/ahmadi2018attention.txt){:target="_blank"}
 
 
 ---

@@ -2,10 +2,10 @@
 title: Is Kurdish a less-resourced language?
 show_profile: false
 tags:
-- Kurdish
+- Less-resourced languages
 - NLP
 - Kurdish language processing
-- Less-resourced languages
+- Kurdish
 ---
 
 **TLDR** *Yes*, for the time being, but hopefully **no**, if we take serious actions.

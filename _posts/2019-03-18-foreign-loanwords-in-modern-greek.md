@@ -3,6 +3,7 @@ title: Foreign loanwords in Modern Greek
 show_profile: false
 tags:
 - Modern Greek
+- Languages
 ---
 It is not exaggeration to say that Greek is the mother language of knowledge. No other civilisation other than Hellenism played such a primordial role in seeking for knowledge and enriching human's understanding of the world and the nature. No doubt, there were other civilisations with wonderful achievements and contributions to humanity, but none of them seems to have preserved their works as good as Greeks did by writing. Mathematics, physics, medicine, literature, philosophy are some of the branches of knowledge that Greeks contributed to by using their language to name their findings. Imagine Plato describing for the first time his ideas about the dialectical forms of government in [the Republic](https://en.wikipedia.org/wiki/Republic_(Plato){:target="_blank"}).
 

@@ -1,8 +1,9 @@
 ---
 title: '"[v], idiot, [v], not [w]!"'
 tags:
-- languages
+- Languages
 - Kurdish
+- Languages
 ---
 
 <blockquote class="blockquote text-center">

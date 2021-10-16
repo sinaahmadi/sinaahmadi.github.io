@@ -2,9 +2,7 @@
 title: 'Data modelling with RDF: a tutorial'
 show_profile: false
 tags:
-- RDF
-- Ontology
-- Data model
+- Semantic Web
 - Linked Data
 - Tutorial
 ---

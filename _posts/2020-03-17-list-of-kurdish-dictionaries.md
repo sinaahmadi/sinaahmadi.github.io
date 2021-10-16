@@ -2,9 +2,8 @@
 show_profile: false
 title: A Comprehensive List of Kurdish dictionaries
 tags:
-- languages
 - Kurdish
-- lexicography
+- Lexicography
 ---
 
 <html>

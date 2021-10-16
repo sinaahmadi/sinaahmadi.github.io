@@ -3,7 +3,8 @@ title: "10 basic but essential SPARQL queries for \nlexicographical data on Wiki
 show_profile: false
 tags:
 - NLP
-- linked data
+- Linked data
+- SPARQL
 ---
 
 

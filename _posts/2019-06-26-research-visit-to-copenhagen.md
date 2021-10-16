@@ -3,7 +3,7 @@ title: Danish lexicographic data linking
 show_profile: false
 tags:
 - Lexicography
-- Data linking
+- Research visit
 - NLP
 - ELEXIS
 - Danish

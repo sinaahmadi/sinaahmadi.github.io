@@ -94,6 +94,17 @@ We can compare the [minimum net wage](https://en.wikipedia.org/wiki/List_of_Euro
 </div>
 </div>
 
+Based on this data, [Sarah Ennis](https://twitter.com/sarahe145) created the following more beautiful plot (Thanks Sarah!): 
+
+<div class="card mb-3 text-center">
+    <img class="rounded mx-auto d-block" src="{{ site.url }}/docs/images/PhD_income_vs_minimum_wage_Sarah_Ennis.jpg" style="width:100%" align="middle" alt="citation system design"/>
+    <div class="card-body bg-light">
+        <div class="card-text">
+            The relationship between minimum wage and PhD income.
+        </div>
+    </div>
+</div>
+
 <br />
 
 ## Q5: How much is the average rent for a 1-bedroom flat?
@@ -127,7 +138,7 @@ I am not going to draw any conclusion from the data shown here. I believe that e
 
 
 <hr class="col-xs-12">
-Last updated on 25 September 2020.
+Last updated on 7 October 2021.
 
 
 

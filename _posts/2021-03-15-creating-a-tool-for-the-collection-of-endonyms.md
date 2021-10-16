@@ -2,9 +2,9 @@
 title: "EndoLinked: A Platform for Documenting Endonyms in Minority and Endangered Languages using Linked Data"
 show_profile: false
 tags:
-- research
-- proposal
-- linked data
+- Research
+- Proposal
+- Linked data
 ---
 
 Given that I cannot currently focus on too many things at the same time due to existing projects, I would like to write this idea in the form of a blog post. To be addressed, hopefully, sometime in the future!
