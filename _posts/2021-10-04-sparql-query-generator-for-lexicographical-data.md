@@ -8,7 +8,7 @@ tags:
 ---
 
 
-Following one of my previous posts on the [10 basic but essential SPARQL queries for lexicographical data on Wikidata](10 basic but essential SPARQL queries for lexicographical data on Wikidata){:target="_blank"}, I decided to create a simple SPARQL query generator that helps non-experts get more familiar with SPARQL and also, create queries to look up words in [Wikidata](https://www.wikidata.org/) and [Dbnary](http://kaiko.getalp.org/about-dbnary/) quickly.
+Following one of my previous posts on the [10 basic but essential SPARQL queries for lexicographical data on Wikidata](https://sinaahmadi.github.io/posts/10-essential-sparql-queries-for-lexicographical-data-on-wikidata.html){:target="_blank"}, I decided to create a simple SPARQL query generator that helps non-experts get more familiar with SPARQL and also, create queries to look up words in [Wikidata](https://www.wikidata.org/) and [Dbnary](http://kaiko.getalp.org/about-dbnary/) quickly.
 
 Please note that the translation option is only available for headwords. Also, regarding Dbnary, it is currently not possible to retrieve translations nor examples.
 
