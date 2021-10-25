@@ -67,7 +67,7 @@ Consequently, the enriched database of endonyms can not only be used for GPS pur
 <hr class="col-xs-12">
 Last updated on 15 March 2021.
 
-
+<!-- https://www.geonames.org -->
 
 
 
