@@ -122,7 +122,7 @@ Based on this data, [Sarah Ennis](https://twitter.com/sarahe145) created the fol
 
 In many countries, PhD students do a certain amount of *paid teaching hours* to earn some extra money. Deprived of such opportunities, PhD students in Ireland teach without being paid. This not only demoralizes students to get involved in teaching activities, but also makes them finish their PhD courses with a less interesting CV than other students in the mainland Europe. 
 
-## Residence permit: a deal breaker?
+## Irish residence permit: a deal breaker?
 
 One major difference in doing PhD in any other country in the EU in comparison to Ireland is the residence permit. The residence permit in Ireland is basically a certificate showing that you have a regular status in the country and you are not illegal. It doesn't let you travel anywhere out of Ireland, even to Northern Ireland! While in the other EU countries, your residence permit is also a proof that makes it possible to travel freely in the other Schengen countries, from Cyprus to France, From Norway to Malta. 
 
