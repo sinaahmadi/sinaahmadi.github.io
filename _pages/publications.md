@@ -22,7 +22,7 @@ Publications by categories in reversed chronological order.
 
 1. **Towards an Integrative Approach for Making Sense Distinctions**  
 John P. McCrae, Theodorus Fransen, <u>Sina Ahmadi</u>, Paul Buitelaar and Koustava Goswami   
-*(under review) Frontiers in Artificial Intelligence*   
+*(accepted) Frontiers in Artificial Intelligence*   
 [[bib]](bibliography/mccrae2021frontiers.txt){:target="_blank"}  
 
 
