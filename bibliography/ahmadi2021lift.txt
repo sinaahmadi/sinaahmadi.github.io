@@ -1,0 +1,8 @@
+@article{ahmadi2021gwn,
+    title = "Convertir le Trésor de la Langue Française en Ontolex-Lemon : un zeste de données liées",
+    author = "Ahmadi, Sina and Constant, Mathieu and Fort, Karën and Guillaume, Bruno and McCrae, John P.",
+    booktitle = "LIFT 2021 : Journées scientifiques "Linguistique informatique, formelle & de terrain",
+    month = dec,
+    year = "2021",
+    address = "Grenoble (France)"
+}
