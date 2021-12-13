@@ -16,8 +16,8 @@ Publications by categories in reversed chronological order.
 
 1. **Convertir le Trésor de la Langue Française en Ontolex-Lemon : un zeste de données liées**  
 <u>Sina Ahmadi</u>, Mathieu Constant, Karën Fort, Bruno Guillaume and John P. McCrae   
-*(accepted) LIFT 2021 : Journées scientifiques "Linguistique informatique, formelle & de terrain"*   
-[[Paper]](docs/articles/ahmadi2021lift.pdf){:target="_blank"} [[Resource]](){:target="_blank"} [[Poster]](){:target="_blank"} [[Code]](https://github.com/sinaahmadi/fr-align){:target="_blank"} [[bib]](bibliography/ahmadi2021lift.txt){:target="_blank"}  
+*(accepted) LIFT 2021 : Journées scientifiques "Linguistique informatique, formelle & de terrain*   
+[[Paper]](docs/articles/ahmadi2021lift.pdf){:target="_blank"} [[Resource]](https://tlfi-sparql.atilf.fr/sparql){:target="_blank"} [[Poster]](docs/posters/ahmadi2021lift_poster.pdf){:target="_blank"} [[Code]](https://github.com/sinaahmadi/fr-align){:target="_blank"} [[bib]](bibliography/ahmadi2021lift.txt){:target="_blank"}  
 
 
 1. **Towards an Integrative Approach for Making Sense Distinctions**  

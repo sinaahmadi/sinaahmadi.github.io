@@ -1,0 +1,11 @@
+@inproceedings{ahmadi2021lift,
+  TITLE = {{Convertir le Tr{\'e}sor de la Langue Fran{\c c}aise en Ontolex-Lemon : un zeste de donn{\'e}es li{\'e}es}},
+  AUTHOR = {Ahmadi, Sina and Constant, Mathieu and Fort, Kar{\"e}n and Guillaume, Bruno and McCrae, John P.},
+  URL = {https://hal.inria.fr/hal-03463294},
+  BOOKTITLE = {{Journ{\'e}es LIFT 2021 - Linguistique informatique, formelle et de terrain}},
+  ADDRESS = {Grenoble, France},
+  YEAR = {2021},
+  MONTH = Dec,
+  HAL_ID = {hal-03463294},
+  HAL_VERSION = {v1},
+}
