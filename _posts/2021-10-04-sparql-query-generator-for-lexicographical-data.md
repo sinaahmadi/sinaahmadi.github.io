@@ -181,7 +181,7 @@ Please note that the translation option is only available for headwords. Also, r
     'Adverb': 'Q380057',
     'Adjective': 'Q34698',
     'Quantitative': 'Q21087400'
-    'Interjection': '83034',
+    'Interjection': 'Q83034',
     'Preposition': 'Q4833830',
     'Article': 'Q103184',
     'Conjunction': 'Q36484'
