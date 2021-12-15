@@ -24,12 +24,25 @@ Please note that the translation option is only available for headwords. Also, r
         <div class="form-group">
           <label for="source_language">Source language</label>
           <select class="form-control" id="source_language" name="source_language">
-            <option value="en">English</option>
-            <option value="fr">French</option>
-            <option value="es">Spanish</option>
-            <option value="pt">Portuguese</option>
-            <option value="de">German</option>
-            <option value="it">Italian</option>
+             <option value="ar">Arabic</option>
+             <option value="bn">Bengali</option>
+             <option value="de">German</option>
+             <option value="en">English</option>
+             <option value="es">Spanish</option>
+             <option value="ff">Fula</option>
+             <option value="fr">French</option>
+             <option value="hi">Hindi</option>
+             <option value="id">Indonesian</option>
+             <option value="it">Italian</option>
+             <option value="ja">Japanese</option>
+             <option value="jv">Javanese</option>
+             <option value="pa">Punjabi</option>
+             <option value="pt">Portuguese</option>
+             <option value="ru">Russian</option>
+             <option value="tr">Turkish</option>
+             <option value="ur">Urdu</option>
+             <option value="vi">Vietnamese</option>
+             <option value="zh">Chinese</option>
           </select>
         </div>
     </div>
@@ -38,9 +51,15 @@ Please note that the translation option is only available for headwords. Also, r
           <label for="part_of_speech_tag">Part-of-speech tag</label>
           <select class="form-control" id="part_of_speech_tag" name="part_of_speech_tag">
             <option>Noun</option>
-            <option>Adjective</option>
-            <option>Adverb</option>
+            <option>Pronoun</option>
             <option>Verb</option>
+            <option>Adverb</option>
+            <option>Adjective</option>
+            <option>Quantitative</option>
+            <option>Interjection</option>
+            <option>Preposition</option>
+            <option>Article</option>
+            <option>Conjunction</option>            
           </select>
         </div>
     </div>
@@ -63,12 +82,25 @@ Please note that the translation option is only available for headwords. Also, r
           <label for="translation_languages">Translation language (only with Wikidata)</label>
           <select class="form-control" id="translation_languages" name="translation_languages">
             <option value="null"></option>
-            <option value="en">English</option>
-            <option value="fr">French</option>
-            <option value="es">Spanish</option>
-            <option value="pt">Portuguese</option>
-            <option value="de">German</option>
-            <option value="it">Italian</option>
+             <option value="ar">Arabic</option>
+             <option value="bn">Bengali</option>
+             <option value="de">German</option>
+             <option value="en">English</option>
+             <option value="es">Spanish</option>
+             <option value="ff">Fula</option>
+             <option value="fr">French</option>
+             <option value="hi">Hindi</option>
+             <option value="id">Indonesian</option>
+             <option value="it">Italian</option>
+             <option value="ja">Japanese</option>
+             <option value="jv">Javanese</option>
+             <option value="pa">Punjabi</option>
+             <option value="pt">Portuguese</option>
+             <option value="ru">Russian</option>
+             <option value="tr">Turkish</option>
+             <option value="ur">Urdu</option>
+             <option value="vi">Vietnamese</option>
+             <option value="zh">Chinese</option>
           </select>
         </div>
     </div>
@@ -110,13 +142,27 @@ Please note that the translation option is only available for headwords. Also, r
 
 <script>
   // https://www.wikidata.org/wiki/Help:Wikimedia_language_codes/lists/all
+  // https://w.wiki/4ZAZ
   var languages_wiki = {
-    "en": "Q1860",
-    "fr": "Q150",
-    "es": "Q1321",
-    "pt": "Q5146",
-    "de": "Q188",
-    "it": "Q652"
+    'ar': 'Q13955', // Arabic
+    'bn': 'Q9610', // Bengali
+    'de': 'Q188', // German
+    'en': 'Q1860', // English
+    'es': 'Q1321', // Spanish
+    'ff': 'Q33454', // Fula
+    'fr': 'Q150', // French
+    'hi': 'Q1568', // Hindi
+    'id': 'Q9240', // Indonesian
+    'it': 'Q652', // Italian
+    'ja': 'Q5287', // Japanese
+    'jv': 'Q33549', // Javanese
+    'pa': 'Q58635', // Punjabi
+    'pt': 'Q5146', // Portuguese
+    'ru': 'Q7737', // Russian
+    'tr': 'Q256', // Turkish
+    'ur': 'Q1617', // Urdu
+    'vi': 'Q9199', // Vietnamese
+    'zh': 'Q9192', // Chinese
   };
 
   var languages_dbnary = {
@@ -129,11 +175,18 @@ Please note that the translation option is only available for headwords. Also, r
   };
 
   var posTags = {
-    "Noun": "Q1084",
-    "Adjective": "Q34698",
-    "Adverb": "Q380057",
-    "Verb": "Q24905"
+    'Noun': 'Q1084',
+    'Pronoun': 'Q36224',
+    'Verb': 'Q24905',
+    'Adverb': 'Q380057',
+    'Adjective': 'Q34698',
+    'Quantitative': 'Q21087400'
+    'Interjection': '83034',
+    'Preposition': 'Q4833830',
+    'Article': 'Q103184',
+    'Conjunction': 'Q36484'
   };
+       
 
   // Queries for Wikidata
   var values = "\n\tVALUES ?word {'book'@GLWSSA}";
