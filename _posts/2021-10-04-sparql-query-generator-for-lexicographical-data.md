@@ -73,7 +73,7 @@ Please note that the translation option is only available for headwords. Also, r
             <option value="1">Just look it up!</option>
             <option value="2">Senses</option>
             <option value="3">Senses & Definitions</option>
-            <option value="4">Senses, Deinitions & Examples</option>
+            <option value="4">Senses, Definitions & Examples</option>
           </select>
         </div>
     </div>
