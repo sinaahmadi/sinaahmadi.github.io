@@ -199,7 +199,7 @@ Please note that the translation option is only available for headwords. Also, r
 
   var queryExamplesWiki = "SELECT * WHERE {VALUESTOBEADDEDHERE\n\t?l a ontolex:LexicalEntry ;\n\t\tdct:language wd:LNGCDE ;\n\t\twikibase:lemma ?lemma ;\n\t\tontolex:lexicalForm ?form ;\n\t\twikibase:lexicalCategory ?category ;\n\t\tontolex:sense ?sense .\n\t\t?language wdt:P218 \"GLWSSA\" .\n\t?form ontolex:representation ?word .\n\t?sense skos:definition ?gloss .\n\tOPTIONAL{\n\t\t?l p:P5831 ?statement .\n\t\t?statement ps:P5831 ?example .\n\t}\n\tFILTER EXISTS {?l ontolex:sense ?sense }\n\tFILTER(LANG(?gloss) = \"GLWSSA\")\n}";
 
-  var queryTranslationWiki = "SELECT DISTINCT * WHERE {\n\t?sourec dct:language wd:LNGCDE;\n\t\twikibase:lemma ?sourceLemma;\n\t\tontolex:sense [ wdt:P5137 ?sense ].\n\t?target dct:language wd:LNGCDETRG;\n\t\twikibase:lemma ?targetLemma;\n\t\tontolex:sense [ wdt:P5137 ?sense ].\n}\nORDER BY ASC(UCASE(str(?sourceLemma)))\nLIMIT 100 ";
+  var queryTranslationWiki = "SELECT DISTINCT * WHERE {\n\t?source dct:language wd:LNGCDE;\n\t\twikibase:lemma ?sourceLemma;\n\t\tontolex:sense [ wdt:P5137 ?sense ].\n\t?target dct:language wd:LNGCDETRG;\n\t\twikibase:lemma ?targetLemma;\n\t\tontolex:sense [ wdt:P5137 ?sense ].\n}\nORDER BY ASC(UCASE(str(?sourceLemma)))\nLIMIT 100 ";
 
   var queryTranslationWikiLemma = "SELECT DISTINCT * WHERE {VALUESTOBEADDEDHERE\n\t?source dct:language wd:LNGCDE;\n\t\twikibase:lemma ?sourceLemma;\n\t\tontolex:lexicalForm ?form ;\n\t\twikibase:lexicalCategory wd:POSTAG ;\n\t\tontolex:sense [ wdt:P5137 ?sense ].\n\t?target dct:language wd:LNGCDETRG;\n\t\twikibase:lemma ?targetLemma;\n\t\tontolex:sense [ wdt:P5137 ?sense ].\n\t?form ontolex:representation ?word .\n}\nORDER BY ASC(UCASE(str(?sourceLemma))) ";
 
