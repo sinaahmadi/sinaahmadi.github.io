@@ -417,7 +417,7 @@ The following shows a sample of the dataset:
 The datasets are publicly freely available at [https://github.com/elexis-eu/MWSA](https://github.com/elexis-eu/MWSA){:target="_blank"}.
 
 ## Reference
-If you're using any part of these datasets, please don't forget to cite our paper:
+If you're using any part of these datasets, please don't forget to cite [our paper](https://aclanthology.org/2020.lrec-1.395/):
 
 ~~~
 @inproceedings{ahmadi2020multilingual,
