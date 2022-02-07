@@ -11,6 +11,15 @@ Publications by categories in reversed chronological order.
 &#42; indicates equal contribution. 
 
 <div align="center" style="background-color:mediumseagreen">
+	<b>2022</b>
+</div>
+
+1. **Towards an Integrative Approach for Making Sense Distinctions**  
+John P. McCrae, Theodorus Fransen, <u>Sina Ahmadi</u>, Paul Buitelaar and Koustava Goswami   
+*Frontiers in Artificial Intelligence*   
+[[Paper]](docs/articles/mccrae2022frontiers.pdf){:target="_blank"} [[bib]](bibliography/mccrae2022frontiers.txt){:target="_blank"}  
+
+<div align="center" style="background-color:lightblue">
 	<b>2021</b>
 </div>
 
@@ -18,12 +27,6 @@ Publications by categories in reversed chronological order.
 <u>Sina Ahmadi</u>, Mathieu Constant, Karën Fort, Bruno Guillaume and John P. McCrae   
 *(accepted) LIFT 2021 : Journées scientifiques "Linguistique informatique, formelle & de terrain"*   
 [[Paper]](docs/articles/ahmadi2021lift.pdf){:target="_blank"} [[Resource]](https://tlfi-sparql.atilf.fr/sparql){:target="_blank"} [[Poster]](docs/posters/ahmadi2021lift_poster.pdf){:target="_blank"} [[Code]](https://github.com/sinaahmadi/fr-align){:target="_blank"} [[bib]](bibliography/ahmadi2021lift.txt){:target="_blank"}  
-
-
-1. **Towards an Integrative Approach for Making Sense Distinctions**  
-John P. McCrae, Theodorus Fransen, <u>Sina Ahmadi</u>, Paul Buitelaar and Koustava Goswami   
-*(accepted) Frontiers in Artificial Intelligence*   
-[[bib]](bibliography/mccrae2021frontiers.txt){:target="_blank"}  
 
 
 1. **NUIG at TIAD 2021: Cross-lingual Word Embeddings for Translation Inference**  
@@ -155,6 +158,16 @@ arXiv preprint arXiv:1810.00660
 ### Kurdish language processing
 
 <div align="center" style="background-color:mediumseagreen">
+	<b>2022</b>
+</div>
+
+1. **Leveraging Multilingual News Websites for Building a Kurdish Parallel Corpus**  
+<u>Sina Ahmadi</u> and Hossein Hassani and Daban Q. Jaff  
+*ACM Transactions on Asian and Low-Resource Language Information Processing (TALLIP)*  
+[[Paper]](https://dl.acm.org/doi/10.1145/3511806){:target="_blank"} [[preprint]](docs/articles/ahmadi2020leveraging.pdf){:target="_blank"} [[Resource]](https://github.com/KurdishBLARK/InterdialectCorpus){:target="_blank"} [[bib]](bibliography/ahmadi2022leveraging.txt){:target="_blank"}  
+
+
+<div align="center" style="background-color:lightblue">
 	<b>2021</b>
 </div>
 
@@ -210,15 +223,10 @@ Zahra Azin and <u>Sina Ahmadi</u>
 *In Proceedings of the 1st Joint Spoken Language Technologies for Under-resourced languages ({SLTU}) and Collaboration and Computing for Under-Resourced Languages (CCURL) Workshop at the 12th International Conference on Language Resources and Evaluation (LREC)*   
 [[Paper]](docs/articles/ahmadi2020folklyrics.pdf){:target="_blank"} [[Resource]](https://github.com/KurdishBLARK/KurdishLyricsCorpus){:target="_blank"} [[bib]](bibliography/ahmadi2020folklyrics.txt){:target="_blank"}  
 
-1. (under review) **Leveraging Multilingual News Websites for Building a Kurdish Parallel Corpus**  
-<u>Sina Ahmadi</u> and Hossein Hassani and Daban Q. Jaff  
-*ACM Transactions on Asian and Low-Resource Language Information Processing (TALLIP)*  
-[[preprint]](docs/articles/ahmadi2020leveraging.pdf){:target="_blank"} [[Resource]](https://github.com/KurdishBLARK/InterdialectCorpus){:target="_blank"} [[bib]](bibliography/ahmadi2020leveraging.txt){:target="_blank"}  
-
-1. (under review) **Towards Finite-State Morphology of Kurdish**  
+1. **Towards Finite-State Morphology of Kurdish**  
 <u>Sina Ahmadi</u> and Hossein Hassani  
-*ACM Transactions on Asian and Low-Resource Language Information Processing (TALLIP)*  
-[[preprint]](https://arxiv.org/pdf/2005.10652.pdf){:target="_blank"} [[bib]](ahmadi2020finitestate){:target="_blank"}  
+*arXiv preprint arXiv:2005.10652*  
+[[preprint]](https://arxiv.org/pdf/2005.10652.pdf){:target="_blank"} [[bib]](bibliography/ahmadi2020finitestate.txt){:target="_blank"}  
 
 <div align="center" style="background-color:lightblue">
 	<b>2019</b>
