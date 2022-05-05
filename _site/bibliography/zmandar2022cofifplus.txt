@@ -1,0 +1,9 @@
+@inproceedings{zmandar2022cofifplus,
+  title={{CoFiF Plus: A French Financial Narrative Summarisation Corpus}},
+  author={Zmandar, Nadhem and Daudert, Tobias and Ahmadi, Sina and El-Haj, Mahmoud and Rayson, Paul},
+  booktitle={{The 13th International Conference on Language Resources and Evaluation (LREC)}},
+  date="2022-06-20",
+  year={2022},
+  address= "Marseille, France"
+}
+

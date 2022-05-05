@@ -1,0 +1,10 @@
+@inproceedings{rosner2022crosslingual,
+  title={{Cross-Lingual Link Discovery for Under-Resourced Languages}},
+  author={Rosner, Michael and Ahmadi, Sina and Apostol, Elena-Simona and Bosque-Gil, Julia and Chiarcos, Christian and Dojchinovski, Milan and Gkirtzou, Katerina and Gracia, Jorge and Gromann, Dagmar and Liebeskind, Chaya and Oleškevičienė̇, Giedrė Valūnaitė and Sérasset, Gilles and Truică, Ciprian-Octavian},
+  booktitle={{The 13th International Conference on Language Resources and Evaluation (LREC)}},
+  date="2022-06-20",
+  year={2022},
+  address= "Marseille, France"
+}
+
+

@@ -14,6 +14,18 @@ Publications by categories in reversed chronological order.
 	<b>2022</b>
 </div>
 
+1. **Cross-Lingual Link Discovery for Under-Resourced Languages**  
+Michael Rosner, <u>Sina Ahmadi</u>, Elena-Simona Apostol, Julia Bosque-Gil, Christian Chiarcos, Milan Dojchinovski, Katerina Gkirtzou, Jorge Gracia, Dagmar Gromann, Chaya Liebeskind, Giedrė Valūnaitė Oleškevičienė̇, Gilles Sérasset and Ciprian-Octavian Truică   
+*The 13th International Conference on Language Resources and Evaluation (LREC 2022)*   
+[[Paper]](docs/articles/rosner2022crosslingual.pdf){:target="_blank"} [[bib]](bibliography/rosner2022crosslingual.txt){:target="_blank"}  
+
+
+1. **CoFiF Plus: A French Financial Narrative Summarisation Corpus**  
+Nadhem Zmandar, Tobias Daudert, <u>Sina Ahmadi</u>, Mahmoud El-Haj and Paul Rayson   
+*The 13th International Conference on Language Resources and Evaluation (LREC 2022)*   
+[[Paper]](docs/articles/zmandar2022cofifplus.pdf){:target="_blank"} [[Resource]](https://github.com/UCREL/CoFiF-Plus){:target="_blank"} [[bib]](bibliography/zmandar2022cofifplus.txt){:target="_blank"}  
+
+
 1. **Towards an Integrative Approach for Making Sense Distinctions**  
 John P. McCrae, Theodorus Fransen, <u>Sina Ahmadi</u>, Paul Buitelaar and Koustava Goswami   
 *Frontiers in Artificial Intelligence*   

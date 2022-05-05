@@ -7,6 +7,12 @@ tags:
 - PhD life
 ---
 
+###### Updates (May 5th, 2022)
+Even though this blog post has remained much relevant even after two years, I don't think I will update the collected data. However, I'll provide a few links here for future readers as follows:
+
+- [6 Reasons Not to Move to Ireland](https://medium.com/globetrotters/6-reasons-not-to-move-to-ireland-d1c50c70ba82)
+
+<hr>
 
 Many postgraduate students, including myself, have been recently feeling more than before ignored and exploited in Ireland, due to the lack of regulations and fair remuneration within universities. In the past few years, many student organizations have talked about our issues and tried to raise awareness among both students and university administrations about the current challenges that we are going through. A few particular examples are the [unpaid teaching hours at the National University of Ireland Galway](https://www.universitytimes.ie/2020/09/nuig-postgraduate-students-strike-against-unpaid-teaching-hours/){:target="_blank"}, [demands for a fair working environment at NUI Galway](https://www.change.org/p/president-of-nui-galway-postgraduate-workers-alliance-demands-for-a-fair-working-environment-at-nui-galway){:target="_blank"} and [Trinity PhD student writes to minister demanding rent subsidy](https://www.independent.ie/irish-news/ive-had-enough-trinity-phd-student-writes-to-minister-demanding-rent-subsidy-38462354.html){:target="_blank"}.
 
