@@ -15,8 +15,9 @@
   icon: entypo/graduation-cap.svg
 
 - caption: Stack Overflow
-  href: https://stackoverflow.com/story/sinaahm
+  href: https://tex.stackexchange.com/users/81967/sina-ahmadi
   icon: entypo/stack-overflow.svg
+#https://stackoverflow.com/story/sinaahm
 
 - caption: Twitter
   href: https://www.twitter.com/sina_ahm
