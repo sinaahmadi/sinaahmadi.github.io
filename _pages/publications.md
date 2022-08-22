@@ -14,10 +14,10 @@ Publications by categories in reversed chronological order.
 	<b>2022</b>
 </div>
 
-1. (Thesis) **Monolingual Alignment of Word Senses and Definitions in Lexicographical Resources**   
-<u>Sina Ahmadi</u>   
+1. **Monolingual Alignment of Word Senses and Definitions in Lexicographical Resources**   
+(Thesis) <u>Sina Ahmadi</u>   
 *National University of Ireland Galway*   
-[[Thesis]](docs/articles/Thesis_Sina_Ahmadi.pdf){:target="_blank"} [[Viva]](docs/slides/Viva.pdf){:target="_blank"} [[bib]](bibliography/ahmadi2022thesis.txt){:target="_blank"}  
+[[Thesis]](docs/Thesis_Sina_Ahmadi.pdf){:target="_blank"} [[Viva]](docs/slides/Viva.pdf){:target="_blank"} [[bib]](bibliography/ahmadi2022thesis.txt){:target="_blank"}  
 
 
 1. **Cross-Lingual Link Discovery for Under-Resourced Languages**  
