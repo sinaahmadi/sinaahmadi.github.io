@@ -14,6 +14,12 @@ Publications by categories in reversed chronological order.
 	<b>2022</b>
 </div>
 
+1. (Thesis) **Monolingual Alignment of Word Senses and Definitions in Lexicographical Resources**   
+<u>Sina Ahmadi</u>   
+*National University of Ireland Galway*   
+[[Thesis]](docs/articles/Thesis_Sina_Ahmadi.pdf){:target="_blank"} [[Viva]](docs/slides/Viva.pdf){:target="_blank"} [[bib]](bibliography/ahmadi2022thesis.txt){:target="_blank"}  
+
+
 1. **Cross-Lingual Link Discovery for Under-Resourced Languages**  
 Michael Rosner, <u>Sina Ahmadi</u>, Elena-Simona Apostol, Julia Bosque-Gil, Christian Chiarcos, Milan Dojchinovski, Katerina Gkirtzou, Jorge Gracia, Dagmar Gromann, Chaya Liebeskind, Giedrė Valūnaitė Oleškevičienė̇, Gilles Sérasset and Ciprian-Octavian Truică   
 *The 13th International Conference on Language Resources and Evaluation (LREC 2022)*   
