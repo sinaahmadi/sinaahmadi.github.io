@@ -5,6 +5,10 @@ narrow: false
 title: Teaching
 ---
 
+### 2022
+
+- Kurdish Computational Linguistics Course -- completely free, online and in Kurdish ([Course page](https://sinaahmadi.github.io/KurdishCL/){:target="_blank"} / [Videos](https://www.youtube.com/watch?v=cBuT4O4V2bk&list=PLkLLH3XpCIcHf6G0ZeKsq6558aPPr3UeV){:target="_blank"})
+
 ### Spring 2021
 
 - Linked Data ([DER5101](http://www.nuigalway.ie/courses/taught-postgraduate-courses/computer-science-artificial-intelligence.html#course_outline){:target="_blank"})

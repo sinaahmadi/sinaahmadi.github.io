@@ -77,7 +77,7 @@ title: Talks
 			  </tr>
 			  <tr>
 			  	<td>
-					<a href="https://sinaahmadi.github.io/docs/slides/TLFi_Ontolex-Lemon.pdf" target="_blank">Slides</a>
+					<a href="https://raw.githubusercontent.com/sinaahmadi/sinaahmadi.github.io/master/docs/slides/Talk_TLFi_Ontolex-Lemon.pdf" target="_blank">Slides</a>
 					</td>
 			  </tr>
 			<tr>
@@ -99,7 +99,7 @@ title: Talks
 			  </tr>
 			  <tr>
 			  	<td>
-					<a href="https://sinaahmadi.github.io/docs/slides/CafeTAL-July2021.pdf" target="_blank">Slides</a>
+					<a href="https://raw.githubusercontent.com/sinaahmadi/sinaahmadi.github.io/master/docs/slides/Talk_CafeTAL-July2021.pdf" target="_blank">Slides</a>
 					</td>
 			  </tr>
 		  	<tr>

@@ -1,0 +1,6 @@
+@book{ahmadi2022thesis,
+    title    = {Monolingual Alignment of Word Senses and Definitions in Lexicographical Resources},
+    school   = {National University of Ireland Galway},
+    author   = {Ahmadi, Sina},
+    year     = {2022}
+}
