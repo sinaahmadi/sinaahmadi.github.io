@@ -28,17 +28,17 @@ title: Projects
     <div class="col-12">
 		<table class="table table-image table-responsive">
 		  <tbody>
-		    <tr>
+		  	<tr>
 		      <td class="w-25" rowspan="3">
-			      <img src="/docs/images/elexis_logo.jpeg" class="img-fluid img-thumbnail" alt="ELEXIS logo">
+			      <img src="/docs/images/gmnlp.png" class="img-fluid img-thumbnail" alt="GMNLP logo">
 		      </td>
-		      <td><a href="https://elex.is" target="_blank">ELEXIS - European Lexicographic Infrastructure</a></td>
+		      <td><a href="https://nlp.cs.gmu.edu/" target="_blank">George Mason NLP</a></td>
 		    </tr>
 		      <tr>
-			    <td>2018-2022</td>
+			    <td>Oct. 2022-</td>
 			  </tr>
 			  <tr>
-			    <td>Linking lexical resources is a challenge that requires impractical amounts of human efforts, but is still not easy to solve automatically. We develop methods that will make the linking problem viable for large resources, by using state-of-the-art semantic and natural language processing techniques. Our approaches are integrated as a single automated linking tool called <a href="https://github.com/insight-centre/naisc" target="_blank">NAISC</a> /naʃk/ which facilitates any linking problem for any type of input, from tabular to ontological.</td>
+			    <td>I am very lucky to be working at GMNLP on various topics in language technology in low-resource setups. Looking forward to a rewarding experience in research, supervision and teaching.</td>
 			  </tr>
 			  <tr>
 		      <td class="w-25" rowspan="3">
@@ -51,18 +51,6 @@ title: Projects
 			 </tr>
 			  <tr>
 			    <td>KLPT-Kurdish Language Processing Toolkit is a natural language processing (NLP) toolkit in Python for the Kurdish language. It comes with core modules for language processing, such as preprocessing, stemming, transliteration and tokenizion, spell-checking and morphological analysis of various dialects of Kurdish.</td>
-			  </tr>
-			<tr>
-		      <td class="w-25" rowspan="3">
-			      <img src="/docs/images/Nexus-Linguarum_Web-Logo-head-08.png" class="img-fluid img-thumbnail" alt="NexusLinguarum logo">
-		      </td>
-		      <td><a href="https://nexuslinguarum.eu/" target="_blank">NexusLinguarum</a></td>
-		    </tr>
-		    <tr>
-			    <td>2021-</td>
-			 </tr>
-			  <tr>
-			    <td>I am a member of the WG1 focusing on cross-lingual data interlinking, access and retrieval in the Linguistic Linked Open Data (LLOD).</td>
 			  </tr>
 		  </tbody>
 		</table>   
@@ -79,6 +67,36 @@ title: Projects
     <div class="col-12">
 		<table class="table table-image table-responsive">
 		  <tbody>
+		  	<tr>
+		      <td class="w-25" rowspan="3">
+			      <img src="/docs/images/elexis_logo.jpeg" class="img-fluid img-thumbnail" alt="ELEXIS logo">
+		      </td>
+		      <td><a href="https://elex.is" target="_blank">ELEXIS - European Lexicographic Infrastructure</a></td>
+		    </tr>
+		    <tr>
+			    <td>2018-2022</td>
+			  </tr>
+			  <tr>
+			    <td>
+			    	<p>
+			    		Linking lexical resources is a challenge that requires impractical amounts of human efforts, but is still not easy to solve automatically. We develop methods that will make the linking problem viable for large resources, by using state-of-the-art semantic and natural language processing techniques. Our approaches are integrated as a single automated linking tool called <a href="https://github.com/insight-centre/naisc" target="_blank">NAISC</a> /naʃk/ which facilitates any linking problem for any type of input, from tabular to ontological.
+						</p>
+						<p>Thank to ELEXIS and all colleagues who accomplished such an amazing project!</p>
+						<p><a href="/docs/pictures/ELEXIS_last_meeting.jpg" target="_blank"><img src="/docs/pictures/ELEXIS_last_meeting.jpg" class="img-fluid img-thumbnail" alt="ELEXIS last meeting Florece 2022"></a></p>
+					</td>
+			  </tr>
+		  	<tr>
+		      <td class="w-25" rowspan="3">
+			      <img src="/docs/images/Nexus-Linguarum_Web-Logo-head-08.png" class="img-fluid img-thumbnail" alt="NexusLinguarum logo">
+		      </td>
+		      <td><a href="https://nexuslinguarum.eu/" target="_blank">NexusLinguarum</a></td>
+		    </tr>
+		    <tr>
+			    <td>2021-2022</td>
+			 </tr>
+			  <tr>
+			    <td>I was a member of the WG1 focusing on cross-lingual data interlinking, access and retrieval in the Linguistic Linked Open Data (LLOD).</td>
+			  </tr>
 		  	<tr>
 		      <td class="w-25" rowspan="3">
 			      <img src="/docs/images/Kurdish_XeLaTeX_logo.png" class="img-fluid img-thumbnail" alt="Kurdish XeLaTeX logo">
