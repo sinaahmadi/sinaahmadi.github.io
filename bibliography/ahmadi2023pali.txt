@@ -1,0 +1,9 @@
+@inproceedings{ahmadi2023pali,
+    title = "{PALI}: A Language Identification Benchmark for {Perso-Arabic} Scripts",
+    author = "Ahmadi, Sina and Agarwal, Milind and Anastasopoulos, Antonios",
+    booktitle = "Proceedings of the 10th Workshop on NLP for Similar Languages, Varieties and Dialects (VarDial)",
+    month = may,
+    year = "2023",
+    address = "Dubrovnik, Croatia",
+    publisher = "The 17th Conference of the European Chapter of the Association for Computational Linguistics"
+}

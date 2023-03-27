@@ -1,0 +1,9 @@
+@inproceedings{ahmadi2023fieldmatters,
+  title = "Approaches to Corpus Creation for Low-Resource Language Technology: the Case of {Southern Kurdish and Laki}",
+  author = "Ahmadi, Sina and Azin, Zahra and Belelli, Sara and Anastasopoulos, Antonios",
+  booktitle = "Proceedings of the second workshop on NLP applications to field linguistics",
+  month = may,
+  year = "2023",
+  address = "Dubrovnik, Croatia",
+  publisher = "The 17th Conference of the European Chapter of the Association for Computational Linguistics"
+}
