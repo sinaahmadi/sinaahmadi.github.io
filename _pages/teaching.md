@@ -5,7 +5,7 @@ narrow: false
 title: Teaching
 ---
 
-### George Mason University
+### George Mason University (Instructor)
 
 #### 2023
 
@@ -15,7 +15,7 @@ title: Teaching
 
 - Kurdish Computational Linguistics Course -- completely free, online and in Kurdish ([Course page](https://sinaahmadi.github.io/KurdishCL/){:target="_blank"} / [Videos](https://www.youtube.com/watch?v=cBuT4O4V2bk&list=PLkLLH3XpCIcHf6G0ZeKsq6558aPPr3UeV){:target="_blank"})
 
-### University of Galway
+### University of Galway (Tutor)
 
 #### Spring 2021
 

@@ -10,7 +10,22 @@ Publications by categories in reversed chronological order.
 
 &#42; indicates equal contribution. 
 
-<div align="center" style="background-color:mediumseagreen">
+<div align="center" style="background-color:mediumseagreen" id="2023">
+		<b>2023</b>
+</div>
+
+1. **PALI: A Language Identification Benchmark for Perso-Arabic Scripts**   
+<u>Sina Ahmadi</u>, Milind Agarwal and Antonios Anastasopoulos   
+*Proceedings of the 10th Workshop on NLP for Similar Languages, Varieties and Dialects (VarDial)*   
+[[Paper]](docs/articles/ahmadi2023pali.pdf){:target="_blank"} [[Code]](https://github.com/sinaahmadi/PersoArabicLID){:target="_blank"} [[bib]](bibliography/ahmadi2023pali.txt){:target="_blank"}  
+
+1. **Approaches to Corpus Creation for Low-Resource Language Technology: the Case of Southern Kurdish and Laki**   
+<u>Sina Ahmadi</u>, Zahra Azin, Sara Belelli and Antonios Anastasopoulos   
+*Proceedings of the second workshop on NLP applications to field linguistics*   
+[[Paper]](docs/articles/ahmadi2023fieldmatters.pdf){:target="_blank"} [[Code]](https://github.com/sinaahmadi/KurdishLID){:target="_blank"} [[bib]](bibliography/ahmadi2023fieldmatters.txt){:target="_blank"}  
+
+
+<div align="center" style="background-color:lightblue">
 	<b>2022</b>
 </div>
 
@@ -175,7 +190,17 @@ arXiv preprint arXiv:1810.00660
 
 ### Kurdish language processing
 
-<div align="center" style="background-color:mediumseagreen">
+<div align="center" style="background-color:mediumseagreen" id="Kurdish">
+		<b>2023</b>
+</div>
+
+1. **Transfer Learning for Low-Resource Sentiment Analysis**  
+Razhan Hameed, <u>Sina Ahmadi</u> and Fatemeh Daneshfar  
+*ACM Transactions on Asian and Low-Resource Language Information Processing (TALLIP)*  
+[[Paper]](docs/articles/hameed2023sentiment.pdf){:target="_blank"} [[Code]](https://github.com/Hrazhan/sentiment){:target="_blank"} [[bib]](bibliography/hameed2023sentiment.txt){:target="_blank"}  
+
+
+<div align="center" style="background-color:lightblue">
 	<b>2022</b>
 </div>
 

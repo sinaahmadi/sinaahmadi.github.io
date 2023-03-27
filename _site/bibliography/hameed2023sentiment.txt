@@ -1,0 +1,9 @@
+@article{hameed2023sentiment,
+      author = {Hameed, Razhan and Ahmadi, Sina and Daneshfar, Fatemeh},
+      title = {Transfer Learning for Low-Resource Sentiment Analysis},
+      year = {2023},
+      publisher = {Association for Computing Machinery},
+      abstract = {Sentiment analysis is the process of identifying and extracting subjective information from text. Despite the advances to employ cross-lingual approaches in an automatic way, the implementation and evaluation of sentiment analysis systems require language-specific data to consider various sociocultural and linguistic peculiarities. In this paper, the collection and annotation of a dataset are described for sentiment analysis of Central Kurdish. We explore a few classical machine learning and neural network-based techniques for this task. Additionally, we employ an approach in transfer learning to leverage pretrained models for data augmentation. We demonstrate that data augmentation achieves a high F1 score and accuracy despite the difficulty of the task.},
+      note = {Under review},
+      journal = {ACM Trans. Asian Low-Resour. Lang. Inf. Process.}
+}
