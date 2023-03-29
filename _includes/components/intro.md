@@ -12,4 +12,4 @@ This is my personal website where I share the latest news about myself and my pr
 
 <hr />
 
-**I am excited to have joined the Department of Computer Science at George Mason University as a postdoctoral research fellow to work with Dr. Antonios Anastasopoulos on less-resourced languages.**
+**I am a postdoctoral research fellow and adjunct lecturer at the Department of Computer Science at George Mason University where I work with Dr. Antonios Anastasopoulos on natural language processing for less-resourced languages.**
