@@ -1,0 +1,7 @@
+@article{lindemann2023ldk,
+      author = {Lindemann, David and \textbf{Ahmadi}, \textbf{Sina} and Khan, Fahad and Mambrini, Francesco},
+      title = {{When Ontolex Meets Wikibase: Remodeling Use Cases}},
+      year = {2023},
+      publisher = {4nd Conference on Language, Data and Knowledge (LDK 2023)},
+      note = {Under review at the 4nd Conference on Language, Data and Knowledge (LDK 2023)}
+}

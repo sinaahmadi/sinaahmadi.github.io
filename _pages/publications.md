@@ -14,6 +14,12 @@ Publications by categories in reversed chronological order.
 		<b>2023</b>
 </div>
 
+
+1. **When Ontolex Meets Wikibase: Remodeling Use Cases**   
+David Lindemann, <u>Sina Ahmadi</u> and Fahad Khan and Francesco Mambrini   
+*Under review at the 4nd Conference on Language, Data and Knowledge (LDK 2023)*   
+[[Paper]](docs/articles/lindemann2023ldk.pdf){:target="_blank"} [[Service]](https://kurdi.wikibase.cloud/wiki/Main_Page){:target="_blank"} [[bib]](bibliography/lindemann2023ldk.txt){:target="_blank"}  
+
 1. **PALI: A Language Identification Benchmark for Perso-Arabic Scripts**   
 <u>Sina Ahmadi</u>, Milind Agarwal and Antonios Anastasopoulos   
 *Proceedings of the 10th Workshop on NLP for Similar Languages, Varieties and Dialects (VarDial)*   
@@ -194,10 +200,15 @@ arXiv preprint arXiv:1810.00660
 		<b>2023</b>
 </div>
 
+1. **A Corpus-based Study of Endoclitic *=îş* in Kurdish**  
+ <u>Sina Ahmadi</u>, Antonios Anastasopoulos and Géraldine Walther   
+*Book of abstracts of the the 56th Annual Meeting of the Societas Linguistica Europaea*  
+[[Paper]](docs/articles/ahmadi2023sle.pdf){:target="_blank"} [[bib]](bibliography/ahmadi2023sle.txt){:target="_blank"}  
+
 1. **Transfer Learning for Low-Resource Sentiment Analysis**  
 Razhan Hameed, <u>Sina Ahmadi</u> and Fatemeh Daneshfar  
 *ACM Transactions on Asian and Low-Resource Language Information Processing (TALLIP)*  
-[[Paper]](docs/articles/hameed2023sentiment.pdf){:target="_blank"} [[Code]](https://github.com/Hrazhan/sentiment){:target="_blank"} [[bib]](bibliography/hameed2023sentiment.txt){:target="_blank"}  
+[[Paper]](docs/articles/hameed2023sentiment.pdf){:target="_blank"} [[preprint]](https://arxiv.org/abs/2304.04703){:target="_blank"} [[Code]](https://github.com/Hrazhan/sentiment){:target="_blank"} [[bib]](bibliography/hameed2023sentiment.txt){:target="_blank"}  
 
 
 <div align="center" style="background-color:lightblue">

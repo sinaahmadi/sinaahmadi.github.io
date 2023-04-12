@@ -1,0 +1,9 @@
+@inproceedings{ahmadi2023sle,
+  title = "A Corpus-based Study of Endoclitic \textit{=îş} in {Kurdish}",
+  author = "Ahmadi, Sina and Anastasopoulos, Antonios and Walther, Géraldine",
+  booktitle = "Book of abstracts of the the 56th Annual Meeting of the Societas Linguistica Europaea",
+  month = sept,
+  year = "2023",
+  address = "Athens, Greece",
+  publisher = "the 56th Annual Meeting of the Societas Linguistica Europaea"
+}

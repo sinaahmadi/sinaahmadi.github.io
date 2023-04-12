@@ -4,9 +4,9 @@
 	<p><strike><a href="mailto:sina.ahmadi@insight-centre.org" target="_blank" style="color: white"><b>Please let me know!</b></a></strike></p>
 </div> -->
 
-<!-- <div class="p-3 mb-2 bg-success text-white text-center">
-	<p><b>I am excited to have joined the Department of Computer Science at George Mason University as a postdoctoral researcher in mid 2022 working on less-resourced languages ☺️</b></p>
-</div> -->
+<div class="p-3 mb-2 bg-success text-white text-center">
+	<p><b>I am on the faculty job market seeking a tenure-track position!</b></p>
+</div>
 
 This is my personal website where I share the latest news about myself and my professional life. I also discuss my ideas and whatever I think is worth to write about here in my blog.
 
