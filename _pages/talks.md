@@ -27,6 +27,32 @@ title: Talks
     <div class="col-12">
 		<table class="table table-image table-responsive">
 		  <tbody>
+		  	<tr>
+		      <td class="w-25" rowspan="5">
+			      <a href="/docs/images/talk_Cologne_2023.png" target="_blank"><img src="/docs/images/talk_Cologne_2023.png" class="img-fluid img-thumbnail" alt="Sina Ahmadi's talk at University of Cologne"></a>
+		      </td>
+		      <td><b>Aim for the Stars! The Importance of Semantic Technologies in Electronic Lexicography and Language Technology</b></td>
+		    </tr>
+		    <tr>
+			    <td>⏱ 21 April, 2023 📍 University of Cologne, Germany</td>
+			  </tr>
+		    <tr>
+			    <td>
+			    	📝 English
+					</td>
+			  </tr>
+			  <tr>
+			    <td>
+			    	I was an invited speaker in a workshop at University of Cologne to talk about some practices in electronic lexicography to make data more accessible and inter-operable. I broadly discussed why giving a zest of linked data to linguistic data can go a long way!
+			    </td>
+			  </tr>
+			  <tr>
+			  	<td>
+			  	<a href="docs/slides/Cologne_presentation_handout.pdf" target="_blank">Slides (handout)</a>
+				  | 
+					<a href="docs/slides/Cologne_presentation.pdf" target="_blank">Slides</a>
+					</td>
+			  </tr>
 		    <tr>
 		      <td class="w-25" rowspan="5">
 			      <a href="/docs/images/Talk_KIT_Sina_flyer.jpg" target="_blank"><img src="/docs/images/Talk_KIT_Sina_flyer.jpg" class="img-fluid img-thumbnail" alt="Sina Ahmadi's talk at the Department of Information Technology"></a>
