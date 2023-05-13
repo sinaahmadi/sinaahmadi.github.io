@@ -22,6 +22,8 @@ title: Talks
 
 <body>
 
+
+
 <div class="container">
   <div class="row">
     <div class="col-12">
@@ -29,12 +31,40 @@ title: Talks
 		  <tbody>
 		  	<tr>
 		      <td class="w-25" rowspan="5">
+			      <a href="/docs/images/ContribuLing_2023_Poster.jpg" target="_blank"><img src="/docs/images/ContribuLing_2023_Poster.jpg" class="img-fluid img-thumbnail" alt="Sina Ahmadi's talk at ContribuLing 2023 about unconventional script normalization"></a>
+		      </td>
+		      <td><b>The Pandora’s Box of Low-Resource Language Technology: Script and Orthographic Normalization</b></td>
+		    </tr>
+		    <tr>
+			    <td>⏱ 12 May, 2023 📍 ContribuLing - Inalco, Paris, France</td>
+			  </tr>
+		    <tr>
+			    <td>
+			    	📝 French
+					</td>
+			  </tr>
+			  <tr>
+			    <td>
+			    	I was an invited speaker at the <a href="https://meta.wikimedia.org/wiki/ContribuLing_2023" target="_blank">ContribuLing conference</a> which focused on language technology for minority languages. I talked about the importance of unconventional script normalization and how widespread and <i>unsolved</i> this phenomenon is in multilingual communities. 
+			    </td>
+			  </tr>
+			  <tr>
+			  	<td>
+			  	<a href="docs/slides/ContribuLing2023-Sina.pdf" target="_blank">Slides</a>
+				  | 
+					<a href="docs/slides/ContribuLing2023-Sina_handout.pdf" target="_blank">Slides (handout)</a>
+					|
+					<a href="https://www.youtube.com/live/cYs9P1xuC9E?feature=share&t=24442" target="_blank">Video</a>
+					</td>
+			  </tr>
+		  	<tr>
+		      <td class="w-25" rowspan="5">
 			      <a href="/docs/images/talk_Cologne_2023.png" target="_blank"><img src="/docs/images/talk_Cologne_2023.png" class="img-fluid img-thumbnail" alt="Sina Ahmadi's talk at University of Cologne"></a>
 		      </td>
 		      <td><b>Aim for the Stars! The Importance of Semantic Technologies in Electronic Lexicography and Language Technology</b></td>
 		    </tr>
 		    <tr>
-			    <td>⏱ 21 April, 2023 📍 University of Cologne, Germany</td>
+			    <td>⏱ 21 April, 2023 📍 University of Cologne, Cologne, Germany</td>
 			  </tr>
 		    <tr>
 			    <td>
