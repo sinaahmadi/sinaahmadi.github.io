@@ -31,6 +31,32 @@ title: Talks
 		  <tbody>
 		  	<tr>
 		      <td class="w-25" rowspan="5">
+			      <img src="/docs/pictures/Kurdish_studies_poster_2023.jpg" class="img-fluid img-thumbnail" alt="Sina Ahmadi's talk at University of Toronto on less-resourced languages including Kurdish">
+		      </td>
+		      <td><b>Technology for Minoritized Language Communities: An Overview of Language and Speech Technology for Kurdish</b></td>
+		    </tr>
+		    <tr>
+			    <td>⏱ 25 May, 2023 📍 University of Toronto, Canada (online)</td>
+			  </tr>
+		    <tr>
+			    <td>
+			    	📝 English
+					</td>
+			  </tr>
+			  <tr>
+			    <td>
+			    	I had the pleasure to be an invited lecturer in Prof. Sheyholislami's course "Kurdish Studies: a critical introduction" at University of Toronto. I talked about language technology for minoritized language communities and some of the challenges with a special focus on Kurdish.
+			   	</td>
+			  </tr>
+			  <tr>
+			  	<td>
+			  	<a href="docs/slides/KLP_Toronto_2023.pdf" target="_blank">Slides</a>
+				  | 
+					<a href="docs/slides/KLP_Toronto_2023_handout.pdf" target="_blank">Slides (handout)</a>
+					</td>
+			  </tr>
+		  	<tr>
+		      <td class="w-25" rowspan="5">
 			      <a href="/docs/images/ContribuLing_2023_Poster.jpg" target="_blank"><img src="/docs/images/ContribuLing_2023_Poster.jpg" class="img-fluid img-thumbnail" alt="Sina Ahmadi's talk at ContribuLing 2023 about unconventional script normalization"></a>
 		      </td>
 		      <td><b>The Pandora’s Box of Low-Resource Language Technology: Script and Orthographic Normalization</b></td>
