@@ -6,14 +6,24 @@ show_profile: true
 title: Publications
 ---
 
-Publications by categories in reversed chronological order. 
+Publications in reversed chronological order in two categories:
+
+1. <a href="#main">Main</a>
+2. <a href="#klp">Kurdish language processing</a>
 
 &#42; indicates equal contribution. 
 
-<div align="center" style="background-color:mediumseagreen" id="2023">
+---
+### Main
+
+<div align="center" style="background-color:mediumseagreen" id="main">
 		<b>2023</b>
 </div>
 
+1. **Script Normalization for Unconventional Writing of Under-Resourced Languages in Bilingual Communities**   
+<u>Sina Ahmadi</u> and Antonios Anastasopoulos    
+(To appear) *The 61st Annual Meeting of the Association for Computational Linguistics (ACL)*   
+[[Paper]](docs/articles/ahmadi2023acl.pdf){:target="_blank"} [[Code]](https://github.com/sinaahmadi/ScriptNormalization){:target="_blank"} [[bib]](bibliography/ahmadi2023acl.txt){:target="_blank"}  
 
 1. **When Ontolex Meets Wikibase: Remodeling Use Cases**   
 David Lindemann, <u>Sina Ahmadi</u> and Fahad Khan and Francesco Mambrini   
@@ -196,9 +206,14 @@ arXiv preprint arXiv:1810.00660
 
 ### Kurdish language processing
 
-<div align="center" style="background-color:mediumseagreen" id="Kurdish">
+<div align="center" style="background-color:mediumseagreen" id="klp">
 		<b>2023</b>
 </div>
+
+1. **Revisiting and Amending Central Kurdish Data on UniMorph 4.0**   
+<u>Sina Ahmadi</u> and Aso Mahmudi    
+(To appear) *The 20th SIGMORPHON Workshop on Computational Research in Phonetics, Phonology, and Morphology at ACL2023*   
+[[Paper]](docs/articles/ahmadi2023sigmorphon.pdf){:target="_blank"} [[Resource]](https://github.com/unimorph/ckb){:target="_blank"} [[bib]](bibliography/ahmadi2023sigmorphon.txt){:target="_blank"}  
 
 1. **A Corpus-based Study of Endoclitic *=îş* in Kurdish**  
  <u>Sina Ahmadi</u>, Antonios Anastasopoulos and Géraldine Walther   
