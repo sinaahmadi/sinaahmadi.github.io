@@ -23,7 +23,12 @@ Publications in reversed chronological order in two categories:
 1. **Script Normalization for Unconventional Writing of Under-Resourced Languages in Bilingual Communities**   
 <u>Sina Ahmadi</u> and Antonios Anastasopoulos    
 (To appear) *The 61st Annual Meeting of the Association for Computational Linguistics (ACL)*   
-[[Paper]](docs/articles/ahmadi2023acl.pdf){:target="_blank"} [[Code]](https://github.com/sinaahmadi/ScriptNormalization){:target="_blank"} [[bib]](bibliography/ahmadi2023acl.txt){:target="_blank"}  
+[[Paper]](docs/articles/ahmadi2023acl.pdf){:target="_blank"} [[Slides]](docs/slides/ahmadi2023acl_slides.pdf){:target="_blank"}   [[Presentation]](https://s3.amazonaws.com/pf-user-files-01/u-59356/uploads/2023-06-04/rw32pwp/ACL2023.mp4){:target="_blank"}  [[Code]](https://github.com/sinaahmadi/ScriptNormalization){:target="_blank"} [[bib]](bibliography/ahmadi2023acl.txt){:target="_blank"}  
+
+1. **CODET: A Benchmark for Contrastive Dialectal Evaluation of Machine Translation**   
+Md Mahfuz Ibn Alam, <u>Sina Ahmadi</u> and Antonios Anastasopoulos    
+*(preprint) arXiv preprint arXiv:2305.17267*   
+[[preprint]](docs/articles/alam2023codet.pdf){:target="_blank"} [[Resource]](https://github.com/mahfuzibnalam/dialect_mt){:target="_blank"} [[bib]](bibliography/alam2023codet.txt){:target="_blank"} 
 
 1. **When Ontolex Meets Wikibase: Remodeling Use Cases**   
 David Lindemann, <u>Sina Ahmadi</u> and Fahad Khan and Francesco Mambrini   
