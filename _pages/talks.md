@@ -31,6 +31,30 @@ title: Talks
 		  <tbody>
 		  	<tr>
 		      <td class="w-25" rowspan="5">
+			      <a href="/docs/pictures/VOA_interview_2023.jpg" target="_blank"><img src="/docs/pictures/VOA_interview_2023.jpg" class="img-fluid img-thumbnail" alt="Sina Ahmadi's Interview with Voice of Amercia (Kurdish)"></a>
+		      </td>
+		      <td><b>Interview by Voice of America</b></td>
+		    </tr>
+		    <tr>
+			    <td>⏱ 15 June, 2023 📍 Voice of America (Kurdish)</td>
+			  </tr>
+		    <tr>
+			    <td>
+			    	📝 Sorani Kurdish
+					</td>
+			  </tr>
+			  <tr>
+			    <td>
+			    	In an interview with Voice of America in Kurdish, we address the latest progress in AI and its impact on language. A few interesting issues were raised during the interview about the future of less-resourced languages like Kurdish and the ethical concerns of AI.
+			   	</td>
+			  </tr>
+			  <tr>
+			  	<td>
+					<a href="https://www.dengiamerika.com/a/7139110.html" target="_blank">Video</a>
+					</td>
+			  </tr>
+		  	<tr>
+		      <td class="w-25" rowspan="5">
 			      <img src="/docs/pictures/Kurdish_studies_poster_2023.jpg" class="img-fluid img-thumbnail" alt="Sina Ahmadi's talk at University of Toronto on less-resourced languages including Kurdish">
 		      </td>
 		      <td><b>Technology for Minoritized Language Communities: An Overview of Language and Speech Technology for Kurdish</b></td>
