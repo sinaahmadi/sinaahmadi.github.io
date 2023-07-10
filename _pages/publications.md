@@ -22,8 +22,8 @@ Publications in reversed chronological order in two categories:
 
 1. **Script Normalization for Unconventional Writing of Under-Resourced Languages in Bilingual Communities**   
 <u>Sina Ahmadi</u> and Antonios Anastasopoulos    
-(To appear) *The 61st Annual Meeting of the Association for Computational Linguistics (ACL)*   
-[[Paper]](docs/articles/ahmadi2023acl.pdf){:target="_blank"} [[Slides]](docs/slides/ahmadi2023acl_slides.pdf){:target="_blank"}   [[Presentation]](https://s3.amazonaws.com/pf-user-files-01/u-59356/uploads/2023-06-04/rw32pwp/ACL2023.mp4){:target="_blank"}  [[Code]](https://github.com/sinaahmadi/ScriptNormalization){:target="_blank"} [[bib]](bibliography/ahmadi2023acl.txt){:target="_blank"}  
+*The 61st Annual Meeting of the Association for Computational Linguistics (ACL)*   
+[[Paper]](docs/articles/ahmadi2023acl.pdf){:target="_blank"} [[Slides]](docs/slides/ahmadi2023acl_slides.pdf){:target="_blank"}   [[Presentation]](https://s3.amazonaws.com/pf-user-files-01/u-59356/uploads/2023-06-04/rw32pwp/ACL2023.mp4){:target="_blank"}  [[Code]](https://github.com/sinaahmadi/ScriptNormalization){:target="_blank"} [[⚙️ Demo]](https://huggingface.co/spaces/SinaAhmadi/ScriptNormalization){:target="_blank"}  [[bib]](bibliography/ahmadi2023acl.txt){:target="_blank"}  
 
 1. **CODET: A Benchmark for Contrastive Dialectal Evaluation of Machine Translation**   
 Md Mahfuz Ibn Alam, <u>Sina Ahmadi</u> and Antonios Anastasopoulos    
