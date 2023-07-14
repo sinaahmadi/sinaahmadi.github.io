@@ -218,7 +218,7 @@ arXiv preprint arXiv:1810.00660
 1. **Revisiting and Amending Central Kurdish Data on UniMorph 4.0**   
 <u>Sina Ahmadi</u> and Aso Mahmudi    
 (To appear) *The 20th SIGMORPHON Workshop on Computational Research in Phonetics, Phonology, and Morphology at ACL2023*   
-[[Paper]](docs/articles/ahmadi2023sigmorphon.pdf){:target="_blank"} [[Resource]](https://github.com/unimorph/ckb){:target="_blank"} [[bib]](bibliography/ahmadi2023sigmorphon.txt){:target="_blank"}  
+[[Paper]](docs/articles/ahmadi2023sigmorphon.pdf){:target="_blank"} [[Slides]](docs/slides/ahmadi2023sigmorphon_slides.pdf){:target="_blank"} [[Resource]](https://github.com/unimorph/ckb){:target="_blank"} [[bib]](bibliography/ahmadi2023sigmorphon.txt){:target="_blank"}  
 
 1. **A Corpus-based Study of Endoclitic *=îş* in Kurdish**  
  <u>Sina Ahmadi</u>, Antonios Anastasopoulos and Géraldine Walther   
