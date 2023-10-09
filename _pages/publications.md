@@ -223,7 +223,7 @@ arXiv preprint arXiv:1810.00660
 1. **A Corpus-based Study of Endoclitic *=îş* in Kurdish**  
  <u>Sina Ahmadi</u>, Antonios Anastasopoulos and Géraldine Walther   
 *Book of abstracts of the the 56th Annual Meeting of the Societas Linguistica Europaea*  
-[[Paper]](docs/articles/ahmadi2023sle.pdf){:target="_blank"} [[bib]](bibliography/ahmadi2023sle.txt){:target="_blank"}  
+[[Paper]](docs/articles/ahmadi2023sle.pdf){:target="_blank"} [[Poster]](docs/articles/ahmadi2023sle_poster.pdf){:target="_blank"} [[bib]](bibliography/ahmadi2023sle.txt){:target="_blank"}  
 
 1. **Transfer Learning for Low-Resource Sentiment Analysis**  
 Razhan Hameed, <u>Sina Ahmadi</u> and Fatemeh Daneshfar  
