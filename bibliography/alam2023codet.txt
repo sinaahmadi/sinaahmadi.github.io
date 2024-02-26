@@ -1,8 +1,0 @@
-@misc{alam2023codet,
-      title={CODET: A Benchmark for Contrastive Dialectal Evaluation of Machine Translation}, 
-      author={Md Mahfuz Ibn Alam and Sina Ahmadi and Antonios Anastasopoulos},
-      year={2023},
-      eprint={2305.17267},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
-}

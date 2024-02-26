@@ -17,6 +17,21 @@ Publications in reversed chronological order in two categories:
 ### Main
 
 <div align="center" style="background-color:mediumseagreen" id="main">
+		<b>2024</b>
+</div>
+
+1. **CODET: A Benchmark for Contrastive Dialectal Evaluation of Machine Translation**   
+Md Mahfuz Ibn Alam, <u>Sina Ahmadi</u> and Antonios Anastasopoulos    
+*17th Conference of the European Chapter of the Association for Computational Linguistics (EACL)*   
+[[Paper]](docs/articles/alam2024codet.pdf){:target="_blank"} [[Resource]](https://github.com/mahfuzibnalam/dialect_mt){:target="_blank"} [[bib]](bibliography/alam2024codet.txt){:target="_blank"} 
+
+
+2. **A Morphologically-Aware Dictionary-based Data Augmentation Technique for Machine Translation of Under-Represented Languages**  
+*Under review*  
+[[Preprint]](docs/articles/alam2024dictionary.pdf){:target="_blank"} [[bib]](bibliography/alam2024dictionary.txt){:target="_blank"}   
+
+
+<div align="center" style="background-color:lightblue">
 		<b>2023</b>
 </div>
 
@@ -25,15 +40,10 @@ Publications in reversed chronological order in two categories:
 *The 61st Annual Meeting of the Association for Computational Linguistics (ACL)*   
 [[Paper]](docs/articles/ahmadi2023acl.pdf){:target="_blank"} [[Slides]](docs/slides/ahmadi2023acl_slides.pdf){:target="_blank"}   [[Presentation]](https://s3.amazonaws.com/pf-user-files-01/u-59356/uploads/2023-06-04/rw32pwp/ACL2023.mp4){:target="_blank"}  [[Code]](https://github.com/sinaahmadi/ScriptNormalization){:target="_blank"} [[⚙️ Demo]](https://huggingface.co/spaces/SinaAhmadi/ScriptNormalization){:target="_blank"}  [[bib]](bibliography/ahmadi2023acl.txt){:target="_blank"}  
 
-1. **CODET: A Benchmark for Contrastive Dialectal Evaluation of Machine Translation**   
-Md Mahfuz Ibn Alam, <u>Sina Ahmadi</u> and Antonios Anastasopoulos    
-*(preprint) arXiv preprint arXiv:2305.17267*   
-[[preprint]](docs/articles/alam2023codet.pdf){:target="_blank"} [[Resource]](https://github.com/mahfuzibnalam/dialect_mt){:target="_blank"} [[bib]](bibliography/alam2023codet.txt){:target="_blank"} 
-
 1. **When Ontolex Meets Wikibase: Remodeling Use Cases**   
 David Lindemann, <u>Sina Ahmadi</u> and Fahad Khan and Francesco Mambrini   
 *Under review at the 4nd Conference on Language, Data and Knowledge (LDK 2023)*   
-[[Paper]](docs/articles/lindemann2023ldk.pdf){:target="_blank"} [[Service]](https://kurdi.wikibase.cloud/wiki/Main_Page){:target="_blank"} [[bib]](bibliography/lindemann2023ldk.txt){:target="_blank"}  
+[[Paper]](docs/articles/lindemann2023wikidata.pdf){:target="_blank"} [[Service]](https://kurdi.wikibase.cloud/wiki/Main_Page){:target="_blank"} [[bib]](bibliography/lindemann2023ldk.txt){:target="_blank"}  
 
 1. **PALI: A Language Identification Benchmark for Perso-Arabic Scripts**   
 <u>Sina Ahmadi</u>, Milind Agarwal and Antonios Anastasopoulos   

@@ -1,0 +1,6 @@
+@article{alam2024morphologically,
+  title={A Morphologically-Aware Dictionary-based Data Augmentation Technique for Machine Translation of Under-Represented Languages},
+  author={Alam, Md Mahfuz Ibn and Ahmadi, Sina and Anastasopoulos, Antonios},
+  journal={arXiv preprint arXiv:2402.01939},
+  year={2024}
+}

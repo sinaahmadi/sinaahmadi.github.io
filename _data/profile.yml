@@ -23,9 +23,9 @@
   href: https://www.twitter.com/sina_ahm
   icon: entypo/twitter-with-circle.svg
 
-- caption: YouTube
-  href: https://www.youtube.com/channel/UCEnbUkiYHKxTvAeNRTVhxIQ
-  icon: entypo/youtube.svg
+# - caption: YouTube
+#   href: https://www.youtube.com/channel/UCEnbUkiYHKxTvAeNRTVhxIQ
+#   icon: entypo/youtube.svg
 
 # - caption: Google Maps
 #
@@ -35,8 +35,8 @@
   href: foaf.rdf
   icon: entypo/rdf.svg
 
-- caption: Fairfax, Virginia
-  href: https://goo.gl/maps/m8xEeCHte4BJFQBJA
+- caption: Zurich, Switzerland
+  href: https://maps.app.goo.gl/CNPHKuyTePE7WhxA6
   icon: entypo/location-pin.svg
 
 - caption: RSS

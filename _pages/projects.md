@@ -30,15 +30,27 @@ title: Projects
 		  <tbody>
 		  	<tr>
 		      <td class="w-25" rowspan="3">
+			      <img src="/docs/images/CL-UZH-logo.png" class="img-fluid img-thumbnail" alt="CL UZH logo">
+		      </td>
+		      <td><a href="https://www.cl.uzh.ch/en/research-groups/texttechnologies/research/machine-learning/mutamur.html" target="_blank">MUTAMUR</a></td>
+		    </tr>
+		      <tr>
+			    <td>Feb. 2024-</td>
+			  </tr>
+			  <tr>
+			    <td>In the MUTAMUR project (Multitask Learning with Multilingual Resources for Better Natural Language Understanding), we investigate methods for knowledge sharing and transfer between machine learning models in natural language processing.</td>
+			  </tr>
+		  	<tr>
+		      <td class="w-25" rowspan="3">
 			      <img src="/docs/images/gmnlp.png" class="img-fluid img-thumbnail" alt="GMNLP logo">
 		      </td>
 		      <td><a href="https://nlp.cs.gmu.edu/" target="_blank">George Mason NLP</a></td>
 		    </tr>
 		      <tr>
-			    <td>Oct. 2022-</td>
+			    <td>Sep. 2022-Jan. 2024</td>
 			  </tr>
 			  <tr>
-			    <td>I am very lucky to be working at GMNLP on various topics in language technology in low-resource setups. Looking forward to a rewarding experience in research, supervision and teaching.</td>
+			    <td>I was very lucky to work at GMNLP on various topics in language technology in low-resource setups with rewarding experiences in research, supervision and teaching.</td>
 			  </tr>
 			  <tr>
 		      <td class="w-25" rowspan="3">

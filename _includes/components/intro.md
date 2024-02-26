@@ -4,12 +4,12 @@
 	<p><strike><a href="mailto:sina.ahmadi@insight-centre.org" target="_blank" style="color: white"><b>Please let me know!</b></a></strike></p>
 </div> -->
 
-<div class="p-3 mb-2 bg-success text-white text-center">
+<!-- <div class="p-3 mb-2 bg-success text-white text-center">
 	<p><b>I am on the faculty job market seeking a tenure-track position!</b></p>
 </div>
+ -->
+<!-- This is my personal website where I share the latest news about myself and my professional life. I also discuss my ideas and whatever I think is worth to write about here in my blog. -->
 
-This is my personal website where I share the latest news about myself and my professional life. I also discuss my ideas and whatever I think is worth to write about here in my blog.
+<!-- <hr /> -->
 
-<hr />
-
-**I am a postdoctoral research fellow and adjunct lecturer at the Department of Computer Science at George Mason University where I work with Dr. Antonios Anastasopoulos on natural language processing for less-resourced languages.**
+**I am currently a postdoctoral researcher affiliated with Prof. Rico Sennrich's group at the [Department of Computational Linguistics](https://www.cl.uzh.ch/en.html) at University of Zurich. My primary research focuses on leveraging language technology to assist languages with constrained digital resources, with an emphasis on adapting current natural language processing approaches and existing resources for less-resourced languages. Prior to this position, I conducted research on the same theme at [Dr. Antonios Anastasopoulos's group](https://nlp.cs.gmu.edu/) within the Department of Computer Science at George Mason University.**
