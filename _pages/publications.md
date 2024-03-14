@@ -63,7 +63,7 @@ David Lindemann, <u>Sina Ahmadi</u> and Fahad Khan and Francesco Mambrini
 1. **Monolingual Alignment of Word Senses and Definitions in Lexicographical Resources**   
 (Thesis) <u>Sina Ahmadi</u>   
 *National University of Ireland Galway*   
-[[Thesis]](docs/Thesis_Sina_Ahmadi.pdf){:target="_blank"} [[Viva]](docs/slides/Viva.pdf){:target="_blank"} [[bib]](bibliography/ahmadi2022thesis.txt){:target="_blank"}  
+[[Thesis]](docs/Thesis_Sina_Ahmadi.pdf){:target="_blank"} [[bib]](bibliography/ahmadi2022thesis.txt){:target="_blank"}  
 
 
 1. **Cross-Lingual Link Discovery for Under-Resourced Languages**  
