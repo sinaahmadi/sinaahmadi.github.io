@@ -23,7 +23,7 @@ Publications in reversed chronological order in two categories:
 1. **CODET: A Benchmark for Contrastive Dialectal Evaluation of Machine Translation**   
 Md Mahfuz Ibn Alam, <u>Sina Ahmadi</u> and Antonios Anastasopoulos    
 *17th Conference of the European Chapter of the Association for Computational Linguistics (EACL)*   
-[[Paper]](docs/articles/alam2024codet.pdf){:target="_blank"} [[Poster]](docs/poster/alam2024codet_poster.pdf){:target="_blank"} [[Resource]](https://github.com/mahfuzibnalam/dialect_mt){:target="_blank"} [[bib]](bibliography/alam2024codet.txt){:target="_blank"} 
+[[Paper]](docs/articles/alam2024codet.pdf){:target="_blank"} [[Poster]](docs/posters/alam2024codet_poster.pdf){:target="_blank"} [[Resource]](https://github.com/mahfuzibnalam/dialect_mt){:target="_blank"} [[bib]](bibliography/alam2024codet.txt){:target="_blank"} 
 
 
 2. **A Morphologically-Aware Dictionary-based Data Augmentation Technique for Machine Translation of Under-Represented Languages**  
