@@ -43,7 +43,7 @@ Md Mahfuz Ibn Alam, <u>Sina Ahmadi</u> and Antonios Anastasopoulos
 1. **When Ontolex Meets Wikibase: Remodeling Use Cases**   
 David Lindemann, <u>Sina Ahmadi</u> and Fahad Khan and Francesco Mambrini   
 *Under review at the 4nd Conference on Language, Data and Knowledge (LDK 2023)*   
-[[Paper]](docs/articles/lindemann2023wikidata.pdf){:target="_blank"} [[Service]](https://kurdi.wikibase.cloud/wiki/Main_Page){:target="_blank"} [[bib]](bibliography/lindemann2023ldk.txt){:target="_blank"}  
+[[Paper]](docs/articles/lindemann2023wikidata.pdf){:target="_blank"} [[Poster]](docs/posters/lindemann2023wikidata_poster.pdf){:target="_blank"} [[Service]](https://kurdi.wikibase.cloud/wiki/Main_Page){:target="_blank"} [[bib]](bibliography/lindemann2023ldk.txt){:target="_blank"}  
 
 1. **PALI: A Language Identification Benchmark for Perso-Arabic Scripts**   
 <u>Sina Ahmadi</u>, Milind Agarwal and Antonios Anastasopoulos   
