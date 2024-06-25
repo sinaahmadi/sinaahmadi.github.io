@@ -20,6 +20,12 @@ Publications in reversed chronological order in two categories:
 		<b>2024</b>
 </div>
 
+1. **Language and Speech Technology for Central Kurdish Varieties**   
+<u>Sina Ahmadi</u>, Daban Q Jaff, Md Mahfuz Ibn Alam, Antonios Anastasopoulos
+*Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024)*   
+[[Paper]](docs/articles/ahmadi2024cordi.pdf){:target="_blank"} [[Slides]](docs/slides/ahmadi2024cordi_slides.pdf){:target="_blank"} [[Resource]](https://github.com/sinaahmadi/CORDI){:target="_blank"} [[bib]](bibliography/ahmadi2024cordi.txt){:target="_blank"} 
+
+
 1. **CODET: A Benchmark for Contrastive Dialectal Evaluation of Machine Translation**   
 Md Mahfuz Ibn Alam, <u>Sina Ahmadi</u> and Antonios Anastasopoulos    
 *17th Conference of the European Chapter of the Association for Computational Linguistics (EACL)*   
@@ -222,12 +228,22 @@ arXiv preprint arXiv:1810.00660
 ### Kurdish language processing
 
 <div align="center" style="background-color:mediumseagreen" id="klp">
+		<b>2024</b>
+</div>
+
+1. **Part-of-Speech Tagging for Northern Kurdish**   
+Peshmerge Morad, <u>Sina Ahmadi</u> and Lorenzo Gatti    
+*Proceedings of the Joint Workshop on Multiword Expressions and Universal Dependencies (MWE-UD 2024) @LREC-COLING-2024*   
+[[Paper]](docs/articles/morad2024pos.pdf){:target="_blank"} [[Poster]](docs/posters/morad2024pos_poster.pdf){:target="_blank"} [[Resource]](https://github.com/peshmerge/northern-kurdish-pos-tagging){:target="_blank"} [[bib]](bibliography/morad2024pos_poster.txt){:target="_blank"}  
+
+
+<div align="center" style="background-color:lightblue" id="klp">
 		<b>2023</b>
 </div>
 
 1. **Revisiting and Amending Central Kurdish Data on UniMorph 4.0**   
 <u>Sina Ahmadi</u> and Aso Mahmudi    
-(To appear) *The 20th SIGMORPHON Workshop on Computational Research in Phonetics, Phonology, and Morphology at ACL2023*   
+*The 20th SIGMORPHON Workshop on Computational Research in Phonetics, Phonology, and Morphology at ACL2023*   
 [[Paper]](docs/articles/ahmadi2023sigmorphon.pdf){:target="_blank"} [[Slides]](docs/slides/ahmadi2023sigmorphon_slides.pdf){:target="_blank"} [[Resource]](https://github.com/unimorph/ckb){:target="_blank"} [[bib]](bibliography/ahmadi2023sigmorphon.txt){:target="_blank"}  
 
 1. **A Corpus-based Study of Endoclitic *=îş* in Kurdish**  
