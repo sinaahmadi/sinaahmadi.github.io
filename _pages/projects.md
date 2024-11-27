@@ -42,6 +42,33 @@ title: Projects
 			  </tr>
 		  	<tr>
 		      <td class="w-25" rowspan="3">
+			      <img src="https://dolma-nlp.github.io/assets/DOLMA-NLP.png" class="img-fluid img-thumbnail" alt="DOLMA NLP">
+		      </td>
+		      <td><a href="https://dolma-nlp.github.io/" target="_blank">DOLMA-NLP</a></td>
+		    </tr>
+		      <tr>
+			    <td>Sep. 2024-Feb. 2025</td>
+			  </tr>
+			  <tr>
+			    <td>I am privileged to be among the selected practitioners of the prestigious Stanford Initiative on Language Inclusion and Conservation in Old and New Media (SILICON) to focus on developing technologies for Middle Eastern languages!</td>
+			  </tr>
+		  </tbody>
+		</table>   
+    </div>
+  </div>
+</div>
+
+
+
+<h2>Past projects</h2>
+
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+		<table class="table table-image table-responsive">
+		  <tbody>
+		  	<tr>
+		  <td class="w-25" rowspan="3">
 			      <img src="/docs/images/gmnlp.png" class="img-fluid img-thumbnail" alt="GMNLP logo">
 		      </td>
 		      <td><a href="https://nlp.cs.gmu.edu/" target="_blank">George Mason NLP</a></td>
@@ -64,21 +91,6 @@ title: Projects
 			  <tr>
 			    <td>KLPT-Kurdish Language Processing Toolkit is a natural language processing (NLP) toolkit in Python for the Kurdish language. It comes with core modules for language processing, such as preprocessing, stemming, transliteration and tokenizion, spell-checking and morphological analysis of various dialects of Kurdish.</td>
 			  </tr>
-		  </tbody>
-		</table>   
-    </div>
-  </div>
-</div>
-
-
-
-<h2>Past projects</h2>
-
-<div class="container">
-  <div class="row">
-    <div class="col-12">
-		<table class="table table-image table-responsive">
-		  <tbody>
 		  	<tr>
 		      <td class="w-25" rowspan="3">
 			      <img src="/docs/images/elexis_logo.jpeg" class="img-fluid img-thumbnail" alt="ELEXIS logo">

@@ -10,8 +10,8 @@
 - title: Teaching
   href: teaching.html
   
-- title: Posts
-  href: list/posts.html
+# - title: Posts
+#   href: list/posts.html
 
 - title: Projects
   href: projects.html

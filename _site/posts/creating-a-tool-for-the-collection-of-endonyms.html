@@ -27,7 +27,10 @@
     <link rel="stylesheet" href="/theme/css/site.css">
     <link rel="stylesheet" href="/theme/css/syntax.css">
     <link rel="meta" type="application/rdf+xml" title="FOAF" href="foaf.rdf" /> 
-
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Parkinsans:wght@300..800&display=swap" rel="stylesheet">
 </head>
 
 
@@ -66,13 +69,6 @@
                 <a href='/teaching.html'
                    class="nav-link">
                     Teaching
-                </a>
-            </li>
-        
-            <li class="nav-item">
-                <a href='/list/posts.html'
-                   class="nav-link">
-                    Posts
                 </a>
             </li>
         
@@ -295,11 +291,11 @@
 <figure class="highlight"><pre><code class="language-sparql" data-lang="sparql"><span class="k">SELECT</span><span class="w"> </span><span class="k">DISTINCT</span><span class="w"> </span><span class="o">*</span><span class="w">
 </span><span class="k">WHERE</span><span class="w">
 </span><span class="p">{</span><span class="w">
-  </span><span class="nv">?place</span><span class="w"> </span><span class="nn">wdt:</span><span class="ss">P31</span><span class="w"> </span><span class="nn">wd:</span><span class="ss">Q486972</span><span class="w"> </span><span class="p">;</span><span class="w">
-         </span><span class="nn">wdt:</span><span class="ss">P131</span><span class="o">*</span><span class="w"> </span><span class="nn">wd:</span><span class="ss">Q134386</span><span class="w"> </span><span class="p">.</span><span class="w">
+  </span><span class="nv">?place</span><span class="w"> </span><span class="nn">wdt</span><span class="o">:</span><span class="ss">P31</span><span class="w"> </span><span class="nn">wd</span><span class="o">:</span><span class="ss">Q486972</span><span class="w"> </span><span class="p">;</span><span class="w">
+         </span><span class="nn">wdt</span><span class="o">:</span><span class="ss">P131</span><span class="o">*</span><span class="w"> </span><span class="nn">wd</span><span class="o">:</span><span class="ss">Q134386</span><span class="w"> </span><span class="p">.</span><span class="w">
 
-  </span><span class="k">SERVICE</span><span class="w"> </span><span class="nn">wikibase:</span><span class="ss">label</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nn">bd:</span><span class="ss">serviceParam</span><span class="w"> </span><span class="nn">wikibase:</span><span class="ss">language</span><span class="w"> </span><span class="s2">"en,fa,ckb,kur"</span><span class="p">.</span><span class="w"> </span><span class="p">}</span><span class="w">
-  </span><span class="nv">?place</span><span class="w"> </span><span class="nn">rdfs:</span><span class="ss">label</span><span class="w"> </span><span class="nv">?lang_label_en</span><span class="p">,</span><span class="w"> </span><span class="nv">?lang_label_fa</span><span class="p">,</span><span class="w"> </span><span class="nv">?lang_label_ckb</span><span class="w"> </span><span class="p">.</span><span class="w">
+  </span><span class="k">SERVICE</span><span class="w"> </span><span class="nn">wikibase</span><span class="o">:</span><span class="ss">label</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nn">bd</span><span class="o">:</span><span class="ss">serviceParam</span><span class="w"> </span><span class="nn">wikibase</span><span class="o">:</span><span class="ss">language</span><span class="w"> </span><span class="s2">"en,fa,ckb,kur"</span><span class="p">.</span><span class="w"> </span><span class="p">}</span><span class="w">
+  </span><span class="nv">?place</span><span class="w"> </span><span class="nn">rdfs</span><span class="o">:</span><span class="ss">label</span><span class="w"> </span><span class="nv">?lang_label_en</span><span class="p">,</span><span class="w"> </span><span class="nv">?lang_label_fa</span><span class="p">,</span><span class="w"> </span><span class="nv">?lang_label_ckb</span><span class="w"> </span><span class="p">.</span><span class="w">
   </span><span class="k">FILTER</span><span class="p">(</span><span class="nb">LANG</span><span class="p">(</span><span class="nv">?lang_label_en</span><span class="p">)</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s2">"en"</span><span class="p">)</span><span class="w">
   </span><span class="k">FILTER</span><span class="p">(</span><span class="nb">LANG</span><span class="p">(</span><span class="nv">?lang_label_ckb</span><span class="p">)</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s2">"ckb"</span><span class="p">)</span><span class="w">
   </span><span class="k">FILTER</span><span class="p">(</span><span class="nb">LANG</span><span class="p">(</span><span class="nv">?lang_label_fa</span><span class="p">)</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s2">"fa"</span><span class="p">)</span><span class="w">

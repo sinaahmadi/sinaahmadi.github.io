@@ -28,7 +28,10 @@ lexicographical data on Wikidata &middot; Sina Ahmadi's Personal Page
     <link rel="stylesheet" href="/theme/css/site.css">
     <link rel="stylesheet" href="/theme/css/syntax.css">
     <link rel="meta" type="application/rdf+xml" title="FOAF" href="foaf.rdf" /> 
-
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Parkinsans:wght@300..800&display=swap" rel="stylesheet">
 </head>
 
 
@@ -67,13 +70,6 @@ lexicographical data on Wikidata &middot; Sina Ahmadi's Personal Page
                 <a href='/teaching.html'
                    class="nav-link">
                     Teaching
-                </a>
-            </li>
-        
-            <li class="nav-item">
-                <a href='/list/posts.html'
-                   class="nav-link">
-                    Posts
                 </a>
             </li>
         
@@ -298,15 +294,15 @@ Linked Data lies at the heart of what Semantic Web is all about: large scale int
 <h4 id="1--retrieve-lexemes-describing-bookl536-in-different-languages">1- Retrieve lexemes describing <a href="https://www.wikidata.org/wiki/Lexeme:L536" target="_blank"><code class="language-plaintext highlighter-rouge">book(L536)</code></a> in different languages</h4>
 
 <figure class="highlight"><pre><code class="language-sparql" data-lang="sparql"><span class="k">SELECT</span><span class="w"> </span><span class="nv">?lemma</span><span class="w"> </span><span class="nv">?languageLabel</span><span class="w"> </span><span class="k">WHERE</span><span class="w"> </span><span class="p">{</span><span class="w">
-  </span><span class="nv">?l</span><span class="w"> </span><span class="err">a</span><span class="w"> </span><span class="nn">ontolex:</span><span class="ss">LexicalEntry</span><span class="w"> </span><span class="p">;</span><span class="w"> 
-       </span><span class="nn">ontolex:</span><span class="ss">sense</span><span class="w"> </span><span class="nv">?sense</span><span class="w"> </span><span class="p">;</span><span class="w"> 
-       </span><span class="nn">dct:</span><span class="ss">language</span><span class="w"> </span><span class="nv">?language</span><span class="w"> </span><span class="p">;</span><span class="w"> 
-       </span><span class="nn">wikibase:</span><span class="ss">lemma</span><span class="w"> </span><span class="nv">?lemma</span><span class="p">.</span><span class="w">
-  </span><span class="nv">?sense</span><span class="w"> </span><span class="nn">wdt:</span><span class="ss">P5137</span><span class="w"> </span><span class="nn">wd:</span><span class="ss">Q571</span><span class="w"> </span><span class="p">.</span><span class="w"> </span><span class="c1"># the concept for our sense is Q571</span><span class="w">
+  </span><span class="nv">?l</span><span class="w"> </span><span class="k">a</span><span class="w"> </span><span class="nn">ontolex</span><span class="o">:</span><span class="ss">LexicalEntry</span><span class="w"> </span><span class="p">;</span><span class="w"> 
+       </span><span class="nn">ontolex</span><span class="o">:</span><span class="ss">sense</span><span class="w"> </span><span class="nv">?sense</span><span class="w"> </span><span class="p">;</span><span class="w"> 
+       </span><span class="nn">dct</span><span class="o">:</span><span class="ss">language</span><span class="w"> </span><span class="nv">?language</span><span class="w"> </span><span class="p">;</span><span class="w"> 
+       </span><span class="nn">wikibase</span><span class="o">:</span><span class="ss">lemma</span><span class="w"> </span><span class="nv">?lemma</span><span class="p">.</span><span class="w">
+  </span><span class="nv">?sense</span><span class="w"> </span><span class="nn">wdt</span><span class="o">:</span><span class="ss">P5137</span><span class="w"> </span><span class="nn">wd</span><span class="o">:</span><span class="ss">Q571</span><span class="w"> </span><span class="p">.</span><span class="w"> </span><span class="c1"># the concept for our sense is Q571</span><span class="w">
   </span><span class="c1"># Set the language of the labels to English.</span><span class="w">
   </span><span class="c1"># For any variable, if label exists, add "Label" to the variable to get its label using the following:</span><span class="w">
-  </span><span class="k">SERVICE</span><span class="w"> </span><span class="nn">wikibase:</span><span class="ss">label</span><span class="w"> </span><span class="p">{</span><span class="w"> 
-    </span><span class="nn">bd:</span><span class="ss">serviceParam</span><span class="w"> </span><span class="nn">wikibase:</span><span class="ss">language</span><span class="w"> </span><span class="s2">"en"</span><span class="p">.</span><span class="w"> 
+  </span><span class="k">SERVICE</span><span class="w"> </span><span class="nn">wikibase</span><span class="o">:</span><span class="ss">label</span><span class="w"> </span><span class="p">{</span><span class="w"> 
+    </span><span class="nn">bd</span><span class="o">:</span><span class="ss">serviceParam</span><span class="w"> </span><span class="nn">wikibase</span><span class="o">:</span><span class="ss">language</span><span class="w"> </span><span class="s2">"en"</span><span class="p">.</span><span class="w"> 
   </span><span class="p">}</span><span class="w">
 </span><span class="p">}</span></code></pre></figure>
 
@@ -316,10 +312,10 @@ Linked Data lies at the heart of what Semantic Web is all about: large scale int
 
 <figure class="highlight"><pre><code class="language-sparql" data-lang="sparql"><span class="k">SELECT</span><span class="w"> </span><span class="nv">?l</span><span class="w"> </span><span class="nv">?lemma</span><span class="w"> </span><span class="nv">?antonymLabel</span><span class="w"> </span><span class="k">WHERE</span><span class="w"> </span><span class="p">{</span><span class="w">
   </span><span class="k">VALUES</span><span class="w"> </span><span class="nv">?lemma</span><span class="w"> </span><span class="p">{</span><span class="s1">'sadness'</span><span class="o">@</span><span class="py">en</span><span class="p">}</span><span class="w"> 
-  </span><span class="nv">?l</span><span class="w"> </span><span class="nn">wikibase:</span><span class="ss">lemma</span><span class="w"> </span><span class="nv">?lemma</span><span class="p">;</span><span class="w">
-          </span><span class="nn">wdt:</span><span class="ss">P461</span><span class="w"> </span><span class="nv">?antonym</span><span class="w"> </span><span class="p">.</span><span class="w"> </span><span class="c1"># P461 is the property for opposite of or antonymy</span><span class="w">
-  </span><span class="k">SERVICE</span><span class="w"> </span><span class="nn">wikibase:</span><span class="ss">label</span><span class="w"> </span><span class="p">{</span><span class="w">
-   </span><span class="nn">bd:</span><span class="ss">serviceParam</span><span class="w"> </span><span class="nn">wikibase:</span><span class="ss">language</span><span class="w"> </span><span class="s2">"en"</span><span class="w"> </span><span class="p">.</span><span class="w">
+  </span><span class="nv">?l</span><span class="w"> </span><span class="nn">wikibase</span><span class="o">:</span><span class="ss">lemma</span><span class="w"> </span><span class="nv">?lemma</span><span class="p">;</span><span class="w">
+          </span><span class="nn">wdt</span><span class="o">:</span><span class="ss">P461</span><span class="w"> </span><span class="nv">?antonym</span><span class="w"> </span><span class="p">.</span><span class="w"> </span><span class="c1"># P461 is the property for opposite of or antonymy</span><span class="w">
+  </span><span class="k">SERVICE</span><span class="w"> </span><span class="nn">wikibase</span><span class="o">:</span><span class="ss">label</span><span class="w"> </span><span class="p">{</span><span class="w">
+   </span><span class="nn">bd</span><span class="o">:</span><span class="ss">serviceParam</span><span class="w"> </span><span class="nn">wikibase</span><span class="o">:</span><span class="ss">language</span><span class="w"> </span><span class="s2">"en"</span><span class="w"> </span><span class="p">.</span><span class="w">
   </span><span class="p">}</span><span class="w">  
 </span><span class="p">}</span></code></pre></figure>
 
@@ -328,23 +324,23 @@ Linked Data lies at the heart of what Semantic Web is all about: large scale int
 <h4 id="3--retrieve-the-lemmas-in-a-given-language-with-part-of-speech-glosses-and-usage-examples">3- Retrieve the lemmas in a given language with part-of-speech, glosses and usage examples</h4>
 
 <figure class="highlight"><pre><code class="language-sparql" data-lang="sparql"><span class="k">SELECT</span><span class="w"> </span><span class="nv">?lemma</span><span class="w"> </span><span class="nv">?categoryLabel</span><span class="w"> </span><span class="nv">?gloss</span><span class="w"> </span><span class="nv">?example</span><span class="w"> </span><span class="k">WHERE</span><span class="w"> </span><span class="p">{</span><span class="w">
-   </span><span class="nv">?l</span><span class="w"> </span><span class="err">a</span><span class="w"> </span><span class="nn">ontolex:</span><span class="ss">LexicalEntry</span><span class="w"> </span><span class="p">;</span><span class="w">
-        </span><span class="nn">dct:</span><span class="ss">language</span><span class="w"> </span><span class="nv">?language</span><span class="w"> </span><span class="p">;</span><span class="w">
-        </span><span class="nn">wikibase:</span><span class="ss">lemma</span><span class="w"> </span><span class="nv">?lemma</span><span class="w"> </span><span class="p">;</span><span class="w">
-        </span><span class="nn">wikibase:</span><span class="ss">lexicalCategory</span><span class="w"> </span><span class="nv">?category</span><span class="w"> </span><span class="p">;</span><span class="w">
-        </span><span class="nn">ontolex:</span><span class="ss">sense</span><span class="w"> </span><span class="nv">?sense</span><span class="w"> </span><span class="p">.</span><span class="w">
-        </span><span class="nv">?language</span><span class="w"> </span><span class="nn">wdt:</span><span class="ss">P218</span><span class="w"> </span><span class="s1">'en'</span><span class="w"> </span><span class="p">.</span><span class="w">
+   </span><span class="nv">?l</span><span class="w"> </span><span class="k">a</span><span class="w"> </span><span class="nn">ontolex</span><span class="o">:</span><span class="ss">LexicalEntry</span><span class="w"> </span><span class="p">;</span><span class="w">
+        </span><span class="nn">dct</span><span class="o">:</span><span class="ss">language</span><span class="w"> </span><span class="nv">?language</span><span class="w"> </span><span class="p">;</span><span class="w">
+        </span><span class="nn">wikibase</span><span class="o">:</span><span class="ss">lemma</span><span class="w"> </span><span class="nv">?lemma</span><span class="w"> </span><span class="p">;</span><span class="w">
+        </span><span class="nn">wikibase</span><span class="o">:</span><span class="ss">lexicalCategory</span><span class="w"> </span><span class="nv">?category</span><span class="w"> </span><span class="p">;</span><span class="w">
+        </span><span class="nn">ontolex</span><span class="o">:</span><span class="ss">sense</span><span class="w"> </span><span class="nv">?sense</span><span class="w"> </span><span class="p">.</span><span class="w">
+        </span><span class="nv">?language</span><span class="w"> </span><span class="nn">wdt</span><span class="o">:</span><span class="ss">P218</span><span class="w"> </span><span class="s1">'en'</span><span class="w"> </span><span class="p">.</span><span class="w">
   </span><span class="c1"># Find the gloss (definition) of the senses</span><span class="w">
-  </span><span class="nv">?sense</span><span class="w"> </span><span class="nn">skos:</span><span class="ss">definition</span><span class="w"> </span><span class="nv">?gloss</span><span class="w"> </span><span class="p">.</span><span class="w">
+  </span><span class="nv">?sense</span><span class="w"> </span><span class="nn">skos</span><span class="o">:</span><span class="ss">definition</span><span class="w"> </span><span class="nv">?gloss</span><span class="w"> </span><span class="p">.</span><span class="w">
   </span><span class="c1"># Usage example</span><span class="w">
-  </span><span class="nv">?l</span><span class="w"> </span><span class="nn">p:</span><span class="ss">P5831</span><span class="w"> </span><span class="nv">?statement</span><span class="w"> </span><span class="p">.</span><span class="w">
-  </span><span class="nv">?statement</span><span class="w"> </span><span class="nn">ps:</span><span class="ss">P5831</span><span class="w"> </span><span class="nv">?example</span><span class="w"> </span><span class="p">.</span><span class="w">
+  </span><span class="nv">?l</span><span class="w"> </span><span class="nn">p</span><span class="o">:</span><span class="ss">P5831</span><span class="w"> </span><span class="nv">?statement</span><span class="w"> </span><span class="p">.</span><span class="w">
+  </span><span class="nv">?statement</span><span class="w"> </span><span class="nn">ps</span><span class="o">:</span><span class="ss">P5831</span><span class="w"> </span><span class="nv">?example</span><span class="w"> </span><span class="p">.</span><span class="w">
   </span><span class="c1"># Get only those lexemes for which senses are available</span><span class="w">
-  </span><span class="k">FILTER</span><span class="w"> </span><span class="k">EXISTS</span><span class="w"> </span><span class="p">{</span><span class="nv">?l</span><span class="w"> </span><span class="nn">ontolex:</span><span class="ss">sense</span><span class="w"> </span><span class="nv">?sense</span><span class="w"> </span><span class="p">}</span><span class="w">
+  </span><span class="k">FILTER</span><span class="w"> </span><span class="k">EXISTS</span><span class="w"> </span><span class="p">{</span><span class="nv">?l</span><span class="w"> </span><span class="nn">ontolex</span><span class="o">:</span><span class="ss">sense</span><span class="w"> </span><span class="nv">?sense</span><span class="w"> </span><span class="p">}</span><span class="w">
   </span><span class="c1"># Set the language of the glosses to English</span><span class="w">
   </span><span class="k">FILTER</span><span class="p">(</span><span class="nb">LANG</span><span class="p">(</span><span class="nv">?gloss</span><span class="p">)</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s2">"en"</span><span class="p">)</span><span class="w">
-  </span><span class="k">SERVICE</span><span class="w"> </span><span class="nn">wikibase:</span><span class="ss">label</span><span class="w"> </span><span class="p">{</span><span class="w">
-   </span><span class="nn">bd:</span><span class="ss">serviceParam</span><span class="w"> </span><span class="nn">wikibase:</span><span class="ss">language</span><span class="w"> </span><span class="s2">"en"</span><span class="w"> </span><span class="p">.</span><span class="w">
+  </span><span class="k">SERVICE</span><span class="w"> </span><span class="nn">wikibase</span><span class="o">:</span><span class="ss">label</span><span class="w"> </span><span class="p">{</span><span class="w">
+   </span><span class="nn">bd</span><span class="o">:</span><span class="ss">serviceParam</span><span class="w"> </span><span class="nn">wikibase</span><span class="o">:</span><span class="ss">language</span><span class="w"> </span><span class="s2">"en"</span><span class="w"> </span><span class="p">.</span><span class="w">
   </span><span class="p">}</span><span class="w">  
 </span><span class="p">}</span><span class="w">
 </span><span class="k">LIMIT</span><span class="w"> </span><span class="mi">100</span></code></pre></figure>
@@ -354,12 +350,12 @@ Linked Data lies at the heart of what Semantic Web is all about: large scale int
 <h4 id="4--find-verb-forms-in-french-ending-with-é">4- Find verb forms in French ending with “é”</h4>
 
 <figure class="highlight"><pre><code class="language-sparql" data-lang="sparql"><span class="k">SELECT</span><span class="w"> </span><span class="k">DISTINCT</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="k">WHERE</span><span class="w"> </span><span class="p">{</span><span class="w">
-     </span><span class="nv">?l</span><span class="w"> </span><span class="err">a</span><span class="w"> </span><span class="nn">ontolex:</span><span class="ss">LexicalEntry</span><span class="w"> </span><span class="p">;</span><span class="w"> 
-       </span><span class="nn">dct:</span><span class="ss">language</span><span class="w"> </span><span class="nn">wd:</span><span class="ss">Q150</span><span class="w"> </span><span class="p">;</span><span class="w"> 
-       </span><span class="nn">wikibase:</span><span class="ss">lexicalCategory</span><span class="w"> </span><span class="nn">wd:</span><span class="ss">Q24905</span><span class="w"> </span><span class="p">;</span><span class="w"> 
-       </span><span class="nn">wikibase:</span><span class="ss">lemma</span><span class="w"> </span><span class="nv">?lemma</span><span class="w"> </span><span class="p">;</span><span class="w"> 
-       </span><span class="nn">ontolex:</span><span class="ss">lexicalForm</span><span class="w"> </span><span class="nv">?form</span><span class="w"> </span><span class="p">.</span><span class="w">
-    </span><span class="nv">?form</span><span class="w"> </span><span class="nn">ontolex:</span><span class="ss">representation</span><span class="w"> </span><span class="nv">?word</span><span class="w"> </span><span class="p">.</span><span class="w">
+     </span><span class="nv">?l</span><span class="w"> </span><span class="k">a</span><span class="w"> </span><span class="nn">ontolex</span><span class="o">:</span><span class="ss">LexicalEntry</span><span class="w"> </span><span class="p">;</span><span class="w"> 
+       </span><span class="nn">dct</span><span class="o">:</span><span class="ss">language</span><span class="w"> </span><span class="nn">wd</span><span class="o">:</span><span class="ss">Q150</span><span class="w"> </span><span class="p">;</span><span class="w"> 
+       </span><span class="nn">wikibase</span><span class="o">:</span><span class="ss">lexicalCategory</span><span class="w"> </span><span class="nn">wd</span><span class="o">:</span><span class="ss">Q24905</span><span class="w"> </span><span class="p">;</span><span class="w"> 
+       </span><span class="nn">wikibase</span><span class="o">:</span><span class="ss">lemma</span><span class="w"> </span><span class="nv">?lemma</span><span class="w"> </span><span class="p">;</span><span class="w"> 
+       </span><span class="nn">ontolex</span><span class="o">:</span><span class="ss">lexicalForm</span><span class="w"> </span><span class="nv">?form</span><span class="w"> </span><span class="p">.</span><span class="w">
+    </span><span class="nv">?form</span><span class="w"> </span><span class="nn">ontolex</span><span class="o">:</span><span class="ss">representation</span><span class="w"> </span><span class="nv">?word</span><span class="w"> </span><span class="p">.</span><span class="w">
     </span><span class="k">FILTER</span><span class="w"> </span><span class="p">(</span><span class="nb">regex</span><span class="p">(</span><span class="nv">?word</span><span class="p">,</span><span class="w"> </span><span class="s1">'é$'</span><span class="p">))</span><span class="w">
 </span><span class="p">}</span></code></pre></figure>
 
@@ -370,15 +366,15 @@ Linked Data lies at the heart of what Semantic Web is all about: large scale int
 <figure class="highlight"><pre><code class="language-sparql" data-lang="sparql"><span class="c1"># Create a French-German-Basque lexicon</span><span class="w">
 </span><span class="k">SELECT</span><span class="w"> </span><span class="k">DISTINCT</span><span class="w"> </span><span class="nv">?sense</span><span class="w"> </span><span class="nv">?frLemma</span><span class="w"> </span><span class="nv">?deLemma</span><span class="w"> </span><span class="nv">?euLemma</span><span class="w"> </span><span class="k">WHERE</span><span class="w"> </span><span class="p">{</span><span class="w">
   </span><span class="c1"># Retrieve lemmata based on common senses (use ?sense)</span><span class="w">
-    </span><span class="nv">?fr</span><span class="w"> </span><span class="nn">dct:</span><span class="ss">language</span><span class="w"> </span><span class="nn">wd:</span><span class="ss">Q150</span><span class="p">;</span><span class="w">
-        </span><span class="nn">wikibase:</span><span class="ss">lemma</span><span class="w"> </span><span class="nv">?frLemma</span><span class="p">;</span><span class="w">
-        </span><span class="nn">ontolex:</span><span class="ss">sense</span><span class="w"> </span><span class="p">[</span><span class="w"> </span><span class="nn">wdt:</span><span class="ss">P5137</span><span class="w"> </span><span class="nv">?sense</span><span class="w"> </span><span class="p">].</span><span class="w">
-    </span><span class="nv">?de</span><span class="w"> </span><span class="nn">dct:</span><span class="ss">language</span><span class="w"> </span><span class="nn">wd:</span><span class="ss">Q188</span><span class="p">;</span><span class="w">
-        </span><span class="nn">wikibase:</span><span class="ss">lemma</span><span class="w"> </span><span class="nv">?deLemma</span><span class="p">;</span><span class="w">
-        </span><span class="nn">ontolex:</span><span class="ss">sense</span><span class="w"> </span><span class="p">[</span><span class="w"> </span><span class="nn">wdt:</span><span class="ss">P5137</span><span class="w"> </span><span class="nv">?sense</span><span class="w"> </span><span class="p">].</span><span class="w">
-    </span><span class="nv">?eu</span><span class="w"> </span><span class="nn">dct:</span><span class="ss">language</span><span class="w"> </span><span class="nn">wd:</span><span class="ss">Q8752</span><span class="p">;</span><span class="w">
-        </span><span class="nn">wikibase:</span><span class="ss">lemma</span><span class="w"> </span><span class="nv">?euLemma</span><span class="p">;</span><span class="w">
-        </span><span class="nn">ontolex:</span><span class="ss">sense</span><span class="w"> </span><span class="p">[</span><span class="w"> </span><span class="nn">wdt:</span><span class="ss">P5137</span><span class="w"> </span><span class="nv">?sense</span><span class="w"> </span><span class="p">].</span><span class="w">
+    </span><span class="nv">?fr</span><span class="w"> </span><span class="nn">dct</span><span class="o">:</span><span class="ss">language</span><span class="w"> </span><span class="nn">wd</span><span class="o">:</span><span class="ss">Q150</span><span class="p">;</span><span class="w">
+        </span><span class="nn">wikibase</span><span class="o">:</span><span class="ss">lemma</span><span class="w"> </span><span class="nv">?frLemma</span><span class="p">;</span><span class="w">
+        </span><span class="nn">ontolex</span><span class="o">:</span><span class="ss">sense</span><span class="w"> </span><span class="p">[</span><span class="w"> </span><span class="nn">wdt</span><span class="o">:</span><span class="ss">P5137</span><span class="w"> </span><span class="nv">?sense</span><span class="w"> </span><span class="p">].</span><span class="w">
+    </span><span class="nv">?de</span><span class="w"> </span><span class="nn">dct</span><span class="o">:</span><span class="ss">language</span><span class="w"> </span><span class="nn">wd</span><span class="o">:</span><span class="ss">Q188</span><span class="p">;</span><span class="w">
+        </span><span class="nn">wikibase</span><span class="o">:</span><span class="ss">lemma</span><span class="w"> </span><span class="nv">?deLemma</span><span class="p">;</span><span class="w">
+        </span><span class="nn">ontolex</span><span class="o">:</span><span class="ss">sense</span><span class="w"> </span><span class="p">[</span><span class="w"> </span><span class="nn">wdt</span><span class="o">:</span><span class="ss">P5137</span><span class="w"> </span><span class="nv">?sense</span><span class="w"> </span><span class="p">].</span><span class="w">
+    </span><span class="nv">?eu</span><span class="w"> </span><span class="nn">dct</span><span class="o">:</span><span class="ss">language</span><span class="w"> </span><span class="nn">wd</span><span class="o">:</span><span class="ss">Q8752</span><span class="p">;</span><span class="w">
+        </span><span class="nn">wikibase</span><span class="o">:</span><span class="ss">lemma</span><span class="w"> </span><span class="nv">?euLemma</span><span class="p">;</span><span class="w">
+        </span><span class="nn">ontolex</span><span class="o">:</span><span class="ss">sense</span><span class="w"> </span><span class="p">[</span><span class="w"> </span><span class="nn">wdt</span><span class="o">:</span><span class="ss">P5137</span><span class="w"> </span><span class="nv">?sense</span><span class="w"> </span><span class="p">].</span><span class="w">
   </span><span class="p">}</span><span class="w">
 </span><span class="k">ORDER</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="k">ASC</span><span class="p">(</span><span class="nb">UCASE</span><span class="p">(</span><span class="nb">STR</span><span class="p">(</span><span class="nv">?frLemma</span><span class="p">)))</span><span class="w">
 </span><span class="k">LIMIT</span><span class="w"> </span><span class="mi">100</span><span class="w"> </span></code></pre></figure>
@@ -388,11 +384,11 @@ Linked Data lies at the heart of what Semantic Web is all about: large scale int
 <h4 id="6--count-the-number-of-senses-per-language">6- Count the number of senses per language</h4>
 
 <figure class="highlight"><pre><code class="language-sparql" data-lang="sparql"><span class="k">SELECT</span><span class="w"> </span><span class="nv">?languageLabel</span><span class="w"> </span><span class="p">(</span><span class="nb">COUNT</span><span class="p">(</span><span class="nv">?sense</span><span class="p">)</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="nv">?count</span><span class="w"> </span><span class="p">)</span><span class="w"> </span><span class="k">WHERE</span><span class="w"> </span><span class="p">{</span><span class="w">
-  </span><span class="nv">?l</span><span class="w"> </span><span class="err">a</span><span class="w"> </span><span class="nn">ontolex:</span><span class="ss">LexicalEntry</span><span class="w"> </span><span class="p">;</span><span class="w">
-       </span><span class="nn">dct:</span><span class="ss">language</span><span class="w"> </span><span class="nv">?language</span><span class="w"> </span><span class="p">;</span><span class="w">
-       </span><span class="nn">ontolex:</span><span class="ss">sense</span><span class="w"> </span><span class="nv">?sense</span><span class="w"> </span><span class="p">.</span><span class="w">
-  </span><span class="k">SERVICE</span><span class="w"> </span><span class="nn">wikibase:</span><span class="ss">label</span><span class="w"> </span><span class="p">{</span><span class="w">
-    </span><span class="nn">bd:</span><span class="ss">serviceParam</span><span class="w"> </span><span class="nn">wikibase:</span><span class="ss">language</span><span class="w"> </span><span class="s2">"en"</span><span class="w"> </span><span class="p">.</span><span class="w">
+  </span><span class="nv">?l</span><span class="w"> </span><span class="k">a</span><span class="w"> </span><span class="nn">ontolex</span><span class="o">:</span><span class="ss">LexicalEntry</span><span class="w"> </span><span class="p">;</span><span class="w">
+       </span><span class="nn">dct</span><span class="o">:</span><span class="ss">language</span><span class="w"> </span><span class="nv">?language</span><span class="w"> </span><span class="p">;</span><span class="w">
+       </span><span class="nn">ontolex</span><span class="o">:</span><span class="ss">sense</span><span class="w"> </span><span class="nv">?sense</span><span class="w"> </span><span class="p">.</span><span class="w">
+  </span><span class="k">SERVICE</span><span class="w"> </span><span class="nn">wikibase</span><span class="o">:</span><span class="ss">label</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nn">bd</span><span class="o">:</span><span class="ss">serviceParam</span><span class="w"> </span><span class="nn">wikibase</span><span class="o">:</span><span class="ss">language</span><span class="w"> </span><span class="s2">"en"</span><span class="w"> </span><span class="p">.</span><span class="w">
   </span><span class="p">}</span><span class="w">  
 </span><span class="p">}</span><span class="w">
 </span><span class="k">GROUP</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="nv">?languageLabel</span><span class="w">
@@ -404,11 +400,11 @@ Linked Data lies at the heart of what Semantic Web is all about: large scale int
 
 <figure class="highlight"><pre><code class="language-sparql" data-lang="sparql"><span class="k">SELECT</span><span class="w"> </span><span class="nv">?word</span><span class="w"> </span><span class="nv">?lemma</span><span class="w"> </span><span class="k">WHERE</span><span class="w"> </span><span class="p">{</span><span class="w">
   </span><span class="k">VALUES</span><span class="w"> </span><span class="nv">?word</span><span class="w"> </span><span class="p">{</span><span class="s1">'brought'</span><span class="o">@</span><span class="py">en</span><span class="p">}</span><span class="w"> 
-  </span><span class="nv">?l</span><span class="w"> </span><span class="err">a</span><span class="w"> </span><span class="nn">ontolex:</span><span class="ss">LexicalEntry</span><span class="w"> </span><span class="p">;</span><span class="w"> 
-       </span><span class="nn">dct:</span><span class="ss">language</span><span class="w"> </span><span class="nn">wd:</span><span class="ss">Q1860</span><span class="w"> </span><span class="p">;</span><span class="w"> 
-       </span><span class="nn">wikibase:</span><span class="ss">lemma</span><span class="w"> </span><span class="nv">?lemma</span><span class="w"> </span><span class="p">;</span><span class="w"> 
-       </span><span class="nn">ontolex:</span><span class="ss">lexicalForm</span><span class="w"> </span><span class="nv">?form</span><span class="w"> </span><span class="p">.</span><span class="w">
-  </span><span class="nv">?form</span><span class="w"> </span><span class="nn">ontolex:</span><span class="ss">representation</span><span class="w"> </span><span class="nv">?word</span><span class="w"> </span><span class="p">.</span><span class="w">
+  </span><span class="nv">?l</span><span class="w"> </span><span class="k">a</span><span class="w"> </span><span class="nn">ontolex</span><span class="o">:</span><span class="ss">LexicalEntry</span><span class="w"> </span><span class="p">;</span><span class="w"> 
+       </span><span class="nn">dct</span><span class="o">:</span><span class="ss">language</span><span class="w"> </span><span class="nn">wd</span><span class="o">:</span><span class="ss">Q1860</span><span class="w"> </span><span class="p">;</span><span class="w"> 
+       </span><span class="nn">wikibase</span><span class="o">:</span><span class="ss">lemma</span><span class="w"> </span><span class="nv">?lemma</span><span class="w"> </span><span class="p">;</span><span class="w"> 
+       </span><span class="nn">ontolex</span><span class="o">:</span><span class="ss">lexicalForm</span><span class="w"> </span><span class="nv">?form</span><span class="w"> </span><span class="p">.</span><span class="w">
+  </span><span class="nv">?form</span><span class="w"> </span><span class="nn">ontolex</span><span class="o">:</span><span class="ss">representation</span><span class="w"> </span><span class="nv">?word</span><span class="w"> </span><span class="p">.</span><span class="w">
 </span><span class="p">}</span><span class="w"> </span></code></pre></figure>
 
 <p><strong><a href="https://query.wikidata.org/#SELECT%20%3Fword%20%3Flemma%20WHERE%20%7B%0A%20%20VALUES%20%3Fword%20%7B%27brought%27%40en%7D%20%0A%20%20%3Fl%20a%20ontolex%3ALexicalEntry%20%3B%20%0A%20%20%20%20%20%20%20dct%3Alanguage%20wd%3AQ1860%20%3B%20%0A%20%20%20%20%20%20%20wikibase%3Alemma%20%3Flemma%20%3B%20%0A%20%20%20%20%20%20%20ontolex%3AlexicalForm%20%3Fform%20.%0A%20%20%3Fform%20ontolex%3Arepresentation%20%3Fword%20.%0A%7D%20%0A" target="_blank">Run this query</a></strong></p>
@@ -416,14 +412,14 @@ Linked Data lies at the heart of what Semantic Web is all about: large scale int
 <h4 id="8--retrieve-masculine-nouns-in-french-that-end-with-specific-characters">8- Retrieve masculine nouns in French that end with specific characters</h4>
 
 <figure class="highlight"><pre><code class="language-sparql" data-lang="sparql"><span class="k">SELECT</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="k">WHERE</span><span class="w"> </span><span class="p">{</span><span class="w">
-  </span><span class="nv">?l</span><span class="w"> </span><span class="err">a</span><span class="w"> </span><span class="nn">ontolex:</span><span class="ss">LexicalEntry</span><span class="w"> </span><span class="p">;</span><span class="w"> 
+  </span><span class="nv">?l</span><span class="w"> </span><span class="k">a</span><span class="w"> </span><span class="nn">ontolex</span><span class="o">:</span><span class="ss">LexicalEntry</span><span class="w"> </span><span class="p">;</span><span class="w"> 
        </span><span class="c1"># entries in French (Q150)</span><span class="w">
-       </span><span class="nn">dct:</span><span class="ss">language</span><span class="w"> </span><span class="nn">wd:</span><span class="ss">Q150</span><span class="w"> </span><span class="p">;</span><span class="w">
-       </span><span class="nn">wdt:</span><span class="ss">P5185</span><span class="w"> </span><span class="nn">wd:</span><span class="ss">Q499327</span><span class="w"> </span><span class="p">;</span><span class="w"> </span><span class="c1"># masculine grammatical gender</span><span class="w">
-       </span><span class="nn">wikibase:</span><span class="ss">lemma</span><span class="w"> </span><span class="nv">?lemma</span><span class="p">.</span><span class="w">
+       </span><span class="nn">dct</span><span class="o">:</span><span class="ss">language</span><span class="w"> </span><span class="nn">wd</span><span class="o">:</span><span class="ss">Q150</span><span class="w"> </span><span class="p">;</span><span class="w">
+       </span><span class="nn">wdt</span><span class="o">:</span><span class="ss">P5185</span><span class="w"> </span><span class="nn">wd</span><span class="o">:</span><span class="ss">Q499327</span><span class="w"> </span><span class="p">;</span><span class="w"> </span><span class="c1"># masculine grammatical gender</span><span class="w">
+       </span><span class="nn">wikibase</span><span class="o">:</span><span class="ss">lemma</span><span class="w"> </span><span class="nv">?lemma</span><span class="p">.</span><span class="w">
   </span><span class="k">FILTER</span><span class="w"> </span><span class="p">(</span><span class="nb">regex</span><span class="p">(</span><span class="nv">?lemma</span><span class="p">,</span><span class="w"> </span><span class="s1">'^*(tion|ie|ique|aison|sion)$'</span><span class="p">))</span><span class="w">
-  </span><span class="k">SERVICE</span><span class="w"> </span><span class="nn">wikibase:</span><span class="ss">label</span><span class="w"> </span><span class="p">{</span><span class="w"> 
-    </span><span class="nn">bd:</span><span class="ss">serviceParam</span><span class="w"> </span><span class="nn">wikibase:</span><span class="ss">language</span><span class="w"> </span><span class="s2">"en"</span><span class="p">.</span><span class="w"> 
+  </span><span class="k">SERVICE</span><span class="w"> </span><span class="nn">wikibase</span><span class="o">:</span><span class="ss">label</span><span class="w"> </span><span class="p">{</span><span class="w"> 
+    </span><span class="nn">bd</span><span class="o">:</span><span class="ss">serviceParam</span><span class="w"> </span><span class="nn">wikibase</span><span class="o">:</span><span class="ss">language</span><span class="w"> </span><span class="s2">"en"</span><span class="p">.</span><span class="w"> 
   </span><span class="p">}</span><span class="w">
 </span><span class="p">}</span><span class="w"> </span></code></pre></figure>
 
@@ -433,15 +429,15 @@ Linked Data lies at the heart of what Semantic Web is all about: large scale int
 
 <figure class="highlight"><pre><code class="language-sparql" data-lang="sparql"><span class="c1">#defaultView:ImageGrid</span><span class="w">
 </span><span class="k">SELECT</span><span class="w"> </span><span class="k">DISTINCT</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="k">WHERE</span><span class="w"> </span><span class="p">{</span><span class="w">
-  </span><span class="nv">?l</span><span class="w"> </span><span class="nn">dct:</span><span class="ss">language</span><span class="w"> </span><span class="nn">wd:</span><span class="ss">Q1860</span><span class="p">;</span><span class="w">
-     </span><span class="nn">wikibase:</span><span class="ss">lemma</span><span class="w"> </span><span class="nv">?lemma</span><span class="p">;</span><span class="w">
-     </span><span class="nn">ontolex:</span><span class="ss">sense</span><span class="w"> </span><span class="nv">?sense</span><span class="p">.</span><span class="w">
+  </span><span class="nv">?l</span><span class="w"> </span><span class="nn">dct</span><span class="o">:</span><span class="ss">language</span><span class="w"> </span><span class="nn">wd</span><span class="o">:</span><span class="ss">Q1860</span><span class="p">;</span><span class="w">
+     </span><span class="nn">wikibase</span><span class="o">:</span><span class="ss">lemma</span><span class="w"> </span><span class="nv">?lemma</span><span class="p">;</span><span class="w">
+     </span><span class="nn">ontolex</span><span class="o">:</span><span class="ss">sense</span><span class="w"> </span><span class="nv">?sense</span><span class="p">.</span><span class="w">
   </span><span class="c1"># senes belonging to a concept related to animals</span><span class="w">
-  </span><span class="nv">?sense</span><span class="w"> </span><span class="nn">wdt:</span><span class="ss">P5137</span><span class="w"> </span><span class="nv">?concept</span><span class="w"> </span><span class="p">.</span><span class="w">
-  </span><span class="nv">?concept</span><span class="w"> </span><span class="nn">wdt:</span><span class="ss">P18</span><span class="w"> </span><span class="nv">?image</span><span class="w"> </span><span class="p">;</span><span class="w">
-           </span><span class="nn">wdt:</span><span class="ss">P279</span><span class="o">+</span><span class="w"> </span><span class="nn">wd:</span><span class="ss">Q729</span><span class="w"> </span><span class="p">.</span><span class="w">
-  </span><span class="k">SERVICE</span><span class="w"> </span><span class="nn">wikibase:</span><span class="ss">label</span><span class="w"> </span><span class="p">{</span><span class="w">
-    </span><span class="nn">bd:</span><span class="ss">serviceParam</span><span class="w"> </span><span class="nn">wikibase:</span><span class="ss">language</span><span class="w"> </span><span class="s2">"en"</span><span class="p">.</span><span class="w">
+  </span><span class="nv">?sense</span><span class="w"> </span><span class="nn">wdt</span><span class="o">:</span><span class="ss">P5137</span><span class="w"> </span><span class="nv">?concept</span><span class="w"> </span><span class="p">.</span><span class="w">
+  </span><span class="nv">?concept</span><span class="w"> </span><span class="nn">wdt</span><span class="o">:</span><span class="ss">P18</span><span class="w"> </span><span class="nv">?image</span><span class="w"> </span><span class="p">;</span><span class="w">
+           </span><span class="nn">wdt</span><span class="o">:</span><span class="ss">P279</span><span class="o">+</span><span class="w"> </span><span class="nn">wd</span><span class="o">:</span><span class="ss">Q729</span><span class="w"> </span><span class="p">.</span><span class="w">
+  </span><span class="k">SERVICE</span><span class="w"> </span><span class="nn">wikibase</span><span class="o">:</span><span class="ss">label</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nn">bd</span><span class="o">:</span><span class="ss">serviceParam</span><span class="w"> </span><span class="nn">wikibase</span><span class="o">:</span><span class="ss">language</span><span class="w"> </span><span class="s2">"en"</span><span class="p">.</span><span class="w">
   </span><span class="p">}</span><span class="w">
 </span><span class="p">}</span></code></pre></figure>
 
@@ -451,11 +447,11 @@ Linked Data lies at the heart of what Semantic Web is all about: large scale int
 
 <figure class="highlight"><pre><code class="language-sparql" data-lang="sparql"><span class="k">ASK</span><span class="w"> </span><span class="k">WHERE</span><span class="w"> </span><span class="p">{</span><span class="w">
   </span><span class="k">VALUES</span><span class="w"> </span><span class="nv">?word</span><span class="w"> </span><span class="p">{</span><span class="s1">'amazing'</span><span class="o">@</span><span class="py">en</span><span class="p">}</span><span class="w"> 
-  </span><span class="nv">?l</span><span class="w"> </span><span class="err">a</span><span class="w"> </span><span class="nn">ontolex:</span><span class="ss">LexicalEntry</span><span class="w"> </span><span class="p">;</span><span class="w"> 
-       </span><span class="nn">dct:</span><span class="ss">language</span><span class="w"> </span><span class="nn">wd:</span><span class="ss">Q1860</span><span class="w"> </span><span class="p">;</span><span class="w"> 
-       </span><span class="nn">wikibase:</span><span class="ss">lemma</span><span class="w"> </span><span class="nv">?lemma</span><span class="w"> </span><span class="p">;</span><span class="w"> 
-       </span><span class="nn">ontolex:</span><span class="ss">lexicalForm</span><span class="w"> </span><span class="nv">?form</span><span class="w"> </span><span class="p">.</span><span class="w">
-  </span><span class="nv">?form</span><span class="w"> </span><span class="nn">ontolex:</span><span class="ss">representation</span><span class="w"> </span><span class="nv">?word</span><span class="w"> </span><span class="p">.</span><span class="w">
+  </span><span class="nv">?l</span><span class="w"> </span><span class="k">a</span><span class="w"> </span><span class="nn">ontolex</span><span class="o">:</span><span class="ss">LexicalEntry</span><span class="w"> </span><span class="p">;</span><span class="w"> 
+       </span><span class="nn">dct</span><span class="o">:</span><span class="ss">language</span><span class="w"> </span><span class="nn">wd</span><span class="o">:</span><span class="ss">Q1860</span><span class="w"> </span><span class="p">;</span><span class="w"> 
+       </span><span class="nn">wikibase</span><span class="o">:</span><span class="ss">lemma</span><span class="w"> </span><span class="nv">?lemma</span><span class="w"> </span><span class="p">;</span><span class="w"> 
+       </span><span class="nn">ontolex</span><span class="o">:</span><span class="ss">lexicalForm</span><span class="w"> </span><span class="nv">?form</span><span class="w"> </span><span class="p">.</span><span class="w">
+  </span><span class="nv">?form</span><span class="w"> </span><span class="nn">ontolex</span><span class="o">:</span><span class="ss">representation</span><span class="w"> </span><span class="nv">?word</span><span class="w"> </span><span class="p">.</span><span class="w">
 </span><span class="p">}</span><span class="w"> </span></code></pre></figure>
 
 <p><strong><a href="https://query.wikidata.org/#ASK%20WHERE%20%7B%0A%20%20VALUES%20%3Fword%20%7B%27brought%27%40en%7D%20%0A%20%20%3Fl%20a%20ontolex%3ALexicalEntry%20%3B%20%0A%20%20%20%20%20%20%20dct%3Alanguage%20wd%3AQ1860%20%3B%20%0A%20%20%20%20%20%20%20wikibase%3Alemma%20%3Flemma%20%3B%20%0A%20%20%20%20%20%20%20ontolex%3AlexicalForm%20%3Fform%20.%0A%20%20%3Fform%20ontolex%3Arepresentation%20%3Fword%20.%0A%7D%20%0A" target="_blank">Run this query</a></strong></p>
@@ -465,7 +461,7 @@ Linked Data lies at the heart of what Semantic Web is all about: large scale int
 <figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="kn">from</span> <span class="nn">SPARQLWrapper</span> <span class="kn">import</span> <span class="n">SPARQLWrapper</span><span class="p">,</span> <span class="n">XML</span>
 
 <span class="n">sparql</span> <span class="o">=</span> <span class="n">SPARQLWrapper</span><span class="p">(</span><span class="s">"https://query.wikidata.org/"</span><span class="p">)</span>
-<span class="n">sparql</span><span class="o">.</span><span class="n">setQuery</span><span class="p">(</span><span class="s">"""
+<span class="n">sparql</span><span class="p">.</span><span class="n">setQuery</span><span class="p">(</span><span class="s">"""
     ASK WHERE {
       VALUES ?word {'amazing'@en} 
       ?l a ontolex:LexicalEntry ; 
@@ -476,8 +472,8 @@ Linked Data lies at the heart of what Semantic Web is all about: large scale int
     } 
 """</span><span class="p">)</span>
 
-<span class="n">sparql</span><span class="o">.</span><span class="n">setReturnFormat</span><span class="p">(</span><span class="n">XML</span><span class="p">)</span>
-<span class="n">results</span> <span class="o">=</span> <span class="n">sparql</span><span class="o">.</span><span class="n">query</span><span class="p">()</span><span class="o">.</span><span class="n">convert</span><span class="p">()</span>
+<span class="n">sparql</span><span class="p">.</span><span class="n">setReturnFormat</span><span class="p">(</span><span class="n">XML</span><span class="p">)</span>
+<span class="n">results</span> <span class="o">=</span> <span class="n">sparql</span><span class="p">.</span><span class="n">query</span><span class="p">().</span><span class="n">convert</span><span class="p">()</span>
 <span class="k">print</span><span class="p">(</span><span class="n">results</span><span class="p">)</span></code></pre></figure>
 
 <hr class="col-xs-12" />
