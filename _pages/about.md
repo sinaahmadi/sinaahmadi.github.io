@@ -7,13 +7,13 @@ narrow: false
 {% include components/intro.md %}
 
 
-I received my Ph.D. from the [Insight Centre for Data Analytics](https://www.insight-centre.org/){:target="_blank"} at [University of Galway](https://www.universityofgalway.ie){:target="_blank"} in 2022, under the supervision of Dr. John McCrae. My doctoral research focused on lexicographic data linking and natural language processing, working closely with [ELEXIS](https://elex.is/){:target="_blank"} (European Lexicographic Infrastructure). Prior to this, I completed an MSc in Machine Learning from [Paris Descartes University](https://www.mi.parisdescartes.fr/){:target="_blank"} and an MA in Natural Language Processing from [Sorbonne Nouvelle University](http://www.univ-paris3.fr/){:target="_blank"}, conducting research at several laboratories in France, ([LIP6](https://www.lip6.fr/?LANG=en){:target="_blank"}, [LIMSI](https://www.limsi.fr/en/){:target="_blank"}, and [LIPN](http://lipn.univ-paris13.fr/){:target="_blank"}).
+I received my Ph.D. from the [Insight Centre for Data Analytics](https://www.insight-centre.org/){:target="_blank"} at [University of Galway](https://www.universityofgalway.ie){:target="_blank"} in 2022, under the supervision of Dr. John McCrae. My doctoral research focused on lexicographic data linking and NLP, working closely with [ELEXIS](https://elex.is/){:target="_blank"} (European Lexicographic Infrastructure). Prior to this, I completed an MSc in Machine Learning from [Paris Descartes University](https://www.mi.parisdescartes.fr/){:target="_blank"} and an MA in Natural Language Processing from [Sorbonne Nouvelle University](http://www.univ-paris3.fr/){:target="_blank"}, conducting research at several laboratories in France, ([LIP6](https://www.lip6.fr/?LANG=en){:target="_blank"}, [LIMSI](https://www.limsi.fr/en/){:target="_blank"}, and [LIPN](http://lipn.univ-paris13.fr/){:target="_blank"}).
 
 ### Research Vision
 
 My research is motivated by my deep belief that **every language community deserves access to modern language technology**. This drives my work in:
 
-1. **Low-resourced NLP**: Developing innovative approaches to tackle fundamental challenges in low-resource scenarios, from script normalization to machine translation
+1. **Low-resourced NLP**: Developing innovative approaches to tackle challenges in low-resource scenarios, from script normalization to machine translation
 2. **Language technology for everyone**: Creating practical, solution-oriented tools and resources that address real-world needs
 3. **Community-centered and open-source development**: Working directly with language communities while ensuring all outcomes are openly available
 
@@ -21,7 +21,7 @@ Languages are not merely data points in my research—they represent living comm
 
 Beyond research, I'm passionate about languages and music. As an amateur violinist, I've performed [Vivaldi's Concerto in A minor](https://www.youtube.com/watch?v=eTPiZup0QmM){:target="_blank"} and [Telemann's concerto for 4 violins No. 2 in D major](https://www.youtube.com/watch?v=FZIRE-9EL-E){:target="_blank"} in public concerts.
 
-In addition to this web site, you can find information about me at various social networks outlets which are linked to in the left section.
+In addition to this website, you can find information about me at various social networks outlets which are linked to in the left section.
 
 <a href="https://drive.google.com/file/d/1Wvpz-lsjnu3225z_i46gpZ4fOvgM1G7j/view?usp=sharing" class="d-flex align-items-center mb-1" target="_blank">
     <span class="icon grey mr-3">
