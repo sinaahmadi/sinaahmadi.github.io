@@ -23,7 +23,7 @@ Publications in reversed chronological order in two categories:
 1. **Language and Speech Technology for Central Kurdish Varieties**   
 <u>Sina Ahmadi</u>, Daban Q Jaff, Md Mahfuz Ibn Alam, Antonios Anastasopoulos
 *Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024)*   
-[[Paper]](docs/articles/ahmadi2024cordi.pdf){:target="_blank"} [[Slides]](docs/slides/ahmadi2024cordi_slides.pdf){:target="_blank"} [[Resource]](https://github.com/sinaahmadi/CORDI){:target="_blank"} [[bib]](bibliography/ahmadi2024cordi.txt){:target="_blank"} 
+[[Paper]](docs/articles/ahmadi2024cordi.pdf){:target="_blank"} [[Slides]](docs/slides/ahmadi2024cordi_slides.pdf){:target="_blank"} [[Resource]](https://github.com/sinaahmadi/CORDI){:target="_blank"} [[Presentation]](https://confcats-event-sessions.s3.amazonaws.com/lrec24/videos/2546.mp4?VersionId=cWGRnYz1yCwboCeF.AruMb7.tdXfHacg){:target="_blank"} [[bib]](bibliography/ahmadi2024cordi.txt){:target="_blank"} 
 
 
 1. **CODET: A Benchmark for Contrastive Dialectal Evaluation of Machine Translation**   
