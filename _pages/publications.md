@@ -54,7 +54,7 @@ David Lindemann, <u>Sina Ahmadi</u> and Fahad Khan and Francesco Mambrini
 1. **PALI: A Language Identification Benchmark for Perso-Arabic Scripts**   
 <u>Sina Ahmadi</u>, Milind Agarwal and Antonios Anastasopoulos   
 *Proceedings of the 10th Workshop on NLP for Similar Languages, Varieties and Dialects (VarDial)*   
-[[Paper]](docs/articles/ahmadi2023pali.pdf){:target="_blank"} [[Slides]](docs/slides/ahmadi2023pali_slides.pdf){:target="_blank"} [[Presentation]](https://s3.amazonaws.com/pf-user-files-01/u-59356/uploads/2023-04-15/9x32psj/VarDial.mp4){:target="_blank"} [[Poster]](docs/posters/ahmadi2023pali_poster.pdf){:target="_blank"} [[Code]](https://github.com/sinaahmadi/PersoArabicLID){:target="_blank"} [[bib]](bibliography/ahmadi2023pali.txt){:target="_blank"}  
+[[Paper]](docs/articles/ahmadi2023pali.pdf){:target="_blank"} [[(translated into Hindi! Thanks, Milind.)]](https://milind-agarwal.github.io/files/translations/hindi/PALI_Paper__Hindi.pdf){:target="_blank"} [[Slides]](docs/slides/ahmadi2023pali_slides.pdf){:target="_blank"} [[Presentation]](https://s3.amazonaws.com/pf-user-files-01/u-59356/uploads/2023-04-15/9x32psj/VarDial.mp4){:target="_blank"} [[Poster]](docs/posters/ahmadi2023pali_poster.pdf){:target="_blank"} [[Code]](https://github.com/sinaahmadi/PersoArabicLID){:target="_blank"} [[bib]](bibliography/ahmadi2023pali.txt){:target="_blank"}  
 
 1. **Approaches to Corpus Creation for Low-Resource Language Technology: the Case of Southern Kurdish and Laki**   
 <u>Sina Ahmadi</u>, Zahra Azin, Sara Belelli and Antonios Anastasopoulos   
