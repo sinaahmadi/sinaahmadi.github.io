@@ -1,5 +1,5 @@
 ---
-show_profile: true
+show_profile: false
 title: SPARQL query generator for lexicographical data
 tags:
 - SPARQL

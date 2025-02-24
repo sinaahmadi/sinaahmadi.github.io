@@ -1,5 +1,5 @@
 ---
-show_profile: true
+show_profile: false
 title: A Minimalistic Guide to Clusters (and SLURM)
 tags:
 - SLURM
