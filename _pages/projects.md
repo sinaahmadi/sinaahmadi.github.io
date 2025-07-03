@@ -35,7 +35,7 @@ title: Projects
 		      <td><a href="https://www.cl.uzh.ch/en/research-groups/texttechnologies/research/machine-learning/mutamur.html" target="_blank">MUTAMUR</a></td>
 		    </tr>
 		      <tr>
-			    <td>Feb. 2024-</td>
+			    <td>Feb. 2024-July 2025</td>
 			  </tr>
 			  <tr>
 			    <td>In the MUTAMUR project (Multitask Learning with Multilingual Resources for Better Natural Language Understanding), we investigate methods for knowledge sharing and transfer between machine learning models in natural language processing.</td>
@@ -47,7 +47,7 @@ title: Projects
 		      <td><a href="https://dolma-nlp.github.io/" target="_blank">DOLMA-NLP</a></td>
 		    </tr>
 		      <tr>
-			    <td>Sep. 2024-Feb. 2025</td>
+			    <td>Sep. 2024-</td>
 			  </tr>
 			  <tr>
 			    <td>I am privileged to be among the selected practitioners of the prestigious Stanford Initiative on Language Inclusion and Conservation in Old and New Media (SILICON) to focus on developing technologies for Middle Eastern languages!</td>

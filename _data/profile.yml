@@ -14,22 +14,22 @@
   href: https://scholar.google.fr/citations?user=adu3L94AAAAJ&hl=en
   icon: entypo/graduation-cap.svg
 
+- caption: ACL Anthology
+  href: https://aclanthology.org/people/s/sina-ahmadi/
+  icon: entypo/pencil.svg
+
+- caption: DBLP
+  href: https://dblp.org/pid/213/1031.html
+  icon: entypo/archive.svg
+  
 - caption: Stack Overflow
   href: https://tex.stackexchange.com/users/81967/sina-ahmadi
   icon: entypo/stack-overflow.svg
 #https://stackoverflow.com/story/sinaahm
 
-- caption: Twitter
+- caption: X
   href: https://www.twitter.com/sina_ahm
   icon: entypo/twitter-with-circle.svg
-
-# - caption: YouTube
-#   href: https://www.youtube.com/channel/UCEnbUkiYHKxTvAeNRTVhxIQ
-#   icon: entypo/youtube.svg
-
-# - caption: Google Maps
-#
-#   icon: entypo/Google_Photos_icon.svg
 
 - caption: FOAF
   href: foaf.rdf

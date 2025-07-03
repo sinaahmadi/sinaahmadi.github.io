@@ -1,0 +1,866 @@
+peer_review:
+  2024:
+    - title: "CODET: A Benchmark for Contrastive Dialectal Evaluation of Machine Translation"
+      authors:
+        - name: "Md Mahfuz Ibn Alam"
+        - name: "Sina Ahmadi"
+          underlined: true
+        - name: "Antonios Anastasopoulos"
+      venue: "17th Conference of the European Chapter of the Association for Computational Linguistics (EACL 2024)"
+      thumbnail: "bibliography/thumbnails/alam2024codet.png"
+      materials:
+        - type: "Paper"
+          url: "docs/articles/alam2024codet.pdf"
+        - type: "Poster"
+          url: "docs/posters/alam2024codet_poster.pdf"
+        - type: "Resource"
+          url: "https://github.com/mahfuzibnalam/dialect_mt"
+        - type: "bib"
+          url: "bibliography/alam2024codet.txt"
+
+    - title: "Language and Speech Technology for Central Kurdish Varieties"
+      authors:
+        - name: "Sina Ahmadi"
+          underlined: true
+        - name: "Daban Q Jaff"
+        - name: "Md Mahfuz Ibn Alam"
+        - name: "Antonios Anastasopoulos"
+      venue: "Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024)"
+      thumbnail: "bibliography/thumbnails/ahmadi2024cordi.jpg"
+      materials:
+        - type: "Paper"
+          url: "docs/articles/ahmadi2024cordi.pdf"
+        - type: "Slides"
+          url: "docs/slides/ahmadi2024cordi_slides.pdf"
+        - type: "Resource"
+          url: "https://github.com/sinaahmadi/CORDI"
+        - type: "Presentation"
+          url: "https://confcats-event-sessions.s3.amazonaws.com/lrec24/videos/2546.mp4?VersionId=cWGRnYz1yCwboCeF.AruMb7.tdXfHacg"
+        - type: "bib"
+          url: "bibliography/ahmadi2024cordi.txt"
+
+    - title: "Part-of-Speech Tagging for Northern Kurdish"
+      authors:
+        - name: "Peshmerge Morad"
+        - name: "Sina Ahmadi"
+          underlined: true
+        - name: "Lorenzo Gatti"
+      venue: "Proceedings of the Joint Workshop on Multiword Expressions and Universal Dependencies (MWE-UD 2024) @LREC-COLING-2024"
+      materials:
+        - type: "Paper"
+          url: "docs/articles/morad2024pos.pdf"
+        - type: "Poster"
+          url: "docs/posters/morad2024pos_poster.pdf"
+        - type: "Resource"
+          url: "https://github.com/peshmerge/northern-kurdish-pos-tagging"
+        - type: "bib"
+          url: "bibliography/morad2024pos.txt"
+
+  2023:
+    - title: "Script Normalization for Unconventional Writing of Under-Resourced Languages in Bilingual Communities"
+      authors:
+        - name: "Sina Ahmadi"
+          underlined: true
+        - name: "Antonios Anastasopoulos"
+      venue: "The 61st Annual Meeting of the Association for Computational Linguistics (ACL 2023)"
+      thumbnail: "bibliography/thumbnails/ahmadi2023acl.png"
+      materials:
+        - type: "Paper"
+          url: "docs/articles/ahmadi2023acl.pdf"
+        - type: "Slides"
+          url: "docs/slides/ahmadi2023acl_slides.pdf"
+        - type: "Presentation"
+          url: "https://s3.amazonaws.com/pf-user-files-01/u-59356/uploads/2023-06-04/rw32pwp/ACL2023.mp4"
+        - type: "Code"
+          url: "https://github.com/sinaahmadi/ScriptNormalization"
+        - type: "Demo"
+          url: "https://huggingface.co/spaces/SinaAhmadi/ScriptNormalization"
+        - type: "bib"
+          url: "bibliography/ahmadi2023acl.txt"
+
+    - title: "PALI: A Language Identification Benchmark for Perso-Arabic Scripts"
+      authors:
+        - name: "Sina Ahmadi"
+          underlined: true
+        - name: "Milind Agarwal"
+        - name: "Antonios Anastasopoulos"
+      venue: "Proceedings of the 10th Workshop on NLP for Similar Languages, Varieties and Dialects (VarDial at EACL 2023)"
+      thumbnail: "bibliography/thumbnails/ahmadi2023pali.png"
+      materials:
+        - type: "Paper"
+          url: "docs/articles/ahmadi2023pali.pdf"
+        - type: "Slides"
+          url: "docs/slides/ahmadi2023pali_slides.pdf"
+        - type: "Presentation"
+          url: "https://s3.amazonaws.com/pf-user-files-01/u-59356/uploads/2023-04-15/9x32psj/VarDial.mp4"
+        - type: "Poster"
+          url: "docs/posters/ahmadi2023pali_poster.pdf"
+        - type: "Code"
+          url: "https://github.com/sinaahmadi/PersoArabicLID"
+        - type: "bib"
+          url: "bibliography/ahmadi2023pali.txt"
+
+    - title: "When Ontolex Meets Wikibase: Remodeling Use Cases"
+      authors:
+        - name: "David Lindemann"
+        - name: "Sina Ahmadi"
+          underlined: true
+        - name: "Fahad Khan"
+        - name: "Francesco Mambrini"
+      venue: "Wikidata'23: Wikidata workshop at ISWC 2023"
+      materials:
+        - type: "Paper"
+          url: "docs/articles/lindemann2023wikidata.pdf"
+        - type: "Poster"
+          url: "docs/posters/lindemann2023wikidata_poster.pdf"
+        - type: "Service"
+          url: "https://kurdi.wikibase.cloud/wiki/Main_Page"
+        - type: "bib"
+          url: "bibliography/lindemann2023ldk.txt"
+
+    - title: "Approaches to Corpus Creation for Low-Resource Language Technology: the Case of Southern Kurdish and Laki"
+      authors:
+        - name: "Sina Ahmadi"
+          underlined: true
+        - name: "Zahra Azin"
+        - name: "Sara Belelli"
+        - name: "Antonios Anastasopoulos"
+      venue: "Proceedings of the second workshop on NLP applications to field linguistics at EACL 2023"
+      thumbnail: "bibliography/thumbnails/ahmadi2023fieldmatters.png"
+      materials:
+        - type: "Paper"
+          url: "docs/articles/ahmadi2023fieldmatters.pdf"
+        - type: "Slides"
+          url: "docs/slides/ahmadi2023fieldmatters_slides.pdf"
+        - type: "Presentation"
+          url: "https://drive.google.com/file/d/12pQCPO8Bo1CzjZ9NvOqSHMeHs_SMsH-y/"
+        - type: "Poster"
+          url: "docs/posters/ahmadi2023fieldmatters_poster.pdf"
+        - type: "Code"
+          url: "https://github.com/sinaahmadi/KurdishLID"
+        - type: "bib"
+          url: "bibliography/ahmadi2023fieldmatters.txt"
+
+    - title: "Revisiting and Amending Central Kurdish Data on UniMorph 4.0"
+      authors:
+        - name: "Sina Ahmadi"
+          underlined: true
+        - name: "Aso Mahmudi"
+      venue: "The 20th SIGMORPHON Workshop on Computational Research in Phonetics, Phonology, and Morphology at ACL 2023"
+      materials:
+        - type: "Paper"
+          url: "docs/articles/ahmadi2023sigmorphon.pdf"
+        - type: "Slides"
+          url: "docs/slides/ahmadi2023sigmorphon_slides.pdf"
+        - type: "Resource"
+          url: "https://github.com/unimorph/ckb"
+        - type: "bib"
+          url: "bibliography/ahmadi2023sigmorphon.txt"
+
+    - title: "A Corpus-based Study of Endoclitic <i>=îş</i> in Kurdish"
+      authors:
+        - name: "Sina Ahmadi"
+          underlined: true
+        - name: "Antonios Anastasopoulos"
+        - name: "Géraldine Walther"
+      venue: "Book of abstracts of the the 56th Annual Meeting of the Societas Linguistica Europaea (SLE 2023)"
+      materials:
+        - type: "Paper"
+          url: "docs/articles/ahmadi2023sle.pdf"
+        - type: "Poster"
+          url: "docs/posters/ahmadi2023sle_poster.pdf"
+        - type: "Code"
+          url: "https://github.com/sinaahmadi/EmpiricalClitics"
+        - type: "bib"
+          url: "bibliography/ahmadi2023sle.txt"
+
+
+  2022:
+    - title: "Monolingual Alignment of Word Senses and Definitions in Lexicographical Resources"
+      authors:
+        - name: "Sina Ahmadi"
+          underlined: true
+      venue: "National University of Ireland Galway (Thesis)"
+      materials:
+        - type: "Thesis"
+          url: "docs/Thesis_Sina_Ahmadi.pdf"
+        - type: "bib"
+          url: "bibliography/ahmadi2022thesis.txt"
+
+    - title: "Cross-Lingual Link Discovery for Under-Resourced Languages"
+      authors:
+        - name: "Michael Rosner"
+        - name: "Sina Ahmadi"
+          underlined: true
+        - name: "Elena-Simona Apostol"
+        - name: "Julia Bosque-Gil"
+        - name: "Christian Chiarcos"
+        - name: "Milan Dojchinovski"
+        - name: "Katerina Gkirtzou"
+        - name: "Jorge Gracia"
+        - name: "Dagmar Gromann"
+        - name: "Chaya Liebeskind"
+        - name: "Giedrė Valūnaitė Oleškevičienė̇"
+        - name: "Gilles Sérasset"
+        - name: "Ciprian-Octavian Truică"
+      venue: "The 13th International Conference on Language Resources and Evaluation (LREC 2022)"
+      materials:
+        - type: "Paper"
+          url: "docs/articles/rosner2022crosslingual.pdf"
+        - type: "bib"
+          url: "bibliography/rosner2022crosslingual.txt"
+
+    - title: "CoFiF Plus: A French Financial Narrative Summarisation Corpus"
+      authors:
+        - name: "Nadhem Zmandar"
+        - name: "Tobias Daudert"
+        - name: "Sina Ahmadi"
+          underlined: true
+        - name: "Mahmoud El-Haj"
+        - name: "Paul Rayson"
+      venue: "The 13th International Conference on Language Resources and Evaluation (LREC 2022)"
+      materials:
+        - type: "Paper"
+          url: "docs/articles/zmandar2022cofifplus.pdf"
+        - type: "Resource"
+          url: "https://github.com/UCREL/CoFiF-Plus"
+        - type: "bib"
+          url: "bibliography/zmandar2022cofifplus.txt"
+
+    - title: "Towards an Integrative Approach for Making Sense Distinctions"
+      authors:
+        - name: "John P. McCrae"
+        - name: "Theodorus Fransen"
+        - name: "Sina Ahmadi"
+          underlined: true
+        - name: "Paul Buitelaar"
+        - name: "Koustava Goswami"
+      venue: "Frontiers in Artificial Intelligence"
+      thumbnail: "bibliography/thumbnails/mccrae2022frontiers.png"
+      materials:
+        - type: "Paper"
+          url: "docs/articles/mccrae2022frontiers.pdf"
+        - type: "bib"
+          url: "bibliography/mccrae2022frontiers.txt"
+
+    - title: "Leveraging Multilingual News Websites for Building a Kurdish Parallel Corpus"
+      authors:
+        - name: "Sina Ahmadi"
+          underlined: true
+        - name: "Hossein Hassani"
+        - name: "Daban Q. Jaff"
+      venue: "ACM Transactions on Asian and Low-Resource Language Information Processing (TALLIP)"
+      thumbnail: "bibliography/thumbnails/ahmadi2022leveraging.png"
+      materials:
+        - type: "Paper"
+          url: "https://dl.acm.org/doi/10.1145/3511806"
+        - type: "Preprint"
+          url: "docs/articles/ahmadi2020leveraging.pdf"
+        - type: "Resource"
+          url: "https://github.com/KurdishBLARK/InterdialectCorpus"
+        - type: "bib"
+          url: "bibliography/ahmadi2022leveraging.txt"
+
+  2021:
+    - title: "Convertir le Trésor de la Langue Française en Ontolex-Lemon : un zeste de données liées"
+      authors:
+        - name: "Sina Ahmadi"
+          underlined: true
+        - name: "Mathieu Constant"
+        - name: "Karën Fort"
+        - name: "Bruno Guillaume"
+        - name: "John P. McCrae"
+      venue: "LIFT 2021 : Journées scientifiques \"Linguistique informatique, formelle & de terrain\""
+      materials:
+        - type: "Paper"
+          url: "docs/articles/ahmadi2021lift.pdf"
+        - type: "Service"
+          url: "https://tlfi-sparql.atilf.fr/sparql"
+        - type: "Poster"
+          url: "docs/posters/ahmadi2021lift_poster.pdf"
+        - type: "Code"
+          url: "https://github.com/sinaahmadi/fr-align"
+        - type: "bib"
+          url: "bibliography/ahmadi2021lift.txt"
+
+    - title: "NUIG at TIAD 2021: Cross-lingual Word Embeddings for Translation Inference"
+      authors:
+        - name: "Sina Ahmadi"
+          underlined: true
+        - name: "Atul Kr. Ojha"
+        - name: "Shubhanker Banerjee"
+        - name: "John P. McCrae"
+      venue: "Proceedings of the Translation Inference Across Dictionaries Workshop (TIAD 2021)"
+      thumbnail: "bibliography/thumbnails/ahmadi2021TIAD.png"
+      materials:
+        - type: "Paper"
+          url: "docs/articles/ahmadi2021TIAD.pdf"
+        - type: "Slides"
+          url: "docs/slides/ahmadi2021TIAD_slides.pdf"
+        - type: "bib"
+          url: "bibliography/ahmadi2021TIAD.txt"
+
+    - title: "The ELEXIS system for monolingual sense linking in dictionaries"
+      authors:
+        - name: "John P. McCrae"
+        - name: "Sina Ahmadi"
+          underlined: true
+        - name: "Seung-bin Yim"
+        - name: "Lenka Bajčetić"
+      venue: "Proceedings of the Seventh Biennial Conference on Electronic Lexicography (eLex 2021)"
+      materials:
+        - type: "Paper"
+          url: "docs/articles/mccrae2021elexis.pdf"
+        - type: "Demo"
+          url: "https://www.youtube.com/watch?v=E_axdoCHoZo"
+        - type: "bib"
+          url: "bibliography/mccrae2021elexis.txt"
+
+    - title: "An Evaluation of Definition Paradigms in Lexicography for Word Sense Alignment"
+      authors:
+        - name: "Sina Ahmadi"
+          underlined: true
+        - name: "John P. McCrae"
+      venue: "Proceedings of the Seventh Biennial Conference on Electronic Lexicography (eLex 2021)"
+      materials:
+        - type: "Paper"
+          url: "docs/articles/ahmadi2021elexis.pdf"
+        - type: "bib"
+          url: "bibliography/ahmadi2021elexis.txt"
+
+    - title: "Word Sense Alignment as a Classification Problem"
+      authors:
+        - name: "Sina Ahmadi"
+          underlined: true
+        - name: "John P. McCrae"
+      venue: "The 11th International Global Wordnet Conference (GWC2021)"
+      materials:
+        - type: "Paper"
+          url: "https://www.aclweb.org/anthology/2021.gwc-1.9.pdf"
+        - type: "Slides"
+          url: "docs/slides/ahmadi2021gwc_slides.pdf"
+        - type: "Presentation"
+          url: "https://drive.google.com/file/d/1j7BiuFv6G8XyWuoypRQCHsmqqVVrCEkR/view?usp=sharing"
+        - type: "bib"
+          url: "bibliography/ahmadi2021gwc.txt"
+
+    - title: "Creating an Electronic Lexicon for the Under-resourced Southern Varieties of Kurdish Language"
+      authors:
+        - name: "Zahra Azin"
+        - name: "Sina Ahmadi"
+          underlined: true
+      venue: "Proceedings of the Seventh Biennial Conference on Electronic Lexicography (eLex 2021)"
+      materials:
+        - type: "Paper"
+          url: "docs/articles/azin2021sk.pdf"
+        - type: "Poster"
+          url: "docs/posters/azin2021sk_poster.pdf"
+        - type: "Resource"
+          url: "https://github.com/sinaahmadi/KurdishLexicography"
+        - type: "bib"
+          url: "bibliography/azin2021sk.txt"
+
+    - title: "On the Current State of Kurdish Language Processing"
+      authors:
+        - name: "Sina Ahmadi"
+          underlined: true
+      venue: "Proceedings of the 5th International Conference on Kurdish Linguistics Conference (ICKL-5)"
+      materials:
+        - type: "Paper"
+          url: "docs/articles/ahmadi2021_KNLP_ICKL.pdf"
+        - type: "Slides"
+          url: "docs/slides/ahmadi2021_KNLP_ICKL_slides.pdf"
+        - type: "bib"
+          url: "bibliography/ahmadi2021_KNLP_ICKL.txt"
+
+  2020:
+
+    - title: "A Multilingual Evaluation Dataset for Monolingual Word Sense Alignment"
+      authors:
+        - name: "Sina Ahmadi"
+          underlined: true
+        - name: "John P. McCrae"
+        - name: "Sanni Nimb"
+        - name: "Fahad Khan"
+        - name: "Monica Monachini"
+        - name: "Bolette S. Pedersen"
+        - name: "Thierry Declerck"
+        - name: "Tanja Wissik"
+        - name: "Andrea Bellandi"
+        - name: "Irene Pisani"
+        - name: "Thomas Troelsgård"
+        - name: "Sussi Olsen"
+        - name: "Simon Krek"
+        - name: "Veronika Lipp"
+        - name: "Tamás Váradi"
+        - name: "László Simon"
+        - name: "András Győrffy"
+        - name: "Carole Tiberius"
+        - name: "Tanneke Schoonheim"
+        - name: "Yifat Ben Moshe"
+        - name: "Maya Rudich"
+        - name: "Raya Abu Ahmad"
+        - name: "Dorielle Lonke"
+        - name: "Kira Kovalenko"
+        - name: "Margit Langemets"
+        - name: "Jelena Kallas"
+        - name: "Oksana Dereza"
+        - name: "Theodorus Fransen"
+        - name: "David Cillessen"
+        - name: "David Lindemann"
+        - name: "Mikel Alonso"
+        - name: "Ana Salgado"
+        - name: "José Luis Sancho"
+        - name: "Rafael-J. Ureña-Ruiz"
+        - name: "Kiril Simov"
+        - name: "Petya Osenova"
+        - name: "Zara Kancheva"
+        - name: "Ivaylo Radev"
+        - name: "Ranka Stanković"
+        - name: "Andrej Perdih"
+        - name: "Dejan Gabrovšek"
+      venue: "The 12th International Conference on Language Resources and Evaluation (LREC 2020)"
+      materials:
+        - type: "Paper"
+          url: "docs/articles/ahmadi2020multilingual.pdf"
+        - type: "Resource"
+          url: "https://github.com/elexis-eu/MWSA"
+        - type: "bib"
+          url: "bibliography/ahmadi2020multilingual.txt"
+
+    - title: "Towards Automatic Linking of Lexicographic Data: the case of a historical and a modern Danish dictionary"
+      authors:
+        - name: "Sina Ahmadi"
+          underlined: true
+        - name: "Sanni Nimb"
+        - name: "Thomas Troelsgård"
+        - name: "John P. McCrae"
+        - name: "Nicolai H. Sørensen"
+      venue: "The XIX EURALEX International Congress"
+      materials:
+        - type: "Paper"
+          url: "docs/articles/ahmadi2020danishlinking.pdf"
+        - type: "Slides"
+          url: "docs/slides/ahmadi2020danishlinking_slides.pdf"
+        - type: "bib"
+          url: "bibliography/ahmadi2020danishlinking.txt"
+
+    - title: "Challenges of Word Sense Alignment: Portuguese Language Resources"
+      authors:
+        - name: "Ana Salgado"
+        - name: "Sina Ahmadi"
+          underlined: true
+        - name: "Alberto Simões"
+        - name: "John McCrae"
+        - name: "Rute Costa"
+      venue: "Proceedings of the 7th Workshop on Linked Data in Linguistics: Building tools and infrastructure (LREC 2020)"
+      materials:
+        - type: "Paper"
+          url: "docs/articles/salgado2020ldl.pdf"
+        - type: "Slides"
+          url: "docs/slides/salgado2020ldl.pdf"
+        - type: "bib"
+          url: "bibliography/salgado2020ldl.txt"
+
+    - title: "Defying Wikidata: Validation of Terminological Relations in the Web of Data"
+      authors:
+        - name: "Patricia Martín-Chozas"
+        - name: "Sina Ahmadi"
+          underlined: true
+        - name: "Elena Montiel-Ponsoda"
+      venue: "The 12th International Conference on Language Resources and Evaluation (LREC 2020)"
+      materials:
+        - type: "Paper"
+          url: "docs/articles/chozas2020defying.pdf"
+        - type: "Code"
+          url: "https://github.com/sinaahmadi/LDTerm"
+        - type: "bib"
+          url: "bibliography/chozas2020defying.txt"
+
+    - title: "KLPT - Kurdish Language Processing Toolkit"
+      authors:
+        - name: "Sina Ahmadi"
+          underlined: true
+      venue: "Proceedings of Second Workshop for NLP Open Source Software (NLP-OSS at EMNLP 2020)"
+      materials:
+        - type: "Paper"
+          url: "docs/articles/ahmadi2020klpt.pdf"
+        - type: "Poster"
+          url: "docs/posters/ahmadi2020klpt_poster.pdf"
+        - type: "Slides"
+          url: "docs/slides/ahmadi2020klpt_slides.pdf"
+        - type: "Presentation"
+          url: "https://slideslive.com/38939750/klpt-kurdish-language-processing-toolkit"
+        - type: "Code"
+          url: "https://github.com/sinaahmadi/klpt"
+        - type: "bib"
+          url: "bibliography/ahmadi2020klpt.txt"
+
+    - title: "Building a Corpus for the Zaza–Gorani Language Family"
+      authors:
+        - name: "Sina Ahmadi"
+          underlined: true
+      venue: "Proceedings of the Seventh Workshop on NLP for Similar Languages, Varieties and Dialects (VarDial 2020)"
+      materials:
+        - type: "Paper"
+          url: "docs/articles/ahmadi2020zazagorani.pdf"
+        - type: "Poster"
+          url: "docs/posters/ahmadi2020zazagorani_poster.pdf"
+        - type: "Resource"
+          url: "https://github.com/sinaahmadi/ZazaGoraniCorpus"
+        - type: "bib"
+          url: "bibliography/ahmadi2020zazagorani.txt"
+
+    - title: "A Tokenization System for the Kurdish Language"
+      authors:
+        - name: "Sina Ahmadi"
+          underlined: true
+      venue: "Proceedings of the Seventh Workshop on NLP for Similar Languages, Varieties and Dialects (VarDial 2020)"
+      materials:
+        - type: "Paper"
+          url: "docs/articles/ahmadi2020tokenization.pdf"
+        - type: "Poster"
+          url: "docs/posters/ahmadi2020tokenization_poster.pdf"
+        - type: "Code"
+          url: "https://github.com/sinaahmadi/KurdishTokenization"
+        - type: "bib"
+          url: "bibliography/ahmadi2020tokenization.txt"
+
+    - title: "Towards Machine Translation for the Kurdish Language"
+      authors:
+        - name: "Sina Ahmadi"
+          underlined: true
+        - name: "Mariam Masoud"
+      venue: "Proceedings of the 3rd Workshop on Technologies for MT of Low Resource Languages (LoResMT 2020 at AACL-IJCNLP)"
+      materials:
+        - type: "Paper"
+          url: "docs/articles/ahmadi2020machine.pdf"
+        - type: "Slides"
+          url: "docs/slides/ahmadi2020machine_slides.pdf"
+        - type: "Presentation"
+          url: "https://drive.google.com/file/d/1XYXm-p_HYkGQ8GP7qUql_oLqulcmWpwT/view?usp=sharing"
+        - type: "Code"
+          url: "https://github.com/sinaahmadi/KurdishMT"
+        - type: "bib"
+          url: "bibliography/ahmadi2020machine.txt"
+
+    - title: "A Corpus of the Sorani Kurdish Folkloric Lyrics"
+      authors:
+        - name: "Sina Ahmadi"
+          underlined: true
+        - name: "Hossein Hassani"
+        - name: "Kamaladdin Abedi"
+      venue: "Proceedings of the 1st Joint Spoken Language Technologies for Under-resourced languages (SLTU) and Collaboration and Computing for Under-Resourced Languages (CCURL) Workshop (LREC 2020)"
+      materials:
+        - type: "Paper"
+          url: "docs/articles/ahmadi2020folklyrics.pdf"
+        - type: "Resource"
+          url: "https://github.com/KurdishBLARK/KurdishLyricsCorpus"
+        - type: "bib"
+          url: "bibliography/ahmadi2020folklyrics.txt"
+
+  2019:
+    - title: "Creating a Multilingual Terminological Resource using Linked Data: the case of archaeological domain in the Italian language"
+      authors:
+        - name: "Speranza Giulia"
+        - name: "Carola Carlino"
+        - name: "Sina Ahmadi"
+          underlined: true
+      venue: "The Sixth Italian Conference on Computational Linguistics (CLiC-it 2019)"
+      materials:
+        - type: "Paper"
+          url: "docs/articles/speranza2019creating.pdf"
+        - type: "Poster"
+          url: "docs/posters/speranza2019creating_poster.pdf"
+        - type: "Code"
+          url: "https://github.com/sinaahmadi/sparql4respop"
+        - type: "bib"
+          url: "bibliography/speranza2019creating.txt"
+
+    - title: "The ELEXIS Interface for Interoperable Lexical Resources"
+      authors:
+        - name: "John P. McCrae"
+        - name: "Carole Tiberius"
+        - name: "Anas Fahad Khan"
+        - name: "Ilan Kernerman"
+        - name: "Thierry Declerck"
+        - name: "Simon Krek"
+        - name: "Monica Monachini"
+        - name: "Sina Ahmadi"
+          underlined: true
+      venue: "Proceedings of the Sixth Biennial Conference on Electronic Lexicography (eLex 2019)"
+      materials:
+        - type: "Paper"
+          url: "docs/articles/mccrae2019elexis.pdf"
+        - type: "bib"
+          url: "bibliography/mccrae2019elexis.txt"
+
+    - title: "CoFiF: A Corpus of Financial Reports in French Language"
+      authors:
+        - name: "Sina Ahmadi"
+          underlined: true
+        - name: "Tobias Daudert"
+      venue: "Proceedings of the First Workshop on Financial Technology and Natural Language Processing (IJCAI 2019)"
+      materials:
+        - type: "Paper"
+          url: "docs/articles/ahmadi-daudert-2019-cofif.pdf"
+        - type: "Slides"
+          url: "docs/slides/ahmadi-daudert-2019-cofif_slides.pdf"
+        - type: "Resource"
+          url: "https://sinaahmadi.github.io/resources/cofif.html"
+        - type: "bib"
+          url: "bibliography/ahmadi-daudert-2019-cofif.txt"
+
+    - title: "NUIG at the FinSBD Task: Sentence Boundary Detection for Noisy Financial PDFs in English and French"
+      authors:
+        - name: "Tobias Daudert"
+        - name: "Sina Ahmadi"
+          underlined: true
+      venue: "Proceedings of the First Workshop on Financial Technology and Natural Language Processing (IJCAI 2019)"
+      materials:
+        - type: "Paper"
+          url: "docs/articles/daudert-ahmadi-2019-nuig.pdf"
+        - type: "Poster"
+          url: "docs/posters/daudert-ahmadi-2019-nuig_poster.pdf"
+        - type: "bib"
+          url: "bibliography/daudert-ahmadi-2019-nuig.txt"
+
+    - title: "Inferring translation candidates for multilingual dictionary generation with multi-way neural machine translation"
+      authors:
+        - name: "Mihael Arcan"
+        - name: "Daniel Torregrosa"
+        - name: "Sina Ahmadi"
+          underlined: true
+        - name: "John P. McCrae"
+      venue: "Proceedings of the Translation Inference Across Dictionaries Workshop (TIAD 2019)"
+      materials:
+        - type: "Paper"
+          url: "docs/articles/arcan2019inferring.pdf"
+        - type: "Slides"
+          url: "docs/slides/arcan2019inferring_pres.pdf"
+        - type: "bib"
+          url: "bibliography/arcan2019inferring.txt"
+
+    - title: "TIAD 2019 Shared Task: Leveraging knowledge graphs with neural machine translation for automatic multilingual dictionary generation"
+      authors:
+        - name: "Mihael Arcan"
+        - name: "Daniel Torregrosa"
+        - name: "Sina Ahmadi"
+          underlined: true
+        - name: "John P. McCrae"
+      venue: "Shared Task on Translation Inference Across Dictionaries (LDK 2019)"
+      materials:
+        - type: "Paper"
+          url: "docs/articles/arcan2019tiad.pdf"
+        - type: "Code"
+          url: "https://github.com/sinaahmadi/TIAD2019"
+        - type: "bib"
+          url: "bibliography/arcan2019tiad.txt"
+
+    - title: "Lexical sense alignment using weighted bipartite b-matching"
+      authors:
+        - name: "Sina Ahmadi"
+          underlined: true
+        - name: "Mihael Arcan"
+        - name: "John P. McCrae"
+      venue: "Proceedings of the LDK 2019 Workshops"
+      thumbnail: "bibliography/thumbnails/ahmadi2019lexical.png"
+      materials:
+        - type: "Paper"
+          url: "docs/articles/ahmadi2019lexical.pdf"
+        - type: "Poster"
+          url: "docs/posters/ahmadi2019lexical_poster.pdf"
+        - type: "Code"
+          url: "https://github.com/sinaahmadi/Bipartite_b_matching"
+        - type: "bib"
+          url: "bibliography/ahmadi2019lexical.txt"
+
+    - title: "Towards Electronic Lexicography for the Kurdish Language"
+      authors:
+        - name: "Sina Ahmadi"
+          underlined: true
+        - name: "Hossein Hassani"
+        - name: "John P. McCrae"
+      venue: "Proceedings of Sixth Biennial Conference on Electronic Lexicography (eLex 2019)"
+      materials:
+        - type: "Paper"
+          url: "docs/articles/ahmadi2019kurdishlex.pdf"
+        - type: "Poster"
+          url: "docs/posters/ahmadi2019kurdishlex_poster.pdf"
+        - type: "Resource"
+          url: "https://sinaahmadi.github.io/resources/kurdishlex.html"
+        - type: "bib"
+          url: "bibliography/ahmadi2019kurdishlex.txt"
+
+    - title: "A Rule-Based Kurdish Text Transliteration System"
+      authors:
+        - name: "Sina Ahmadi"
+          underlined: true
+      venue: "ACM Transactions on Asian and Low-resource Language Information Processing (TALLIP)"
+      thumbnail: "bibliography/thumbnails/ahmadi2019rule.png"
+      materials:
+        - type: "Paper"
+          url: "https://dl.acm.org/doi/10.1145/3278623?cid=99659343970"
+        - type: "Code"
+          url: "https://github.com/sinaahmadi/wergor"
+        - type: "bib"
+          url: "bibliography/ahmadi2019rule.txt"
+
+    - title: "Developing a Fine-grained Corpus for a Less-resourced Language: the case of Kurdish"
+      authors:
+        - name: "Roshna Abdulrahman"
+        - name: "Hossein Hassani"
+        - name: "Sina Ahmadi"
+          underlined: true
+      venue: "Widening Natural Language Processing (ACL 2019)"
+      materials:
+        - type: "Paper"
+          url: "docs/articles/abdulrahman2019ktc.pdf"
+        - type: "Poster"
+          url: "docs/posters/abdulrahman2019ktc-poster.pdf"
+        - type: "Resource"
+          url: "https://sinaahmadi.github.io/resources/ktc.html"
+        - type: "bib"
+          url: "bibliography/abdulrahman2019ktc.txt"
+
+  2018:
+    - title: "On lexicographical networks"
+      authors:
+        - name: "Sina Ahmadi"
+          underlined: true
+        - name: "Mihael Arcan"
+        - name: "John McCrae"
+      venue: "In Workshop on eLexicography: Between Digital Humanities and Artificial Intelligence"
+      materials:
+        - type: "Paper"
+          url: "docs/articles/ahmadi2018lexicographical.pdf"
+        - type: "Poster"
+          url: "docs/posters/ahmadi2018lexicographical_poster.pdf"
+        - type: "bib"
+          url: "bibliography/ahmadi2018lexicographical.txt"
+
+  2017:
+    - title: "Building a Lemmatizer and a Spell-checker for Sorani Kurdish"
+      authors:
+        - name: "Shahin Salavati"
+        - name: "Sina Ahmadi"
+          underlined: true
+      venue: "Proceedings of the 8th Language & Technology Conference: Human Language Technologies as a Challenge for Computer Science and Linguistics"
+      materials:
+        - type: "Paper"
+          url: "docs/articles/salavati2018spellchecker.pdf"
+        - type: "bib"
+          url: "bibliography/salavati2018building.txt"
+
+    - title: "Attention-based encoder-decoder networks for spelling and grammatical error correction"
+      authors:
+        - name: "Sina Ahmadi"
+          underlined: true
+      venue: "Master's thesis"
+      materials:
+        - type: "Thesis"
+          url: "docs/articles/ahmadi2018attention.pdf"
+        - type: "Slides"
+          url: "docs/slides/M2_AI_soutenance_diapos_2017.pdf"
+        - type: "Poster"
+          url: "docs/posters/Masters_thesis_poster.pdf"
+        - type: "Code"
+          url: "https://github.com/sinaahmadi/RNN"
+        - type: "bib"
+          url: "bibliography/ahmadi2018attention.txt"
+
+  2014:
+    - title: "Towards building Kurdnet, the Kurdish Wordnet"
+      authors:
+        - name: "Purya Aliabadi"
+        - name: "Sina Ahmadi"
+          underlined: true
+        - name: "Shahin Salavati"
+        - name: "Kyumars Sheykh Esmaili"
+      venue: "Proceedings of the Seventh Global Wordnet Conference"
+      materials:
+        - type: "Paper"
+          url: "docs/articles/aliabadi2014towards.pdf"
+        - type: "Resource"
+          url: "https://sinaahmadi.github.io/resources/kurdnet.html"
+        - type: "bib"
+          url: "bibliography/aliabadi2014towards.txt"
+
+preprints:
+  2024:
+    - title: "A Morphologically-Aware Dictionary-based Data Augmentation Technique for Machine Translation of Under-Represented Languages"
+      authors:
+        - name: "Md Mahfuz Ibn Alam"
+        - name: "Sina Ahmadi"
+          underlined: true
+        - name: "Antonios Anastasopoulos"
+      thumbnail: "bibliography/thumbnails/alam2024dictionary.png"
+      materials:
+        - type: "Preprint"
+          url: "docs/articles/alam2024dictionary.pdf"
+        - type: "bib"
+          url: "bibliography/alam2024dictionary.txt"
+    
+    - title: "Transfer Learning for Low-Resource Sentiment Analysis"
+      authors:
+        - name: "Razhan Hameed"
+        - name: "Sina Ahmadi"
+          underlined: true
+        - name: "Fatemeh Daneshfar"
+      materials:
+        - type: "Preprint"
+          url: "https://arxiv.org/abs/2304.04703"
+        - type: "Code"
+          url: "https://github.com/Hrazhan/sentiment"
+        - type: "bib"
+          url: "bibliography/hameed2023sentiment.txt"
+
+  2021:
+    - title: "Hunspell for Sorani Kurdish Spell Checking and Morphological Analysis"
+      authors:
+        - name: "Sina Ahmadi"
+          underlined: true
+      venue: "arXiv preprint arXiv:2109.06374"
+      materials:
+        - type: "Preprint"
+          url: "docs/articles/ahmadi2020Hunspell.pdf"
+        - type: "Code"
+          url: "https://github.com/sinaahmadi/KurdishHunspell"
+        - type: "bib"
+          url: "bibliography/ahmadi2020Hunspell.txt"
+
+    - title: "A Formal Description of Sorani Kurdish Morphology"
+      authors:
+        - name: "Sina Ahmadi"
+          underlined: true
+      venue: "arXiv preprint arXiv:2109.03942"
+      materials:
+        - type: "Preprint"
+          url: "docs/articles/ahmadi2020formalization.pdf"
+        - type: "bib"
+          url: "bibliography/ahmadi2020formalization.txt"
+
+  2020:
+    - title: "Towards Finite-State Morphology of Kurdish"
+      authors:
+        - name: "Sina Ahmadi"
+          underlined: true
+        - name: "Hossein Hassani"
+      venue: "arXiv preprint arXiv:2005.10652"
+      materials:
+        - type: "Preprint"
+          url: "https://arxiv.org/pdf/2005.10652.pdf"
+        - type: "bib"
+          url: "bibliography/ahmadi2020finitestate.txt"
+
+  2018:
+    - title: "Learning Noun Cases Using Sequential Neural Networks"
+      authors:
+        - name: "Sina Ahmadi"
+          underlined: true
+      venue: "arXiv preprint arXiv:1810.03996"
+      materials:
+        - type: "Preprint"
+          url: "docs/articles/ahmadi2018learning.pdf"
+        - type: "bib"
+          url: "bibliography/ahmadi2018learning.txt"

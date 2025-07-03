@@ -1,8 +1,8 @@
-- title: Home
+- title: About
   href: index.html
 
-- title: About
-  href: about.html
+# - title: About
+#   href: about.html
 
 - title: Publications
   href: publications.html

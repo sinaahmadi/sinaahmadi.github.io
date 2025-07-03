@@ -1,8 +1,15 @@
-@misc{alam2023codet,
-      title={CODET: A Benchmark for Contrastive Dialectal Evaluation of Machine Translation}, 
-      author={Md Mahfuz Ibn Alam and Sina Ahmadi and Antonios Anastasopoulos},
-      year={2023},
-      eprint={2305.17267},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+@inproceedings{alam2023codet,
+    title = "{CODET}: A Benchmark for Contrastive Dialectal Evaluation of Machine Translation",
+    author = "Alam, Md Mahfuz Ibn  and
+      Ahmadi, Sina  and
+      Anastasopoulos, Antonios",
+    editor = "Graham, Yvette  and
+      Purver, Matthew",
+    booktitle = "Findings of the Association for Computational Linguistics: EACL 2024",
+    month = mar,
+    year = "2024",
+    address = "St. Julian{'}s, Malta",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.findings-eacl.125/",
+    pages = "1790--1859"
 }
