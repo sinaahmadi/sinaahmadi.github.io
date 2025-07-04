@@ -1,0 +1,364 @@
+.publications-container {
+  max-width: 100%;
+  margin: 0 auto;
+  line-height: 1.6;
+  padding: 0 1rem;
+}
+
+.publication-entry {
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.publication-entry:last-child {
+  border-bottom: none;
+}
+
+.publication-title {
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+  line-height: 1.3;
+}
+
+.publication-authors {
+  margin-bottom: 0.5rem;
+  color: #444;
+  font-size: 1rem;
+}
+
+.author-name {
+  margin-right: 0.2rem;
+}
+
+.author-underlined {
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+.publication-venue {
+  font-style: italic;
+  color: #666;
+  margin-bottom: 0.8rem;
+  font-size: 0.95rem;
+}
+
+/* Publications with thumbnails */
+.publication-with-thumbnail {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.publication-content {
+  flex: 1;
+}
+
+.publication-thumbnail {
+  flex-shrink: 0;
+  width: 120px;
+  height: 90px;
+}
+
+.publication-thumbnail img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.publication-materials {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.material-link {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.2rem 0.5rem;
+  background-color: #f8f9fa;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  text-decoration: none;
+  color: #333;
+  font-size: 0.85rem;
+  font-family: Arial, sans-serif;
+  transition: all 0.15s ease;
+  white-space: nowrap;
+}
+
+.material-link:hover {
+  background-color: #e9ecef;
+  border-color: #999;
+  text-decoration: none;
+  color: #000;
+}
+
+.material-icon {
+  margin-right: 0.3rem;
+  font-size: 0.9rem;
+}
+
+.year-header {
+  background-color: #f8f9fa;
+  color: #28a745;
+  text-align: left;
+  padding: 0.5rem 1rem 0.5rem 2rem;
+  margin: 2rem 0 0.5rem 0;
+  border-top: 2px solid #333;
+  border-bottom: 1px solid #dee2e6;
+  font-weight: bold;
+  font-size: 1.2rem;
+  position: relative;
+  cursor: pointer;
+}
+
+.year-header:before {
+  content: "▼ ";
+  position: absolute;
+  left: 0.5rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #28a745;
+  font-size: 0.8rem;
+  transition: transform 0.3s ease;
+}
+
+.year-header.collapsed:before {
+  transform: translateY(-50%) rotate(-90deg);
+}
+
+.year-content {
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+
+.year-content.collapsed {
+  max-height: 0;
+  opacity: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.bibtex-toggle {
+  position: relative;
+}
+
+.bibtex-toggle::after {
+  content: " ▼";
+  font-size: 0.7rem;
+  color: #007bff;
+  margin-left: 0.2rem;
+}
+
+.bibtex-toggle.collapsed::after {
+  content: " ▶";
+}
+
+.bibtex-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out, opacity 0.3s ease-out;
+  opacity: 0;
+  margin-top: 0.5rem;
+}
+
+.bibtex-content.expanded {
+  max-height: 400px;
+  opacity: 1;
+}
+
+.bibtex-content pre {
+  background-color: #f8f9fa;
+  border: 1px solid #333;
+  border-radius: 3px;
+  padding: 1rem;
+  margin: 0;
+  font-size: 0.85rem;
+  line-height: 1.4;
+  overflow-x: auto;
+  overflow-y: auto;
+  max-height: 300px;
+}
+
+.bibtex-content code {
+  background: none;
+  padding: 0;
+  color: #333;
+}
+
+.section-header {
+  background-color: #f8f9fa;
+  color: #28a745;
+  text-align: left;
+  padding: 0.8rem 1rem;
+  margin: 2.5rem 0 1rem 0;
+  border-top: 3px solid #333;
+  border-bottom: 2px solid #dee2e6;
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+/* Numbered list styling for publications */
+.publication-list {
+  counter-reset: pub-counter;
+}
+
+.publication-entry {
+  counter-increment: pub-counter;
+  position: relative;
+  padding-left: 2rem;
+}
+
+.publication-entry::before {
+  content: counter(pub-counter) ".";
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-weight: bold;
+  color: #666;
+}
+
+/* Classic academic spacing */
+.publication-entry + .publication-entry {
+  margin-top: 1.5rem;
+}
+
+/* Mobile responsiveness - FIXED */
+@media (max-width: 768px) {
+  .publications-container {
+    padding: 0 0.5rem;
+    font-size: 0.9rem;
+  }
+  
+  .publication-title {
+    font-size: 1rem;
+  }
+  
+  .publication-authors {
+    font-size: 0.9rem;
+  }
+  
+  .publication-venue {
+    font-size: 0.85rem;
+  }
+  
+  /* Stack thumbnail layout on mobile */
+  .publication-with-thumbnail {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .publication-thumbnail {
+    width: 100%;
+    height: 120px;
+    align-self: center;
+  }
+  
+  .publication-thumbnail img {
+    width: 100%;
+    height: 120px;
+    object-fit: contain;
+  }
+  
+  .publication-materials {
+    gap: 0.3rem;
+  }
+  
+  .material-link {
+    font-size: 0.8rem;
+    padding: 0.15rem 0.4rem;
+  }
+  
+  .year-header {
+    font-size: 1.1rem;
+    padding: 0.4rem 0.8rem 0.4rem 1.8rem;
+  }
+  
+  .section-header {
+    font-size: 1.2rem;
+    padding: 0.6rem 0.8rem;
+  }
+  
+  .bibtex-content.expanded {
+    max-height: 250px;
+  }
+  
+  .bibtex-content pre {
+    max-height: 200px;
+    font-size: 0.8rem;
+    padding: 0.8rem;
+  }
+  
+  .publication-entry {
+    padding-left: 1.5rem;
+  }
+  
+  .publication-entry::before {
+    left: 0;
+    font-size: 0.9rem;
+  }
+}
+
+/* Extra small screens */
+@media (max-width: 480px) {
+  .publications-container {
+    padding: 0 0.3rem;
+  }
+  
+  .publication-title {
+    font-size: 0.95rem;
+  }
+  
+  .publication-authors {
+    font-size: 0.85rem;
+  }
+  
+  .publication-venue {
+    font-size: 0.8rem;
+  }
+  
+  .year-header {
+    font-size: 1rem;
+    padding: 0.3rem 0.6rem 0.3rem 1.5rem;
+  }
+  
+  .section-header {
+    font-size: 1.1rem;
+    padding: 0.5rem 0.6rem;
+  }
+  
+  .material-link {
+    font-size: 0.75rem;
+    padding: 0.1rem 0.3rem;
+  }
+  
+  .publication-entry {
+    padding-left: 1.2rem;
+  }
+}
+
+/* Print styles */
+@media print {
+  .material-link {
+    border: none;
+    background: none;
+    color: #333;
+    text-decoration: underline;
+  }
+  
+  .year-header, .section-header {
+    background: none;
+    color: #000;
+    border: 1px solid #000;
+  }
+  
+  .publication-thumbnail {
+    page-break-inside: avoid;
+  }
+}

@@ -1,274 +1,4 @@
-<!-- Classical Academic Style Publications Template -->
-<!-- Place this in _includes/publications.html -->
-
-<style>
-.publications-container {
-  max-width: 100%;
-  margin: 0 auto;
-  line-height: 1.6;
-}
-
-.publication-entry {
-  margin-bottom: 2rem;
-  padding-bottom: 1rem;
-  border-bottom: 1px solid #ddd;
-}
-
-.publication-entry:last-child {
-  border-bottom: none;
-}
-
-.publication-title {
-  font-weight: bold;
-  font-size: 1.1rem;
-  color: #2c3e50;
-  margin-bottom: 0.5rem;
-  line-height: 1.3;
-}
-
-.publication-authors {
-  margin-bottom: 0.5rem;
-  color: #444;
-  font-size: 1rem;
-}
-
-.author-name {
-  margin-right: 0.2rem;
-}
-
-.author-underlined {
-  text-decoration: underline;
-  font-weight: 500;
-}
-
-.publication-venue {
-  font-style: italic;
-  color: #666;
-  margin-bottom: 0.8rem;
-  font-size: 0.95rem;
-}
-
-.publication-materials {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-  margin-top: 0.5rem;
-}
-
-.material-link {
-  display: inline-flex;
-  align-items: center;
-  padding: 0.2rem 0.5rem;
-  background-color: #f8f9fa;
-  border: 1px solid #ccc;
-  border-radius: 3px;
-  text-decoration: none;
-  color: #333;
-  font-size: 0.85rem;
-  font-family: Arial, sans-serif;
-  transition: all 0.15s ease;
-}
-
-.material-link:hover {
-  background-color: #e9ecef;
-  border-color: #999;
-  text-decoration: none;
-  color: #000;
-}
-
-.material-icon {
-  margin-right: 0.3rem;
-  font-size: 0.9rem;
-}
-
-.year-header {
-  background-color: #f8f9fa;
-  color: #28a745;
-  text-align: left;
-  padding: 0.5rem 1rem 0.5rem 2rem;
-  margin: 2rem 0 0.5rem 0;
-  border-top: 2px solid #333;
-  border-bottom: 1px solid #dee2e6;
-  font-weight: bold;
-  font-size: 1.2rem;
-  position: relative;
-  cursor: pointer;
-}
-
-.year-header:before {
-  content: "▼ ";
-  position: absolute;
-  left: 0.5rem;
-  top: 50%;
-  transform: translateY(-50%);
-  color: #28a745;
-  font-size: 0.8rem;
-  transition: transform 0.3s ease;
-}
-
-.year-header.collapsed:before {
-  transform: translateY(-50%) rotate(-90deg);
-}
-
-.year-content {
-  transition: all 0.3s ease;
-  overflow: hidden;
-}
-
-.year-content.collapsed {
-  max-height: 0;
-  opacity: 0;
-  margin: 0;
-  padding: 0;
-}
-
-.bibtex-toggle {
-  position: relative;
-}
-
-.bibtex-toggle::after {
-  content: " ▼";
-  font-size: 0.7rem;
-  color: #007bff;
-  margin-left: 0.2rem;
-}
-
-.bibtex-toggle.collapsed::after {
-  content: " ▶";
-}
-
-.bibtex-content {
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.3s ease-out, opacity 0.3s ease-out;
-  opacity: 0;
-  margin-top: 0.5rem;
-}
-
-.bibtex-content.expanded {
-  max-height: 400px; /* Set a reasonable max height */
-  opacity: 1;
-}
-
-.bibtex-content pre {
-  background-color: #f8f9fa;
-  border: 1px solid #333;
-  border-radius: 3px;
-  padding: 1rem;
-  margin: 0;
-  font-size: 0.85rem;
-  line-height: 1.4;
-  overflow-x: auto;
-  overflow-y: auto;
-  max-height: 300px; /* Constrain the pre element height */
-}
-
-.bibtex-content code {
-  background: none;
-  padding: 0;
-  color: #333;
-}
-
-.section-header {
-  background-color: #f8f9fa;
-  color: #28a745;
-  text-align: left;
-  padding: 0.8rem 1rem;
-  margin: 2.5rem 0 1rem 0;
-  border-top: 3px solid #333;
-  border-bottom: 2px solid #dee2e6;
-  font-weight: bold;
-  font-size: 1.4rem;
-}
-
-/* Numbered list styling for publications */
-.publication-list {
-  counter-reset: pub-counter;
-}
-
-.publication-entry {
-  counter-increment: pub-counter;
-  position: relative;
-  padding-left: 2rem;
-}
-
-.publication-entry::before {
-  content: counter(pub-counter) ".";
-  position: absolute;
-  left: 0;
-  top: 0;
-  font-weight: bold;
-  color: #666;
-}
-
-/* Classic academic spacing */
-.publication-entry + .publication-entry {
-  margin-top: 1.5rem;
-}
-
-/* Mobile responsiveness */
-@media (max-width: 768px) {
-  .publications-container {
-    font-size: 0.9rem;
-  }
-  
-  .publication-materials {
-    gap: 0.3rem;
-  }
-  
-  .material-link {
-    font-size: 0.8rem;
-    padding: 0.15rem 0.4rem;
-  }
-  
-  .publication-title {
-    font-size: 1rem;
-  }
-  
-  .publication-table .content-cell {
-    width: calc(100% - 80px);
-    padding-right: 0.8rem;
-  }
-  
-  .publication-table .thumbnail-cell {
-    width: 80px;
-  }
-  
-  .publication-thumbnail {
-    width: 70px;
-    height: 50px;
-  }
-  
-  .publication-thumbnail img {
-    width: 70px;
-    height: 50px;
-  }
-  
-  .bibtex-content.expanded {
-    max-height: 250px; /* Smaller max height on mobile */
-  }
-  
-  .bibtex-content pre {
-    max-height: 200px;
-  }
-}
-
-/* Print styles */
-@media print {
-  .material-link {
-    border: none;
-    background: none;
-    color: #333;
-    text-decoration: underline;
-  }
-  
-  .year-header, .section-header {
-    background: none;
-    color: #000;
-    border: 1px solid #000;
-  }
-}
-</style>
+<link rel="stylesheet" href="{{ '/theme/css/publications.css' | relative_url }}">
 
 <div class="publications-container">
   
@@ -290,26 +20,24 @@
             <div class="publication-entry">
               {% if pub.thumbnail %}
                 <!-- Publication with thumbnail -->
-                <table style="width: 100%; border-collapse: collapse;">
-                  <tr>
-                    <td style="width: 70%; vertical-align: top; padding-right: 15px;">
-                      <div class="publication-title">{{ pub.title }}</div>
-                      
-                      <div class="publication-authors">
-                        {% for author in pub.authors %}
-                          <span class="author-name{% if author.underlined %} author-underlined{% endif %}">
-                            {{ author.name }}
-                          </span>{% unless forloop.last %}/{% endunless %}
-                        {% endfor %}
-                      </div>
-                      
-                      <div class="publication-venue">{{ pub.venue }}</div>
-                    </td>
-                    <td style="width: 30%; vertical-align: middle; text-align: center;">
-                      <img src="{{ pub.thumbnail }}" alt="{{ pub.title }}" style="width: 100%; height: 100%; object-fit: cover; border: 1px solid #ddd; border-radius: 4px;">
-                    </td>
-                  </tr>
-                </table>
+                <div class="publication-with-thumbnail">
+                  <div class="publication-content">
+                    <div class="publication-title">{{ pub.title }}</div>
+                    
+                    <div class="publication-authors">
+                      {% for author in pub.authors %}
+                        <span class="author-name{% if author.underlined %} author-underlined{% endif %}">
+                          {{ author.name }}
+                        </span>{% unless forloop.last %}/{% endunless %}
+                      {% endfor %}
+                    </div>
+                    
+                    <div class="publication-venue">{{ pub.venue }}</div>
+                  </div>
+                  <div class="publication-thumbnail">
+                    <img src="{{ pub.thumbnail }}" alt="{{ pub.title }}">
+                  </div>
+                </div>
 
                 {% if pub.materials %}
                   <div class="publication-materials">
@@ -421,26 +149,24 @@
             <div class="publication-entry">
               {% if pub.thumbnail %}
                 <!-- Publication with thumbnail -->
-                <table style="width: 100%; border-collapse: collapse;">
-                  <tr>
-                    <td style="width: 70%; vertical-align: top; padding-right: 15px;">
-                      <div class="publication-title">{{ pub.title }}</div>
-                      
-                      <div class="publication-authors">
-                        {% for author in pub.authors %}
-                          <span class="author-name{% if author.underlined %} author-underlined{% endif %}">
-                            {{ author.name }}
-                          </span>{% unless forloop.last %}/{% endunless %}
-                        {% endfor %}
-                      </div>
-                      
-                      <div class="publication-venue">{{ pub.venue }}</div>
-                    </td>
-                    <td style="width: 30%; vertical-align: middle; text-align: center;">
-                      <img src="{{ pub.thumbnail }}" alt="{{ pub.title }}" style="width: 100%; height: 100%; object-fit: cover; border: 1px solid #ddd; border-radius: 4px;">
-                    </td>
-                  </tr>
-                </table>
+                <div class="publication-with-thumbnail">
+                  <div class="publication-content">
+                    <div class="publication-title">{{ pub.title }}</div>
+                    
+                    <div class="publication-authors">
+                      {% for author in pub.authors %}
+                        <span class="author-name{% if author.underlined %} author-underlined{% endif %}">
+                          {{ author.name }}
+                        </span>{% unless forloop.last %}/{% endunless %}
+                      {% endfor %}
+                    </div>
+                    
+                    <div class="publication-venue">{{ pub.venue }}</div>
+                  </div>
+                  <div class="publication-thumbnail">
+                    <img src="{{ pub.thumbnail }}" alt="{{ pub.title }}">
+                  </div>
+                </div>
 
                 {% if pub.materials %}
                   <div class="publication-materials">
@@ -536,116 +262,4 @@
   
 </div>
 
-<script>
-function toggleYear(header) {
-  const yearContent = header.nextElementSibling;
-  const isCollapsed = header.classList.contains('collapsed');
-  
-  if (isCollapsed) {
-    // Expand
-    header.classList.remove('collapsed');
-    yearContent.classList.remove('collapsed');
-    yearContent.style.maxHeight = yearContent.scrollHeight + 'px';
-  } else {
-    // Collapse
-    header.classList.add('collapsed');
-    yearContent.classList.add('collapsed');
-    yearContent.style.maxHeight = '0';
-  }
-}
-
-// Initialize all year sections as expanded
-document.addEventListener('DOMContentLoaded', function() {
-  const yearContents = document.querySelectorAll('.year-content');
-  yearContents.forEach(content => {
-    // Use a larger buffer to ensure content fits
-    content.style.maxHeight = (content.scrollHeight + 1000) + 'px';
-  });
-  
-  // Add resize observer to handle dynamic content changes
-  if (window.ResizeObserver) {
-    const resizeObserver = new ResizeObserver(entries => {
-      entries.forEach(entry => {
-        const yearContent = entry.target;
-        if (!yearContent.classList.contains('collapsed')) {
-          // Recalculate height when content changes
-          yearContent.style.maxHeight = (yearContent.scrollHeight + 200) + 'px';
-        }
-      });
-    });
-    
-    yearContents.forEach(content => {
-      resizeObserver.observe(content);
-    });
-  }
-});
-
-function toggleBibtex(link, bibUrl, pubId) {
-  const bibContainer = document.getElementById('bibtex-' + pubId);
-  const isCollapsed = link.classList.contains('collapsed');
-  
-  if (isCollapsed) {
-    // Expand - load content if not already loaded
-    if (bibContainer.querySelector('code').textContent === 'Loading...') {
-      fetch(bibUrl)
-        .then(response => response.text())
-        .then(data => {
-          bibContainer.querySelector('code').textContent = data;
-          bibContainer.classList.add('expanded');
-          link.classList.remove('collapsed');
-          
-          // Update parent year section max-height to accommodate new content
-          setTimeout(() => {
-            updateParentYearHeight(bibContainer);
-          }, 50); // Small delay to ensure content is rendered
-        })
-        .catch(error => {
-          bibContainer.querySelector('code').textContent = 'Error loading BibTeX entry.';
-          bibContainer.classList.add('expanded');
-          link.classList.remove('collapsed');
-          
-          // Update parent year section max-height to accommodate new content
-          setTimeout(() => {
-            updateParentYearHeight(bibContainer);
-          }, 50);
-        });
-    } else {
-      // Already loaded, just show
-      bibContainer.classList.add('expanded');
-      link.classList.remove('collapsed');
-      
-      // Update parent year section max-height to accommodate new content
-      setTimeout(() => {
-        updateParentYearHeight(bibContainer);
-      }, 50);
-    }
-  } else {
-    // Collapse
-    bibContainer.classList.remove('expanded');
-    link.classList.add('collapsed');
-    
-    // Update parent year section max-height after content is collapsed
-    setTimeout(() => {
-      updateParentYearHeight(bibContainer);
-    }, 350); // Wait for transition to complete
-  }
-}
-
-function updateParentYearHeight(element) {
-  // Find the parent year-content section
-  const yearContent = element.closest('.year-content');
-  if (yearContent && !yearContent.classList.contains('collapsed')) {
-    // Temporarily disable transition to prevent flickering
-    const originalTransition = yearContent.style.transition;
-    yearContent.style.transition = 'none';
-    
-    // Reset max-height to auto to measure actual content height
-    yearContent.style.maxHeight = 'auto';
-    const newHeight = yearContent.scrollHeight;
-    
-    // Re-enable transition and set new height
-    yearContent.style.transition = originalTransition;
-    yearContent.style.maxHeight = newHeight + 'px';
-  }
-}
-</script>
+<script src="{{ '/theme/js/publications.js' | relative_url }}"></script>
