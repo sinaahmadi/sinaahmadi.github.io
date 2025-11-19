@@ -5,6 +5,35 @@ narrow: false
 title: Welcome to Sina Ahmadi's Personal Page
 ---
 
+> ##### 📢 **ANNOUNCEMENT**
+> 
+> **Grant Award:** My proposal *"Language Beyond the Standard: Advancing Natural Language Processing for Dialects and Linguistic Diversity"* has been **accepted by the UZH Postdoc Award**! 
+> 
+> [Learn more about the project →](https://www.cl.uzh.ch/en/research-groups/texttechnologies/research/Low-Resource-NLP/language-beyond-the-standard.html)
+
+---
+
+<div style="background: #f8fafc; border: 2px dashed #64748b; padding: 20px; margin: 30px 0; text-align: left; border-radius: 8px;">
+
+<h5>🎓 <strong>OPEN RESEARCH OPPORTUNITIES</strong></h5>
+
+<p>I'm looking for motivated students to collaborate on exciting projects! Open positions for <strong>bachelor's and master's theses</strong> in:</p>
+<ul style="list-style: none; padding: 0; margin: 15px 0;">
+<li>• NLP for dialectal variations</li>
+<li>• Low-resource language processing</li>
+<li>• Computational linguistics for linguistic diversity</li>
+</ul>
+
+<p><em>I especially welcome students from speakers of low-resourced and marginalized communities.</em></p> 
+
+<p><strong>Interested in contributing to meaningful research?</strong> Drop me a line at <a href="mailto:sina.ahmadi@uzh.ch">sina.ahmadi@uzh.ch</a>!</p>
+
+<p><small><strong>Please note:</strong> These positions are unpaid with limited relocation possibilities if not in Switzerland.</small></p>
+
+</div>
+
+---
+
 I am a postdoctoral researcher in the [Department of Computational Linguistics](https://www.cl.uzh.ch/en.html) at the University of Zurich, where I work with Prof. Rico Sennrich's group on advancing natural language processing (NLP) for linguistically diverse communities. My research lies at the intersection of computational linguistics, machine learning, and language preservation, with a particular focus on developing scalable solutions for languages with limited digital resources. Prior to this position, I conducted research on the same theme at [Dr. Antonios Anastasopoulos's group](https://nlp.cs.gmu.edu/) within the Department of Computer Science at George Mason University.
 
 
@@ -24,7 +53,7 @@ Beyond research, I'm passionate about languages and music. As an amateur violini
 
 In addition to this website, you can find information about me at various social networks outlets which are linked to in the left section.
 
-<a href="https://drive.google.com/file/d/1VPRLEU-Na8ljFjh4gbP5Yh-syfwVgqtz/view?usp=sharing" class="d-flex align-items-center mb-1" target="_blank">
+<a href="https://drive.google.com/file/d/1D6EjLrkbbgHpy5lMVv3rhAfSfJESlqIa/view?usp=sharing" class="d-flex align-items-center mb-1" target="_blank">
     <span class="icon grey mr-3">
         <svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M5.602,19.8c-1.293,0-2.504-0.555-3.378-1.44c-1.695-1.716-2.167-4.711,0.209-7.116c1.391-1.408,6.966-7.053,9.748-9.87
 	c0.988-1,2.245-1.387,3.448-1.06c1.183,0.32,2.151,1.301,2.468,2.498c0.322,1.22-0.059,2.493-1.046,3.493l-9.323,9.44
@@ -35,6 +64,6 @@ In addition to this website, you can find information about me at various social
 	c-1.816,1.839-1.381,3.956-0.209,5.143c1.173,1.187,3.262,1.629,5.079-0.212l9.748-9.87c0.269-0.272,0.705-0.272,0.974,0
 	c0.269,0.272,0.269,0.714,0,0.987L9.25,18.15C8.101,19.312,6.814,19.8,5.602,19.8z"/></svg>
     </span>
-    My CV (last updated September 2025)
+    My CV (last updated November 2025)
 </a>
 
