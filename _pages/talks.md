@@ -30,6 +30,58 @@ title: Talks
 		<table class="table table-image table-responsive">
 		  <tbody>
 		  	<tr>
+			  <td class="w-25" rowspan="5">
+			    <a href="/docs/images/ZurichAI_talk.png" target="_blank">
+			      <img src="/docs/images/ZurichAI_talk.png" class="img-fluid img-thumbnail" alt="Sina Ahmadi's talk at ZurichAI on low-resource language varieties">
+			    </a>
+			  </td>
+			  <td><b>Language beyond the Standard: NLP for Low-Resource Varieties</b></td>
+			</tr>
+			<tr>
+			  <td>⏱ January, 2026 📍 ZurichAI, ETH AI Center</td>
+			</tr>
+			<tr>
+			  <td>
+			    📝 English
+			  </td>
+			</tr>
+			<tr>
+			  <td>
+			    This talk focuses on NLP challenges beyond standardized language varieties, highlighting issues in modeling low-resource and non-standard forms. It presents recent advances and discusses future directions for more inclusive and robust language technologies.
+			  </td>
+			</tr>
+			<tr>
+			  <td>
+			    <a href="docs/slides/ZurichAI_Talk-2026.pdf" target="_blank">Slides</a>
+			  </td>
+			</tr>
+			<tr>
+			  <td class="w-25" rowspan="5">
+			    <a href="/docs/images/Archimedes_talk.png" target="_blank">
+			      <img src="/docs/images/Archimedes_talk.png" class="img-fluid img-thumbnail" alt="Sina Ahmadi's talk at Archimedes, Athens on loanwords in NLP">
+			    </a>
+			  </td>
+			  <td><b>Lexical Borrowing in Modern NLP: How Do Models Handle Loanwords?</b></td>
+			</tr>
+			<tr>
+			  <td>⏱ December, 2025 📍 Archimedes, Athens, Greece</td>
+			</tr>
+			<tr>
+			  <td>
+			    📝 English (partially ελληνικά!)
+			  </td>
+			</tr>
+			<tr>
+			  <td>
+			    This talk explores how modern NLP models process lexical borrowing and loanwords across languages. It discusses challenges in multilingual settings and presents insights from recent work on evaluating and improving model behavior in handling borrowed vocabulary.
+			  </td>
+			</tr>
+			<tr>
+			  <td>
+			    <a href="docs/slides/ConLoan_talk.pdf" target="_blank">Slides</a>
+			  </td>
+			</tr>
+		  	<tr>
 		      <td class="w-25" rowspan="5">
 			      <a href="/docs/images/Hamburg_LT.jpeg" target="_blank">
 			      	<img src="/docs/images/Hamburg_LT.jpeg" class="img-fluid img-thumbnail" alt="Sina Ahmadi's Talk at Hamburg LT group">

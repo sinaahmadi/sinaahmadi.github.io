@@ -1,4 +1,100 @@
 peer_review:
+  2026:
+    - title: "Parity-Aware Byte-Pair Encoding: Improving Cross-Lingual Fairness in Tokenization"
+      authors:
+        - name: "Negar Foroutan"
+        - name: "Clara Meister"
+        - name: "Debjit Paul"
+        - name: "Joel Niklaus"
+        - name: "Sina Ahmadi"
+          underlined: true
+        - name: "Antoine Bosselut"
+        - name: "Rico Sennrich"
+      venue: "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (ACL 2026)"
+      materials:
+        - type: "Preprint"
+          url: "https://arxiv.org/abs/2508.04796"
+        - type: "Code"
+          url: "https://github.com/swiss-ai/parity-aware-bpe"
+        - type: "bib"
+          url: "bibliography/foroutan2026parity.bib"
+
+    - title: "Are Language Models Borrowing-Blind? A Multilingual Evaluation of Loanword Identification across 10 Languages"
+      authors:
+        - name: "Mérilin Sousa Silva"
+        - name: "Sina Ahmadi"
+          underlined: true
+      venue: "Proceedings of the Fifteenth Language Resources and Evaluation Conference (LREC 2026)"
+      materials:
+        - type: "Paper"
+          url: "docs/articles/silva2026loanwords.pdf"
+        - type: "Code"
+          url: "https://github.com/merilinsilva/LoanwordDetection_LM"
+        - type: "Slides"
+          url: "docs/slides/silva2026loanwords_slides.pdf"
+        - type: "bib"
+          url: "bibliography/silva2026loanwords.bib"
+
+    - title: "CommonMorph: Enabling Participatory Morphological Documentation through Integrated Linguistic Rules and Large Language Models"
+      authors:
+        - name: "Aso Mahmudi"
+        - name: "Sina Ahmadi"
+          underlined: true
+        - name: "Rico Sennrich"
+        - name: "Eduard Hovy"
+        - name: "Ekaterina Vylomova"
+      venue: "Proceedings of the Fifteenth Language Resources and Evaluation Conference (LREC 2026)"
+      materials:
+        - type: "Service"
+          url: "https://common-morph.com"
+        - type: "bib"
+          url: "bibliography/mahmudi2026commonmorph.bib"
+
+    - title: "EndoLink: A Knowledge Graph-Based Platform for Crowdsourced Endonym and Place Name Collection"
+      authors:
+        - name: "Janine Laura Hindermann"
+        - name: "Sina Ahmadi"
+          underlined: true
+      venue: "Proceedings of the Fourth International Workshop on Geographic Information Extraction from Texts (GeoExT) at ECIR 2026"
+      materials:
+        - type: "Paper"
+          url: "docs/articles/hindermann2026endolink.pdf"
+        - type: "Slides"
+          url: "docs/slides/hindermann2026endolink_slides.pdf"
+        - type: "bib"
+          url: "bibliography/hindermann2026endolink.bib"
+
+    - title: "A Dialectal Corpus for Ukrainian: Collection, Classification, and Standardization"
+      authors:
+        - name: "Yuliia Frund"
+        - name: "Sina Ahmadi"
+          underlined: true
+      venue: "Proceedings of the Workshop on Dialects in NLP---A Resource Perspective (Workshop at LREC 2026)"
+      materials:
+        - type: "Paper"
+          url: "docs/articles/frund2026ukrainian.pdf"
+        - type: "Resource"
+          url: "https://github.com/yfrund/ukrainian_dialects"
+        - type: "bib"
+          url: "bibliography/frund2026ukrainian.bib"
+    - title: "AbjadAuthorID: Authorship Identification for Arabic-Script Languages at AbjadNLP 2026"
+      authors:
+        - name: "Shadi Abudalfa"
+        - name: "Saad Ezzini"
+        - name: "Ahmed Abdelali"
+        - name: "Mustafa Jarrar"
+        - name: "Mo El-Haj"
+        - name: "Nadir Durrani"
+        - name: "Hassan Sajjad"
+        - name: "Farah Adeeba"
+        - name: "Sina Ahmadi"
+          underlined: true
+      venue: "Proceedings of the 2nd Workshop on NLP for Languages Using Arabic Script (AbjadNLP 2026) at EACL 2026"
+      materials:
+        - type: "Paper"
+          url: "https://aclanthology.org/2026.abjadnlp-1.69/"
+        - type: "bib"
+          url: "bibliography/abudalfa-etal-2026-abjadauthorid.bib"
   2025:
     - title: "PARME: Parallel Corpora for Low-Resourced Middle Eastern Languages"
       authors:
@@ -73,6 +169,8 @@ peer_review:
       materials:
         - type: "Paper"
           url: "docs/articles/ahmadi2025conloan.pdf"
+        - type: "Slides"
+          url: "docs/slides/ACL2025_ConLoan_slides.pdf"
         - type: "Resource"
           url: "https://github.com/ZurichNLP/ConLoan"
         - type: "Poster"
@@ -973,6 +1071,18 @@ peer_review:
           url: "bibliography/aliabadi2014towards.txt"
 
 preprints:
+  2026:
+    - title: "Robust Language Identification for Romansh Varieties"
+      authors:
+        - name: "Charlotte Model"
+        - name: "Sina Ahmadi"
+          underlined: true
+        - name: "Jannis Vamvas"
+      materials:
+        - type: "Preprint"
+          url: "https://arxiv.org/abs/2603.15969"
+        - type: "bib"
+          url: "bibliography/model2026romansh.bib"
   2024:
     - title: "A Morphologically-Aware Dictionary-based Data Augmentation Technique for Machine Translation of Under-Represented Languages"
       authors:
