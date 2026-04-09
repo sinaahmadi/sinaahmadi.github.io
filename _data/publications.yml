@@ -32,6 +32,8 @@ peer_review:
           url: "https://github.com/merilinsilva/LoanwordDetection_LM"
         - type: "Slides"
           url: "docs/slides/silva2026loanwords_slides.pdf"
+        - type: "Presentation"
+          url: "https://confcats-event-sessions.s3.amazonaws.com/lrec26/videos/899.mp4?VersionId=YTdA3KVGuWHqvnDXYxOKiC1nIEomDN4B"
         - type: "bib"
           url: "bibliography/silva2026loanwords.bib"
 
