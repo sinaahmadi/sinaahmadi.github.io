@@ -231,6 +231,8 @@ peer_review:
           url: "docs/articles/sun2025dialingle.pdf"
         - type: "Demo"
           url: "https://dia-lingle.ivia.ch/"
+        - type: "Presentation"
+          url: "https://www.youtube.com/watch?v=0QyJsB8ym64"
         - type: "bib"
           url: "bibliography/sun2025dialingle.bib"
 
