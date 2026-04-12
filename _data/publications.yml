@@ -49,6 +49,10 @@ peer_review:
       materials:
         - type: "Service"
           url: "https://common-morph.com"
+        - type: "Preprint"
+          url: "https://arxiv.org/abs/2604.04515"
+        - type: "Presentation"
+          url: "https://www.youtube.com/watch?v=KrbE2jhGVZ0"
         - type: "bib"
           url: "bibliography/mahmudi2026commonmorph.bib"
 
