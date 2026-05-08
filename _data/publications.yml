@@ -47,6 +47,8 @@ peer_review:
         - name: "Ekaterina Vylomova"
       venue: "Proceedings of the Fifteenth Language Resources and Evaluation Conference (LREC 2026)"
       materials:
+        - type: "Paper"
+          url: "docs/articles/mahmudi2026commonmorph.pdf"
         - type: "Service"
           url: "https://common-morph.com"
         - type: "Preprint"
@@ -55,6 +57,35 @@ peer_review:
           url: "https://www.youtube.com/watch?v=KrbE2jhGVZ0"
         - type: "bib"
           url: "bibliography/mahmudi2026commonmorph.bib"
+
+    - title: "Code-Switching Detection in Multilingual Child Speech with SwissBERT"
+      authors:
+        - name: "Agnese D'Angelo"
+        - name: "Sina Ahmadi"
+          underlined: true
+        - name: "Moritz M. Daum"
+        - name: "Stephanie Wermelinger"
+      venue: "Proceedings of the 11th Swiss Text Analytics Conference (SwissText 2026)"
+      materials:
+        - type: "Paper"
+          url: "docs/articles/DAngelo2026SwissBERT.pdf"
+        - type: "Model"
+          url: "https://huggingface.co/ZurichNLP/SwissBERT-CS"
+        - type: "bib"
+          url: "bibliography/DAngelo2026SwissBERT.bib"
+
+    - title: "Robust Language Identification for Romansh Varieties"
+      authors:
+        - name: "Charlotte Model"
+        - name: "Sina Ahmadi"
+          underlined: true
+        - name: "Jannis Vamvas"
+      venue: "Proceedings of the 11th Swiss Text Analytics Conference (SwissText 2026)"
+      materials:
+        - type: "Preprint"
+          url: "https://arxiv.org/abs/2603.15969"
+        - type: "bib"
+          url: "bibliography/model2026romansh.bib"
 
     - title: "EndoLink: A Knowledge Graph-Based Platform for Crowdsourced Endonym and Place Name Collection"
       authors:
@@ -79,10 +110,15 @@ peer_review:
       materials:
         - type: "Paper"
           url: "docs/articles/frund2026ukrainian.pdf"
+        - type: "Slides"
+          url: "docs/slides/frund2026ukrainian.pdf"
+        - type: "Poster"
+          url: "docs/posters/frund2026ukrainian.pdf"
         - type: "Resource"
           url: "https://github.com/yfrund/ukrainian_dialects"
         - type: "bib"
           url: "bibliography/frund2026ukrainian.bib"
+
     - title: "AbjadAuthorID: Authorship Identification for Arabic-Script Languages at AbjadNLP 2026"
       authors:
         - name: "Shadi Abudalfa"
@@ -1079,18 +1115,6 @@ peer_review:
           url: "bibliography/aliabadi2014towards.txt"
 
 preprints:
-  2026:
-    - title: "Robust Language Identification for Romansh Varieties"
-      authors:
-        - name: "Charlotte Model"
-        - name: "Sina Ahmadi"
-          underlined: true
-        - name: "Jannis Vamvas"
-      materials:
-        - type: "Preprint"
-          url: "https://arxiv.org/abs/2603.15969"
-        - type: "bib"
-          url: "bibliography/model2026romansh.bib"
   2024:
     - title: "A Morphologically-Aware Dictionary-based Data Augmentation Technique for Machine Translation of Under-Represented Languages"
       authors:
