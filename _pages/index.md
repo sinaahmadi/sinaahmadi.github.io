@@ -13,47 +13,28 @@ title: Welcome to Sina Ahmadi's Personal Page
 
 ---
 
-<div style="position: relative; background: #f8fafc; border: 2px dashed #64748b; padding: 20px; margin: 30px 0; text-align: left; border-radius: 8px; opacity: 0.75;">
+<div style="text-decoration: line-through; opacity: 0.65;">
 
-  <div style="
-    position: absolute;
-    top: 50%;
-    left: -10px;
-    width: calc(100% + 20px);
-    height: 4px;
-    background: #dc2626;
-    transform: rotate(-2deg);
-    z-index: 10;
-    border-radius: 999px;
-  "></div>
+<h5>🎓 <strong>OPEN RESEARCH OPPORTUNITIES</strong></h5>
 
-  <h5>🎓 <strong>OPEN RESEARCH OPPORTUNITIES</strong></h5>
+<p>I'm looking for motivated students to collaborate on exciting projects! Open positions for <strong>bachelor's and master's theses</strong> in:</p>
 
-  <p>I'm looking for motivated students to collaborate on exciting projects! Open positions for <strong>bachelor's and master's theses</strong> in:</p>
+<ul>
+<li>• NLP for dialectal variations</li>
+<li>• Low-resource language processing</li>
+<li>• Computational linguistics for linguistic diversity</li>
+</ul>
 
-  <ul style="list-style: none; padding: 0; margin: 15px 0;">
-    <li>• NLP for dialectal variations</li>
-    <li>• Low-resource language processing</li>
-    <li>• Computational linguistics for linguistic diversity</li>
-  </ul>
+<p><em>I especially welcome students from speakers of low-resourced and marginalized communities.</em></p> 
 
-  <p><em>I especially welcome students from speakers of low-resourced and marginalized communities.</em></p> 
+<p><strong>Interested in contributing to meaningful research?</strong> Drop me a line at <a href="mailto:sina.ahmadi@uzh.ch">sina.ahmadi@uzh.ch</a>!</p>
 
-  <p><strong>Interested in contributing to meaningful research?</strong> Drop me a line at
-    <a href="mailto:sina.ahmadi@uzh.ch">sina.ahmadi@uzh.ch</a>!
-  </p>
+<p><small><strong>Please note:</strong> These positions are unpaid with limited relocation possibilities if not in Switzerland.</small></p>
 
-  <p><small><strong>Please note:</strong> These positions are unpaid with limited relocation possibilities if not in Switzerland.</small></p>
 </div>
 
-<p style="
-  color:#dc2626;
-  font-style: italic;
-  font-weight: 600;
-  margin-top:-15px;
-  transform: rotate(-1deg);
-">
-Currently at capacity (thanks to the many brilliant people who reached out 🙏), but I’m always happy to hear from exceptional researchers — don’t hesitate to drop me a message.
+<p style="color:red;">
+Currently at capacity, but always happy to hear from brilliant researchers — don’t hesitate to drop me a message.
 </p>
 
 ---
