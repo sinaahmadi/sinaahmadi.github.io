@@ -32,6 +32,8 @@ peer_review:
           url: "https://github.com/merilinsilva/LoanwordDetection_LM"
         - type: "Slides"
           url: "docs/slides/silva2026loanwords_slides.pdf"
+        - type: "Poster"
+          url: "docs/posters/silva2026loanwords.pdf"
         - type: "Presentation"
           url: "https://confcats-event-sessions.s3.amazonaws.com/lrec26/videos/899.mp4?VersionId=YTdA3KVGuWHqvnDXYxOKiC1nIEomDN4B"
         - type: "bib"
@@ -55,6 +57,8 @@ peer_review:
           url: "https://arxiv.org/abs/2604.04515"
         - type: "Presentation"
           url: "https://www.youtube.com/watch?v=KrbE2jhGVZ0"
+        - type: "Poster"
+          url: "docs/posters/mahmudi2026commonmorph.pdf"
         - type: "bib"
           url: "bibliography/mahmudi2026commonmorph.bib"
 
@@ -82,6 +86,8 @@ peer_review:
         - name: "Jannis Vamvas"
       venue: "Proceedings of the 11th Swiss Text Analytics Conference (SwissText 2026)"
       materials:
+        - type: "Paper"
+          url: "docs/articles/model2026romansh.pdf"
         - type: "Preprint"
           url: "https://arxiv.org/abs/2603.15969"
         - type: "bib"
