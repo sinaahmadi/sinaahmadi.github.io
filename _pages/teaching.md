@@ -9,7 +9,7 @@ title: Teaching
 
 #### 2026
 
-- NLP for Low-Resource and Marginalized Language Varieties ([06SM521o002](https://studentservices.uzh.ch/uzh/launchpad?sap-language=DE&sap-ui-language=DE#ZVVZ-display&/details/2025/004/SM/51312087/50000007/Philosophische%2520Fakult%25C3%25A4t/50890575/Bachelor%2520of%2520Arts%2520(RVO19)/50891437/Computerlinguistik%2520und%2520Sprachtechnologie))
+- NLP for Low-Resource and Marginalized Language Varieties ([Course page](/lr-nlp-2026.html) / [StudentServices](https://studentservices.uzh.ch/uzh/launchpad?sap-language=DE&sap-ui-language=DE#ZVVZ-display&/details/2025/004/SM/51312087/50000007/Philosophische%2520Fakult%25C3%25A4t/50890575/Bachelor%2520of%2520Arts%2520(RVO19)/50891437/Computerlinguistik%2520und%2520Sprachtechnologie))
 
 ### George Mason University (Instructor)
 
