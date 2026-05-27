@@ -11,7 +11,7 @@
   icon: entypo/orcid_24x24.svg
 
 - caption: Google Scholar
-  href: https://scholar.google.fr/citations?user=adu3L94AAAAJ&hl=en
+  href: https://scholar.google.fr/citations?hl=en&user=adu3L94AAAAJ&view_op=list_works&sortby=pubdate
   icon: entypo/graduation-cap.svg
 
 - caption: ACL Anthology
