@@ -12,12 +12,30 @@ peer_review:
         - name: "Rico Sennrich"
       venue: "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (ACL 2026)"
       materials:
-        - type: "Preprint"
-          url: "https://arxiv.org/abs/2508.04796"
+        - type: "Paper"
+          url: "https://aclanthology.org/2026.acl-long.342.pdf"
         - type: "Code"
           url: "https://github.com/swiss-ai/parity-aware-bpe"
+        - type: "Award"
+          url: ""
         - type: "bib"
           url: "bibliography/foroutan2026parity.bib"
+    
+    - title: "A Factorial Study of Synthetic Data Generation for Low-Resource Machine Translation using Grammar Books"
+      authors:
+        - name: "Varun Ghat Ravikumar"
+        - name: "Sina Ahmadi"
+          underlined: true
+        - name: "Lena Jäger"
+        - name: "Rico Sennrich"
+      venue: "Proceedings of the Eleventh Italian Conference on Computational Linguistics (CLiC-it 2026)"
+      materials:
+        - type: "Paper"
+          url: "docs/articles/ghatravikumar-2026-factorial.pdf"
+        - type: "Code"
+          url: "https://github.com/varunghat/GrammarMT"
+        - type: "bib"
+          url: "bibliography/ghatravikumar-2026-factorial.bib"
 
     - title: "Are Language Models Borrowing-Blind? A Multilingual Evaluation of Loanword Identification across 10 Languages"
       authors:

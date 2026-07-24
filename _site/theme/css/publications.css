@@ -362,3 +362,8 @@
     page-break-inside: avoid;
   }
 }
+
+.material-static {
+  cursor: default;
+  opacity: 0.85;
+}

@@ -1,267 +1,111 @@
 <link rel="stylesheet" href="{{ '/theme/css/publications.css' | relative_url }}">
 
 <div class="publications-container">
-  
-  <!-- Peer Review Publications Section -->
-  {% if site.data.publications.peer_review %}
-    <div class="section-header" id="peer_review">
-      Peer-reviewed Publications
-    </div>
-    
-    {% for year_data in site.data.publications.peer_review %}
-      {% assign year = year_data[0] %}
-      {% assign publications = year_data[1] %}
-      
-      <div class="year-header" onclick="toggleYear(this)"> {{ year }}</div>
-      
-      <div class="year-content">
-        <div class="publication-list">
-          {% for pub in publications %}
-            <div class="publication-entry">
-              {% if pub.thumbnail %}
-                <!-- Publication with thumbnail -->
-                <div class="publication-with-thumbnail">
-                  <div class="publication-content">
-                    <div class="publication-title">{{ pub.title }}</div>
-                    
-                    <div class="publication-authors">
-                      {% for author in pub.authors %}
-                        <span class="author-name{% if author.underlined %} author-underlined{% endif %}">
-                          {{ author.name }}
-                        </span>{% unless forloop.last %}/{% endunless %}
-                      {% endfor %}
-                    </div>
-                    
-                    <div class="publication-venue">{{ pub.venue }}</div>
-                  </div>
-                  <div class="publication-thumbnail">
-                    <img src="{{ pub.thumbnail }}" alt="{{ pub.title }}">
-                  </div>
-                </div>
 
-                {% if pub.materials %}
-                  <div class="publication-materials">
-                    {% for material in pub.materials %}
-                      {% if material.type == "bib" %}
-                        <a href="#" class="material-link bibtex-toggle collapsed" onclick="toggleBibtex(this, '{{ material.url }}', '{{ pub.title | slugify }}'); return false;">
-                          <span class="material-icon">📚</span>
-                          {{ material.type }}
-                        </a>
-                      {% else %}
-                        <a href="{{ material.url }}" class="material-link" target="_blank" rel="noopener">
-                          <span class="material-icon">
-                            {% case material.type %}
-                              {% when "Paper" %}📄
-                              {% when "Slides" %}🎯
-                              {% when "Poster" %}📊
-                              {% when "Presentation" %}🎥
-                              {% when "Code" %}💾
-                              {% when "Resource" %}🗃️
-                              {% when "Demo" %}🌐
-                              {% when "Service" %}🌐
-                              {% when "Preprint" %}📖
-                              {% when "Thesis" %}📖
-                              {% when "Award" %}🏆
-                              {% else %}📄
-                            {% endcase %}
-                          </span>
-                          {{ material.type }}
-                        </a>
-                      {% endif %}
-                    {% endfor %}
-                  </div>
-                {% endif %}
+  {% assign sections = "peer_review|preprints" | split: "|" %}
+  {% assign section_titles = "Peer-reviewed Publications|Preprints" | split: "|" %}
 
-              {% else %}
-                <!-- Publication without thumbnail -->
-                <div class="publication-title">{{ pub.title }}</div>
-                
-                <div class="publication-authors">
-                  {% for author in pub.authors %}
-                    <span class="author-name{% if author.underlined %} author-underlined{% endif %}">
-                      {{ author.name }}
-                    </span>{% unless forloop.last %}/{% endunless %}
-                  {% endfor %}
-                </div>
-                
-                <div class="publication-venue">{{ pub.venue }}</div>
-                
-                {% if pub.materials %}
-                  <div class="publication-materials">
-                    {% for material in pub.materials %}
-                      {% if material.type == "bib" %}
-                        <a href="#" class="material-link bibtex-toggle collapsed" onclick="toggleBibtex(this, '{{ material.url }}', '{{ pub.title | slugify }}'); return false;">
-                          <span class="material-icon">📚</span>
-                          {{ material.type }}
-                        </a>
-                      {% else %}
-                        <a href="{{ material.url }}" class="material-link" target="_blank" rel="noopener">
-                          <span class="material-icon">
-                            {% case material.type %}
-                              {% when "Paper" %}📄
-                              {% when "Slides" %}🎯
-                              {% when "Poster" %}📊
-                              {% when "Presentation" %}🎥
-                              {% when "Code" %}💾
-                              {% when "Resource" %}🗃️
-                              {% when "Demo" %}🌐
-                              {% when "Service" %}🌐
-                              {% when "Preprint" %}📖
-                              {% when "Thesis" %}📖
-                              {% else %}📄
-                            {% endcase %}
-                          </span>
-                          {{ material.type }}
-                        </a>
-                      {% endif %}
-                    {% endfor %}
-                  </div>
-                {% endif %}
-              {% endif %}
-              
-              <!-- BibTeX content -->
-              {% if pub.materials %}
-                <div id="bibtex-{{ pub.title | slugify }}" class="bibtex-content">
-                  <pre><code>Loading...</code></pre>
-                </div>
-              {% endif %}
-            </div>
-          {% endfor %}
-        </div>
+  {% for section in sections %}
+    {% assign section_data = site.data.publications[section] %}
+    {% if section_data %}
+      <div class="section-header" id="{{ section }}">
+        {{ section_titles[forloop.index0] }}
       </div>
-    {% endfor %}
-  {% endif %}
-  
-  <!-- Preprints Section -->
-  {% if site.data.publications.preprints %}
-    <div class="section-header" id="preprints">
-      Preprints
-    </div>
-    
-    {% for year_data in site.data.publications.preprints %}
-      {% assign year = year_data[0] %}
-      {% assign publications = year_data[1] %}
-      
-      <div class="year-header" onclick="toggleYear(this)"> {{ year }}</div>
-      
-      <div class="year-content">
-        <div class="publication-list">
-          {% for pub in publications %}
-            <div class="publication-entry">
-              {% if pub.thumbnail %}
-                <!-- Publication with thumbnail -->
-                <div class="publication-with-thumbnail">
-                  <div class="publication-content">
-                    <div class="publication-title">{{ pub.title }}</div>
-                    
-                    <div class="publication-authors">
-                      {% for author in pub.authors %}
-                        <span class="author-name{% if author.underlined %} author-underlined{% endif %}">
-                          {{ author.name }}
-                        </span>{% unless forloop.last %}/{% endunless %}
-                      {% endfor %}
+
+      {% for year_data in section_data %}
+        {% assign year = year_data[0] %}
+        {% assign publications = year_data[1] %}
+
+        <div class="year-header" onclick="toggleYear(this)"> {{ year }}</div>
+
+        <div class="year-content">
+          <div class="publication-list">
+            {% for pub in publications %}
+              <div class="publication-entry">
+
+                {% if pub.thumbnail %}
+                  <div class="publication-with-thumbnail">
+                    <div class="publication-content">
+                      <div class="publication-title">{{ pub.title }}</div>
+                      <div class="publication-authors">
+                        {% for author in pub.authors %}
+                          <span class="author-name{% if author.underlined %} author-underlined{% endif %}">
+                            {{ author.name }}
+                          </span>{% unless forloop.last %}/{% endunless %}
+                        {% endfor %}
+                      </div>
+                      <div class="publication-venue">{{ pub.venue }}</div>
                     </div>
-                    
-                    <div class="publication-venue">{{ pub.venue }}</div>
+                    <div class="publication-thumbnail">
+                      <img src="{{ pub.thumbnail }}" alt="{{ pub.title }}">
+                    </div>
                   </div>
-                  <div class="publication-thumbnail">
-                    <img src="{{ pub.thumbnail }}" alt="{{ pub.title }}">
+                {% else %}
+                  <div class="publication-title">{{ pub.title }}</div>
+                  <div class="publication-authors">
+                    {% for author in pub.authors %}
+                      <span class="author-name{% if author.underlined %} author-underlined{% endif %}">
+                        {{ author.name }}
+                      </span>{% unless forloop.last %}/{% endunless %}
+                    {% endfor %}
                   </div>
-                </div>
+                  <div class="publication-venue">{{ pub.venue }}</div>
+                {% endif %}
 
                 {% if pub.materials %}
                   <div class="publication-materials">
                     {% for material in pub.materials %}
+                      {% capture icon %}
+                        {%- case material.type -%}
+                          {%- when "Paper" -%}📄
+                          {%- when "Slides" -%}🎯
+                          {%- when "Poster" -%}📊
+                          {%- when "Presentation" -%}🎥
+                          {%- when "Code" -%}💾
+                          {%- when "Resource" -%}🗃️
+                          {%- when "Demo" -%}🌐
+                          {%- when "Service" -%}🌐
+                          {%- when "Preprint" -%}📖
+                          {%- when "Thesis" -%}📖
+                          {%- when "Award" -%}🏆
+                          {%- else -%}📄
+                        {%- endcase -%}
+                      {% endcapture %}
+
                       {% if material.type == "bib" %}
                         <a href="#" class="material-link bibtex-toggle collapsed" onclick="toggleBibtex(this, '{{ material.url }}', '{{ pub.title | slugify }}'); return false;">
                           <span class="material-icon">📚</span>
                           {{ material.type }}
                         </a>
-                      {% else %}
+                      {% elsif material.url and material.url != "" %}
                         <a href="{{ material.url }}" class="material-link" target="_blank" rel="noopener">
-                          <span class="material-icon">
-                            {% case material.type %}
-                              {% when "Paper" %}📄
-                              {% when "Slides" %}🎯
-                              {% when "Poster" %}📊
-                              {% when "Presentation" %}🎥
-                              {% when "Code" %}💾
-                              {% when "Resource" %}🗃️
-                              {% when "Demo" %}🌐
-                              {% when "Service" %}🌐
-                              {% when "Preprint" %}📖
-                              {% when "Thesis" %}📖
-                              {% else %}📄
-                            {% endcase %}
-                          </span>
+                          <span class="material-icon">{{ icon }}</span>
                           {{ material.type }}
                         </a>
+                      {% else %}
+                        <span class="material-link material-static">
+                          <span class="material-icon">{{ icon }}</span>
+                          {{ material.type }}
+                        </span>
                       {% endif %}
                     {% endfor %}
                   </div>
                 {% endif %}
 
-              {% else %}
-                <!-- Publication without thumbnail -->
-                <div class="publication-title">{{ pub.title }}</div>
-                
-                <div class="publication-authors">
-                  {% for author in pub.authors %}
-                    <span class="author-name{% if author.underlined %} author-underlined{% endif %}">
-                      {{ author.name }}
-                    </span>{% unless forloop.last %}/{% endunless %}
-                  {% endfor %}
-                </div>
-                
-                <div class="publication-venue">{{ pub.venue }}</div>
-                
                 {% if pub.materials %}
-                  <div class="publication-materials">
-                    {% for material in pub.materials %}
-                      {% if material.type == "bib" %}
-                        <a href="#" class="material-link bibtex-toggle collapsed" onclick="toggleBibtex(this, '{{ material.url }}', '{{ pub.title | slugify }}'); return false;">
-                          <span class="material-icon">📚</span>
-                          {{ material.type }}
-                        </a>
-                      {% else %}
-                        <a href="{{ material.url }}" class="material-link" target="_blank" rel="noopener">
-                          <span class="material-icon">
-                            {% case material.type %}
-                              {% when "Paper" %}📄
-                              {% when "Slides" %}🎯
-                              {% when "Poster" %}📊
-                              {% when "Presentation" %}🎥
-                              {% when "Code" %}💾
-                              {% when "Resource" %}🗃️
-                              {% when "Demo" %}🌐
-                              {% when "Service" %}🌐
-                              {% when "Preprint" %}📖
-                              {% when "Thesis" %}📖
-                              {% when "Award" %}🏆
-                              {% else %}📄
-                            {% endcase %}
-                          </span>
-                          {{ material.type }}
-                        </a>
-                      {% endif %}
-                    {% endfor %}
+                  <div id="bibtex-{{ pub.title | slugify }}" class="bibtex-content">
+                    <pre><code>Loading...</code></pre>
                   </div>
                 {% endif %}
-              {% endif %}
-              
-              <!-- BibTeX content -->
-              {% if pub.materials %}
-                <div id="bibtex-{{ pub.title | slugify }}" class="bibtex-content">
-                  <pre><code>Loading...</code></pre>
-                </div>
-              {% endif %}
-            </div>
-          {% endfor %}
+
+              </div>
+            {% endfor %}
+          </div>
         </div>
-      </div>
-    {% endfor %}
-  {% endif %}
-  
+      {% endfor %}
+    {% endif %}
+  {% endfor %}
+
 </div>
 
 <script src="{{ '/theme/js/publications.js' | relative_url }}"></script>
