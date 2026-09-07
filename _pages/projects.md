@@ -30,6 +30,33 @@ title: Projects
 		  <tbody>
 		  	<tr>
 		      <td class="w-25" rowspan="3">
+			      <img src="/docs/images/language-beyond-the-standard.jpeg" class="img-fluid img-thumbnail" alt="language-beyond-the-standard logo">
+		      </td>
+		      <td><a href="https://www.cl.uzh.ch/en/research-groups/texttechnologies/research/Low-Resource-NLP/language-beyond-the-standard.html" target="_blank">Language Beyond the Standard</a></td>
+		    </tr>
+		      <tr>
+			    <td>Nov. 2025-</td>
+			  </tr>
+			  <tr>
+			    <td>This project addresses challenges in natural language processing for dialects and linguistic diversity, with particular attention to low-resourced languages and varieties.</td>
+			  </tr>
+		  </tbody>
+		</table>   
+    </div>
+  </div>
+</div>
+
+
+
+<h2>Past projects</h2>
+
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+		<table class="table table-image table-responsive">
+		  <tbody>
+		  	<tr>
+		      <td class="w-25" rowspan="3">
 			      <img src="/docs/images/CL-UZH-logo.png" class="img-fluid img-thumbnail" alt="CL UZH logo">
 		      </td>
 		      <td><a href="https://www.cl.uzh.ch/en/research-groups/texttechnologies/research/machine-learning/mutamur.html" target="_blank">MUTAMUR</a></td>
@@ -47,26 +74,11 @@ title: Projects
 		      <td><a href="https://dolma-nlp.github.io/" target="_blank">DOLMA-NLP</a></td>
 		    </tr>
 		      <tr>
-			    <td>Sep. 2024-</td>
+			    <td>Sep. 2024-May 2025</td>
 			  </tr>
 			  <tr>
 			    <td>I am privileged to be among the selected practitioners of the prestigious Stanford Initiative on Language Inclusion and Conservation in Old and New Media (SILICON) to focus on developing technologies for Middle Eastern languages!</td>
 			  </tr>
-		  </tbody>
-		</table>   
-    </div>
-  </div>
-</div>
-
-
-
-<h2>Past projects</h2>
-
-<div class="container">
-  <div class="row">
-    <div class="col-12">
-		<table class="table table-image table-responsive">
-		  <tbody>
 		  	<tr>
 		  <td class="w-25" rowspan="3">
 			      <img src="/docs/images/gmnlp.png" class="img-fluid img-thumbnail" alt="GMNLP logo">
