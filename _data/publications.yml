@@ -1,5 +1,37 @@
 peer_review:
   2026:
+    - title: "Language Identification for Non-Standard Varieties: Language Varieties as Geolects on a Geodesic Grid"
+      authors:
+        - name: "Sina Ahmadi"
+          underlined: true
+        - name: "Rico Sennrich"
+      venue: "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing (EMNLP 2026)"
+      materials:
+        - type: "Paper"
+          url: "docs/articles/ahmadi2026dlid.pdf"
+        - type: "Code"
+          url: "https://github.com/sinaahmadi/GeoVar"
+        # - type: "Slides"
+        #   url: "docs/slides/ahmadi2026dlid-slides.pdf"
+        # - type: "Presentation"
+        #   url: "https://pf-user-files-01.s3.amazonaws.com/u-59356/uploads/2026-10-10/wj92u9b/EMNLP%202026_main-6874.mp4?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIF7PPHJ3FWGVXQCA%2F20261012%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261012T094452Z&X-Amz-SignedHeaders=host&X-Amz-Expires=604800&X-Amz-Signature=6b15c9200bc82becf3a13ab390e2e9d29e82bbf4ad25401002861b3709ec6c2c"
+        - type: "bib"
+          url: "bibliography/ahmadi-sennrich-2026-language.bib"
+
+    - title: "Translation Asymmetry in LLMs as a Data Augmentation Factor: A Case Study for 6 Romansh Language Varieties"
+      authors:
+        - name: "Jannis Vamvas"
+        - name: "Sina Ahmadi"
+          underlined: true
+        - name: "Rico Sennrich"
+      venue: "Findings of the Association for Computational Linguistics: EMNLP 2026"
+      materials:
+        - type: "Paper"
+          url: "docs/articles/vamvas2026romanshMT.pdf"
+        - type: "Code"
+          url: "https://github.com/ZurichNLP/romansh_mt_eval"
+        - type: "bib"
+          url: "bibliography/vamvas2026romanshMT.bib"
     - title: "Parity-Aware Byte-Pair Encoding: Improving Cross-Lingual Fairness in Tokenization"
       authors:
         - name: "Negar Foroutan"
