@@ -21,6 +21,9 @@ peer_review:
     - title: "Translation Asymmetry in LLMs as a Data Augmentation Factor: A Case Study for 6 Romansh Language Varieties"
       authors:
         - name: "Jannis Vamvas"
+        - name: "Ignacio Pérez Prat"
+        - name: "Angela Heldstab"
+        - name: "Dominic P. Fischer"
         - name: "Sina Ahmadi"
           underlined: true
         - name: "Rico Sennrich"
@@ -30,6 +33,8 @@ peer_review:
           url: "docs/articles/vamvas2026romanshMT.pdf"
         - type: "Code"
           url: "https://github.com/ZurichNLP/romansh_mt_eval"
+        - type: "Preprint"
+          url: "https://arxiv.org/abs/2603.25489"
         - type: "bib"
           url: "bibliography/vamvas2026romanshMT.bib"
     - title: "Parity-Aware Byte-Pair Encoding: Improving Cross-Lingual Fairness in Tokenization"
@@ -64,6 +69,8 @@ peer_review:
       materials:
         - type: "Paper"
           url: "docs/articles/ghatravikumar-2026-factorial.pdf"
+        - type: "Slides"
+          url: "docs/slides/ghatravikumar-2026-factorial-slides.pdf"
         - type: "Code"
           url: "https://github.com/varunghat/GrammarMT"
         - type: "bib"
