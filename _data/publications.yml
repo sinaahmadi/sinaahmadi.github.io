@@ -14,9 +14,9 @@ peer_review:
         - type: "Slides"
           url: "docs/slides/ahmadi2026dlid-slides.pdf"
         - type: "Presentation"
-          url: "https://pf-user-files-01.s3.amazonaws.com/u-59356/uploads/2026-10-10/wj92u9b/EMNLP%202026_main-6874.mp4?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIF7PPHJ3FWGVXQCA%2F20261012%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20261012T094452Z&X-Amz-SignedHeaders=host&X-Amz-Expires=604800&X-Amz-Signature=6b15c9200bc82becf3a13ab390e2e9d29e82bbf4ad25401002861b3709ec6c2c"
+          url: "https://underline.io/events/535/schedule/sessions/23654/lecture/163715-language-identification-for-non-standard-varieties-language-varieties-as-geolects-on-a-geodesic-grid"
         - type: "Award"
-          url: "docs/EMNLP2026-DLID-award.jpeg"
+          url: "docs/EMNLP2026-DLID-award.pdf"
         - type: "bib"
           url: "bibliography/ahmadi-sennrich-2026-language.bib"
 
@@ -39,6 +39,7 @@ peer_review:
           url: "https://arxiv.org/abs/2603.25489"
         - type: "bib"
           url: "bibliography/vamvas2026romanshMT.bib"
+
     - title: "Parity-Aware Byte-Pair Encoding: Improving Cross-Lingual Fairness in Tokenization"
       authors:
         - name: "Negar Foroutan"
@@ -56,7 +57,7 @@ peer_review:
         - type: "Code"
           url: "https://github.com/swiss-ai/parity-aware-bpe"
         - type: "Award"
-          url: ""
+          url: "docs/ACL2026-Parity-BPE-award.pdf"
         - type: "bib"
           url: "bibliography/foroutan2026parity.bib"
     
@@ -248,6 +249,8 @@ peer_review:
           url: "https://github.com/DOLMA-NLP/PARME"
         - type: "Slides"
           url: "docs/slides/ahmadi2025parme.pdf"
+        - type: "Presentation"
+          url: "https://underline.io/lecture/121537-parme-parallel-corpora-for-low-resourced-middle-eastern-languages"
         - type: "Award"
           url: "docs/ACL2025-PARME-award.pdf"
         - type: "bib"
@@ -278,6 +281,8 @@ peer_review:
           url: "docs/articles/ahmadi2025conloan.pdf"
         - type: "Slides"
           url: "docs/slides/ACL2025_ConLoan_slides.pdf"
+        - type: "Presentation"
+          url: "https://underline.io/lecture/121484-conloan-a-contrastive-multilingual-dataset-for-evaluating-loanwords"
         - type: "Resource"
           url: "https://github.com/ZurichNLP/ConLoan"
         - type: "Poster"
